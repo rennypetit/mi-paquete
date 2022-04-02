@@ -1,0 +1,49 @@
+@import '../../../styles/variables';
+
+.menu {
+	background-color: $color_secondary;
+	border-radius: 0 0 0 35px;
+	display: block;
+	height: 100vh;
+	width: 100%;
+	overflow-y: auto;
+}
+
+.container {
+	margin-left: 125px;
+	padding-left: 10px;
+	background-color: $color_quinary;
+	height: auto;
+	min-height: 1000px;
+}
+
+.separator {
+	width: calc(100% - 40px);
+	border: 1px solid $color_secondary;
+}
+
+.ulTitle {
+	color: $color_primary;
+	text-align: end;
+	font-weight: bold;
+	font-style: italic;
+	font-family: $font_primary_bold;
+	font-size: 1.6rem;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+}
+
+.containerButton {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 380px) {
+	.container {
+		margin-left: 100px;
+		min-height: 900px;
+	}
+	.ulTitle {
+		font-size: 1.2rem;
+	}
+}

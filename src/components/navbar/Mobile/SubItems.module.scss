@@ -1,0 +1,52 @@
+@import '../../../styles/variables';
+
+.container {
+	padding-top: 8px;
+	&:nth-child(1) {
+		.arrowLeft {
+			border-right: 6px solid $color_tertiary;
+		}
+	}
+}
+.ulTitle {
+	color: $color_primary;
+	text-align: end;
+	font-weight: bold;
+	font-style: italic;
+	font-family: $font_primary_bold;
+	font-size: 1.6rem;
+	padding: 0 20px;
+}
+.ulChildren {
+	background-color: $color_senary;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 0px 3px 6px #cccccc99;
+	font-style: initial;
+	font-size: 1.5rem;
+	padding: 20px;
+	margin: 20px 0;
+	line-height: 2;
+	a {
+		color: $color_primary;
+	}
+	li {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+}
+
+.arrowLeft {
+	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-right: 6px solid $color_quaternary;
+	margin-left: 10px;
+}
+
+@media (max-width: 380px) {
+	.ulChildren {
+		font-size: 1.2rem;
+	}
+}

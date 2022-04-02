@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+.container {
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+.card {
+	background-color: $color_quinary;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 10px;
+	text-align: center;
+	padding: 0 20px;
+	height: 270px;
+	width: 200px;
+}
+.image {
+	padding: 10px 0;
+}
+.title {
+	margin: 0;
+	font-size: 1.4rem;
+	height: 35px;
+}
+.description {
+	color: $color_secondary;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	padding: 10px 0 30px 0;
+	margin: 0;
+	height: 120px;
+}
+.buttonContainer {
+	position: relative;
+	display: flex;
+	width: 100%;
+	a {
+		@include center;
+		width: 100%;
+	}
+}
+.button {
+	background-color: $color_tertiary;
+	padding: 0;
+	position: absolute;
+	height: 35px;
+	width: 35px;
+}

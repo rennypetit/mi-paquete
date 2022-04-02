@@ -1,0 +1,51 @@
+@import '../../../styles/variables';
+.nav {
+	background: $color_quinary;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+.container {
+	box-shadow: 0px 3px 6px #cccccc99;
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	margin-bottom: 12px;
+}
+.logo {
+	height: 90px;
+}
+.icon {
+	margin-right: 20px;
+	align-self: center;
+	line-height: 0;
+	// para quitar estilos del menu
+	button {
+		border: 0;
+		display: flex;
+	}
+}
+.containerButtonTop {
+	@include center;
+}
+.button {
+	background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0%
+		no-repeat padding-box;
+	color: $color_quinary;
+	width: 170px;
+}
+
+.sectionMain {
+	display: none;
+	// opacity: 0;
+	// transition-duration: 0.5s;
+	// transition-delay: 0.5s;
+}
+
+@media (max-width: 380px) {
+	.icon {
+		margin-right: 0px;
+		height: auto;
+		width: 35px;
+	}
+}

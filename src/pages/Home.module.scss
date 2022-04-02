@@ -1,0 +1,34 @@
+@import '../styles/variables';
+.containerFeatures {
+	margin-top: 250px;
+}
+
+.containerAllies {
+	margin-top: 20px;
+}
+.containerBlog {
+	margin-top: 50px;
+}
+
+.containerTitle {
+	font-size: 2.5rem;
+	text-align: center;
+	font-weight: 100;
+	span {
+		color: $color_tertiary;
+		font-weight: bold;
+	}
+}
+
+// desktop
+@media (min-width: 1024px) {
+	.containerFeatures {
+		margin-top: 200px;
+	}
+	.containerAllies {
+		margin-top: 50px;
+	}
+	.containerTitle {
+		font-size: 2.8rem;
+	}
+}

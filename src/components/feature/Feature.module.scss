@@ -1,0 +1,52 @@
+@import '../../styles/variables';
+.container {
+	width: 100%;
+}
+.image {
+	width: 100%;
+}
+
+.title {
+	font-size: 2rem;
+	span {
+		color: $color_quaternary;
+		font-weight: 600;
+	}
+}
+.items {
+	ul {
+		padding-left: 5px;
+	}
+	li {
+		color: $color_secondary;
+		font-size: 1.4rem;
+		line-height: 1.5;
+		padding: 10px 0;
+		display: flex;
+		align-items: baseline;
+		gap: 10px;
+		&::before {
+			content: '•';
+			color: $color_tertiary;
+			transform: scale(1.5);
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+	.image {
+		margin: auto;
+		margin-left: 0;
+		width: 80%;
+	}
+	.items {
+		li {
+			font-size: 1.6rem;
+		}
+	}
+}

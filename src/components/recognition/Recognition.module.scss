@@ -1,0 +1,83 @@
+@import '../../styles/variables';
+.background {
+	height: 480px;
+	width: 100%;
+	position: relative;
+}
+
+.row {
+	color: $color_quinary;
+	position: absolute;
+	top: 0;
+	padding: 20px;
+	text-align: center;
+	.title {
+		font-size: 2.3rem;
+		font-weight: 100;
+		margin: 20px 0;
+	}
+	p {
+		font-size: 1.6rem;
+		line-height: 1.5;
+		margin: 0;
+	}
+	.separator {
+		border: 1px solid $color_quaternary;
+		margin: 20px 0;
+		width: 100%;
+	}
+}
+
+.items {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	width: 100%;
+}
+
+// desktop
+@media (min-width: 1024px) {
+	.background {
+		height: 234px;
+		width: 100%;
+		position: relative;
+	}
+
+	.row {
+		padding: 0;
+		text-align: left;
+		position: absolute;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		height: 100%;
+		.title {
+			font-size: 2.2rem;
+			font-weight: 100;
+			margin: 20px 0;
+		}
+		p {
+			font-size: 1.4rem;
+			line-height: 1.5;
+			margin: 0;
+		}
+	}
+	.containerPerson {
+		position: relative;
+		align-self: end;
+	}
+	.person {
+		bottom: 0px;
+		position: absolute;
+	}
+	.items {
+		border-left: 2px solid $color_quaternary;
+		grid-template-columns: repeat(3, 1fr);
+		padding: 30px;
+	}
+	.separator {
+		display: none;
+	}
+}

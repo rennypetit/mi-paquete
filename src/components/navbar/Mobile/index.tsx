@@ -1,0 +1,59 @@
+import { useRef, useState } from 'react';
+import Image from 'next/image';
+import ButtonBlue from '@components/buttons/Blue';
+import Menu from './Menu';
+import { buttonTwo } from '../data'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
+import styles from './Navbar.module.scss';
+
+export default function Navbar() {
+	const subItems = useRef(null);
+	const [openMenu, setOpenMenu] = useState(false);
+	const handleButtonMenu = () => {
+		setOpenMenu(!openMenu);
+		if (openMenu) {
+			subItems.current.style.display = 'none';
+		} else subItems.current.style.display = 'block';
+	};
+	return (
+		<nav className={styles.nav}>
+			<div className={styles.container}>
+				<div className={styles.logo}>
+					<Image src='/images/logo.svg' alt='logo' width={142} height={86} />
+				</div>
+				{/* si el menu aun no est abierto */}
+				{!openMenu ? (
+					<div className={`${styles.icon} ${styles.iconOpen}`}>
+						<button onClick={handleButtonMenu}>
+							<Image
+								src='/images/icons/menu.svg'
+								alt='icon menu'
+								width={25}
+								height={25}
+							/>
+						</button>
+					</div>
+				) : (
+					<>
+						<div className={styles.containerButtonTop}>
+							<ButtonBlue data={buttonTwo} />
+						</div>
+						<div className={`${styles.icon} ${styles.iconClose}`}>
+							<button onClick={handleButtonMenu}>
+								<Image
+									src='/images/icons/close.svg'
+									alt='icon close'
+									width={25}
+									height={25}
+								/>
+							</button>
+						</div>
+					</>
+				)}
+			</div>
+			{/* se realiza con display none ya que si se hace con el state los item no los leerá el buscador */}
+			<section ref={subItems} className={styles.sectionMain}>
+				<Menu />
+			</section>
+		</nav>
+	);
+}

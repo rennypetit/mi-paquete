@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Heebo-Regular';
+  src: url(./Heebo-Regular.eot);
+  src: url(./Heebo-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./Heebo-Regular.woff) format('woff'),
+       url(./Heebo-Regular.woff2) format('woff2');
+}

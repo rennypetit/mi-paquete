@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.669" height="94.671" viewBox="0 0 94.669 94.671">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.933" y1="-0.024" x2="0.09" y2="1.236" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f08721"/>
+      <stop offset="1" stop-color="#ffcd26"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_4546" data-name="Grupo 4546" transform="translate(-403.665 -2862.328)">
+    <rect id="Rectángulo_4850" data-name="Rectángulo 4850" width="73.864" height="73.86" rx="13" transform="translate(473.07 2862.328) rotate(70)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_4534" data-name="Grupo 4534" transform="translate(19097 25972)">
+      <path id="noun-shipping-3484992" d="M96.9,33.56a.664.664,0,1,0,0,1.328h7.3a.664.664,0,1,0,0-1.328Zm3.3,3.995a.667.667,0,0,0,0,1.333h6a.667.667,0,0,0,0-1.333Zm-2.666,4a.667.667,0,1,0,0,1.334H104.2a.667.667,0,1,0,0-1.334Z" transform="translate(-18765.945 -23100.559)"/>
+      <path id="Sustracción_3" data-name="Sustracción 3" d="M-48.349-3690.269H-71.923A1.077,1.077,0,0,1-73-3691.344v-23.581A1.078,1.078,0,0,1-71.923-3716h5.394v7.475a.766.766,0,0,0,.767.765h11.249a.768.768,0,0,0,.769-.765V-3716h5.4a1.066,1.066,0,0,1,.761.318,1.06,1.06,0,0,1,.311.759v23.581A1.076,1.076,0,0,1-48.349-3690.269Zm-19.736-2.862a.766.766,0,0,0-.765.765.767.767,0,0,0,.765.767h15.9a.767.767,0,0,0,.765-.767.766.766,0,0,0-.765-.765Zm12.807-16.16h-9.715V-3716h9.715v6.709Z" transform="translate(-18581.016 -19359.199)"/>
+    </g>
+  </g>
+</svg>

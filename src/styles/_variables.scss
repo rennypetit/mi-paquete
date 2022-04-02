@@ -1,0 +1,81 @@
+/*Heebo*/
+@font-face {
+	font-family: 'Heebo-Regular';
+	src: url('/fonts/heebo/regular/regular.eot'); /* IE9 Compat Modes */
+	src:
+		/* Safari, Android, iOS */ url('/fonts/heebo/regular/regular.woff')
+			format('woff'),
+		/* Modern Browsers */ url('/fonts/heebo/regular/regular.woff2')
+			format('woff2'); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Heebo-Bold';
+	src: url('/fonts/heebo/bold/bold.eot'); /* IE9 Compat Modes */
+	src:
+		/* Safari, Android, iOS */ url('/fonts/heebo/bold/bold.woff')
+			format('woff'),
+		/* Modern Browsers */ url('/fonts/heebo/bold/bold.woff2') format('woff2'); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*Ununtu*/
+@font-face {
+	font-family: 'Ubuntu-Regular';
+	src: url('/fonts/ubuntu/regular/regular.eot'); /* IE9 Compat Modes */
+	src:
+		/* Safari, Android, iOS */ url('/fonts/ubuntu/regular/regular.woff')
+			format('woff'),
+		/* Modern Browsers */ url('/fonts/ubuntu/regular/regular.woff2')
+			format('woff2'); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Ubuntu-Bold';
+	src: url('/fonts/ubuntu/bold/bold.eot'); /* IE9 Compat Modes */
+	src:
+		/* Safari, Android, iOS */ url('/fonts/ubuntu/bold/bold.woff')
+			format('woff'),
+		/* Modern Browsers */ url('/fonts/ubuntu/bold/bold.woff2') format('woff2'); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*variables*/
+// fonts
+$font_primary_regular: 'Ubuntu-Regular';
+$font_primary_bold: 'Ubuntu-Bold';
+$font_secondary_regular: 'Heebo-Regular';
+$font_secondary_bold: 'Heebo-Bold';
+
+// colors
+$color_primary: #353a3d;
+$color_secondary: #707b84;
+$color_tertiary: #009af0;
+$color_quaternary: #ff9c19;
+$color_quinary: #ffffff;
+$color_senary: #f8f8f8;
+
+// mixin
+@mixin container {
+	margin: auto;
+	width: 80%;
+	@media (max-width: 1024px) {
+		max-width: 1920px;
+		width: 90%;
+	}
+}
+@mixin center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

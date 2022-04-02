@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Heebo-Bold';
+  src: url(./Heebo-Bold.otf) format('otf'),
+       url(./Heebo-Bold.woff) format('woff'),
+       url(./Heebo-Bold.woff2) format('woff2');
+}
