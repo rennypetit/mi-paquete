@@ -1,17 +1,16 @@
 @import '../../styles/variables';
 .container {
-	width: 100%;
-	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	margin: auto;
 	text-align: center;
+	gap: 20px;
+	width: 100%;
 }
 .image {
-	a {
-		background-color: $color_quinary;
-		box-shadow: 2px 2px 8px #0000001a;
-		border-radius: 10px;
-	}
+	background-color: $color_quinary;
+	box-shadow: 2px 2px 8px #0000001a;
+	border-radius: 10px;
 	img {
 		object-fit: cover;
 	}

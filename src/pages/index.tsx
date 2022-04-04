@@ -12,6 +12,8 @@ import BlogCardSlider from '@components/blog/BlogCardSlider';
 import Media from '@components/media';
 import Recognition from '@components/recognition';
 import Testimonial from '@components/testimonial';
+import Newsletter from '@components/newsletter';
+import Footer from '@components/footer';
 
 // only data of components
 import {
@@ -67,6 +69,8 @@ const Home: NextPage = () => {
 				</div>
 				<Testimonial />
 			</div>
+			<Newsletter />
+			<Footer />
 		</Layout>
 	);
 };

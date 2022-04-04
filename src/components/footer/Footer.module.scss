@@ -1,0 +1,63 @@
+@import '../../styles/variables';
+.footer {
+  background-color: $color_primary;
+  color: $color_quinary;
+  height: 900px;
+  width: 100%;
+}
+.padding{
+  padding-bottom: 0;
+}
+.container{
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.firstSection {
+  padding: 50px 0px;
+  margin: auto;
+  width: 80%;
+  .liTitle{
+    margin-top: 40px;
+  }
+}
+
+.separator {
+  border: 1px solid $color_quinary;
+  margin: 20px auto;
+  width: 100%;
+}
+.column{
+  li{
+    font-size: 1.5rem;
+    font-family: $font_secondary_regular;
+    padding: 10px 0;
+  }
+}
+  .redes {
+    @include center;
+    gap: 10px;
+  }
+
+// desktop {
+@media (min-width: 1024px) {
+  .footer{
+    height: 430px;
+  }
+  .firstSection{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+  .separator{
+    width: 130px;
+  }
+  .secondSection{
+    border-top: 1px solid $color_quinary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+}

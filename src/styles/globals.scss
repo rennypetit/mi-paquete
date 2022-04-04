@@ -51,8 +51,8 @@ ul {
 	background-color: $color_quinary;
 	background-clip: padding-box;
 	border: 1px solid $color_quaternary;
-	border-right: 0;
-	border-radius: 7px 0 0 7px;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 34px;
 	height: 39px;
 	padding: 0.375rem 5px 0.375rem 10px;
 	font-size: 14px;
