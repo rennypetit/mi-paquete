@@ -7,11 +7,11 @@ const Commercial = ({ data }) => {
 	return (
 		<section className={styles.container}>
 			{widthViewport < 1024 ? (
-				<Image src={data.image} alt={data.alt} layout='fill' />
+				<Image src={data.image} alt={data.alt} layout='fill' quality={100} />
 			) : (
 				<Image src={data.imageDesktop} alt={data.alt} layout='fill' />
 			)}
-			<div className={styles.content}>
+			<div className={`${styles.content} ${styles[data.colorText]}`}>
 				<p className={styles.title}>{data.title}</p>
 				<div
 					className={styles.description}
@@ -19,7 +19,11 @@ const Commercial = ({ data }) => {
 				></div>
 				<div className={styles.containerButton}>
 					<a href='#' target='_blank' rel='noopener noreferrer'>
-						<div className={`${styles.blue} button`}>{data.button.title}</div>
+						<button
+							className={`button ${styles.button} ${styles[data.button.color]}`}
+						>
+							{data.button.title}
+						</button>
 					</a>
 				</div>
 			</div>

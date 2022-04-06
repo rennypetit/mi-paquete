@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import type { NextPage } from 'next';
 import Layout from 'layout';
 import BannerSlider from '@components/banner/BannerSlider';
@@ -20,11 +19,11 @@ import {
 	banners,
 	services,
 	features,
-	allies,
 	commercial,
 	blog,
 	recognitions,
 } from '@data/home';
+import allies from '@data/componentAllies';
 
 import styles from './Home.module.scss';
 
@@ -40,33 +39,35 @@ const Home: NextPage = () => {
 				<Track />
 				<Services items={services} />
 				<div className={styles.containerFeatures}>
-					<h2 className={styles.containerTitle}>
+					<h2 className='containerTitle'>
 						¿Por qué usar la logística de envío de productos con{' '}
 						<span>Mi Paquete?</span>
 					</h2>
 					<Feature items={features} />
 				</div>
 				<div className={styles.containerAllies}>
-					<h2 className={styles.containerTitle}>
+					<h2 className='containerTitle'>
 						Transportadoras aliadas con las que podrás{' '}
 						<span>enviar mercancía</span>
 					</h2>
-					<Ally items={allies} />
+					<Ally data={allies} />
 				</div>
 				<Commercial data={commercial} />
 				<div className={styles.containerBlog}>
-					<h2 className={styles.containerTitle}>
+					<h2 className='containerTitle'>
 						Blog <span>Mi Paquete</span>
 					</h2>
 					<BlogCardSlider items={blog} />
 				</div>
 				<div className={styles.containerBlog}>
-					<h2 className={styles.containerTitle}>
+					<h2 className='containerTitle'>
 						Conoce lo que los medios dicen <span>sobre nosotros</span>
 					</h2>
 					<Media />
-					<Recognition data={recognitions} />
 				</div>
+			</div>
+			<Recognition data={recognitions} />
+			<div className='container'>
 				<Testimonial />
 			</div>
 			<Newsletter />

@@ -14,7 +14,7 @@
 	gap: 20px;
 	width: 100%;
 	button:hover + ul {
-		opacity: 1;
+		opacity: 1 !important;
 		transition-timing-function: ease;
 		transition-duration: 0.5s;
 	}

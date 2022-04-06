@@ -18,7 +18,7 @@ a {
 	box-sizing: border-box;
 }
 
-ul {
+ul,ol {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -45,6 +45,17 @@ ul {
 
 .container {
 	@include container;
+}
+
+.containerTitle {
+	font-size: 2.5rem;
+	text-align: center;
+	font-weight: 100;
+
+	span {
+		color: $color_tertiary;
+		font-weight: bold;
+	}
 }
 
 .form-input {
@@ -117,5 +128,26 @@ ul {
 	.slick-dots li.slick-active button:before {
 		color: $color_tertiary !important;
 		font-size: 16px !important;
+	}
+}
+
+
+// .question{
+// 	.accordion__button {
+// 		position: relative;
+// 		width: 100%;
+// 		height: 110px;
+// 	}
+// }
+
+.AccordionItem{
+	cursor: pointer;
+}
+
+// desktop
+@media (min-width: 1024px) {
+
+	.containerTitle {
+		font-size: 2.8rem;
 	}
 }

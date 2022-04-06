@@ -10,16 +10,6 @@
 	margin-top: 50px;
 }
 
-.containerTitle {
-	font-size: 2.5rem;
-	text-align: center;
-	font-weight: 100;
-	span {
-		color: $color_tertiary;
-		font-weight: bold;
-	}
-}
-
 // desktop
 @media (min-width: 1024px) {
 	.containerFeatures {

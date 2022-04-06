@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1287" height="128" viewBox="0 0 1287 128">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.235" y1="0.932" x2="1.959" y2="0.057" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcc64c"/>
+      <stop offset="1" stop-color="#f08721"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.076" y1="-0.954" x2="1.035" y2="2.737" xlink:href="#linear-gradient"/>
+    <filter id="Trazado_14379" x="0" y="0" width="1287" height="128" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_4583" data-name="Rectángulo 4583" width="110" height="1269.93" rx="20" transform="translate(1149 3465) rotate(90)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_4577" data-name="Grupo 4577" transform="translate(-77.035 -11724.5)">
+    <g transform="matrix(1, 0, 0, 1, 77.04, 11724.5)" filter="url(#Trazado_14379)">
+      <path id="Trazado_14379-2" data-name="Trazado 14379" d="M20,0H1249a20,20,0,0,1,20,20V90a20,20,0,0,1-20,20H20A20,20,0,0,1,0,90V20A20,20,0,0,1,20,0Z" transform="translate(9 6)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Enmascarar_grupo_53" data-name="Enmascarar grupo 53" transform="translate(206.965 8265.5)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_4578" data-name="Rectángulo 4578" width="525.104" height="525.101" rx="40" transform="matrix(-0.122, 0.993, -0.993, -0.122, 375.407, 3039.161)" fill="#fe9c1a" opacity="0.257"/>
+      <rect id="Rectángulo_4579" data-name="Rectángulo 4579" width="479.736" height="479.733" rx="40" transform="matrix(0.174, 0.985, -0.985, 0.174, 1093.494, 3000.324)" fill="#fe9c1a" opacity="0.657"/>
+      <rect id="Rectángulo_4580" data-name="Rectángulo 4580" width="341.155" height="341.153" rx="40" transform="matrix(0.588, 0.809, -0.809, 0.588, 578.392, 3465)" fill="#ea8a21" opacity="0.257"/>
+      <rect id="Rectángulo_4581" data-name="Rectángulo 4581" width="264.769" height="264.766" rx="40" transform="translate(-17.529 3465) rotate(70)" fill="#ea8a21" opacity="0.257"/>
+      <rect id="Rectángulo_4582" data-name="Rectángulo 4582" width="366.134" height="369.13" rx="40" transform="matrix(0.921, 0.391, -0.391, 0.921, 839.769, 3437.094)" fill="#ea8a21" opacity="0.257"/>
+    </g>
+  </g>
+</svg>

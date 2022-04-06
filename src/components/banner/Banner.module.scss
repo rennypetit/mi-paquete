@@ -39,7 +39,7 @@
 
 	.background {
 		border-radius: 29px;
-		transform: matrix(0.29, -0.96, 0.96, 0.29, 0, 0);
+		transform: rotate(120deg);
 		position: absolute;
 		height: 80%;
 		width: 80%;
@@ -133,6 +133,12 @@
 			height: 250px;
 			width: 250px;
 			margin-right: 20px;
+		}
+	}
+	.orientationLeft {
+		.background {
+			margin-right: 0px !important;
+			margin-left: 20px !important;
 		}
 	}
 

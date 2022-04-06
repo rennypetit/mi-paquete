@@ -31,6 +31,25 @@
 			transform: scale(1.5);
 		}
 	}
+	.icon{
+		li{
+			position: relative;
+			padding-left: 50px;
+			&::before {
+				content: "";
+				width: 25px;
+				height: 25px;
+				position: absolute;
+				background-image: url('/images/icons/item.png');
+				background-size: cover;
+				background-position: 50%;
+				left: 0;
+				top: 50%;
+				-webkit-transform: translateY(-50%);
+				transform: translateY(-50%);
+			}
+		}
+	}
 }
 
 @media (min-width: 1024px) {

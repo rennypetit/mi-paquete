@@ -16,10 +16,70 @@
 	}
 }
 
+// only for modal
+.sectionTwo {
+	padding: 30px 0;
+	margin: auto;
+	width: 100%;
+}
+.url {
+	background-color: #EDF8FF;
+	border-top: 1px solid $color_tertiary;
+	padding: 10px 0;
+	a {
+		color:$color_tertiary;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 1.4rem;
+	}
+}
+.description{
+	color:$color_secondary;
+	font-size: 1.6rem;
+	line-height: 1.4;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.buttonOne{
+	background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0% no-repeat padding-box;
+	border: 2px solid linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0% no-repeat padding-box;
+	border-radius: 10px;
+	color: $color_quinary;
+	font-style: italic;
+	line-height: 1.4;
+	height: 70px;
+	padding: 0 10%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.buttonTwo{
+	background: transparent linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0% 0% no-repeat padding-box;
+	border: 2px solid linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0% 0% no-repeat padding-box;
+	border-radius: 10px;
+	color: $color_primary;
+	font-style: italic;
+	line-height: 1.4;
+	height: 70px;
+	padding: 0 10%;
+	width: 100%;
+}
 // desktop {
 @media (min-width: 1024px) {
+	.sectionTwo{
+		width: 80%;
+	}
 	.container {
 		grid-template-columns: repeat(3, 1fr);
 		width: 80%;
+	}
+	.description{
+		font-size: 2rem;
+	}
+	.buttonOne, .buttonTwo {
+		width: 100%;
+	}
+	.buttons {
+		display: flex;
+		gap: 10px;
 	}
 }

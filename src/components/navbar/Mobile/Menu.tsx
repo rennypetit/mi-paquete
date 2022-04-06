@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
+import Link from 'next/link';
 import ButtonWhite from '@components/buttons/White';
-import { items, buttonOne } from '../data'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
+import { items, buttonOne } from '@data/componentNavbar'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
 import SubItems from './SubItems';
 import styles from './Menu.module.scss';
 
@@ -16,11 +17,17 @@ export default function Menu() {
 					</Fragment>
 				))}
 				<ul className={styles.ulTitle}>
-					<li>AGENCIAS</li>
+					<li>
+						<Link href='/agencias'>
+							<a>AGENCIAS</a>
+						</Link>
+					</li>
 				</ul>
 				<hr className={styles.separator} />
 				<ul className={styles.ulTitle}>
-					<li>BLOG</li>
+					<Link href='/blog'>
+						<a>BLOG</a>
+					</Link>
 				</ul>
 				<hr className={styles.separator} />
 				<div className={styles.containerButton}>

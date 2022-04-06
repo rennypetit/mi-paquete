@@ -10,7 +10,7 @@ export default function SubItems({ item }: any) {
 			<ul className={styles.ulChildren}>
 				{item.subItems.map((subItem: object, index: number) => (
 					<li key={index}>
-						<Link href='/'>
+						<Link href={subItem.url}>
 							<a>{subItem.title}</a>
 						</Link>
 						<div className={styles.arrowLeft}></div>

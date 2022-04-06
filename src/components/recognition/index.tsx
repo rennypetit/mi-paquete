@@ -39,8 +39,8 @@ const Recognition = ({ data }) => {
 									src={item.image}
 									alt={item.alt}
 									title={item.title}
-									width={115}
-									height={49}
+									width={146}
+									height={68}
 								/>
 							</div>
 						))}

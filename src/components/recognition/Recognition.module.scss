@@ -1,6 +1,6 @@
 @import '../../styles/variables';
 .background {
-	height: 480px;
+	height: 530px;
 	width: 100%;
 	position: relative;
 }
@@ -75,9 +75,16 @@
 	.items {
 		border-left: 2px solid $color_quaternary;
 		grid-template-columns: repeat(3, 1fr);
-		padding: 30px;
+		gap: 0;
+		padding: 0;
 	}
 	.separator {
 		display: none;
+	}
+	.item{
+		img, span, div{
+			width: 146px !important;
+			height: 68px;
+		}
 	}
 }

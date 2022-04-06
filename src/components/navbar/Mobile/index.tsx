@@ -2,7 +2,8 @@ import { useRef, useState } from 'react';
 import Image from 'next/image';
 import ButtonBlue from '@components/buttons/Blue';
 import Menu from './Menu';
-import { buttonTwo } from '../data'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
+import { buttonTwo } from '@data/componentNavbar'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
+import Link from 'next/link';
 import styles from './Navbar.module.scss';
 
 export default function Navbar() {
@@ -18,7 +19,16 @@ export default function Navbar() {
 		<nav className={styles.nav}>
 			<div className={styles.container}>
 				<div className={styles.logo}>
-					<Image src='/images/logo.svg' alt='logo' width={142} height={86} />
+					<Link href='/'>
+						<a>
+							<Image
+								src='/images/logo.svg'
+								alt='logo'
+								width={142}
+								height={86}
+							/>
+						</a>
+					</Link>
 				</div>
 				{/* si el menu aun no est abierto */}
 				{!openMenu ? (

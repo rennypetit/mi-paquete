@@ -12,9 +12,11 @@ export default function Banner({ data }) {
 				dangerouslySetInnerHTML={{ __html: data.title }}
 			></div>
 			<div className={styles.description}>
-				<h2>
-					{data.subtitle} <span>|</span> Mi Paquete
-				</h2>
+				{data.suBtitle && (
+					<h2>
+						{data.subtitle} <span>|</span> Mi Paquete
+					</h2>
+				)}
 				<p>{data.description}</p>
 				<div className={styles.buttons}>
 					<ButtonOrange data={data.buttonOne} />

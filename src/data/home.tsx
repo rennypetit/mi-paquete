@@ -10,7 +10,7 @@ export const banners: Banner = [
 		description:
 			'Te conectamos tecnológicamente con las principales empresas de envíos en Colombia para que compares sus precios, tiempos de entrega y calidad del servicio en una sola plataforma, para que elijas la mejor opción.',
 		background: 'orange',
-		image: '/images/banner/home-1.png',
+		image: '/images/banners/home-1.png',
 		alt: 'Banner',
 		orientation: 'orientationRight',
 		buttonOne: {
@@ -28,7 +28,7 @@ export const banners: Banner = [
 		description:
 			'Muchos emprendedores suelen tener problemas con el envío de mercancía. Con Mi Paquete envías tus productos fácil y rápido. Regístrate en minutos y sin papeleos.',
 		background: 'blue',
-		image: '/images/banner/home-2.png',
+		image: '/images/banners/home-2.png',
 		alt: 'Banner',
 		orientation: 'orientationLeft',
 		buttonOne: {
@@ -46,7 +46,7 @@ export const banners: Banner = [
 		description:
 			'Te ayudamos gratis con la integración de tu ecommerce a través de las principales empresas de transporte de envíos, para que generes guías automaticamente y puedas dedicarte a vender más',
 		background: 'blue',
-		image: '/images/banner/home-3.png',
+		image: '/images/banners/home-3.png',
 		alt: 'Banner',
 		orientation: 'orientationRight',
 		buttonOne: {
@@ -126,47 +126,8 @@ export const features = {
 	],
 };
 
-export const allies = [
-	{
-		title: 'Servientrega',
-		image: '/images/allies/servientrega.png',
-		alt: 'logo servientrega',
-		url: '#',
-	},
-	{
-		title: 'Envia',
-		image: '/images/allies/envia.png',
-		alt: 'logo envia',
-		url: '#',
-	},
-	{
-		title: 'Coordinadora',
-		image: '/images/allies/coordinadora.png',
-		alt: 'logo coordinadora',
-		url: '#',
-	},
-	{
-		title: 'TE',
-		image: '/images/allies/te.png',
-		alt: 'logo te',
-		url: '#',
-	},
-	{
-		title: 'TCC',
-		image: '/images/allies/tcc.png',
-		alt: 'logo tcc',
-		url: '#',
-	},
-	{
-		title: 'Entregalo',
-		image: '/images/allies/entregalo.png',
-		alt: 'logo entregalo',
-		url: '#',
-	},
-];
-
 export const commercial = {
-	color: 'black',
+	colorText: 'textBlack',
 	title: 'Envíos el mismo día',
 	description:
 		'<h3>Entrega tus productos a tiempo con nuestros<strong> envíos urbanos</strong></h3><p>Descubre cómo mejorar tu proceso de <strong>envío de mercancía</strong> con nuestras <strong>entregas urbanas</strong> y de <strong>última milla,</strong> las cuales harán que tus productos lleguen el mismo día hasta tus clientes.</p>',
@@ -176,7 +137,7 @@ export const commercial = {
 	button: {
 		title: 'COTIZA UN ENVÍO',
 		url: '#',
-		color: 'blue',
+		color: 'buttonBlue',
 	},
 };
 

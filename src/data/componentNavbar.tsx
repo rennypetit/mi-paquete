@@ -4,19 +4,19 @@ export const items = [
 		subItems: [
 			{
 				title: 'Envíos tradicionales',
-				url: '/',
+				url: '/envios-tradicionales',
 			},
 			{
 				title: 'Envíos Pago Contra Entrega',
-				url: '/',
+				url: '/envios-pago-contraentrega',
 			},
 			{
 				title: 'Almacenamiento',
-				url: '/',
+				url: '/almacenamiento',
 			},
 			{
 				title: 'Pasarela de envíos',
-				url: '/',
+				url: '/pasarela-de-envios',
 			},
 		],
 	},
@@ -25,23 +25,23 @@ export const items = [
 		subItems: [
 			{
 				title: 'Shopify',
-				url: '/',
+				url: '/tienda-en-shopify',
 			},
 			{
 				title: 'Woocommerce',
-				url: '/',
+				url: '/tienda-en-woocommerce',
 			},
 			{
 				title: 'Komercia',
-				url: '/',
+				url: '/tienda-en-komercia',
 			},
 			{
 				title: 'Jumpseller',
-				url: '/',
+				url: '/tienda-en-jumpseller',
 			},
 			{
 				title: 'Vía API',
-				url: '/',
+				url: '/api-integracion',
 			},
 		],
 	},
@@ -50,15 +50,15 @@ export const items = [
 		subItems: [
 			{
 				title: 'Emprendedor digital',
-				url: '/',
+				url: '/emprendedor-digital',
 			},
 			{
 				title: 'Ecommerce medianos',
-				url: '/',
+				url: '/ecommerce-medianos',
 			},
 			{
 				title: 'Grandes ecommerce',
-				url: '/',
+				url: '/grandes-ecommerce',
 			},
 		],
 	},

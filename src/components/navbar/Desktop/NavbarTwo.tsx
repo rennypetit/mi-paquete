@@ -1,5 +1,6 @@
-import { Items } from '../interfaceNavbar';
-import { items } from '../data'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
+import Link from 'next/link';
+import { Items } from '@interface/interfaceNavbar';
+import { items } from '@data/componentNavbar'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
 import styles from './NavbarTwo.module.scss';
 
 export default function NavbarTwo() {
@@ -13,17 +14,27 @@ export default function NavbarTwo() {
 							{item.subItems.map((subItem: Items, index: number) => (
 								<li key={index}>
 									<div className={styles.arrowRight}></div>
-									<a href='#'>{subItem.title}</a>
+									<Link href={subItem.url}>
+										<a>{subItem.title}</a>
+									</Link>
 								</li>
 							))}
 						</ul>
 					</li>
 				))}
 				<li>
-					<button className={styles.items}>AGENCIAS</button>
+					<Link href='/agencias'>
+						<a>
+							<div className={styles.items}>AGENCIAS</div>
+						</a>
+					</Link>
 				</li>
 				<li>
-					<button className={styles.items}>BLOG</button>
+					<Link href='/blog'>
+						<a>
+							<div className={styles.items}>BLOG</div>
+						</a>
+					</Link>
 				</li>
 				<li>
 					<a className={`${styles.items} ${styles.itemBlue}`}>
