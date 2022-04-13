@@ -3,19 +3,19 @@ import Image from 'next/image';
 import WidthContext from '@contexts/width';
 import styles from './Newsletter.module.scss';
 
-export default function Newsletter() {
+export default function Newsletter({ background }) {
 	const { widthViewport } = useContext(WidthContext);
 	return (
-		<section className={styles.container}>
+		<section className={`${styles.container} ${styles[background]}`}>
 			{widthViewport < 1024 ? (
 				<Image
-					src='/images/background-orange.png'
+					src={`/images/footer/background-${background}.png`}
 					alt='background newsletter'
 					layout='fill'
 				/>
 			) : (
 				<Image
-					src='/images/background-orange.png'
+					src={`/images/footer/background-${background}.png`}
 					alt='background newsletter'
 					layout='fill'
 				/>
@@ -38,7 +38,7 @@ export default function Newsletter() {
 							Políticas de Tratamiento de Datos
 						</label>
 					</div>
-					<div className={styles.containerbutton}>
+					<div className={styles.containerButton}>
 						<button className={`${styles.button} button`}>
 							SUSCRIBIRSE
 							<div className={styles.icon}>

@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import ButtonOrange from '@components/buttons/Orange';
-import ButtonBlue from '@components/buttons/Blue';
+import Button from '@components/button';
 
 import styles from './Banner.module.scss';
 export default function Banner({ data }) {
@@ -11,17 +10,20 @@ export default function Banner({ data }) {
 				className={styles.title}
 				dangerouslySetInnerHTML={{ __html: data.title }}
 			></div>
-			<div className={styles.description}>
+			<div className={styles.content}>
 				{data.suBtitle && (
 					<h2>
 						{data.subtitle} <span>|</span> Mi Paquete
 					</h2>
 				)}
-				<p>{data.description}</p>
+				<div
+					className={styles.description}
+					dangerouslySetInnerHTML={{ __html: data.description }}
+				></div>
 				<div className={styles.buttons}>
-					<ButtonOrange data={data.buttonOne} />
-					{/* si el botón 2 no viene no se mostrará */}
-					{data.buttonTwo && <ButtonBlue data={data.buttonTwo} />}
+					{/* si el botón no viene no se mostrará */}
+					{data.buttonOne && <Button data={data.buttonOne} />}
+					{data.buttonTwo && <Button data={data.buttonTwo} />}
 				</div>
 			</div>
 

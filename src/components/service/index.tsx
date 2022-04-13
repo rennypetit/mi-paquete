@@ -9,6 +9,7 @@ import styles from './Service.module.scss';
 export default function Services({ items }) {
 	// configuration slider banner
 	const settings = {
+		arrows: true,
 		dots: true,
 		infinite: true,
 		speed: 500,
@@ -19,6 +20,7 @@ export default function Services({ items }) {
 			{
 				breakpoint: 1024,
 				settings: {
+					arrows: false,
 					slidesToShow: 1,
 					slidesToScroll: 1,
 				},

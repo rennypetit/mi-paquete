@@ -1,0 +1,152 @@
+@import '../../styles/variables';
+.container {
+	@include container;
+	@include center;
+	color: $color_primary;
+	padding-top: 100px;
+	flex-direction: column;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.title {
+	font-weight: 100;
+	text-align: center;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 2.5rem;
+		width: 90%;
+		margin: auto;
+	}
+	span {
+		color: $color_tertiary;
+		text-align: center;
+		display: block
+	}
+}
+
+.image {
+	@include center;
+	margin: auto;
+	height: 250px;
+	margin: 20px 0;
+	position: relative;
+	width: 100%;
+	img {
+		object-fit: cover;
+	}
+	.orange {
+		background: transparent linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0%
+			0% no-repeat padding-box;
+	}
+	.blue {
+		background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0%
+			0% no-repeat padding-box;
+	}
+}
+
+.content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 1.8rem;
+	}
+	span {
+		color: $color_quaternary;
+	}
+	p {
+		color: $color_secondary;
+		font-size: 1.4rem;
+		line-height: 1.5;
+	}
+	.buttons {
+		@include center;
+		flex-wrap: wrap;
+		gap: 10px;
+		text-align: center;
+		font-size: 1.6rem;
+		& div {
+			width: 250px;
+		}
+	}
+}
+
+// desktop
+@media (min-width: 1024px) {
+	.container {
+		position: relative;
+		height: 800px;
+	}
+	.title {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 3.5rem;
+			text-align: left;
+			margin-bottom: 0;
+			width: 100%;
+		}
+	}
+	.image {
+		height: 350px;
+		img {
+			object-fit: contain;
+		}
+	}
+	.content {
+		order: inherit;
+		width: 70%;
+		p {
+			font-size: 1.6rem;
+		}
+	}
+	.buttons {
+		@include center;
+		gap: 20px;
+		font-size: 1.6rem;
+	}
+}
+
+@media (min-width: 1600px) {
+	.title {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 5rem;
+		}
+	}
+
+	.content {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 2.5rem;
+		}
+		p {
+			font-size: 2rem;
+		}
+		.buttons {
+			button,
+			a {
+				div {
+					height: 40px;
+				}
+			}
+		}
+	}
+}

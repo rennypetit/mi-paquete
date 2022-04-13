@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import Image from 'next/image';
 import WidthContext from '@contexts/width';
+import Button from '@components/button';
 import styles from './Commercial.module.scss';
 const Commercial = ({ data }) => {
 	const { widthViewport } = useContext(WidthContext);
@@ -18,13 +19,7 @@ const Commercial = ({ data }) => {
 					dangerouslySetInnerHTML={{ __html: data.description }}
 				></div>
 				<div className={styles.containerButton}>
-					<a href='#' target='_blank' rel='noopener noreferrer'>
-						<button
-							className={`button ${styles.button} ${styles[data.button.color]}`}
-						>
-							{data.button.title}
-						</button>
-					</a>
+					<Button data={data.button} />
 				</div>
 			</div>
 		</section>

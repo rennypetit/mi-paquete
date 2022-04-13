@@ -36,6 +36,10 @@
 .containerButton {
 	padding-top: 15px;
 	padding-bottom: 10px;
+	& div {
+		font-size: 1.6rem;
+		width: 180px;
+	}
 }
 
 @media (max-width: 380px) {

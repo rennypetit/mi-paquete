@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
-import ButtonWhite from '@components/buttons/White';
+import Button from '@components/button';
 import { items, buttonOne } from '@data/componentNavbar'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
 import SubItems from './SubItems';
 import styles from './Menu.module.scss';
@@ -31,7 +31,7 @@ export default function Menu() {
 				</ul>
 				<hr className={styles.separator} />
 				<div className={styles.containerButton}>
-					<ButtonWhite data={buttonOne} />
+					<Button data={buttonOne} />
 				</div>
 			</div>
 		</div>

@@ -13,11 +13,6 @@
 	padding-right: 3%;
 	gap: 20px;
 	width: 100%;
-	button:hover + ul {
-		opacity: 1 !important;
-		transition-timing-function: ease;
-		transition-duration: 0.5s;
-	}
 }
 .items {
 	background-color: transparent;
@@ -40,11 +35,7 @@
 	font-style: initial;
 	font-size: 1.5rem;
 	line-height: 2;
-	margin: 20px 0;
-	margin-top: 15px;
-	opacity: 0;
 	padding: 20px;
-	position: absolute;
 	width: 220px;
 	a {
 		color: $color_primary;

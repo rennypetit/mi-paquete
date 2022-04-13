@@ -44,28 +44,9 @@
 
 .containerButton{
 	display: flex;
-}
-
-.button{
 	font-style: italic;
+	font-size: 1.6rem;
 	width: 200px;
-	border: 0;
-	left: 0;
-}
-.buttonBlue {
-	background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0%
-		no-repeat padding-box;
-	border: 2px solid linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0%
-		no-repeat padding-box;
-	color: $color_quinary;
-}
-
-.buttonOrange {
-	background: transparent linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0% 0%
-		no-repeat padding-box;
-	border: 2px solid linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0% 0%
-		no-repeat padding-box;
-	color: $color_primary;
 }
 
 // desktop
@@ -81,8 +62,5 @@
 		padding-left: 30px;
 		height: 100%;
 		width: 60%;
-	}
-	.containerButton {
-		display: flex;
 	}
 }

@@ -1,25 +1,38 @@
 @import '../../styles/variables';
-.white {
+.buttonWhite {
 	background-color: $color_quinary;
 	border: 2px solid $color_tertiary;
 	color: $color_primary;
-	font-style: italic;
 }
 
-.blue {
+.buttonGreen {
+	background-color: #20D029;
+	border: 2px solid #20D029;
+	color: $color_quinary;
+}
+
+.buttonBlue {
 	background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0%
 		no-repeat padding-box;
 	border: 2px solid linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0%
 		no-repeat padding-box;
 	color: $color_quinary;
-	font-style: italic;
 }
 
-.orange {
+.buttonOrange {
 	background: transparent linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0% 0%
 		no-repeat padding-box;
 	border: 2px solid linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0% 0%
 		no-repeat padding-box;
 	color: $color_primary;
+}
+
+.button {
 	font-style: italic;
+	font-size: inherit;
+	width: inherit;
+}
+
+.icon {
+	padding-right: 10px;
 }

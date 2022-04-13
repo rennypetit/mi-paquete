@@ -83,6 +83,17 @@ export default function Footer() {
 									Preguntas Frecuentes
 								</a>
 							</li>
+							<li className={styles.icon}>
+								<a href='http://' target='_blank' rel='noopener noreferrer'>
+									<Image
+										src='/images/icons/help-white.svg'
+										alt='icon help'
+										width={30}
+										height={30}
+									/>
+									centro de ayuda
+								</a>
+							</li>
 						</ul>
 					</div>
 					{/* end column 4 */}

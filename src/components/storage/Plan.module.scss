@@ -1,0 +1,60 @@
+@import '../../styles/variables';
+.container{
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+.card{
+  border: 2px solid $color_tertiary;
+  border-radius: 10px;
+  padding: 10px;
+  &:nth-child(2) {
+    border: 2px solid $color_quaternary;
+    .description {
+      border-top: 2px solid  $color_quaternary;
+      border-bottom: 2px solid  $color_quaternary;
+    }
+  }
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  font-size: 2.3rem;
+}
+.description{
+  color:$color_secondary;
+  font-size: 1.4rem;
+  text-align: center;
+  border-top: 2px solid $color_tertiary;
+  border-bottom: 2px solid $color_tertiary;
+  padding: 10px 0;
+}
+.price {
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 5px 0;
+  span {
+    display:  block;
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 0px;
+  }
+}
+
+// desktop
+@media (min-width: 768px) {
+  .container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .card {
+    max-width: 300px;
+  }
+}

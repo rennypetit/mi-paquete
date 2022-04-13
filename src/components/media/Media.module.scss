@@ -5,4 +5,14 @@
 
 .imageMap {
 	text-align: center;
+	min-width: 1024px;
+	max-width: 1024px;
+	margin: auto;
+}
+
+// desktop {
+@media (min-width: 1024px) {
+	.container {
+		overflow-x: auto;
+	}
 }

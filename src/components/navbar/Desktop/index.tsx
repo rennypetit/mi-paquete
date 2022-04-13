@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import ButtonWhite from '@components/buttons/White';
-import ButtonBlue from '@components/buttons/Blue';
+import Button from '@components/button';
 import NavbarTwo from './NavbarTwo';
 import { buttonOne, buttonTwo } from '@data/componentNavbar';
 // styles
@@ -24,8 +23,8 @@ export default function Navbar() {
 					</Link>
 				</div>
 				<div className={styles.buttons}>
-					<ButtonWhite data={buttonOne} />
-					<ButtonBlue data={buttonTwo} />
+					<Button data={buttonOne} />
+					<Button data={buttonTwo} />
 				</div>
 			</div>
 			<NavbarTwo />

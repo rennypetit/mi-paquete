@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import styles from './Feature.module.scss';
 export default function Feature({ items, icon = false }) {
-	console.log(icon);
 	return (
 		<div className={styles.container}>
 			<div className={styles.image}>
@@ -15,7 +14,8 @@ export default function Feature({ items, icon = false }) {
 			</div>
 			<div className={styles.description}>
 				<p className={styles.title}>
-					{items?.title} <span>{items?.titleTwo}</span>
+					{items?.title}{' '}
+					<span className={styles[items.colorTitleTwo]}>{items?.titleTwo}</span>
 				</p>
 				<div className={styles.items}>
 					<ul className={icon && styles.icon}>

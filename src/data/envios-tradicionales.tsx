@@ -2,16 +2,18 @@ export const banner = {
 	title: `<h1>Envíos tradicionales <br /><span>Comparador de costos de envío</span></h1>`,
 	subtitle: '',
 	description:
-		'Compara el precio que te ofrecen las principales transportadoras de envíos en Colombia, elige por tiempo de entrega o calificación de servicio y realiza envíos nacionales o urbanos facilmente.',
+		'<p>Compara el precio que te ofrecen las principales <strong>transportadoras de envíos en Colombia,</strong> elige por tiempo de entrega o calificación de servicio y realiza envíos nacionales o urbanos facilmente.</p>',
 	background: 'blue',
 	image: '/images/banners/envios-tradicionales.png',
 	alt: 'Banner envios tradicionales',
 	orientation: 'orientationLeft',
 	buttonOne: {
+		color: 'buttonBlue',
 		title: 'COTIZA TU ENVÍO',
 		url: '#',
 	},
 	buttonTwo: {
+		color: 'buttonOrange',
 		title: 'REGÍSTRATE',
 		url: '#',
 	},
@@ -55,10 +57,12 @@ export const benefits = {
 	description:
 		'Conoce por qué desde <strong>Mi Paquete</strong> el servicio de envío con las <strong>principales empresas de transporte de envíos</strong> nacionales y urbanos, te ahorra tiempo y dinero, ya que puedes realizar tus envíos sin obstáculos, trámites o papeleos.',
 	buttonOne: {
+		color: 'buttonBlue',
 		title: 'COTIZA UN ENVÍO',
 		url: '#',
 	},
 	buttonTwo: {
+		color: 'buttonOrange',
 		title: 'CREA UNA CUENTA',
 		url: '#',
 	},
@@ -104,9 +108,9 @@ export const commercial = {
 		'/images/commercials/envios-tradicionales-background-desktop.png',
 	alt: 'background envios tradicionales',
 	button: {
+		color: 'buttonOrange',
 		title: 'CONOCE MÁS',
 		url: '#',
-		color: 'buttonOrange',
 	},
 };
 

@@ -13,6 +13,7 @@ import Recognition from '@components/recognition';
 import Testimonial from '@components/testimonial';
 import Newsletter from '@components/newsletter';
 import Footer from '@components/footer';
+import Fixed from '@components/fixed';
 
 // only data of components
 import {
@@ -70,8 +71,9 @@ const Home: NextPage = () => {
 			<div className='container'>
 				<Testimonial />
 			</div>
-			<Newsletter />
+			<Newsletter background={'primary'} />
 			<Footer />
+			<Fixed />
 		</Layout>
 	);
 };

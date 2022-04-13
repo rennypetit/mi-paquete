@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="356.375" viewBox="0 0 1440 356.375">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.235" y1="0.932" x2="1.959" y2="0.057" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcc64c"/>
+      <stop offset="1" stop-color="#f08721"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_4574" data-name="Rectángulo 4574" width="356.375" height="1440" transform="translate(1319.07 3543.241) rotate(90)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_4225" data-name="Grupo 4225" transform="translate(13538 16323.707)">
+    <rect id="Rectángulo_4568" data-name="Rectángulo 4568" width="356.375" height="1440" transform="translate(-12098 -16323.708) rotate(90)" fill="url(#linear-gradient)"/>
+    <g id="Enmascarar_grupo_52" data-name="Enmascarar grupo 52" transform="translate(-13417.07 -19866.949)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_4569" data-name="Rectángulo 4569" width="538.341" height="538.339" rx="40" transform="translate(460.051 3268.128) rotate(105)" fill="#fe9c1a" opacity="0.257"/>
+      <rect id="Rectángulo_4570" data-name="Rectángulo 4570" width="639.097" height="639.094" rx="40" transform="matrix(0.174, 0.985, -0.985, 0.174, 1305.074, 3008.492)" fill="#fe9c1a" opacity="0.657"/>
+      <rect id="Rectángulo_4571" data-name="Rectángulo 4571" width="454.482" height="454.479" rx="40" transform="matrix(0.588, 0.809, -0.809, 0.588, 624.191, 3766.632)" fill="#ea8a21" opacity="0.257"/>
+      <rect id="Rectángulo_4572" data-name="Rectángulo 4572" width="352.721" height="352.718" rx="40" transform="translate(171.353 3608.573) rotate(70)" fill="#ea8a21" opacity="0.257"/>
+      <rect id="Rectángulo_4573" data-name="Rectángulo 4573" width="487.759" height="491.75" rx="40" transform="matrix(0.921, 0.391, -0.391, 0.921, 1076.062, 3563.706)" fill="#ea8a21" opacity="0.257"/>
+    </g>
+  </g>
+</svg>

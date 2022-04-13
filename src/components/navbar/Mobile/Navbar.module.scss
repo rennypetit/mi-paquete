@@ -28,6 +28,10 @@
 }
 .containerButtonTop {
 	@include center;
+	& div {
+		font-size: 1.6rem;
+		width: 180px;
+	}
 }
 .button {
 	background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0%

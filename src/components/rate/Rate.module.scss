@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+.table {
+  background-color: $color_quinary;
+  border-radius: 5px;
+  border: 1px solid $color_tertiary;
+  border-collapse: collapse;
+  padding: 10px 0;
+  margin: 50px auto 150px auto;
+  width: 100%;
+  th {
+    border: 2px solid $color_tertiary;
+    padding: 15px;
+    font-size: 1.6rem;
+    text-align: left;
+    &:nth-child(2) {
+      text-align: center;
+    }
+    span {
+      color: $color_tertiary;
+    }
+  }
+  tr {
+    margin: 0;
+    padding: 0;
+  }
+  td {
+    border: 2px solid $color_tertiary;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px;
+    line-height: 1;
+    &:nth-child(1) {
+      color: $color_secondary;
+    }
+    &:nth-child(2) {
+      text-align: center;
+    }
+  }
+}
+
+// desktop
+@media (min-width: 1024px) {
+  .table {
+    width: 500px;
+  }
+}

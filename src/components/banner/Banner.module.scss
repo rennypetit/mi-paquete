@@ -54,7 +54,7 @@
 	}
 }
 
-.description {
+.content {
 	order: 3;
 	h1,
 	h2,
@@ -95,6 +95,27 @@
 		right: initial;
 	}
 }
+
+// bannerBackground
+.bannerBackground {
+	width: 100%;
+	.title, .description{
+		width: 90%;
+		margin: auto;
+	}
+	.image{
+		width: 100%;
+		img{
+			object-fit: contain;
+		}
+	}
+	.buttons{
+		& div{
+			width: 250px !important;
+		}
+	}
+}
+// end banner background
 
 // desktop
 @media (min-width: 1024px) {
@@ -142,7 +163,7 @@
 		}
 	}
 
-	.description {
+	.content {
 		order: inherit;
 		width: 50%;
 		p {
@@ -155,11 +176,32 @@
 			a {
 				div {
 					font-size: 1.6rem;
-					width: 180px;
+					width: 240px;
 				}
 			}
 		}
 	}
+
+	// bannerBackground
+	.bannerBackground {
+		width: 80%;
+		.title {
+			width: 50%;
+			margin: initial;
+		}
+		.description{
+				width: 100%;
+				margin: initial;
+		}
+		.image {
+			width: 70%;
+			margin: initial;
+			img {
+				object-fit: cover;
+			}
+		}
+	}
+	// end banner background
 }
 
 @media (min-width: 1600px) {
@@ -174,7 +216,7 @@
 		}
 	}
 
-	.description {
+	.content {
 		h1,
 		h2,
 		h3,

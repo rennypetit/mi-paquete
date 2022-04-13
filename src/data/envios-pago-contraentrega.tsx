@@ -2,16 +2,18 @@ export const banner = {
 	title: `<h1>¿Pierdes ventas por no ofrecer <span>envíos con Pago Contra Entrega</span>?</h1>`,
 	subtitle: '',
 	description:
-		'Ofrece una opción de pago más confiable para tus clientes, realiza envíos urbanos, locales y nacionales con pago contra entrega y recibe el dinero de tus ventas sin contratiempos.',
+		'<p>Ofrece una opción de pago más confiable para tus clientes, <strong>realiza envíos urbanos, locales y nacionales</strong> con <strong>pago contra entrega</strong> y recibe el dinero de tus ventas sin contratiempos.</p>',
 	background: 'orange',
 	image: '/images/banners/pago-contraentrega.png',
 	alt: 'Banner pagos contra entrega',
 	orientation: 'orientationLeft',
 	buttonOne: {
+		color: 'buttonOrange',
 		title: 'REGÍSTRATE',
 		url: '#',
 	},
 	buttonTwo: {
+		color: 'buttonBlue',
 		title: 'COTIZA TU ENVÍO',
 		url: '#',
 	},
@@ -58,9 +60,9 @@ export const commercial = {
 	imageDesktop: '/images/commercials/home-background-desktop.png',
 	alt: 'background commercials',
 	button: {
+		color: 'buttonBlue',
 		title: 'MÁS INFORMACIÓN',
 		url: '#',
-		color: 'buttonBlue',
 	},
 };
 

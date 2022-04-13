@@ -105,6 +105,10 @@
 		margin: auto;
 		left: 0;
 		width: 100%;
+		& div {
+			font-size: 1.6rem;
+			width: 180px;
+		}
 	}
 }
 @media (max-width: 600px) {

@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import styles from './Benefit.module.scss';
-import ButtonBlue from '@components/buttons/Blue';
-import ButtonOrange from '@components/buttons/Orange';
+import Button from '@components/button';
 export const Benefit = ({ data }) => {
 	return (
 		<section className={styles.container}>
@@ -33,9 +32,9 @@ export const Benefit = ({ data }) => {
 					dangerouslySetInnerHTML={{ __html: data.description }}
 				></div>
 				<div className={styles.buttons}>
-					<ButtonBlue data={data.buttonOne} />
+					<Button data={data.buttonOne} />
 					{/* si el botón 2 no viene no se mostrará */}
-					{data.buttonTwo && <ButtonOrange data={data.buttonTwo} />}
+					{data.buttonTwo && <Button data={data.buttonTwo} />}
 				</div>
 			</div>
 		</section>

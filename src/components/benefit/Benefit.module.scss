@@ -88,14 +88,9 @@
 	flex-wrap: wrap;
 	gap: 10px;
 	margin-top: 20px;
-
-	button,
-	a {
-		div {
-			font-size: 1.3rem;
-			height: 35px;
-			width: 170px;
-		}
+	& div {
+		font-size: 1.6rem;
+		width: 200px;
 	}
 }
 @media (min-width: 1024px) {
@@ -104,7 +99,7 @@
 		margin-bottom: 100px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap:100px;
+		gap:50px;
 	}
 	.titleMobile {
 		display: none;

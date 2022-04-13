@@ -10,6 +10,7 @@ import Feature from '@components/feature';
 import Testimonial from '@components/testimonial';
 import Newsletter from '@components/newsletter';
 import Footer from '@components/footer';
+import Fixed from '@components/fixed';
 
 // only data of components
 import {
@@ -66,8 +67,9 @@ const enviosPagoContraEntrega: NextPage = () => {
 					</div>
 				</div>
 			</div>
-			<Newsletter />
+			<Newsletter background={'primary'} />
 			<Footer />
+			<Fixed />
 		</Layout>
 	);
 };

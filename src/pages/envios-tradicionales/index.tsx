@@ -8,6 +8,8 @@ import Description from '@components/description';
 import Ally from '@components/ally';
 import Benefit from '@components/benefit';
 import Question from '@components/question';
+import Commercial from '@components/commercial';
+import Fixed from '@components/fixed';
 
 // only data of components
 import {
@@ -20,7 +22,6 @@ import {
 import allies from '@data/componentAllies';
 
 import styles from './enviosTradicionales.module.scss';
-import Commercial from '@components/commercial';
 
 const enviosTradicionales: NextPage = () => {
 	return (
@@ -50,8 +51,9 @@ const enviosTradicionales: NextPage = () => {
 					<Commercial data={commercial} />
 				</div>
 			</div>
-			<Newsletter />
+			<Newsletter background={'primary'} />
 			<Footer />
+			<Fixed />
 		</Layout>
 	);
 };

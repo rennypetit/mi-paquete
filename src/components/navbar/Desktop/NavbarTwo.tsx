@@ -8,9 +8,9 @@ export default function NavbarTwo() {
 		<div className={styles.container}>
 			<ul className={styles.ul}>
 				{items.map((item: object, index: number) => (
-					<li key={index}>
-						<button className={styles.items}>{item.title}</button>
-						<ul className={styles.ulChildren} id={`subItems-${index}`}>
+					<li key={index} className='dropdown'>
+						<button className={`${styles.items}`}>{item.title}</button>
+						<ul className={`dropdown-content ${styles.ulChildren}`}>
 							{item.subItems.map((subItem: Items, index: number) => (
 								<li key={index}>
 									<div className={styles.arrowRight}></div>

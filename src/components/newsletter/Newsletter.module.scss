@@ -28,6 +28,7 @@
 	text-align: center;
 }
 
+
 .input{
 	height: 50px;
 	margin: auto;
@@ -73,6 +74,20 @@
 	padding: 11px;
 }
 
+.secondary {
+	.button {
+		color: $color_primary;
+		background: $color_quaternary;
+	}
+	.input {
+		border: 2px solid $color_tertiary;
+		&:focus {
+			outline: none;
+			border: 2px solid $color_tertiary;
+		}
+	}
+}
+
 // desktop {
 @media (min-width: 1024px) {
 	.container {
@@ -88,7 +103,7 @@
 		margin: 0;
 		margin-right: 10px;
 	}
-	.containerbutton{
+	.containerButton{
 		order:2;
 	}
 	.button{

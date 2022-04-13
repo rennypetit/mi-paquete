@@ -2,7 +2,7 @@
 .container{
   margin: 20px 0;
   position: relative;
-  height: 310px;
+  height: 330px;
 }
 .background{
   height: 100%;
@@ -31,6 +31,17 @@
   margin: 20px auto;
   width: 50%;
 }
+.link {
+  @include center;
+  gap: 10px;
+  padding-top: 10px;
+  a {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
 // desktop {
 @media (min-width: 1024px) {
   .separator{
@@ -51,9 +62,11 @@
     padding-right: 5%;
     font-size: 2.8rem;
   }
+  .containerDescription {
+    height: 75%;
+  }
   .description{
     padding-left: 5%;
-    height: 75%;
     margin: 0;
     border-left: 2px solid $color_quinary;
     display: flex;
@@ -63,5 +76,9 @@
       font-size: 1.8rem;
       margin: 0;
     }
+  }
+  .link {
+    padding-left: 5%;
+    justify-content: flex-start;
   }
 }

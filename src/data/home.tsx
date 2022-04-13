@@ -8,16 +8,18 @@ export const banners: Banner = [
 		title: `<h1>¿Realizas <span>ventas por redes sociales</span> o tienes un <span>ecommerce</span> ?</h1>`,
 		subtitle: 'Servicio de envíos',
 		description:
-			'Te conectamos tecnológicamente con las principales empresas de envíos en Colombia para que compares sus precios, tiempos de entrega y calidad del servicio en una sola plataforma, para que elijas la mejor opción.',
+			'<p>Te conectamos tecnológicamente con las principales <strong>empresas de envíos en Colombia</strong> para que compares sus precios, tiempos de entrega y calidad del servicio en una sola plataforma, para que elijas la mejor opción.</p>',
 		background: 'orange',
 		image: '/images/banners/home-1.png',
 		alt: 'Banner',
 		orientation: 'orientationRight',
 		buttonOne: {
+			color: 'buttonOrange',
 			title: 'COTIZA TU ENVÍO',
 			url: '#',
 		},
 		buttonTwo: {
+			color: 'buttonBlue',
 			title: 'REGÍSTRATE',
 			url: '#',
 		},
@@ -26,16 +28,18 @@ export const banners: Banner = [
 		title: `<h2>¿Las <span> empresas de envíos</span> te exigen documentos para <span>enviar paquetes?</span></h2>`,
 		subtitle: 'Envío de paquetes',
 		description:
-			'Muchos emprendedores suelen tener problemas con el envío de mercancía. Con Mi Paquete envías tus productos fácil y rápido. Regístrate en minutos y sin papeleos.',
+			'<p>Muchos emprendedores suelen tener problemas con el <strong>envío de mercancía.</strong> Con <strong>Mi Paquete</strong> envías tus productos fácil y rápido. Regístrate en minutos y <strong>sin papeleos.</strong></p>',
 		background: 'blue',
 		image: '/images/banners/home-2.png',
 		alt: 'Banner',
 		orientation: 'orientationLeft',
 		buttonOne: {
+			color: 'buttonOrange',
 			title: 'COTIZA TU ENVÍO',
 			url: '#',
 		},
 		buttonTwo: {
+			color: 'buttonBlue',
 			title: 'REGÍSTRATE',
 			url: '#',
 		},
@@ -44,12 +48,13 @@ export const banners: Banner = [
 		title: `<h2>¡No importa el tamaño de tu<span> ecommerce o dónde lo tengas!</span></h2>`,
 		subtitle: 'Mensajería para ecommerce',
 		description:
-			'Te ayudamos gratis con la integración de tu ecommerce a través de las principales empresas de transporte de envíos, para que generes guías automaticamente y puedas dedicarte a vender más',
+			'<p>Te ayudamos gratis con la integración de tu ecommerce a través de las principales empresas de transporte de envíos, para que generes guías automaticamente y puedas dedicarte a vender más</p>',
 		background: 'blue',
 		image: '/images/banners/home-3.png',
 		alt: 'Banner',
 		orientation: 'orientationRight',
 		buttonOne: {
+			color: 'buttonOrange',
 			title: 'CONOCE MÁS',
 			url: '#',
 		},

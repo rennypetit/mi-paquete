@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="356.414" viewBox="0 0 1440 356.414">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.919" y1="-0.049" x2="0.539" y2="1.086" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1483c1"/>
+      <stop offset="1" stop-color="#4dbfff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_4564" data-name="Rectángulo 4564" width="356.415" height="1439.93" transform="translate(1319 3497.152) rotate(90)" fill="#009af0"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_4609" data-name="Grupo 4609" transform="translate(15055 16883)">
+    <path id="Trazado_14384" data-name="Trazado 14384" d="M0,0H356V1440H0V0Z" transform="translate(-15055 -16527) rotate(-90)" fill="url(#linear-gradient)"/>
+    <g id="Enmascarar_grupo_51" data-name="Enmascarar grupo 51" transform="translate(-13736 -13029.434) rotate(180)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_4560" data-name="Rectángulo 4560" width="538.315" height="538.312" rx="40" transform="translate(460.022 3268.137) rotate(105)" fill="#009af0" opacity="0.257"/>
+      <rect id="Rectángulo_4561" data-name="Rectángulo 4561" width="639.066" height="639.063" rx="40" transform="matrix(0.174, 0.985, -0.985, 0.174, 1306.336, 3007.184)" fill="#0069a3" opacity="0.1"/>
+      <rect id="Rectángulo_4562" data-name="Rectángulo 4562" width="454.459" height="454.457" rx="40" transform="matrix(0.588, 0.809, -0.809, 0.588, 624.155, 3766.617)" fill="#0069a3" opacity="0.128"/>
+      <rect id="Rectángulo_4563" data-name="Rectángulo 4563" width="352.704" height="352.701" rx="40" transform="translate(171.339 3608.566) rotate(70)" fill="#009af0" opacity="0.257"/>
+      <path id="Trazado_14376" data-name="Trazado 14376" d="M26.621,0H461.115a26.621,26.621,0,0,1,26.621,26.621V465.105a26.621,26.621,0,0,1-26.621,26.621H26.621A26.621,26.621,0,0,1,0,465.105V26.621A26.621,26.621,0,0,1,26.621,0Z" transform="matrix(0.921, 0.391, -0.391, 0.921, 1076.003, 3563.702)" fill="#009af0" opacity="0.257"/>
+    </g>
+  </g>
+</svg>

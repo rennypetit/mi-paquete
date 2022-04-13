@@ -1,12 +1,13 @@
 import { useContext } from 'react';
 import Image from 'next/image';
 import WidthContext from '@contexts/width';
-import Button from '@components/buttons/Orange';
+import Button from '@components/button';
 import styles from './Track.module.scss';
 
 export default function Track() {
 	const { widthViewport } = useContext(WidthContext);
 	const data = {
+		color: 'buttonOrange',
 		title: 'INGRESA',
 		url: '#',
 	};

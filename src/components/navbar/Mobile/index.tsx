@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import Image from 'next/image';
-import ButtonBlue from '@components/buttons/Blue';
+import Button from '@components/button';
 import Menu from './Menu';
 import { buttonTwo } from '@data/componentNavbar'; // solo se encuentran items que tengas subitem, Agencias y blog no se encuentran aquí
 import Link from 'next/link';
@@ -45,7 +45,7 @@ export default function Navbar() {
 				) : (
 					<>
 						<div className={styles.containerButtonTop}>
-							<ButtonBlue data={buttonTwo} />
+							<Button data={buttonTwo} />
 						</div>
 						<div className={`${styles.icon} ${styles.iconClose}`}>
 							<button onClick={handleButtonMenu}>

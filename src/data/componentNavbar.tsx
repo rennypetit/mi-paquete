@@ -65,11 +65,13 @@ export const items = [
 ];
 
 export const buttonOne = {
+	color: 'buttonWhite',
 	title: 'INICIAR SESIÓN',
 	url: '#',
 };
 
 export const buttonTwo = {
+	color: 'buttonBlue',
 	title: 'COTIZAR',
 	url: '#',
 };
