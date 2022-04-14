@@ -20,8 +20,8 @@ export default function ServiceItems({
 								<Image
 									src='/images/icons/search.svg'
 									alt='icon search'
-									height={20}
-									width={20}
+									height={17}
+									width={17}
 								/>
 							</div>
 						</a>

@@ -30,7 +30,7 @@ const pasarelaDeEnvios: NextPage = () => {
 			<main className='page-pasarela-de-envios'>
 				<Banner data={banner} />
 			</main>
-			<div className='container'>
+			<div className='container margin-top'>
 				<Feature items={features} icon={true} />
 				<Commercial data={commercial} />
 				<Pass />

@@ -70,6 +70,10 @@ ul,ol {
 	@include container;
 }
 
+.margin-top {
+	margin-top: 60px;
+}
+
 .containerTitle {
 	font-size: 2.5rem;
 	text-align: center;
@@ -161,7 +165,7 @@ ul,ol {
 			width: 29px;
 			height: 29px;
 			position: absolute;
-			background-image: url('/images/icons/arrow-left.svg');
+			background-image: url('/images/icons/arrow-slider-left.svg');
 			background-repeat:no-repeat;
 		}
 	}
@@ -174,9 +178,33 @@ ul,ol {
 			width: 29px;
 			height: 29px;
 			position: absolute;
-			background-image: url('/images/icons/arrow-right.svg');
+			background-image: url('/images/icons/arrow-slider-right.svg');
 			background-repeat: no-repeat;
 		}
+	}
+}
+
+// home quoter
+.quoter {
+	.quoter-button-left, .quoter-button-right {
+		border: 0;
+		border-radius: 10px;
+		position: absolute;
+		font-weight: bold;
+		font-style: italic;
+		height: 40px;
+		width: 100%;
+	}
+	.quoter-button-left {
+		background-color:#ff9c1945;
+		color: $color_quaternary;
+		bottom: 50px;
+	}
+	.quoter-button-right {
+		background-color: #EDF8FF;
+		color: $color_tertiary;
+		bottom: 0;
+		padding-top: 10px;
 	}
 }
 
@@ -201,6 +229,10 @@ ul,ol {
 
 // page
 
+#miModal:target {
+	opacity: 1;
+	pointer-events: auto;
+}
 // desktop
 @media (min-width: 1024px) {
 	.containerTitle {
@@ -209,6 +241,9 @@ ul,ol {
 	.containerDescription {
 		font-size: 2rem;
 		width: 70%;
+	}
+	.margin-top {
+		margin-top: 0px;
 	}
 	.almacenamientoSlider {
 		.button {

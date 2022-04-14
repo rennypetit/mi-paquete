@@ -37,7 +37,7 @@ const shopify: NextPage = () => {
 			<main>
 				<BannerCenter data={banner} />
 			</main>
-			<div className='container'>
+			<div className='container margin-top'>
 				<Feature items={features} />
 				<h2 className='containerTitle'>
 					Transportadoras aliadas con las que podrás{' '}

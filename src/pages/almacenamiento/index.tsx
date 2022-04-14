@@ -33,7 +33,7 @@ const almacenamiento: NextPage = () => {
 			<main>
 				<Banner data={banner} />
 			</main>
-			<div className='container'>
+			<div className='container margin-top'>
 				<Row data={row} />
 			</div>
 			<Slider items={slider} />

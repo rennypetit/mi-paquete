@@ -164,6 +164,10 @@
 	margin-top: -10px;
 	width: 100%;
 }
+.place, .dimensions, .amounts {
+	padding: 0 10px;
+	margin-bottom: 90px;
+}
 
 // desktop
 @media (min-width: 1024px) {
@@ -172,6 +176,7 @@
 	.dimensions {
 		border-right: 1px solid $color_quaternary;
 		height: 300px;
+		margin-bottom: 0;
 	}
 	.place {
 		padding-right: 20px;
@@ -182,6 +187,7 @@
 	}
 	.amounts {
 		padding-left: 20px;
+		margin-bottom: 0;
 	}
 	.separator {
 		display: none;

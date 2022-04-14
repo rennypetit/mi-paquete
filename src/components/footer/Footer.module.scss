@@ -2,7 +2,7 @@
 .footer {
   background-color: $color_primary;
   color: $color_quinary;
-  height: 900px;
+  height: auto;
   width: 100%;
 }
 .padding{
@@ -45,6 +45,7 @@
     border-radius: 25px;
     padding: 5px 8px !important;
     width: 180px;
+    margin: auto;
     a {
       @include center;
       color: $color_primary;
@@ -59,9 +60,6 @@
 @media (min-width: 1024px) {
   .container {
     text-align: left;
-  }
-  .footer{
-    height: 430px;
   }
   .firstSection{
     display: grid;

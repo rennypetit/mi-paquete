@@ -1,10 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-  <g id="btn_menu" data-name="btn menu" transform="translate(-666 -13323)">
-    <rect id="Rectángulo_3599" data-name="Rectángulo 3599" width="40" height="40" rx="10" transform="translate(666 13323)" fill="#fff"/>
-    <g id="menu_black_24dp" transform="translate(674 13331)">
-      <path id="Trazado_37" data-name="Trazado 37" d="M0,0H24V24H0Z" fill="none"/>
-      <path id="Trazado_38" data-name="Trazado 38" d="M3,13H21V11H3Z" transform="translate(-4.971 12) rotate(-45)" fill="#009af0"/>
-      <path id="Trazado_2337" data-name="Trazado 2337" d="M3,13H21V11H3Z" transform="translate(12 -4.971) rotate(45)" fill="#009af0"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="14.142" height="14.142" viewBox="0 0 14.142 14.142">
+  <g id="Grupo_5053" data-name="Grupo 5053" transform="translate(6072.071 21112.07)">
+    <path id="Trazado_14969" data-name="Trazado 14969" d="M3,13H21V11H3Z" transform="translate(-6081.971 -21105) rotate(-45)" fill="#009af0"/>
+    <path id="Trazado_14970" data-name="Trazado 14970" d="M3,13H21V11H3Z" transform="translate(-6065 -21121.971) rotate(45)" fill="#009af0"/>
   </g>
 </svg>

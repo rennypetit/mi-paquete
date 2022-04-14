@@ -5,7 +5,7 @@ import Banner from '@components/banner';
 import Row from '@components/row';
 import FeatureCardSlider from '@components/featureCardslider';
 import Commercial from '@components/commercial';
-import allies from '@data/componentAllies';
+import Ally from '@components/ally/AllyModal';
 import Feature from '@components/feature';
 import Testimonial from '@components/testimonial';
 import Newsletter from '@components/newsletter';
@@ -20,7 +20,7 @@ import {
 	commercial,
 	features,
 } from '@data/envios-pago-contraentrega';
-import Ally from '@components/ally';
+import allies from '@data/componentAllies';
 
 import styles from './enviosPagoContraEntrega.module.scss';
 
@@ -39,7 +39,7 @@ const enviosPagoContraEntrega: NextPage = () => {
 						<h2 className='containerTitle'>
 							Transportadoras con <span>pagos contra entrega</span>
 						</h2>
-						<Ally data={allies} modal={true} />
+						<Ally data={allies} />
 					</div>
 					<div className={styles.containerService}>
 						<h2 className={styles.title}>

@@ -10,7 +10,7 @@ export default function Services({ items }) {
 	// configuration slider banner
 	const settings = {
 		arrows: true,
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
@@ -21,6 +21,7 @@ export default function Services({ items }) {
 				breakpoint: 1024,
 				settings: {
 					arrows: false,
+					dots: true,
 					slidesToShow: 1,
 					slidesToScroll: 1,
 				},

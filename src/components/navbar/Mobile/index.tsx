@@ -37,8 +37,8 @@ export default function Navbar() {
 							<Image
 								src='/images/icons/menu.svg'
 								alt='icon menu'
-								width={25}
-								height={25}
+								width={20}
+								height={20}
 							/>
 						</button>
 					</div>
@@ -52,8 +52,8 @@ export default function Navbar() {
 								<Image
 									src='/images/icons/close.svg'
 									alt='icon close'
-									width={25}
-									height={25}
+									width={20}
+									height={20}
 								/>
 							</button>
 						</div>

@@ -61,7 +61,6 @@ export default function Place() {
 				*Selecciona desde que ciudad saldrá tu paquete y a qué ciudad lo
 				enviarás
 			</p>
-			<hr className={styles.separator} />
 		</div>
 	);
 }

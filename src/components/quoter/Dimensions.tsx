@@ -126,7 +126,6 @@ export default function Dimensions() {
 				*Selecciona cuánto mide el paquete que enviarás para darte un precio
 				preciso de envío.
 			</p>
-			<hr className={styles.separator} />
 		</div>
 	);
 }

@@ -30,7 +30,7 @@ const komercia: NextPage = () => {
 				<Banner data={banner} />
 			</main>
 			<Storage data={storages} />
-			<div className='container'>
+			<div className='container margin-top'>
 				<Feature items={features} />
 				<div className={styles.containerAllies}>
 					<h2 className='containerTitle'>

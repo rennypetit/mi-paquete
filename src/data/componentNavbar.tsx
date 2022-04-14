@@ -24,6 +24,10 @@ export const items = [
 		title: 'CONECTA TU TIENDA VIRTUAL',
 		subItems: [
 			{
+				title: 'integraciones',
+				url: '/conecta-tu-ecommerce',
+			},
+			{
 				title: 'Shopify',
 				url: '/tienda-en-shopify',
 			},

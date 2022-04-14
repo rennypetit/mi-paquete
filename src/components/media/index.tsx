@@ -1,26 +1,63 @@
 import { useContext } from 'react';
 import Image from 'next/image';
+import Slider from 'react-slick';
 import WidthContext from '@contexts/width';
+
+import media from '@data/componentMedia';
+// styles
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import styles from './Media.module.scss';
 export default function Media() {
+	// configuration slider banner
+	const settings = {
+		dots: true,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+	};
 	const { widthViewport } = useContext(WidthContext);
 	return (
 		<div className={styles.container}>
 			{widthViewport < 1024 ? (
-				<Image
-					src='/images/media.png'
-					useMap='#media'
-					alt='sobre nosotros'
-					width={1024}
-					height={700}
-				/>
+				<div className={styles.mobile}>
+					<div className={styles.items}>
+						<Slider {...settings}>
+							{media.items.map((item, index) => (
+								<a
+									href={item.url}
+									target='_blank'
+									rel='noopener noreferrer'
+									key={index}
+								>
+									<div className={styles.item}>
+										<div className={styles.itemImage}>
+											<Image
+												src={item.image}
+												alt={item.alt}
+												width={192}
+												height={50}
+											/>
+										</div>
+										<h4 className={styles.itemTitle}>{item.title}</h4>
+										<div className={styles.itemUrl}>VER MAS</div>
+									</div>
+								</a>
+							))}
+						</Slider>
+					</div>
+					<div className={styles.person}>
+						<Image src={media.image} alt={media.alt} width={281} height={379} />
+					</div>
+				</div>
 			) : (
 				<>
 					<div className={styles.imageMap}>
 						<Image
-							src='/images/media.png'
+							src={media.imageDesktop}
+							alt={media.altDesktop}
 							useMap='#media'
-							alt='sobre nosotros'
 							width={1024}
 							height={700}
 						/>

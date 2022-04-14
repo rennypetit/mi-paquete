@@ -62,7 +62,6 @@ export default function Amounts() {
 			<p className={styles.terms}>
 				*Recuerda que el valor mínimo declarado del paquete debe ser de $10.000
 			</p>
-			<hr className={styles.separator} />
 		</div>
 	);
 }
