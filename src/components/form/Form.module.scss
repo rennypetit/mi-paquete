@@ -14,6 +14,9 @@
   position: absolute;
   height: 100%;
   width: 100%;
+  img {
+    object-fit: cover;
+  }
 }
 .backgroundContent {
   color:  $color_quinary;
@@ -37,11 +40,13 @@
   }
 }
 .title{
-  font-size: 2.5rem;
-  font-weight: 100;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  h1,h2,h3,h4,h5,h6 {
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
 }
 
 .description {
@@ -195,11 +200,16 @@
   .container {
     margin-top: 300px;
     margin-bottom: 300px;
-    height: 300px;
+    height: 350px;
   }
 
   .backgroundContent {
     text-align: start;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .title {
@@ -207,6 +217,14 @@
     width: 40%;
     font-size: 3rem;
     text-align: left;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 3rem;
+    }
   }
   .description {
     margin-left: 10%;

@@ -3,10 +3,11 @@ import styles from './Row.module.scss';
 const Row = ({ data }) => {
 	return (
 		<div className={styles.container}>
-			<div className={styles.content}>
-				<h2 className={styles.title}>
-					{data.title} <span>{data.titleSpan}</span>
-				</h2>
+			<div className={`${styles.content} ${styles[data.colorText]}`}>
+				<div
+					className={styles.title}
+					dangerouslySetInnerHTML={{ __html: data.title }}
+				></div>
 				<div
 					className={styles.description}
 					dangerouslySetInnerHTML={{ __html: data.description }}

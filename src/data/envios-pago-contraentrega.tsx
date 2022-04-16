@@ -21,8 +21,8 @@ export const banner = {
 export const row = {
 	image: '/images/background-blue.png',
 	alt: 'background',
-	title: '¡Haz parte de los emprendedores que han crecido',
-	titleStrong: 'con Mi Paquete!',
+	title:
+		'<h2>¡Haz parte de los emprendedores que han crecido <strong>con Mi Paquete!</strong></h2>',
 	description:
 		'<p><strong>Hemos incrementado las ventas entre un 32% y 48% de más de 6 mil emprendedores </strong> a través de nuestros <strong>envíos con pago contra entrega</strong> a nivel  nacional.</p>',
 };

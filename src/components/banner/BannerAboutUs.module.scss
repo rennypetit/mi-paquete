@@ -1,0 +1,175 @@
+@import '../../styles/variables';
+.container {
+	// @include container;
+	@include center;
+	color: $color_primary;
+	padding-top: 0;
+	flex-direction: column;
+	margin-bottom: 0;
+	text-align: center;
+	background: url('../../../public/images/banners/fondo-about.png');
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+	margin: 60px 0 0;
+}
+
+.title {
+	font-weight: 100;
+	text-align: center;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 2.5rem;
+		width: 90%;
+		margin: auto;
+	}
+	span {
+		color: $color_tertiary;
+		text-align: center;
+		// display: block
+	}
+}
+
+.image {
+	// @include center;
+	margin: auto;
+	height: 250px;
+	position: relative;
+	width: 100%;
+	img {
+		object-fit: cover;
+	}
+	.orange {
+		background: transparent linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0%
+			0% no-repeat padding-box;
+	}
+	.blue {
+		background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0%
+			0% no-repeat padding-box;
+	}
+}
+
+.content {
+	padding: 0 5%;
+  margin: 0;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 32px;
+	}
+	span {
+		color: $color_tertiary;
+	}
+	p {
+		color: $color_primary;
+		font-size: 18px;
+		line-height: 1.5;
+		font-style: italic;
+		font-family: $font_primary_bold;
+	}
+	.buttons {
+		@include center;
+		flex-wrap: wrap;
+		gap: 10px;
+		text-align: center;
+		font-size: 1.6rem;
+		height: 40px !important;
+		.button{
+			height: 40px !important;
+		}
+		img{
+			width: 17px !important;
+			height: 17px !important;
+		}
+	}
+}
+
+// desktop
+@media (min-width: 769px) {
+	.container {
+		position: relative;
+		background: url('../../../public/images/banners/fondo-about_desktop.png');
+		background-size: cover;
+		width: 100%;
+		background-position: top center;
+		background-repeat: no-repeat;
+	}
+	.container_margin_top{
+		margin: 110px 0 0;
+	}
+}
+
+@media (min-width: 1025px){
+	.container {
+		height: 46vh;
+	}
+}
+
+@media (min-width: 1024px) {
+	.title {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 3.5rem;
+			text-align: center;
+			margin-bottom: 0;
+			width: 100%;
+		}
+		span{
+			display: block;
+			text-align: center;
+		}
+	}
+	.image {
+		height: 350px;
+		width: 65%;
+		img {
+			object-fit: contain;
+		}
+	}
+	.content {
+		order: inherit;
+		width: 40%;
+		p {
+			font-size: 1.6rem;
+			text-align: center;
+		}
+		.buttons {
+			// @include center;
+			justify-content: center;
+			gap: 20px;
+			font-size: 1.6rem;
+		}
+	}
+}
+
+@media (min-width: 1600px) {
+	.title {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 50px;
+		}
+	}
+
+	.content {
+		p {
+			font-size: 2rem;
+			text-align: center;
+		}
+	}
+}

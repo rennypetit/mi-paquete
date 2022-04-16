@@ -1,12 +1,14 @@
-import Image from 'next/image';
-import styles from './Ally.module.scss';
-import Modal from './Modal';
 import { useState } from 'react';
-export default function AllyModal({ data }) {
-	const [dataModal, setDataModal] = useState(data.items[0].modal);
+import Image from 'next/image';
+import Modal from './Modal';
+import allies from '@data/componentAllies';
+
+import styles from './Ally.module.scss';
+export default function AllyModal() {
+	const [dataModal, setDataModal] = useState(allies.items[0].modal);
 
 	const handleOpenModal = ({ target }) => {
-		const info = data.items.find((element) => element.modal.id === target.id);
+		const info = allies.items.find((element) => element.modal.id === target.id);
 		setDataModal(info.modal);
 		document.getElementById(`modal-${target.id}`)?.style.display = 'flex';
 	};
@@ -18,9 +20,9 @@ export default function AllyModal({ data }) {
 	const handleOpenModalButton = (id) => {
 		let info = '';
 		if (id === 'buttonOne') {
-			info = data.buttonOne.modal;
+			info = allies.buttonOne.modal;
 		} else {
-			info = data.buttonTwo.modal;
+			info = allies.buttonTwo.modal;
 		}
 		setDataModal(info);
 		document.getElementById(`modal-${id}`)?.style.display = 'flex';
@@ -28,8 +30,11 @@ export default function AllyModal({ data }) {
 	};
 	return (
 		<>
+			<h2 className='containerTitle'>
+				Transportadoras aliadas con las que podrás <span>enviar mercancía</span>
+			</h2>
 			<section className={styles.container}>
-				{data.items.map((item, index) => (
+				{allies.items.map((item, index) => (
 					<div className={styles.image} key={index}>
 						<div className='image'>
 							<Image
@@ -55,7 +60,7 @@ export default function AllyModal({ data }) {
 			<section className={styles.sectionTwo}>
 				<div
 					className={styles.description}
-					dangerouslySetInnerHTML={{ __html: data.description }}
+					dangerouslySetInnerHTML={{ __html: allies.description }}
 				></div>
 				<div className={styles.buttons}>
 					<button
@@ -63,7 +68,7 @@ export default function AllyModal({ data }) {
 						onClick={() => handleOpenModalButton('buttonOne')}
 					>
 						<span className={`button ${styles.buttonOne}`}>
-							{data.buttonOne.title}
+							{allies.buttonOne.title}
 						</span>
 					</button>
 					<button
@@ -71,7 +76,7 @@ export default function AllyModal({ data }) {
 						onClick={() => handleOpenModalButton('buttonTwo')}
 					>
 						<span className={`button ${styles.buttonTwo}`}>
-							{data.buttonTwo.title}
+							{allies.buttonTwo.title}
 						</span>
 					</button>
 				</div>

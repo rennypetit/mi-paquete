@@ -25,7 +25,6 @@ import {
 	question,
 	form,
 } from '@data/tienda-en-woocommerce';
-import allies from '@data/componentAllies';
 
 import styles from './Woocommerce.module.scss';
 
@@ -39,11 +38,7 @@ const woocommerce: NextPage = () => {
 			</main>
 			<div className='container margin-top'>
 				<Feature items={features} />
-				<h2 className='containerTitle'>
-					Transportadoras aliadas con las que podrás{' '}
-					<span>enviar mercancía</span>
-				</h2>
-				<Ally data={allies} />
+				<Ally />
 				<Description data={description} />
 				<h2 className='containerTitle'>
 					Beneficios que <span>encontrarás</span>

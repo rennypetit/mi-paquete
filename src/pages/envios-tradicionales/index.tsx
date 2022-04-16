@@ -19,7 +19,6 @@ import {
 	question,
 	commercial,
 } from '@data/envios-tradicionales';
-import allies from '@data/componentAllies';
 
 import styles from './enviosTradicionales.module.scss';
 
@@ -38,11 +37,7 @@ const enviosTradicionales: NextPage = () => {
 				</div>
 				<Description data={description} />
 				<div className={styles.containerAllies}>
-					<h2 className='containerTitle'>
-						Transportadoras aliadas con las que podrás{' '}
-						<span>enviar mercancía</span>
-					</h2>
-					<Ally data={allies} />
+					<Ally />
 				</div>
 				<Benefit data={benefits} />
 				<Question items={question} />

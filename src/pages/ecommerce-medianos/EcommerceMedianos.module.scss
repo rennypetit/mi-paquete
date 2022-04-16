@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+.banner {
+  h1 {
+    font-weight: 100;
+    span {
+      padding-top: 10px;
+      display: block;
+      font-size: 2rem;
+      font-family: $font_primary_bold;
+    }
+  }
+}
+.featuresOne {
+  margin-top: 50px;
+}
+.featuresTwo {
+  margin: 50px 0;
+  img {
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featuresTwo {
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+    li {
+      padding-left: 35px !important;
+    }
+  }
+}

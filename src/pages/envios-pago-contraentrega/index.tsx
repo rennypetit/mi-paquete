@@ -20,7 +20,6 @@ import {
 	commercial,
 	features,
 } from '@data/envios-pago-contraentrega';
-import allies from '@data/componentAllies';
 
 import styles from './enviosPagoContraEntrega.module.scss';
 
@@ -36,10 +35,7 @@ const enviosPagoContraEntrega: NextPage = () => {
 				<div className={styles.containerCommercial}>
 					<Commercial data={commercial} />
 					<div className={styles.containerAllies}>
-						<h2 className='containerTitle'>
-							Transportadoras con <span>pagos contra entrega</span>
-						</h2>
-						<Ally data={allies} />
+						<Ally />
 					</div>
 					<div className={styles.containerService}>
 						<h2 className={styles.title}>

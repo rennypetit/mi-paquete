@@ -1,0 +1,244 @@
+@import '../../styles/variables';
+.container {
+	@include container;
+	color: $color_primary;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+.top {
+  order: 1;
+}
+.title {
+	font-weight: 100;
+	text-align: left;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 2.5rem;
+		text-align: center;
+		width: 90%;
+		margin: auto;
+	}
+	span {
+		color: $color_tertiary;
+	}
+}
+.items {
+  padding-bottom: 10px;
+
+  li {
+    color: $color_secondary;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 10px 0;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    position: relative;
+    padding-left: 50px;
+
+    &::before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      background-image: url('/images/icons/item.png');
+      background-size: cover;
+      background-position: 50%;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.image {
+	@include center;
+	margin: auto;
+	order: 2;
+	position: relative;
+	width: 50%;
+	img {
+		object-fit: contain;
+	}
+
+	.background {
+		border-radius: 29px;
+		transform: rotate(120deg);
+		position: absolute;
+		height: 80%;
+		width: 80%;
+	}
+	.orange {
+		background: transparent linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0%
+			0% no-repeat padding-box;
+	}
+	.blue {
+		background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0%
+			0% no-repeat padding-box;
+	}
+}
+.description {
+  p {
+    color: $color_secondary;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+}
+.content {
+	order: 3;
+  width: 100%;
+	p {
+		color: $color_secondary;
+		font-size: 1.4rem;
+		line-height: 1.5;
+	}
+}
+
+.foot {
+  @include container;
+  text-align: center;
+}
+
+.buttons {
+  @include center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  button,
+  a {
+    div {
+      font-size: 1.3rem;
+      height: 35px;
+      width: 170px;
+    }
+  }
+}
+
+// colocar la imagen del lado izquierda
+.orientationLeft {
+	align-items: flex-end;
+	.image {
+		justify-content: flex-start;
+		left: 0;
+		right: initial;
+	}
+}
+
+// desktop
+@media (min-width: 1024px) {
+	.container {
+		position: relative;
+		height: 550px;
+		display: flex;
+		justify-content: flex-end;
+	}
+  .top {
+    order: inherit;
+    width: 50%;
+  }
+	.title {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 3.5rem;
+			text-align: left;
+			margin-bottom: 0;
+			width: 100%;
+		}
+	}
+	.image {
+		order: inherit;
+		position: absolute;
+		justify-content: flex-end;
+		right: 0;
+		img {
+			object-fit: contain;
+		}
+
+		.background {
+			height: 250px;
+			width: 250px;
+			margin-right: 20px;
+		}
+	}
+	.orientationLeft {
+		.background {
+			margin-right: 0px !important;
+			margin-left: 20px !important;
+		}
+	}
+  .description {
+    p {
+      font-size: 1.6rem;
+    }
+  }
+  .subDescription {
+    margin: auto;
+    width: 80%;
+  }
+  .items ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+	.content {
+		order: inherit;
+		width: 50%;
+		p {
+			font-size: 1.6rem;
+		}
+	}
+  .buttons {
+    gap: 20px;
+    button,
+    a {
+      div {
+        font-size: 1.6rem;
+        width: 240px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+	.title {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 5rem;
+		}
+	}
+  .description {
+    p {
+      font-size: 2rem;
+    }
+  }
+	.content {
+		p {
+			font-size: 2rem;
+		}
+	}
+  .buttons {
+    button,
+    a {
+      div {
+        height: 40px;
+      }
+    }
+  }
+}

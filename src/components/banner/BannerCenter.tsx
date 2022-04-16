@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Button from '@components/button';
 
 import styles from './BannerCenter.module.scss';
-export default function BanncerCenter({ data }) {
+export default function BannerCenter({ data }) {
 	if (!data?.title) return ''; // sino tiene nada no retorna nada
 	return (
 		<div className={styles.container}>

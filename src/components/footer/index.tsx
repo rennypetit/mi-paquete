@@ -31,11 +31,11 @@ export default function Footer() {
 									<strong>Sobre Nosotros</strong>
 								</a>
 							</li>
-							<li>
+							{/* <li>
 								<a href='http://' target='_blank' rel='noopener noreferrer'>
 									Quiénes Somos
 								</a>
-							</li>
+							</li> */}
 							<li>
 								<a href='http://' target='_blank' rel='noopener noreferrer'>
 									Quiénes Somos

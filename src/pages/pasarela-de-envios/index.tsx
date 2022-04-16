@@ -19,7 +19,6 @@ import {
 	form,
 	commercialTwo,
 } from '@data/pasarela-de-envios';
-import allies from '@data/componentAllies';
 
 import styles from './pasarelaDeEnvios.module.scss';
 
@@ -35,12 +34,7 @@ const pasarelaDeEnvios: NextPage = () => {
 				<Commercial data={commercial} />
 				<Pass />
 				<Rate />
-				<h2 className='containerTitle'>
-					Transportadoras aliadas con las que podrás
-					<br />
-					<span>enviar mercancía</span>
-				</h2>
-				<Ally data={allies} page={'pasarela'} />
+				<Ally />
 			</div>
 			<Form data={form} background={'secondary'} />
 			<div className={`container ${styles.commercialTwo}`}>

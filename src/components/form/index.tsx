@@ -13,9 +13,10 @@ const Form = ({ data, background }) => {
 					/>
 				</div>
 				<div className={styles.backgroundContent}>
-					<h4 className={styles.title}>
-						{data.title} <strong>{data.titleStrong}</strong>
-					</h4>
+					<div
+						className={styles.title}
+						dangerouslySetInnerHTML={{ __html: data.title }}
+					></div>
 					<div
 						className={styles.description}
 						dangerouslySetInnerHTML={{ __html: data.description }}

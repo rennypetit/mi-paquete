@@ -143,8 +143,8 @@ export const question = [
 ];
 
 export const form = {
-	title: 'Mejora tu logística de envíos para tu',
-	titleStrong: ' tienda en Jumpseller',
+	title:
+		'<h4>Mejora tu logística de envíos para tu <strong>tienda en Jumpseller</strong></h4>',
 	description:
 		'<p>Conecta tu <strong>tienda virtual</strong> con nuestra aplicación para Jumpseller y genera envíos con las <strong>principales</strong> <strong>transportadoras del país.</strong></p>',
 	image: '/images/form/background-blue.png',

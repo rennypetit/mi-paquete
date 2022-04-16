@@ -8,7 +8,7 @@ export const Benefit = ({ data }) => {
 				className={`${styles.title} ${styles.titleMobile}`}
 				dangerouslySetInnerHTML={{ __html: data.title }}
 			></div>
-			<div className={styles.containerItems}>
+			<div className={`${styles.containerItems}`}>
 				<div className={styles.background}></div>
 				<div className={styles.items}>
 					{data.items.map((item, index) => (
@@ -22,7 +22,7 @@ export const Benefit = ({ data }) => {
 					))}
 				</div>
 			</div>
-			<div className={styles.content}>
+			<div className={`${styles.content}`}>
 				<div
 					className={`${styles.title} ${styles.titleDesktop}`}
 					dangerouslySetInnerHTML={{ __html: data.title }}

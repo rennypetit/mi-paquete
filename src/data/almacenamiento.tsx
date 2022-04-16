@@ -16,8 +16,9 @@ export const banner = {
 };
 
 export const row = {
-	title: '¿Por qué almacenar tus productos',
-	titleSpan: 'con Mi Paquete?',
+	title:
+		'<h2>¿Por qué almacenar tus productos <span>con Mi Paquete?</span></h2>',
+	colorText: 'black',
 	description:
 		'<p>Con nuestros servicios podrás integrar la <strong>logística de almacenamiento de mercancía y envío de paquetes</strong> en un solo lugar y evitando sobre costos innecesarios. Servicio disponible en Bogotá, Medellín, Cali y Barranquilla.</p>',
 	items: [
@@ -180,8 +181,8 @@ export const commercial = {
 };
 
 export const form = {
-	title: '¿Quieres conocer más sobre nuestro',
-	titleStrong: 'proceso de almacenamiento?',
+	title:
+		'<h4>¿Quieres conocer más sobre nuestro <strong>proceso de almacenamiento?</strong> </h4>',
 	description:
 		'<p>El <strong>almacenamiento de mercancía</strong>y su distribución a través de <strong>Mi Paquete </strong>seguro generarán innumerables beneficios para tu ecommerce, por eso nuestro equipo de expertos está dispuesto a asesorarte para <strong>incrementar tus ventas</strong>y hacer crecer tu marca.</p>',
 	image: '/images/form/background-blue.png',

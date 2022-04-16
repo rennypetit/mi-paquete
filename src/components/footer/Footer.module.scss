@@ -12,12 +12,13 @@
   margin: auto;
   text-align: center;
   width: 90%;
+  padding-bottom: 20px;
 }
 
 .firstSection {
   padding: 50px 0px;
   margin: auto;
-  width: 80%;
+  width: 90%;
   .liTitle{
     margin-top: 40px;
   }
@@ -68,6 +69,7 @@
   }
   .separator{
     width: 130px;
+    margin: 20px 0;
   }
   .secondSection{
     border-top: 1px solid $color_quinary;
@@ -75,5 +77,13 @@
     justify-content: space-between;
     align-items: center;
     font-size: 1.4rem;
+  }
+
+  .redes{
+    justify-content: flex-start;
+  }
+
+  .icon {
+    margin: 0;
   }
 }

@@ -19,7 +19,6 @@ import {
 	question,
 	form,
 } from '@data/tienda-en-komercia';
-import allies from '@data/componentAllies';
 
 import styles from './Komercia.module.scss';
 
@@ -33,11 +32,7 @@ const komercia: NextPage = () => {
 			<div className='container margin-top'>
 				<Feature items={features} />
 				<div className={styles.containerAllies}>
-					<h2 className='containerTitle'>
-						Transportadoras aliadas con las que podrás{' '}
-						<span>enviar mercancía</span>
-					</h2>
-					<Ally data={allies} />
+					<Ally />
 				</div>
 				<Testimonial />
 			</div>

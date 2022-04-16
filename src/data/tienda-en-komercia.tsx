@@ -138,8 +138,8 @@ export const question = [
 ];
 
 export const form = {
-	title: '¿Tienes tu tienda en Komercia Colombia?',
-	titleStrong: 'Mejora tu logística de envíos',
+	title:
+		'<h4>¿Tienes tu tienda en Komercia Colombia? <strong>Mejora tu logística de envíos</strong></h4>',
 	description:
 		'<p>Con <strong>Mi Paquete</strong> podrás ofrecer a tus clientes la opción de conocer el costo de sus productos más el envío, y llegar a más lugares con las <strong>principales empresas de transporte de envíos</strong> en el país.</p>',
 	image: '/images/form/background-blue.png',

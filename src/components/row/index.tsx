@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Button from '@components/button';
 import styles from './Row.module.scss';
 function Row({ data }) {
 	return (
@@ -7,9 +8,10 @@ function Row({ data }) {
 				<Image src={data.image} alt={data.alt} layout='fill' />
 			</div>
 			<div className={styles.content}>
-				<h2 className={styles.title}>
-					{data.title} <strong>{data.titleStrong}</strong>
-				</h2>
+				<div
+					className={styles.title}
+					dangerouslySetInnerHTML={{ __html: data.title }}
+				></div>
 				<div className={styles.separator}></div>
 				<div className={styles.containerDescription}>
 					<div
@@ -17,23 +19,33 @@ function Row({ data }) {
 						dangerouslySetInnerHTML={{ __html: data.description }}
 					></div>
 					{data.button && (
-						<div className={styles.link}>
-							<div className={styles.icon}>
-								<Image
-									src={data.button.icon}
-									alt={data.button.alt}
-									width={20}
-									height={20}
-								/>
-							</div>
-							<a
-								href={data.button.url}
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								{data.button.title}
-							</a>
-						</div>
+						<>
+							{data.button.color === 'none' ? (
+								<div className={styles.link}>
+									<div className={styles.icon}>
+										<Image
+											src={data.button.icon}
+											alt={data.button.alt}
+											width={20}
+											height={20}
+										/>
+									</div>
+									<a
+										href={data.button.url}
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										{data.button.title}
+									</a>
+								</div>
+							) : (
+								<div className={styles.link}>
+									<div className={styles.button}>
+										<Button data={data.button} />
+									</div>
+								</div>
+							)}
+						</>
 					)}
 				</div>
 			</div>

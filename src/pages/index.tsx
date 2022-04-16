@@ -24,7 +24,6 @@ import {
 	blog,
 	recognitions,
 } from '@data/home';
-import allies from '@data/componentAllies';
 
 import styles from './Home.module.scss';
 
@@ -47,11 +46,7 @@ const Home: NextPage = () => {
 					<Feature items={features} />
 				</div>
 				<div className={styles.containerAllies}>
-					<h2 className='containerTitle'>
-						Transportadoras aliadas con las que podrás{' '}
-						<span>enviar mercancía</span>
-					</h2>
-					<Ally data={allies} />
+					<Ally />
 				</div>
 				<Commercial data={commercial} />
 				<div className={styles.containerBlog}>

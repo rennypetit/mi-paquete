@@ -11,6 +11,7 @@
 
 .title {
 	font-size: 2rem;
+	text-align: center;
 	span {
 		color: $color_quaternary;
 		display: block;
@@ -19,6 +20,11 @@
 	.blue {
 		color: $color_tertiary;
 	}
+}
+.description {
+	color: $color_secondary;
+	font-size: 1.6rem;
+	line-height: 1.4;
 }
 .items {
 	ul {
@@ -58,6 +64,36 @@
 		}
 	}
 }
+.buttons {
+	display: flex;
+	gap: 10px;
+	margin-top: 15px;
+	justify-content: center;
+	button,
+	a {
+		div {
+			font-size: 1.3rem;
+			height: 35px;
+			width: 200px;
+		}
+	}
+}
+
+.optionalText {
+	display: none;
+}
+.optionalTrue {
+	.title, .description {
+		display: none;
+	}
+	.optionalText {
+		display: block;
+		.title,
+		.description {
+			display: block;
+		}
+	}
+}
 
 @media (min-width: 1024px) {
 	.container {
@@ -70,12 +106,36 @@
 		margin-left: 0;
 		width: 80%;
 	}
+	.right {
+		align-items: center;
+		.image {
+			grid-column: 2;
+			grid-row: 1;
+			width: 100%;
+			img {
+				object-fit: cover;
+			}
+		}
+	}
 	.items {
 		li {
 			font-size: 1.6rem;
 		}
 	}
 	.title {
+		text-align: left;
 		font-size: 2.5rem;
+	}
+	.buttons {
+		justify-content: flex-start;
+	}
+	.optionalTrue {
+		.title,
+		.description {
+			display: block;
+		}
+		.optionalText {
+			display: none;
+		}
 	}
 }

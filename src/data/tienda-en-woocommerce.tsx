@@ -2,7 +2,6 @@ export const banner = {
 	title: `<h1>¿Tienes una <strong>tienda en WooCommerce? <br /></strong><span>Realiza tus envíos en segundos</span></h1>`,
 	description:
 		'<p><strong>¡Generar guías de forma automática </strong>nunca fue tan fácil!<br />Con <strong>Mi Paquete</strong> puedes hacerlo con las <strong>principales empresas de transporte del país</strong>  y ahorrar mucho tiempo mientras nosotros nos encargamos de la <strong>logística de tu ecommerce.</strong> </p>',
-	background: 'orange',
 	image: '/images/banners/woocommerce.png',
 	alt: 'Banner woocommerce',
 	buttonOne: {
@@ -208,8 +207,8 @@ export const question = [
 ];
 
 export const form = {
-	title: 'Descubre cómo mejorar las ventas en',
-	titleStrong: 'tu WooCommerce',
+	title:
+		'<h4>Descubre cómo mejorar las ventas en <strong>tu WooCommerce</strong></h4>',
 	description:
 		'<p>A través de <strong>Mi Paquete</strong> y la <strong>logística de automatización de envíos</strong> con nuestro plugin, podrás incrementar tus ventas y ofrecer un mejor servicio a tus clientes.</p>',
 	image: '/images/form/background-blue.png',

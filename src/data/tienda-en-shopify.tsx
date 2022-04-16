@@ -176,8 +176,8 @@ export const featuresTwo = {
 export const row = {
 	image: '/images/background-blue.png',
 	alt: 'background',
-	title: 'Todo lo que tienes que saber para automatizar tu tienda en',
-	titleStrong: 'Shopify con Carrier Service',
+	title:
+		'<h2>Todo lo que tienes que saber para automatizar tu tienda en <strong>Shopify con Carrier Service</strong></h2>',
 	description:
 		'<p>Conoce paso por paso cómo configurar nuestra aplicación en tu <strong>tienda de Shopify</strong> y cómo puede ayudarte a la hora de generar ventas en tu ecommerce.</p>',
 	button: {
@@ -210,8 +210,8 @@ export const question = [
 ];
 
 export const form = {
-	title: '¿Tienes una tienda en Shopify?',
-	titleStrong: '¡Automatiza tus envíos!',
+	title:
+		'<h4>¿Tienes una tienda en Shopify? <strong>¡Automatiza tus envíos!</strong></h4>',
 	description:
 		'<p>Añade la aplicación de Mi Paquete en tu ecommerce en Shopify y ofrece a tus clientes conocer en tiempo real el precio de sus envíos al realizar sus compras.</p>',
 	image: '/images/form/background-blue.png',

@@ -66,8 +66,8 @@ export const commercial = {
 };
 
 export const form = {
-	title: 'Genera envíos automáticos',
-	titleStrong: 'para tu ecommerce',
+	title:
+		'<h4>Genera envíos automáticos <strong>para tu ecommerce</strong></h4>',
 	description:
 		'<p>Integrar nuestro software de automatización de envíos te ayudará a ahorrar tiempo y dinero, evitando errores y procesos innecesarios, y aumentará tus ventas en poco tiempo, ya que podrás ofrecerle a tu cliente en tiempo real el valor de su compra + envío.</p>',
 	titleForm: 'Sincroniza los envíos de',
