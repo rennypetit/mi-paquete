@@ -27,6 +27,16 @@
 	color: $color_primary;
 }
 
+.buttonBlueFontSmall{
+	background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0%
+		no-repeat padding-box;
+	border: 2px solid linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0%
+		no-repeat padding-box;
+	color: $color_quinary;
+	font-size: 12px !important;
+	border-radius: 5px !important;
+}
+
 .button {
 	font-style: italic;
 	font-size: inherit;

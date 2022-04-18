@@ -1,4 +1,6 @@
-export const banner = {
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
 	orientation: 'orientationLeft',
 	title: `<h1>Beneficios para ecommerce medianos<span> Para comercios electrónicos que hagan entre 500 y 5.000 envíos mensuales</span></h1>`,
 	description:

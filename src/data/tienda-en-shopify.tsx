@@ -1,4 +1,7 @@
-export const banner = {
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
+	orientation: '',
 	title: `<h1>Automatiza los envíos de tu <span>tienda en Shopify</span></h1>`,
 	description:
 		'<p><strong>¡Generar guías de forma automática </strong>nunca fue tan fácil!<br />Con <strong>Mi Paquete</strong> puedes hacerlo con las <strong>principales empresas de transporte del país</strong>  y ahorrar mucho tiempo mientras nosotros nos encargamos de la <strong>logística de tu ecommerce.</strong> </p>',

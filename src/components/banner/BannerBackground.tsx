@@ -3,22 +3,21 @@ import Image from 'next/image';
 import WidthContext from '@contexts/width';
 import Button from '@components/button';
 
-import styles from './Banner.module.scss';
-export default function Banner({ data }) {
-	const { widthViewport } = useContext(WidthContext);
-	if (!data?.title) return ''; // sino tiene nada no retorna nada
+// types
+import { PropsBackground } from './types';
+
+import styles from './BannerBackground.module.scss';
+export const Banner = ({ data }: PropsBackground) => {
+	const { widthViewport }: any = useContext(WidthContext);
+	if (!data?.title) return null; // sino tiene nada no retorna nada
 	return (
-		<div
-			className={`${styles.container} ${styles[data.orientation]} ${
-				styles.bannerBackground
-			} bannerBackground`}
-		>
+		<div className={`${styles.container} ${styles[data.orientation]}`}>
 			<div
 				className={styles.title}
 				dangerouslySetInnerHTML={{ __html: data.title }}
 			></div>
 			<div className={styles.content}>
-				{data.suBtitle && (
+				{data.subtitle && (
 					<h2>
 						{data.subtitle} <span>|</span> Mi Paquete
 					</h2>
@@ -27,6 +26,15 @@ export default function Banner({ data }) {
 					className={styles.description}
 					dangerouslySetInnerHTML={{ __html: data.description }}
 				></div>
+				{data.items && (
+					<div className={styles.items}>
+						<ul>
+							{data.items.map((item, index: number) => (
+								<li key={index}>{item.title}</li>
+							))}
+						</ul>
+					</div>
+				)}
 				<div className={styles.buttons}>
 					{/* si el botón no viene no se mostrará */}
 					{data.buttonOne && <Button data={data.buttonOne} />}
@@ -35,7 +43,7 @@ export default function Banner({ data }) {
 			</div>
 
 			<div className={`${styles.image} bannerBackgroundImage`}>
-				{widthViewport < 1024 ? (
+				{widthViewport < 823 ? (
 					<Image src={data.image} alt={data.alt} width={1024} height={768} />
 				) : (
 					<Image
@@ -48,4 +56,6 @@ export default function Banner({ data }) {
 			</div>
 		</div>
 	);
-}
+};
+
+export default Banner;

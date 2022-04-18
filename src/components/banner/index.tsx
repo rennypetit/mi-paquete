@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import Button from '@components/button';
 
+// types
+import { Props } from './types';
 import styles from './Banner.module.scss';
-export default function Banner({ data }) {
-	if (!data?.title) return ''; // sino tiene nada no retorna nada
+const Banner = ({ data }: Props) => {
+	if (!data?.title) return null; // sino tiene nada no retorna nada
 	return (
 		<div className={`${styles.container} ${styles[data.orientation]}`}>
 			<div
@@ -11,7 +13,7 @@ export default function Banner({ data }) {
 				dangerouslySetInnerHTML={{ __html: data.title }}
 			></div>
 			<div className={styles.content}>
-				{data.suBtitle && (
+				{data?.subtitle && (
 					<h2>
 						{data.subtitle} <span>|</span> Mi Paquete
 					</h2>
@@ -28,11 +30,17 @@ export default function Banner({ data }) {
 			</div>
 
 			<div className={styles.image}>
-				<div
-					className={`${styles.background} ${styles[data.background]}`}
-				></div>
-				<Image src={data.image} alt={data.alt} width={320} height={400} />
+				{data.background && (
+					<div
+						className={`${styles.background} ${styles[data.background]}`}
+					></div>
+				)}
+				{data.image && (
+					<Image src={data.image} alt={data.alt} width={320} height={400} />
+				)}
 			</div>
 		</div>
 	);
-}
+};
+
+export default Banner;

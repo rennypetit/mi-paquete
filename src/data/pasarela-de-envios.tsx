@@ -1,5 +1,7 @@
-export const banner = {
-	title: `<h1>Pasare <span>la de envíos</span></h1>`,
+import { TypesBannerBackground } from '@components/banner/types';
+
+export const banner: TypesBannerBackground = {
+	title: `<h1>Pasarela<span> de envíos</span></h1>`,
 	subtitle: '',
 	description:
 		'<p></strong>¿Tienes negociación con varias transportadoras y aun así no logras la eficiencia logística esperada?</strong>Te proporcionamos nuestra <strong>Pasarela de Envíos</strong> para que administres tu <strong>logística de entregas</strong> con diferentes transportadoras en un solo lugar, manteniendo tu negociación directa con ellas.</p>',
@@ -25,28 +27,36 @@ export const banner = {
 export const features = {
 	image: '/images/features/pasarela-de-envios.png',
 	alt: 'features',
-	title: 'Más ahorro, velocidad, confianza y clientes satisfechos con nuestros',
-	titleTwo: 'envíos nacionales y urbanos',
+	title: 'Lleva tu logística de',
+	titleTwo: 'ecommerce a otro nivel',
+	colorTitleTwo: 'blue',
 	items: [
 		{
 			title:
-				'Crea una cuenta y añade los datos bancarios a donde haremos la transferencia de los recaudos.',
+				'Optimiza tus recursos humanos dedicados a labores de seguimiento con las transportadoras.',
 		},
 		{
 			title:
-				'Al cotizar tu envío podrás indicar el precio de tu venta, y sumar el costo del envío al valor a recaudar.',
+				'Selecciona automáticamente la transportadora más económica o la de menor tiempo de entrega.',
 		},
 		{
 			title:
-				'Descarga la guía en nuestra plataforma y entrégala a la transportadora cuando recoja tu paquete.',
+				'Unifica la información de las transportadoras con las que tienes negociación en una sola plataforma.',
 		},
 		{
-			title: 'Rastrea el estado de tu envío.',
+			title:
+				'Accede a informes y estadísticas en tiempo real para que tomes mejores decisiones.',
 		},
 		{
-			title: 'Recibe el dinero en tu cuenta bancaria.',
+			title:
+				'Mezcla las transportadoras con las que tengas negociación y transportadoras sin negociación para ampliar tu cobertura.',
 		},
 	],
+	buttonOne: {
+		color: 'buttonBlue',
+		title: 'MÁS INFORMACIÓN',
+		url: '#',
+	},
 };
 
 export const commercial = {

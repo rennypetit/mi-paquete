@@ -1,4 +1,6 @@
-export const banner = {
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
 	orientation: 'orientationLeft',
 	title: `<h1>Beneficios para ecommerce medianos<span> ¿Tu ecommerce tiene negociación directa con las empresas transportadoras?</span></h1>`,
 	description:

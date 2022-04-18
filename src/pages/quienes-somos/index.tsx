@@ -23,9 +23,6 @@ const aboutUs: NextPage = () => {
 				<BannerAboutUs data={banner} />
 			</main>
 			<div className={`container ${styles.margin_container}`}>
-				{/* <h2 className='containerTitle displayTitle'>
-					Transportadoras de envíos con <span>las que trabajamos</span>
-				</h2> */}
 				<Ally />
 			</div>
 			<Recognition data={recognitions} />

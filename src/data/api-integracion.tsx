@@ -1,4 +1,6 @@
-export const banner = {
+import { TypesBannerItems } from '@components/banner/types';
+
+export const banner: TypesBannerItems = {
 	orientation: 'orientationLeft',
 	title: `<h1><span>API Mi Paquete</span> <br /> Integra tu tienda online</h1>`,
 	description:

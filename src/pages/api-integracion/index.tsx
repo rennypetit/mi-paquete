@@ -20,8 +20,6 @@ import {
 	form,
 } from '@data/api-integracion';
 
-import styles from './ApiIntegracion.module.scss';
-
 const apiIntegracion: NextPage = () => {
 	return (
 		<Layout>

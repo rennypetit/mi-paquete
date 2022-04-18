@@ -36,10 +36,10 @@
     padding: 10px 0;
   }
 }
-  .redes {
-    @include center;
-    gap: 10px;
-  }
+.redes {
+  @include center;
+  gap: 10px;
+}
 
   .icon {
     background: transparent linear-gradient(270deg, #F78F31 0%, #FDAD4C 100%) 0% 0% no-repeat padding-box;
@@ -70,6 +70,9 @@
   .separator{
     width: 130px;
     margin: 20px 0;
+  }
+  .redes {
+    justify-content: flex-start;
   }
   .secondSection{
     border-top: 1px solid $color_quinary;

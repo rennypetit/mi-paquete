@@ -1,0 +1,225 @@
+@import '../../styles/variables';
+// end banner background
+.container {
+	@include container;
+	color: $color_primary;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.title {
+	order: 1;
+	font-weight: 100;
+	text-align: left;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 2.5rem;
+		text-align: center;
+		width: 90%;
+		margin: auto;
+	}
+	span {
+		color: $color_tertiary;
+	}
+}
+.image {
+	@include center;
+	margin: auto;
+	order: 2;
+	position: relative;
+	width: 100%;
+	img {
+		object-fit: contain;
+		z-index: -1;
+	}
+}
+.content {
+	order: 3;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 1.8rem;
+	}
+	span {
+		color: $color_quaternary;
+	}
+	p {
+		color: $color_secondary;
+		font-size: 1.4rem;
+		line-height: 1.5;
+	}
+	.buttons {
+		@include center;
+		flex-wrap: wrap;
+		gap: 10px;
+		button,
+		a {
+			div {
+				font-size: 1.5rem;
+				height: 35px;
+				width: 250px !important;
+			}
+		}
+	}
+}
+
+.items {
+	padding-bottom: 10px;
+
+	li {
+		color: $color_secondary;
+		font-size: 1.6rem;
+		font-weight: bold;
+		line-height: 1.5;
+		padding: 10px 0;
+		display: flex;
+		align-items: baseline;
+		gap: 10px;
+		position: relative;
+		padding-left: 50px;
+
+		&::before {
+			content: "";
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			background-image: url('/images/icons/item.png');
+			background-size: cover;
+			background-position: 50%;
+			left: 0;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+	}
+}
+
+// colocar la imagen del lado izquierda
+.orientationLeft {
+	align-items: flex-end;
+	.image {
+		justify-content: flex-start;
+		left: 0;
+		right: initial;
+	}
+}
+
+// desktop
+@media (min-width: 1024px) {
+
+	.container {
+		position: relative;
+		height: 600px;
+		display: flex;
+		justify-content: center;
+		width: 80%;
+	}
+	.title {
+		order: inherit;
+		width: 50%;
+		margin: initial;
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 3.5rem;
+			text-align: left;
+			margin-bottom: 0;
+			width: 100%;
+		}
+	}
+	.description {
+		width: 100%;
+		margin: initial;
+	}
+
+	.image {
+		order: inherit;
+		position: absolute;
+		justify-content: flex-end;
+		right: 0;
+		width: 70%;
+		margin: initial;
+		img {
+			object-fit: cover;
+		}
+	}
+	.orientationLeft {
+		.background {
+			margin-right: 0px !important;
+			margin-left: 20px !important;
+		}
+	}
+
+	.content {
+		order: inherit;
+		width: 50%;
+		p {
+			font-size: 1.6rem;
+		}
+		.buttons {
+			justify-content: flex-start;
+			gap: 20px;
+			button,
+			a {
+				div {
+					font-size: 1.6rem;
+					width: 240px;
+				}
+			}
+		}
+	}
+	.items {
+		ul {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}
+
+@media (min-width: 1600px) {
+	.title {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 5rem;
+		}
+	}
+	.content {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: 2.5rem;
+		}
+		p {
+			font-size: 2rem;
+		}
+		.buttons {
+			button,
+			a {
+				div {
+					height: 40px;
+				}
+			}
+		}
+	}
+}

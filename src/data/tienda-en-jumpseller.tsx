@@ -1,4 +1,6 @@
-export const banner = {
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
 	title: `<h1>Aumenta el volumen de tus envíos con nuestra <span>integración en Jumpseller</span></h1>`,
 	description:
 		'<p>Genera <strong>guías de envíos automáticamente</strong> integrándote fácil y rápido con la aplicación de <strong>Mi Paquete.</strong> Ahorrarás tiempo que puedes invertir en hacer crecer tu ecommerce y ofrecerás a tus clientes un gran servicio de entregas.</p>',

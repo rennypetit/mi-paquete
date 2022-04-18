@@ -1,4 +1,6 @@
-export const banner = {
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
 	orientation: 'orientationRight',
 	title: `<h1>Beneficios para emprendedores digitales<span> Para tiendas y vendedores en redes sociales con menos de 500 envíos mensuales</span></h1>`,
 	description:

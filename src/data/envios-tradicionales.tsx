@@ -1,4 +1,6 @@
-export const banner = {
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
 	title: `<h1>Envíos tradicionales <br /><span>Comparador de costos de envío</span></h1>`,
 	subtitle: '',
 	description:

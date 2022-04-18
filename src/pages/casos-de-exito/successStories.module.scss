@@ -2,3 +2,21 @@
 .margin_container{
   margin: 60px auto;
 }
+.margin_container_banner{
+  margin: 60px auto 0;
+}
+
+.margin_container_content{
+  margin: 0;
+  width: 100%;
+}
+
+@media (min-width: 1024px){
+  .margin_container_content{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .width_container{
+    width: 60%;
+  }
+}

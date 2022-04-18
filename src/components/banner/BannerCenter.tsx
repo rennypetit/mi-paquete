@@ -1,9 +1,12 @@
 import Image from 'next/image';
 import Button from '@components/button';
 
+// types
+import { Props } from '@components/banner/types';
+
 import styles from './BannerCenter.module.scss';
-export default function BannerCenter({ data }) {
-	if (!data?.title) return ''; // sino tiene nada no retorna nada
+const BannerCenter = ({ data }: Props) => {
+	if (!data?.title) return null; // sino tiene nada no retorna nada
 	return (
 		<div className={styles.container}>
 			<div
@@ -11,9 +14,11 @@ export default function BannerCenter({ data }) {
 				dangerouslySetInnerHTML={{ __html: data.title }}
 			></div>
 
-			<div className={styles.image}>
-				<Image src={data.image} alt={data.alt} layout='fill' />
-			</div>
+			{data.image && (
+				<div className={styles.image}>
+					<Image src={data.image} alt={data.alt} layout='fill' />
+				</div>
+			)}
 
 			<div className={styles.content}>
 				<div
@@ -28,4 +33,6 @@ export default function BannerCenter({ data }) {
 			</div>
 		</div>
 	);
-}
+};
+
+export default BannerCenter;

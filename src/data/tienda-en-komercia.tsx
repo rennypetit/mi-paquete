@@ -1,9 +1,12 @@
-export const banner = {
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
 	title: `<h1>¿Tienes una <strong>tienda en Komercia? <br /></strong><span>Realiza tus envíos en segundos</span></h1>`,
 	description:
 		'<p>Si tu tienda hace parte de <strong>Komercia Colombia,</strong> ahora también podrás automatizar el envío de tus productos con las <strong> principales empresas de transporte de envíos en Colombia</strong> y llegar a más lugares con tu emprendimiento.</p>',
 	image: '/images/banners/komercia.png',
 	alt: 'Banner komercia',
+	orientation: '',
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'SOLICITA UNA ASESORÍA',

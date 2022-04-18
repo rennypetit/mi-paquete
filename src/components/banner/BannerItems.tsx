@@ -1,9 +1,12 @@
 import Image from 'next/image';
 import Button from '@components/button';
 
+// types
+import { PropsItems } from './types';
+
 import styles from './BannerItems.module.scss';
-export default function BannerItems({ data }) {
-	if (!data?.title) return ''; // sino tiene nada no retorna nada
+const BannerItems = ({ data }: PropsItems) => {
+	if (!data?.title) return null; // sino tiene nada no retorna nada
 	return (
 		<section>
 			<div className={`${styles.container} ${styles[data.orientation]}`}>
@@ -19,27 +22,28 @@ export default function BannerItems({ data }) {
 				</div>
 
 				<div className={styles.content}>
-					<div className={styles.items}>
-						<ul>
-							{data.items.map((item, index) => (
-								<li key={index}>{item.title}</li>
-							))}
-						</ul>
-					</div>
+					{data.items && (
+						<div className={styles.items}>
+							<ul>
+								{data.items.map((item, index) => (
+									<li key={index}>{item.title}</li>
+								))}
+							</ul>
+						</div>
+					)}
 				</div>
 
 				<div className={styles.image}>
-					<div
-						className={`${styles.background} ${styles[data.background]}`}
-					></div>
 					<Image src={data.image} alt={data.alt} width={320} height={400} />
 				</div>
 			</div>
 			<div className={styles.foot}>
-				<div
-					className={`${styles.description} ${styles.subDescription}`}
-					dangerouslySetInnerHTML={{ __html: data.subDescription }}
-				></div>
+				{data.subDescription && (
+					<div
+						className={`${styles.description} ${styles.subDescription}`}
+						dangerouslySetInnerHTML={{ __html: data.subDescription }}
+					></div>
+				)}
 				<div className={styles.buttons}>
 					{/* si el botón no viene no se mostrará */}
 					{data.buttonOne && <Button data={data.buttonOne} />}
@@ -48,4 +52,6 @@ export default function BannerItems({ data }) {
 			</div>
 		</section>
 	);
-}
+};
+
+export default BannerItems;

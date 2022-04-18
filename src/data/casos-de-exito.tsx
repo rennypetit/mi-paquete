@@ -1,10 +1,10 @@
 export const cards = {
-	title: "Casos de éxito",
+	title: "<h1>Casos <span>de éxito</span></h1>",
 	description: "",
 	items: [
 		{
 			url: '#',
-			image: '/images/blog/entrada.png',
+			image: '/images/cards/infitworld-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
 			description:
@@ -17,7 +17,7 @@ export const cards = {
 		},
 		{
 			url: '#',
-			image: '/images/blog/entrada.png',
+			image: '/images/cards/gym-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
 			description:
@@ -30,7 +30,7 @@ export const cards = {
 		},
 		{
 			url: '#',
-			image: '/images/blog/entrada.png',
+			image: '/images/cards/orion-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
 			description:

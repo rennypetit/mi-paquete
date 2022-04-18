@@ -1,0 +1,27 @@
+.banner {
+  & > div {
+    height: 400px;
+    padding: 20px auto;
+    justify-content: space-evenly;
+  }
+}
+
+.features {
+  margin-bottom: 120px;
+  span {
+    display: inline-block;
+  }
+}
+
+// desktop {
+@media (min-width: 1024px) {
+  .banner {
+    & > div {
+      height: 500px;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 50px;
+    }
+  }
+}

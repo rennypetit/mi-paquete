@@ -20,7 +20,6 @@ import {
 
 import styles from './agencias.module.scss';
 
-
 const agencias: NextPage = () => {
 	return (
 		<Layout>

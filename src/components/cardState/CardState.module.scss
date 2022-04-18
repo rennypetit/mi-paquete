@@ -1,0 +1,113 @@
+@import '../../styles/variables';
+.container {
+  margin-bottom: 50px
+}
+.content {
+  margin-top: 50px;
+}
+.items {
+  @include center;
+  border: 2px solid $color_tertiary;
+  border-radius: 10px;
+  z-index: 1;
+}
+.button {
+  background-color: transparent;
+  border: 0;
+  color: $color_tertiary;
+  cursor: pointer;
+  font-family: $font_primary_bold;
+  font-size: 1.6rem;
+  font-style: italic;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100%;
+
+  &:nth-child(2) {
+    border-left: 1px solid $color_tertiary;
+    border-right: 1px solid $color_tertiary;
+  }
+}
+
+.buttonActive {
+  background-color: $color_tertiary;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  color: $color_quinary;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+}
+.cardImage {
+  margin-top: -5px;
+  z-index: 0;
+  div, span, img {
+    width: 100% !important;
+  }
+}
+.cardContent {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: $color_quinary;
+}
+.cardTitle {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.cardDescription {
+  font-size: 1.8rem;
+  width: 90%;
+}
+.cardButton {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  width: 170px;
+  height: 30px;
+}
+
+// desktop
+@media (min-width: 1024px) {
+  .container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .items {
+    display: grid;
+    justify-content: inherit;
+    align-items: inherit;
+  }
+  .button {
+    &:nth-child(2) {
+      border:0;
+      border-top: 2px solid $color_tertiary;
+      border-bottom: 2px solid $color_tertiary;
+    }
+  }
+  .image {
+    padding-bottom: 10px;
+  }
+  .buttonActive {
+    border: 0;
+    border-radius: 0;
+  }
+  .cardImage {
+    margin-top: -5px;
+    z-index: 0;
+    div,
+    span,
+    img {
+      width: auto !important;
+    }
+  }
+}

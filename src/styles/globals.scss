@@ -89,7 +89,7 @@ ul,ol {
 	font-size: 1.6rem;
 	text-align: center;
 	font-weight: 100;
-	margin: auto;
+	margin: 15px auto;
 	width: 90%;
 	line-height: 1.4;
 }
@@ -129,7 +129,6 @@ ul,ol {
 }
 
 // slider
-
 .slick-dots li button:before {
 	color: $color_tertiary !important;
 	opacity: 1 !important;
@@ -139,6 +138,18 @@ ul,ol {
 .slick-dots li.slick-active button:before {
 	color: $color_quaternary !important;
 	font-size: 16px !important;
+}
+
+// Slider component cards
+.cards_sliders{
+  height: 62vh;
+	.slick-slider{
+		height: 100%;
+		margin: 50px 0 0 5px;
+	}
+	.slick-slide {
+		margin: 0 10px !important;
+	}
 }
 
 // services home
@@ -227,6 +238,11 @@ ul,ol {
 	cursor: pointer;
 }
 
+// casos de exito página dinámica
+.storiesSuccessContainer{
+	margin: 60px auto;
+}
+
 // page
 
 #miModal:target {
@@ -239,7 +255,7 @@ ul,ol {
 		font-size: 2.8rem;
 	}
 	.containerDescription {
-		font-size: 2rem;
+		font-size: 1.6rem;
 		width: 70%;
 	}
 	.margin-top {
@@ -250,8 +266,11 @@ ul,ol {
 			margin: 0;
 		}
 	}
+	.cards_sliders{
+		height: auto;
+	}
 	// page
-	.page-pasarela-de-envios {
+	.page-pasarela-de-envios, .page-alianza {
 		.bannerBackgroundImage {
 			width: 50% !important;
 		}

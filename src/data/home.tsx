@@ -1,9 +1,6 @@
-import Banner from 'interface';
-/*
-	Solo datos que se usar{an en componentes
-	*/
+import { TypesBannerSlider } from '@components/banner/types';
 
-export const banners: Banner = [
+export const banners: TypesBannerSlider = [
 	{
 		title: `<h1>¿Realizas <span>ventas por redes sociales</span> o tienes un <span>ecommerce</span> ?</h1>`,
 		subtitle: 'Servicio de envíos',

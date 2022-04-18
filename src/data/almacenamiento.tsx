@@ -1,4 +1,6 @@
-export const banner = {
+import { TypesBannerBackground } from '@components/banner/types';
+
+export const banner: TypesBannerBackground = {
 	title: `<h1>¿No cuentas con un espacio ideal para <span>almacenar tu inventario?</span></h1>`,
 	subtitle: '',
 	description:

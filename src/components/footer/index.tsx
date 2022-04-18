@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from './Footer.module.scss';
 
@@ -31,25 +32,20 @@ export default function Footer() {
 									<strong>Sobre Nosotros</strong>
 								</a>
 							</li>
-							{/* <li>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									Quiénes Somos
-								</a>
-							</li> */}
 							<li>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									Quiénes Somos
-								</a>
+								<Link href='/quienes-somos'>
+									<a>Quiénes Somos</a>
+								</Link>
 							</li>
 							<li>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									Casos de Éxito
-								</a>
+								<Link href='/casos-de-exito'>
+									<a>Casos de Éxito</a>
+								</Link>
 							</li>
 							<li>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									Trabaja con Nosotros
-								</a>
+								<Link href='/trabaja-con-nosotros'>
+									<a>Trabaja con Nosotros</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
@@ -63,9 +59,9 @@ export default function Footer() {
 								</a>
 							</li>
 							<li>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									Entradas
-								</a>
+								<Link href='/entradas'>
+									<a>Entradas</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
@@ -79,20 +75,22 @@ export default function Footer() {
 								</a>
 							</li>
 							<li>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									Preguntas Frecuentes
-								</a>
+								<Link href='/preguntas-frecuentes'>
+									<a>Preguntas Frecuentes</a>
+								</Link>
 							</li>
 							<li className={styles.icon}>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									<Image
-										src='/images/icons/help-white.svg'
-										alt='icon help'
-										width={30}
-										height={30}
-									/>
-									centro de ayuda
-								</a>
+								<Link href='/centro-de-ayuda'>
+									<a>
+										<Image
+											src='/images/icons/help-white.svg'
+											alt='icon help'
+											width={30}
+											height={30}
+										/>
+										centro de ayuda
+									</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
