@@ -23,7 +23,7 @@ export default function BlogCardSlider({ items }) {
 		],
 	};
 	return (
-		<Slider {...settings}>
+		<Slider {...settings} className='dots-grey'>
 			{items.map((item, index) => (
 				<BlogCard data={item} key={index} />
 			))}

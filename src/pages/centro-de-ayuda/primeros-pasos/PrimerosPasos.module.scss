@@ -1,0 +1,88 @@
+@import '../../../styles/variables';
+
+.banner {
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color:$color_quaternary;
+    font-size: 2rem;
+    text-align: center;
+  }
+  span {
+    display: block;
+    margin: 20px 0
+  }
+  & > div {
+    @include center;
+    & > div {
+      width: 100%;
+    }
+  }
+}
+
+.videosTitle {
+  border-bottom: 1px solid $color_quaternary;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.containerBlog {
+  background-color: $background;
+  padding: 40px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row {
+  padding-top: 60px;
+}
+
+.commercialTwo {
+  strong {
+    color: $color_tertiary;
+  }
+  button,
+  a {
+    width: 300px;
+  }
+}
+
+// desktop
+@media (min-width: 1024px) {
+  .banner {
+    padding-bottom: 0px;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 2.5rem;
+    }
+    span {
+      font-size: 4rem;
+      width: 100%;
+    }
+
+    & > div {
+      height: 450px;
+      margin-bottom: 0;
+    }
+  }
+  .containerBlog {
+    padding: 50px 10%;
+  }
+  .commercialTwo {
+    p {
+     width: 80%;
+    }
+  }
+}

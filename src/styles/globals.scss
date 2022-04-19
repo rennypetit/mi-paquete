@@ -58,6 +58,7 @@ ul,ol {
 	height: 40px;
 	width: 180px;
 	&:hover {
+		box-shadow: 2px 2px 8px #0000001a;
 		font-size: 1.7rem !important;
 		transition-duration: 0.5s;
 	}
@@ -152,6 +153,16 @@ ul,ol {
 	}
 }
 
+// slider banners
+.dots-grey {
+	.slick-dots li button:before {
+		color: #E6EFF5 !important;
+	}
+	.slick-dots li.slick-active button:before {
+		color: $color_quaternary !important;
+	}
+}
+
 // services home
 .services {
 	.slick-list {
@@ -233,7 +244,16 @@ ul,ol {
 		color: $color_tertiary !important;
 	}
 }
-
+//accordion fq
+.accordion{
+	&__button{
+		&[aria-expanded='true'] {	
+				.arrow-img {
+					transform: rotate(-90deg);
+				}
+		}
+	}
+}
 .AccordionItem{
 	cursor: pointer;
 }
@@ -293,4 +313,9 @@ ul,ol {
 }
 
 
-
+@media (min-width: 1400px) {
+	html,
+	body {
+		font-size: 11.5px;
+	}
+}

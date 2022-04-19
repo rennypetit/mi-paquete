@@ -11,6 +11,7 @@ import Testimonial from '@components/testimonial';
 import Newsletter from '@components/newsletter';
 import Footer from '@components/footer';
 import Fixed from '@components/fixed';
+import Question from '@components/question';
 
 // only data of components
 import {
@@ -19,6 +20,7 @@ import {
 	featuresCardSlider,
 	commercial,
 	features,
+	question,
 } from '@data/envios-pago-contraentrega';
 
 import styles from './enviosPagoContraEntrega.module.scss';
@@ -63,6 +65,7 @@ const enviosPagoContraEntrega: NextPage = () => {
 					</div>
 				</div>
 			</div>
+			<Question items={question} />
 			<Newsletter background={'primary'} />
 			<Footer />
 			<Fixed />

@@ -29,11 +29,11 @@ export default function AllyModal() {
 		console.log(info);
 	};
 	return (
-		<>
+		<section className={styles.section}>
 			<h2 className='containerTitle'>
 				Transportadoras aliadas con las que podrás <span>enviar mercancía</span>
 			</h2>
-			<section className={styles.container}>
+			<div className={styles.container}>
 				{allies.items.map((item, index) => (
 					<div className={styles.image} key={index}>
 						<div className='image'>
@@ -56,8 +56,8 @@ export default function AllyModal() {
 						</div>
 					</div>
 				))}
-			</section>
-			<section className={styles.sectionTwo}>
+			</div>
+			<div className={styles.sectionTwo}>
 				<div
 					className={styles.description}
 					dangerouslySetInnerHTML={{ __html: allies.description }}
@@ -80,8 +80,8 @@ export default function AllyModal() {
 						</span>
 					</button>
 				</div>
-			</section>
+			</div>
 			<Modal dataModal={dataModal} handleCloseModal={handleCloseModal} />
-		</>
+		</section>
 	);
 }

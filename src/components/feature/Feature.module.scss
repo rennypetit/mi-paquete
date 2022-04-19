@@ -37,16 +37,23 @@
 		line-height: 1.5;
 		padding: 10px 0;
 		display: flex;
-		flex-wrap: wrap;
 		align-items: flex-start;
 		justify-content: flex-start;
 		gap: 10px;
-	}
-
-	.icon {
-		li {
-			position: relative;
-			padding-left: 50px;
+		&::before {
+				content: '•';
+				background-image: none;
+				color: $color_tertiary;
+				transform: scale(1.5);
+				top: auto;
+			}
+		}
+		
+		.icon {
+			li {
+				position: relative;
+				padding-left: 50px;
+				flex-wrap: wrap;
 
 			&::before {
 				content: "";

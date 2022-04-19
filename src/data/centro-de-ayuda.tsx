@@ -37,3 +37,37 @@ export const cards = [
 		title: 'Consulta tus recaudos',
 	},
 ];
+
+export const commercial = {
+	colorText: 'textBlack',
+	description:
+		'<h3>¡Descubre cómo hacer <span>tu primer envío!</span></h3><p>Emprender no es fácil pero nosotros lo hacemos más simple con <strong>Mi Paquete.</strong></p>',
+	image: '/images/commercials/help.png',
+	imageDesktop: '/images/commercials/help.png',
+	alt: 'background commercials',
+	button: {
+		title: 'MÁS INFORMACIÓN',
+		url: '#',
+		color: 'buttonBlue',
+	},
+};
+
+export const question = [
+	{
+		title: 'Problemas para procesar la guía de envío',
+		description:
+			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
+	},
+	{
+		title: 'Necesito entregar el paquete en una oficina.',
+		description: '<ul><li>a</li></ul>',
+	},
+	{
+		title: 'Necesito entregar el paquete en una oficina.',
+		description: '<ol><li>a</li></ol>',
+	},
+	{
+		title: 'Necesito entregar el paquete en una oficina.',
+		description: '<a href="example.com"> example</a>',
+	},
+];

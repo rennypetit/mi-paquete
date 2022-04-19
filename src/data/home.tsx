@@ -65,7 +65,7 @@ export const services = [
 		title: 'ENVÍOS PAGO CONTRA ENTREGA',
 		description:
 			'Tus clientes podrán pagar el envío cuando reciban su producto en casa',
-		url: '#',
+		url: '/envios-pago-contraentrega',
 	},
 	{
 		image: '/images/services/envios-tradicionales.svg',
@@ -73,7 +73,7 @@ export const services = [
 		title: 'ENVÍOS TRADICIONALES',
 		description:
 			'Realiza entregas nacionales y urbanas para el mismo día, eligiendo la tarnsportadora de tu preferencia..',
-		url: '#',
+		url: '/envios-tradicionales',
 	},
 	{
 		image: '/images/services/almacenamiento.svg',
@@ -81,7 +81,7 @@ export const services = [
 		title: 'ALMACENAMIENTO',
 		description:
 			'Nos encargamos del almacenamiento, alistamiento y despacho de tus productos.',
-		url: '#',
+		url: '/almacenamiento',
 	},
 	{
 		image: '/images/services/ecommerce.svg',
@@ -89,15 +89,7 @@ export const services = [
 		title: 'CONECTA TU E- COMMERCE',
 		description:
 			'Conecta tu tienda en Shopify, Woocommerce, Jumpseller, Komercia o por API para todo tipo de tiendas.',
-		url: '#',
-	},
-	{
-		image: '/images/services/ecommerce.svg',
-		alt: 'ecommerce',
-		title: 'CONECTA TU E- COMMERCE',
-		description:
-			'Conecta tu tienda en Shopify, Woocommerce, Jumpseller, Komercia o por API para todo tipo de tiendas.',
-		url: '#',
+		url: '/conecta-tu-ecommerce',
 	},
 ];
 

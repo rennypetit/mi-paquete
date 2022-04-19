@@ -118,20 +118,38 @@ export const commercial = {
 
 export const question = [
 	{
-		title: 'Problemas para procesar la guía de envío',
+		title: '¿Quién recoge mis paquetes?',
 		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
+			'La transportadora que selecciones al momento de solicitar tus envíos. Esto no tiene costo adicional.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
+		title: '¿Puedo llevar el paquete a un punto de la transportadora?',
+		description:
+			'Si, cuando solicites el envío, en la parte de dirección de recogida seleccionas la opción de llevar a la transportadora.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
+		title: '¿Debo imprimir la guía del envío?',
+		description:
+			'Si, es completamente necesario que la imprimas de lo contrario no nos hacemos responsables del envío. Ten en cuenta, dependiendo de la transportadora: <strong>Con Servientrega:</strong>Descargas 3 guías iguales en un solo PDF.<ol><li>Debes cortar la que dice “Remitente” hacerla firmar por el mensajero y dejarla para ti como comprobante de recolección.</li><li>Las otras dos guías que quedan juntas, te recomendamos pegarlas al paquete en un bolsillo porta guías, acá te decimos cómo hacerlo <a href="https://www.youtube.com/watch?v=XDvBleamv3I">https://www.youtube.com/watch?v=XDvBleamv3I</a></li><li>Adicionalmente, en el momento de la recolección debes solicitar al personal de la transportadora la relación de despacho.</li></ol><strong>Con Envía:</strong> Descargas 3 guías iguales en un PDF y otro PDF que contiene una relación de despacho o manifiesto.<ol><li>Debes cortar la que dice “Recolección”, hacerla firmar por el mensajero y dejarla para ti como comprobante de recolección.</li><li>Las otras dos guías que quedan juntas, te recomendamos pegarlas al paquete en un bolsillo porta guías, acá te decimos cómo hacerlo <a href="https://www.youtube.com/watch?v=XDvBleamv3I">https://www.youtube.com/watch?v=XDvBleamv3I</a> , adicional entrega la relación de despacho al mensajero, ya que también debe ir con el paquete.</li><li>Llévalo a un punto principal de Envía con su respectiva relación de despacho para que en la oficina puedan recibir el paquete o espera la recolección en tu dirección.</li></ol> <strong>Con Tempo Express:</strong> Se descargan 3 guías iguales. <ol><li>Debes cortar una de las guías, hacerla firmar por el mensajero y dejarla para ti como comprobante de recolección.</li><li>Te recomendamos pegarlas al paquete en un bolsillo porta guías, acá te decimos cómo hacerlo <a href="https://www.youtube.com/watch?v=XDvBleamv3I">https://www.youtube.com/watch?v=XDvBleamv3I</a></li></ol><strong>Con TCC: </strong>Se descargan 2 guías iguales y una relación de despacho, es decir dos PDF.<ol><li>Pega las 2 guías al paquete en un bolsillo porta guías, acá te decimos cómo hacerlo <a href="https://www.youtube.com/watch?v=XDvBleamv3I">https://www.youtube.com/watch?v=XDvBleamv3I</a></li><li>La relación de despacho debe ser firmada por el mensajero. Es tu comprobante de recolección.</li></ol><strong>Con Coordinadora:</strong> Se descarga una única guía.La pegas al paquete sin tapar su código de barras, el auxiliar te pedirá tu número de celular o correo electrónico y te enviará el comprobante de recolección.<strong>Con Entrégalo: </strong>Se descarga una única guía.Imprímela dos veces, pega una al paquete y la otra la haces firmar por el mensajero como constancia de recibido.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
+		title: '¿Cuándo recogen el paquete?',
+		description:
+			'El tiempo de recogida depende de la ruta y horarios que tenga la transportadora, si solicitaste el servicio antes de las 10 am, la transportadora pasará el mismo día en el transcurso del día, es posible que pasen inclusive justo antes de las 7:00 pm en semana o sábados poco antes de las 12:00 m. Si lo solicitaste después de las 10.30 am, se tiene menos probabilidad que recojan el mismo día, ya que depende de la disponibilidad del cubrimiento en la zona de las transportadoras. <br /> Ten presente: Si deseas no esperar la recolección y llevarlo a un punto de la transportadora.',
+	},
+	{
+		title: '¿Cómo pago mis envíos?',
+		description:
+			'Hay dos formas de pagos:<br /> <ol><li>Descontar el valor del envío del recaudo realizado: Esta opción puede estar habilitada para envíos con Recaudo o Pago Contra Entrega.</li><li>Pago con saldo: Recarga tu saldo para hacer envíos aquí: <a href="https://app.mipaquete.com/recargar-saldo">https://app.mipaquete.com/recargar-saldo</a></li></ol>',
+	},
+	{
+		title: '¿La guía no me procesa, que hago?',
+		description:
+			'Es muy extraño que la guía no procese, en este caso espera 5 minutos y refresca la página, si aún así no te permite descargarla escribirnos a nuestro whatsapp 3216330447 y te ayudaremos inmediatamente. ',
+	},
+	{
+		title: '¿Ofrecen descuento por volumen?',
+		description:
+			'Si, si realizas más de 500 envíos mensuales te ofrecemos descuentos especiales para que sigas ahorrando en tu logística. El porcentaje de descuento depende del volumen, contacta a uno de nuestros asesores y recibe una propuesta. Si haces menos de 500 envíos tienes acceso directo a nuestro programa de puntos mipaquete que te da automáticamente puntos por envíar que puedes canjear por productos, servicios o saldo para hacer nuevos envíos.',
 	},
 ];

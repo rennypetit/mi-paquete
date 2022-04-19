@@ -45,22 +45,26 @@ const Home: NextPage = () => {
 					</h2>
 					<Feature items={features} />
 				</div>
-				<div className={styles.containerAllies}>
-					<Ally />
-				</div>
+			</div>
+			<div className={styles.containerAllies}>
+				<Ally />
+			</div>
+			<div className='container'>
 				<Commercial data={commercial} />
-				<div className={styles.containerBlog}>
-					<h2 className='containerTitle'>
-						Blog <span>Mi Paquete</span>
-					</h2>
-					<BlogCardSlider items={blog} />
-				</div>
+			</div>
+			<div className={styles.containerBlog}>
+				<h2 className={`${styles.containerTitle} containerTitle`}>
+					Blog <span>Mi Paquete</span>
+				</h2>
+				<BlogCardSlider items={blog} />
+			</div>
+			<div className='container'>
 				<div className={styles.containerBlog}>
 					<h2 className='containerTitle'>
 						Conoce lo que los medios dicen <span>sobre nosotros</span>
 					</h2>
-					<Media />
 				</div>
+				<Media />
 			</div>
 			<Recognition data={recognitions} />
 			<div className='container'>

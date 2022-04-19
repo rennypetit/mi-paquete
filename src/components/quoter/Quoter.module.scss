@@ -171,6 +171,9 @@
 
 // desktop
 @media (min-width: 1024px) {
+	.container {
+		padding-top: 10px;
+	}
 	// components
 	.place,
 	.dimensions {
@@ -194,6 +197,7 @@
 	}
 	.button {
 		display: block;
+		border: 0;
 	}
 	.formInput{
 		width: 90%;

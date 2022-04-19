@@ -7,7 +7,11 @@ import styles from './Banner.module.scss';
 const Banner = ({ data }: Props) => {
 	if (!data?.title) return null; // sino tiene nada no retorna nada
 	return (
-		<div className={`${styles.container} ${styles[data.orientation]}`}>
+		<div
+			className={`${styles.container} ${
+				styles[data.orientation]
+			} principal-banner`}
+		>
 			<div
 				className={styles.title}
 				dangerouslySetInnerHTML={{ __html: data.title }}

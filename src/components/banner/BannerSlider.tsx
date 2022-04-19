@@ -15,7 +15,7 @@ export default function BannerSlider({ items }: PropsSlider) {
 		slidesToScroll: 1,
 	};
 	return (
-		<Slider {...settings}>
+		<Slider {...settings} className='dots-grey'>
 			{items.map((item, index) => (
 				<Banner data={item} key={index} />
 			))}

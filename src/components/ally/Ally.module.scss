@@ -1,4 +1,9 @@
 @import '../../styles/variables';
+.section {
+	background-color: #FCFCFC;
+	padding: 40px 20px;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -6,6 +11,9 @@
 	text-align: center;
 	gap: 20px;
 	width: 100%;
+}
+.title {
+	margin-top: 0;
 }
 .image {
 	background-color: $color_quinary;
@@ -73,12 +81,17 @@
 }
 // desktop {
 @media (min-width: 1024px) {
+	.section {
+		background-color: $background;
+		padding: 40px 20px;
+	}
 	.sectionTwo{
 		width: 80%;
 	}
 	.container {
 		grid-template-columns: repeat(3, 1fr);
 		width: 80%;
+		max-width: 800px;
 	}
 	.pasarela {
 		display: flex;

@@ -126,21 +126,25 @@ export const features = {
 
 export const question = [
 	{
-		title: 'Problemas para procesar la guía de envío',
+		title: '¿Dónde puedo descargar el plugin para JumpSeller?',
 		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
+			'Ingresas a tu tienda en JumpSeller. Da clic en la opción de aplicaciones y en la categoría de “shipping and fulfillment” encontrarás nuestra opción identificado con nuestro logo. Recuerda que nuestro plugin es gratuito.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
+		title: '¿Cómo debo configurar mi plugin?',
+		description:
+			'Configurar el plugin es rápido y sencillo, en solo 5 pasos lo conseguirás. En el siguiente video te mostramos cómo hacerlo: <a href="https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj">https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj</a>',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
+		title: '¿Manejan un mínimo de envíos para utilizar su plugin? ',
+		description:
+			'No, lo mejor de nuestro servicio es que puedes enviar desde un paquete en adelante.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
+		title:
+			'¿Si no tengo saldo en la billetera de mipaquete.com, mi cliente no puede realizar la compra?',
+		description:
+			'Tu cliente puede generar la compra de tus productos tranquilamente, pero sí es necesario que tengas saldo en tu billetera en el momento de generar la guia.',
 	},
 ];
 

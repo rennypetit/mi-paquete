@@ -3,15 +3,31 @@ import Button from '@components/button';
 import styles from './Row.module.scss';
 function Row({ data }) {
 	return (
-		<div className={styles.container}>
+		<div
+			className={`${styles.container} ${
+				data.imagePerson && styles.imageContainer
+			}`}
+		>
 			<div className={styles.background}>
 				<Image src={data.image} alt={data.alt} layout='fill' />
 			</div>
 			<div className={styles.content}>
-				<div
-					className={styles.title}
-					dangerouslySetInnerHTML={{ __html: data.title }}
-				></div>
+				<div className={styles.rowPrincipal}>
+					{data.imagePerson && (
+						<div className={styles.image}>
+							<Image
+								src={data.imagePerson}
+								alt={data.altPerson}
+								width={207}
+								height={252}
+							/>
+						</div>
+					)}
+					<div
+						className={styles.title}
+						dangerouslySetInnerHTML={{ __html: data.title }}
+					></div>
+				</div>
 				<div className={styles.separator}></div>
 				<div className={styles.containerDescription}>
 					<div
@@ -52,5 +68,4 @@ function Row({ data }) {
 		</div>
 	);
 }
-
 export default Row;

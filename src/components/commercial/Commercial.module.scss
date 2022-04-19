@@ -6,20 +6,17 @@
 	margin-top: 100px;
 	max-width: 400px;
 }
-
 .content {
 	bottom: 0;
 	left: 0;
 	position: absolute;
 	padding: 20px;
 }
-
 .title {
 	font-size: 1.6rem;
 	font-family: $font_primary_bold;
 	margin: 0;
 }
-
 .description {
 	h3 {
 		font-size: 2.3rem;
@@ -38,7 +35,7 @@
 .textWhite{
 	color:$color_quinary;
 }
-.textblack {
+.textBlack {
 	color: $color_primary;
 }
 
@@ -48,6 +45,54 @@
 	font-size: 1.6rem;
 	width: 200px;
 }
+
+// form
+.form {
+	text-align: center;
+	@include center;
+	flex-wrap: wrap;
+}
+
+.input {
+	height: 50px;
+	margin: auto;
+	width: 90%;
+	font-size: 1.6rem;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid $color_tertiary;
+	&:focus {
+		outline: none;
+		border: 2px solid $color_tertiary;
+	}
+
+	&::placeholder {
+		color: $color_secondary;
+		font-weight: 400;
+	}
+}
+.button {
+	background: transparent linear-gradient(270deg, #E29633 0%, #FB9D26 100%) 0% 0% no-repeat padding-box;
+	border: 0;
+	border-radius: 28px;
+	color: $color_primary;
+	font-size: 1.6rem;
+	font-family: $font_primary_bold;
+	font-style: italic;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px 10px 20px;
+	margin-top: 20px;
+	height: 50px;
+	width: 200px;
+}
+
+.icon {
+	background-color: $color_quinary;
+	border-radius: 50%;
+	padding: 11px;
+}
+//end form
 
 // desktop
 @media (min-width: 1024px) {
@@ -63,4 +108,23 @@
 		height: 100%;
 		width: 60%;
 	}
+	// form
+	.form {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.input {
+		order: 1;
+		width: 50%;
+		margin: 0;
+		margin-right: 10px;
+	}
+	.containerButton {
+		order: 2;
+	}
+	.button {
+		align-self: flex-start;
+		margin: 0;
+	}
+	// end form
 }

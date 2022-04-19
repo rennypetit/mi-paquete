@@ -122,21 +122,13 @@ export const features = {
 
 export const question = [
 	{
-		title: 'Problemas para procesar la guía de envío',
+		title: '¿Tiene algún costo la configuración de mipaquete.com en Komercia?',
+		description: 'No tiene ningún costo. Solo pagas por tus envíos.',
+	},
+	{
+		title: 'Necesito apoyo técnico para la configuración.',
 		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
+			'Comunícate al whatsapp de soporte de Komercia +57 310 7884893, están disponibles para ayudarte.',
 	},
 ];
 

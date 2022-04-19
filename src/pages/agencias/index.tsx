@@ -3,6 +3,7 @@ import Layout from 'layout';
 import BannerAgencias from '@components/banner/BannerAgencias';
 import Ventajas from '@components/ventaja/';
 import { BenefitAsesoria } from '@components/benefit/AsesoriaGrid';
+import CardStateMaps from '@components/cardState/CardStateMaps';
 import Form from '@components/form';
 import Question from '@components/question';
 import Newsletter from '@components/newsletter';
@@ -13,6 +14,7 @@ import Fixed from '@components/fixed';
 import {
 	banner,
 	benefits,
+	maps,
 	ventajas,
 	form,
 	question,
@@ -28,6 +30,7 @@ const agencias: NextPage = () => {
 				<BannerAgencias data={banner} />
 			</main>
 			<div className='container margin-top'>
+				<CardStateMaps data={maps}/>
 				<BenefitAsesoria data={benefits} />
 				<Ventajas data={ventajas} />
 			</div>

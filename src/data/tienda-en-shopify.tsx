@@ -194,21 +194,27 @@ export const row = {
 
 export const question = [
 	{
-		title: 'Problemas para procesar la guía de envío',
+		title: '¿Qué beneficios tiene la aplicación para Shopify?',
 		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
+			'<ul> <li>Permite parametrizar múltiples transportadoras.</li><li>Opción para que en el checkout el comprador pueda comparar las transportadoras y seleccionar la de su preferencia.</li><li>Opción de calcular tarifas y generar guías con pago contra entrega (recaudo de la venta al entregar el producto).</li><li>Generación y descarga de guías con un solo clic.</li><li>Opción de edición de pedido antes de generar la guía.</li><li>Calculador de tarifa de envíos (Carrier Service)</li><li>Recarga de saldo directamente desde la aplicación.</li><li>Selección automática de transportadora por criterios como: Mejor precio, mejor servicio, menor tiempo de entrega.</li></ul>',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
+		title:
+			'¿Debo tener el Carrier Service de Shopify activo para utilizar el plugin?',
+		description:
+			'No es necesario, puedes usar nuestro plugin configurando la opción de tarifa estándar para que puedas automatizar tus envíos con nuestro servicio.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
+		title:
+			'Si no tengo saldo en la billetera de mipaquete.com ¿Mi cliente no puede realizar la compra?',
+		description:
+			'Tu cliente puede generar la compra de tus productos tranquilamente, pero si es necesario que tengas saldo en tu billetera en el momento de generar la guía.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
+		title:
+			'¿Dónde descargo las guías de mis envíos y hago seguimiento de los mismos?',
+		description:
+			'Puedes hacerlo directamente desde Shopify. También puedes ingresar a nuestra plataforma, en la sección tus envíos y desde allí descargar tus envíos y ver sus estados logísticos.',
 	},
 ];
 

@@ -31,6 +31,7 @@ function Question({ items }) {
 										alt='icon arrow'
 										width={18}
 										height={23}
+										className='arrow-img'
 									/>
 								</div>
 							</div>
@@ -53,6 +54,7 @@ function Question({ items }) {
 																	alt='icon arrow'
 																	width={18}
 																	height={23}
+																	className='arrow-img'
 																/>
 															</div>
 														</div>

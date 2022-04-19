@@ -111,21 +111,24 @@ export const row = {
 
 export const question = [
 	{
-		title: 'Problemas para procesar la guía de envío',
+		title: '¿Dónde encuentro la documentación de la API y su alcance?',
 		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
+			'En <a href="https://documenter.getpostman.com/view/14212363/Tzm8GFfQ">https://documenter.getpostman.com/view/14212363/Tzm8GFfQ</a> Si no eres desarrollador puedes leer el alcance completo en el link “Introducción” que aparece en el menú.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
+		title: '¿Tienen ambiente de pruebas para la API?',
+		description:
+			'si tenemos, puedes acceder al siguiente enlace: <a href="https://app.dev.mpr.mipaquete.com/cotizacion">https://app.dev.mpr.mipaquete.com/cotizacion</a>',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
+		title: '¿Dónde puedo acceder a las API KEY?',
+		description:
+			'La api key se genera en el servicio generateApiKey, Se agrega el usuario y contraseña registrado y de esta manera las generas. No hay necesidad de generarla varias veces.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
+		title: '¿Ustedes realizan la configuración de la API?',
+		description:
+			'No, la configuración la debe realizar un desarrollador con un conocimiento técnico para realizar este tipo de integración. ',
 	},
 ];
 

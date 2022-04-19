@@ -199,20 +199,18 @@ export const form = {
 
 export const question = [
 	{
-		title: 'Problemas para procesar la guía de envío',
+		title: '¿Cómo hago seguimiento al inventario?',
 		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
+			'Te brindamos la tecnología necesaria para que lleves control de tu inventario y recibe alertas cuando este se esté agotando. Recibirás capacitación y acompañamiento para el uso de la herramienta.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
+		title: '¿Cómo pago el servicio de almacenamiento?',
+		description:
+			'Si tus envíos son con pago contra entrega descontaremos de los recaudos el costo del almacenamiento, si no son con pago contra entrega recibirás factura para pago inmediato.',
 	},
 	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
+		title: '¿Cómo obtengo más información sobre el servicio de almacenamiento?',
+		description:
+			'Escríbenos a nuestra línea de whatsapp +57 321 6330447 y te asignaremos un asesor especializado para ayudarte.',
 	},
 ];

@@ -14,6 +14,57 @@ export const banner = {
 	},
 };
 
+export const maps = {
+	title: 'Encuentra nuestra agencia aliada ',
+	titleSpan: 'más cercana a ti',
+	description: 'Contamos con puntos aliados en diferentes sectores de las ciudades de Bogotá, Medellín y Cali para que puedas realizar los envíos de tu tienda sin problema.',
+	titleCard: 'Descubre nuestras',
+	titleCardSpan: 'agencias aliadas',
+	descriptionCard: 'Conoce los puntos físicos en tu ciudad donde podrás realizar tus envíos y recibir asesoría con el proceso de logística para enviar tus productos. Encuentra en el mapa el lugar más cercano a ti.',
+	titleCity: 'Ciudad',
+	items: [
+		{
+			id: 0,
+			city: 'Cali',
+			description:
+				'Ideal para negocios en expansión que requieren informes avanzados.',
+			image: '/images/card-state/shopify-basic.png',
+			alt: 'image shopify basic',
+			buttonOne: {
+				color: 'buttonWhite',
+				title: 'VER PLAN',
+				url: '#',
+			},
+		},
+		{
+			id: 1,
+			city: 'Bogotá',
+			description:
+				'2Ideal para negocios en expansión que requieren informes avanzados.',
+			image: '/images/card-state/shopify-basic.png',
+			alt: 'image shopify basic',
+			buttonOne: {
+				color: 'buttonWhite',
+				title: 'VER PLAN',
+				url: '#',
+			},
+		},
+		{
+			id: 2,
+			city: 'Medellín',
+			description:
+				'3Ideal para negocios en expansión que requieren informes avanzados.',
+			image: '/images/card-state/shopify-basic.png',
+			alt: 'image shopify basic',
+			buttonOne: {
+				color: 'buttonWhite',
+				title: 'VER PLAN',
+				url: '#',
+			},
+		},
+	],
+};
+
 export const benefits = {
 	image: '/images/icons/gps-extra.svg',
 	alt: 'icon gps',
