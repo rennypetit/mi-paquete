@@ -5,22 +5,21 @@ export const Ventajas = ({ data }) => {
 	return (
 		<section className={styles.container}>
 			<div className={styles.container_div}>
-					<div className={styles.container_div_div_image}>
-						<Image src={data.image} width={440} height={332}/>
-					</div>
-					<div className={styles.container_div_div_description}>
-						<h2>{data.title} <span>{data.titleSpan}</span></h2>
-						<div dangerouslySetInnerHTML={{ __html: data.description }}></div>
-					</div>
+				<div className={styles.container_div_div_image}>
+					<Image src={data.image} width={440} height={332} />
+				</div>
+				<div className={styles.container_div_div_description}>
+					<h2>
+						{data.title} <span>{data.titleSpan}</span>
+					</h2>
+					<div dangerouslySetInnerHTML={{ __html: data.description }}></div>
+				</div>
 			</div>
 			<div className={styles.container_div_list}>
 				<ul>
-				{data.items.map((item, index) => (
-						<li key={index}>
-							{item.point}
-						</li>
+					{data.items.map((item, index) => (
+						<li key={index}>{item.point}</li>
 					))}
-					
 				</ul>
 			</div>
 			<div className={styles.container_div_btn}>

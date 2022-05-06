@@ -33,7 +33,6 @@
 			color: $color_tertiary;
 		}
 	}
-	
 	strong {
 		display: inline;
 	}
@@ -60,7 +59,7 @@
 // desktop
 @media (min-width: 1024px) {
 	.container {
-		height: 350px;
+		height: 400px;
 		max-width: initial;
 		text-align: left;
 	}
@@ -81,5 +80,6 @@
 	}
 	.containerButton {
 		margin: 0;
+		width: 30rem;
 	}
 }

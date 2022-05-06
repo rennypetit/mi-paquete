@@ -11,10 +11,28 @@
   }
 }
 
+.features {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
 .container {
   margin-bottom: 50px;
 }
 
-@media (min-width: 1024px) {
+.containerCommercial {
+  padding: 20px 5%;
+  margin-bottom: 80px;
+  & > section {
+    margin: 0;
+  }
+}
 
+@media (min-width: 1024px) {
+  .containerCommercial {
+    padding: 20px 10%;
+  }
+  .features {
+    text-align: initial;
+  }
 }

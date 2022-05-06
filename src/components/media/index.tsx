@@ -68,49 +68,49 @@ export default function Media() {
 							coords='140,590,180,600'
 							alt='semana'
 							target='_blank'
-							href='semana.html'
+							href='https://youtu.be/_6tjajW7bdw'
 						/>
 						<area
 							shape='rect'
 							coords='215,420,240,430'
 							alt='caracol'
 							target='_blank'
-							href='caracol.html'
+							href='https://www.youtube.com/watch?v=4LxrsbFfLSk'
 						/>
 						<area
 							shape='rect'
 							coords='295,240,325,260'
-							alt='enter'
+							alt='enter.co'
 							target='_blank'
-							href='enter.html'
+							href='https://www.enter.co/especiales/emprende/mipaquete-com-democratiza-envios/'
 						/>
 						<area
 							shape='rect'
 							coords='545,180,575,200'
-							alt='espectador'
+							alt='elespectador'
 							target='_blank'
-							href='espectador.html'
+							href='https://www.elespectador.com/economia/emprendimiento-y-liderazgo/mipaquetecom-y-la-emprendedora-que-hace-mas-facil-la-logistica-para-miles-de-personas-en-el-pais/'
 						/>
 						<area
 							shape='rect'
 							coords='800,245,830,260'
-							alt='radio'
+							alt='wradio'
 							target='_blank'
-							href='radio.html'
+							href='https://www.wradio.com.co/noticias/tecnologia/envios-faciles-y-rapidos-en-mipaquetecom/20191125/nota/3983562.aspx'
 						/>
 						<area
 							shape='rect'
 							coords='880,420,915,430'
 							alt='paisa'
 							target='_blank'
-							href='paisa.html'
+							href='https://www.elcolombiano.com/negocios/la-plataforma-que-llego-a-mejorar-la-logistica-de-envios-KC16145960'
 						/>
 						<area
 							shape='rect'
 							coords='950,590,980,605'
-							alt='medellin'
+							alt='Telemedellín'
 							target='_blank'
-							href='medellin.html'
+							href='https://www.youtube.com/watch?v=MeWESyMb6u4'
 						/>
 					</map>
 				</>

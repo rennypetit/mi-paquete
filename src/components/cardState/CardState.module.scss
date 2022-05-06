@@ -24,7 +24,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 530px;
+  height: 100%;
+  box-shadow: 0px 3px 6px #00000029;
 }
 
 .items, .itemsMaps {
@@ -38,15 +39,16 @@
   flex-direction:column;
   justify-content: flex-start;
   border: none;
-  box-shadow: 0px 3px 6px #00000029;
   width: 100%;
   height: 100%;
+  border-radius: 0;
+  padding-bottom: 40px;
 }
 
 .itemsMaps_description{
-  padding: 8% 8% 0;
+  padding: 5% 8% 0;
   h2{
-    font-size:28px;
+    font-size: 26px;
     color:$color_primary;
     font-family: $font_primary_regular;
     span{
@@ -88,12 +90,50 @@
   background-color: transparent;
   font-size: 1.6rem;
   font-family: $font_secondary_regular;
-  padding: 8px 10px;
+  padding: 3% 0;
   width: 85%;
   height: 40px;
-  margin: 5px 0;
+  margin: 10px 0;
   border: 1px solid #CFE0EB;
   border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  .check{
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: gray;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  input[type="radio"]{
+    display: none;
+    & + *::before{
+      content: "";
+      display: inline-block;
+      vertical-align: top;
+      width: 5px;
+      height: 10px;
+      margin-left: 5px;
+    }
+    
+    &:checked + *::before{
+      border: solid #fff;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.activeSpan{
+  background-color: $color_quaternary;
+  border-color: $color_quaternary !important;
 }
 
 .buttonActive {
@@ -183,14 +223,21 @@
     border-radius: 0;
   }
 
+  .itemsMaps_description{
+    padding: 8% 8% 0;
+  }
+
   .itemsMaps{
     width: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
 
   .contentMaps{
-    width: 70%;
+    width: 90%;
     margin: auto;
     flex-direction: row;
+    height: 530px;
   }
 
   .cardMaps{
@@ -205,5 +252,11 @@
     img {
       width: auto !important;
     }
+  }
+}
+
+@media (min-width: 1680px) {
+  .contentMaps{
+    width: 70%;
   }
 }

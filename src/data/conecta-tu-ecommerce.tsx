@@ -1,3 +1,5 @@
+import { TypeButton } from '@types/global';
+
 export const cards = [
 	{
 		image: '/images/ecommerce/shopify.png',
@@ -9,7 +11,8 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '#',
+			url: '/tienda-en-shopify',
+			type: TypeButton.link,
 		},
 	},
 	{
@@ -17,12 +20,13 @@ export const cards = [
 		alt: 'image Woocommerce',
 		title: 'Woocommerce',
 		description:
-			'Configura gratis el plugin de Mi Paquere en tu tienda de WooCommerce',
+			'Configura gratis el plugin de Mi Paquete en tu tienda de WooCommerce',
 		store: true,
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '#',
+			url: '/tienda-en-woocommerce',
+			type: TypeButton.link,
 		},
 	},
 	{
@@ -35,7 +39,8 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '#',
+			url: '/tienda-en-jumpseller',
+			type: TypeButton.link,
 		},
 	},
 	{
@@ -48,7 +53,8 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '#',
+			url: '/tienda-en-komercia',
+			type: TypeButton.link,
 		},
 	},
 	{
@@ -61,7 +67,8 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '#',
+			url: '/api-integracion',
+			type: TypeButton.link,
 		},
 	},
 	{
@@ -72,8 +79,16 @@ export const cards = [
 		store: false,
 		button: {
 			color: 'buttonWhite',
-			title: 'SOLICITA UNA ASESORÍA',
-			url: '#',
+			title: 'CREAR UNA CUENTA',
+			url: 'https://app.mipaquete.com/registro',
+			type: TypeButton.blank,
 		},
 	},
 ];
+
+export const testimonials = {
+	icon: '/images/quote.png',
+	alt: 'quote',
+	title:
+		'<p>Únete a los más de cientos de clientes que han integrado su <span>tienda online</span> en las diferentes plataformas con <span>Mi Paquete.</span></p>',
+};

@@ -86,7 +86,7 @@
 		position: relative;
 		height: 360px;
 		flex-direction: row-reverse;
-		background: url('../../../public/images/banners/fondo_agencias_header.jpg');
+		background: url('/images/banners/fondo_agencias_header.jpg');
 		background-size: contain;
 		width: 100%;
 		background-position: right;
@@ -96,7 +96,7 @@
 
 @media (min-width: 1025px){
 	.container {
-		height: 850px;
+		height: 100vh;
 	}
 }
 

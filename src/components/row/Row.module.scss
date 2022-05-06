@@ -22,7 +22,8 @@
   }
 }
 .description{
-  p{
+  p {
+    font-weight: 100;
     margin: 0;
     font-size: 1.7rem;
     line-height: 1.4;
@@ -46,7 +47,7 @@
 }
 .button {
   font-size: 1.6rem;
-  width: 220px;
+  width: 230px;
   a {
     text-decoration: none;
   }

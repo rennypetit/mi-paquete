@@ -28,9 +28,7 @@ export default function Footer() {
 					<div className={styles.column}>
 						<ul>
 							<li className={styles.liTitle}>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									<strong>Sobre Nosotros</strong>
-								</a>
+								<strong>Sobre Nosotros</strong>
 							</li>
 							<li>
 								<Link href='/quienes-somos'>
@@ -54,12 +52,10 @@ export default function Footer() {
 					<div className={styles.column}>
 						<ul>
 							<li className={styles.liTitle}>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									<strong>Blog</strong>
-								</a>
+								<strong>Blog</strong>
 							</li>
 							<li>
-								<Link href='/entradas'>
+								<Link href='/blog'>
 									<a>Entradas</a>
 								</Link>
 							</li>
@@ -70,12 +66,19 @@ export default function Footer() {
 					<div className={styles.column}>
 						<ul>
 							<li className={styles.liTitle}>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									<strong>Contáctenos</strong>
+								<strong>Contáctenos</strong>
+							</li>
+							<li>
+								<a
+									href='mailto:info@mipaquete.com'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									info@mipaquete.com
 								</a>
 							</li>
 							<li>
-								<Link href='/preguntas-frecuentes'>
+								<Link href='/centro-de-ayuda'>
 									<a>Preguntas Frecuentes</a>
 								</Link>
 							</li>
@@ -99,13 +102,15 @@ export default function Footer() {
 					<div className={styles.column}>
 						<ul>
 							<li className={`${styles.liTitle} ${styles.padding}`}>
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
-									<strong>Nuestras Redes Sociales</strong>
-								</a>
+								<strong>Nuestras Redes Sociales</strong>
 							</li>
 							<div className={styles.redes}>
 								<li>
-									<a href='http://' target='_blank' rel='noopener noreferrer'>
+									<a
+										href='https://www.instagram.com/mipaquete.colombia/'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
 										<Image
 											src='/images/icons/instagram.svg'
 											alt='icon instagram'
@@ -115,7 +120,11 @@ export default function Footer() {
 									</a>
 								</li>
 								<li>
-									<a href='http://' target='_blank' rel='noopener noreferrer'>
+									<a
+										href='https://co.linkedin.com/company/mipaquete/'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
 										<Image
 											src='/images/icons/linkedin.svg'
 											alt='icon linkedin'
@@ -125,7 +134,11 @@ export default function Footer() {
 									</a>
 								</li>
 								<li>
-									<a href='http://' target='_blank' rel='noopener noreferrer'>
+									<a
+										href='https://www.facebook.com/mipaquete.colombia'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
 										<Image
 											src='/images/icons/facebook.svg'
 											alt='icon facebook'
@@ -135,7 +148,11 @@ export default function Footer() {
 									</a>
 								</li>
 								<li>
-									<a href='http://' target='_blank' rel='noopener noreferrer'>
+									<a
+										href='https://www.youtube.com/c/mipaquetecolombia'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
 										<Image
 											src='/images/icons/youtube.svg'
 											alt='icon youtube'
@@ -151,7 +168,11 @@ export default function Footer() {
 				</div>
 				<div className={styles.secondSection}>
 					<p>Mi Paquete SAS 2020. Todos los derechos reservados</p>
-					<a href='http://' target='_blank' rel='noopener noreferrer'>
+					<a
+						href='https://mipaquete.com/politicas-privacidad-de-datos-terminos-y-condiciones/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						POLÍTICAS, PRIVACIDAD DE DATOS, TÉRMINOS Y CONDICIONES
 					</a>
 				</div>

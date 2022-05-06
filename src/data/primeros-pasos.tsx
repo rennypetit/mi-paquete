@@ -1,4 +1,5 @@
 import { TypesBanner } from '@components/banner/types';
+import { TypeButton } from '@types/global';
 
 export const banner: TypesBanner = {
 	title: `<h1>Primeros pasos<span>¡Estás en el lugar indicado para impulsar tu emprendimiento!</span></h1>`,
@@ -9,34 +10,30 @@ export const banner: TypesBanner = {
 
 export const cards = [
 	{
-		video: '/images/cards/video.png',
-		title: '<h3>Cotizar un <strong>envío tradicional</strong></h3>',
+		video: 'https://www.youtube.com/embed/G6WRE4tvPFI',
+		title: '<h3>Cotiza un <strong>envío tradicional</strong></h3>',
 	},
 	{
-		video: '/images/cards/video.png',
-		title: '<h3>Cotizar un envío con <strong>pago contra entrega</strong></h3>',
+		video: 'https://www.youtube.com/embed/bxSRV7PNZz0',
+		title: '<h3>Cotiza un envío con <strong>pago contra entrega</strong></h3>',
 	},
 	{
-		video: '/images/cards/video.png',
+		video: 'https://www.youtube.com/embed/OGv8ur0J-HM',
 		title:
 			'<h3>Cotiza un envío urbano o de <strong>entrega inmediata</strong></h3>',
 	},
 	{
-		video: '/images/cards/video.png',
+		video: 'https://www.youtube.com/embed/1iTKTafsKZY',
+		title:
+			'<h3>Conoce la fecha de  <strong>recaudos de envíos con pago contra entrega</strong></h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/pvkBbVPyCeM',
 		title: '<h3>Solicita la <strong>recolección de un paquete</strong></h3>',
 	},
 	{
-		video: '/images/cards/video.png',
+		video: 'https://www.youtube.com/embed/dHqsLm7Vq3E',
 		title: '<h3>Recuerda <strong>¿Qué es el valor declarado?</strong></h3>',
-	},
-	{
-		video: '/images/cards/video.png',
-		title: '<h3>Realiza el <strong>seguimiento de tus envíos</strong></h3>',
-	},
-	{
-		video: '/images/cards/video.png',
-		title:
-			'<h3>Conoce la fecha de recaudos de envíos con <strong>pago contra entrega</strong></h3>',
 	},
 ];
 
@@ -50,29 +47,10 @@ export const commercial = {
 	button: {
 		color: 'buttonWhite',
 		title: 'COTIZA AHORA',
-		url: '#',
+		url: '/#cotizar',
+		type: TypeButton.link,
 	},
 };
-
-export const question = [
-	{
-		title: 'Problemas para procesar la guía de envío',
-		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
-	},
-];
 
 export const row = {
 	image: '/images/background-blue.png',
@@ -85,7 +63,8 @@ export const row = {
 	button: {
 		color: 'buttonOrange',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: 'https://walink.co/b8da4c',
+		type: TypeButton.blank,
 	},
 };
 
@@ -93,7 +72,7 @@ export const commercialTwo = {
 	colorText: 'textblack',
 	description:
 		'<h3>Encuentra la <strong>Respuesta que necesitas</strong></h3><p>Si presentas alguna novedad con tus envíos o tienes preguntas, te ayudamos a solucionarlo.</p>',
-	image: '/images/commercials/woocommerce-background-two.png',
+	image: '/images/commercials/primeros-pasos-background.png',
 	imageDesktop: '/images/commercials/primeros-pasos-background-desktop.png',
 	alt: 'backgroundprimeros pasos',
 	button: {

@@ -13,6 +13,9 @@
 		padding-bottom: 5px;
 	}
 }
+.container {
+	padding-top: 40px;
+}
 .title {
 	font-size: 2.5rem;
 	text-align: center;
@@ -53,6 +56,7 @@
 	display: flex;
 	align-items: center;
 	position: relative;
+	padding-bottom: 5px;
 }
 .formInput {
 	background-color: $color_quinary;
@@ -163,17 +167,68 @@
 	font-style: italic;
 	margin-top: -10px;
 	width: 100%;
+	font-size: 16px;
 }
 .place, .dimensions, .amounts {
 	padding: 0 10px;
-	margin-bottom: 90px;
+	margin-bottom: 110px;
+}
+
+.errors {
+	color:red;
+	margin-top: 5px;
+	font-size: 11px;
+	height: 10px;
+}
+
+.helpInput {
+	background-color: $color_quinary;
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px #0000001a;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.5s,
+	opacity 0.5s linear;
+	height: auto;
+	padding: 10px 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 200px;
+}
+
+.helpInputTop {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap:10px;
+	font-size: 1.3rem;
+	p {
+		font-family: $font_primary_bold;
+		margin: 0;
+	}
+}
+
+.helpInputDescription {
+	font-size: 1rem;
+	padding: 10px 0;
+	line-height: 1.2;
+}
+.helpInputHover {
+	width: 50px;
+	position: relative;
+}
+
+.helpInputHover:hover + .helpInput {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0.5s,
+	opacity 0.5s linear;
 }
 
 // desktop
 @media (min-width: 1024px) {
-	.container {
-		padding-top: 10px;
-	}
+
 	// components
 	.place,
 	.dimensions {

@@ -2,11 +2,16 @@ import Image from 'next/image';
 import React from 'react';
 import Button from '@components/button';
 import styles from './Modal.module.scss';
-const Modal = ({ dataModal, handleCloseModal }) => {
+const Modal = ({ dataModal, handleCloseModal, refModal }) => {
+	// console.log(dataModal);
 	if (!dataModal) return '';
 	return (
 		<div className={`${styles.container} ${styles[dataModal.orientation]}`}>
-			<div id={`modal-${dataModal?.id}`} className={styles.modal}>
+			<div
+				id={`modal-${dataModal?.id}`}
+				className={styles.modal}
+				ref={refModal}
+			>
 				<button
 					className={styles.exit}
 					id={`exit-${dataModal?.id}`}
@@ -17,11 +22,13 @@ const Modal = ({ dataModal, handleCloseModal }) => {
 						alt='exit'
 						width={29}
 						height={29}
+						id={`exit-${dataModal?.id}`}
+						onClick={(e) => handleCloseModal(e)}
 					/>
 					Volver
 				</button>
 				<div className={styles.modalBackground}></div>
-				<div className={styles.modalContent}>
+				<div className={`${styles.modalContent} modal-content`}>
 					{dataModal.image && (
 						<div className={styles.image}>
 							<Image
@@ -34,12 +41,12 @@ const Modal = ({ dataModal, handleCloseModal }) => {
 					)}
 					<p className={styles.title}>{dataModal.title}</p>
 					<div
-						className={styles.description}
+						className={`${styles.description} modal-description`}
 						dangerouslySetInnerHTML={{
 							__html: dataModal.description,
 						}}
 					></div>
-					<div className={styles.button}>
+					<div className={`${styles.button} modal-button`}>
 						<Button data={dataModal.buttonOne} />
 					</div>
 				</div>

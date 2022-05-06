@@ -18,11 +18,6 @@ export default function BannerAboutUs({ data }: Props) {
 					className={styles.description}
 					dangerouslySetInnerHTML={{ __html: data.description }}
 				></div>
-				<div className={styles.buttons}>
-					{/* si el botón no viene no se mostrará */}
-					{data.buttonOne && <Button data={data.buttonOne} />}
-					{data.buttonTwo && <Button data={data.buttonTwo} />}
-				</div>
 			</div>
 		</div>
 	);

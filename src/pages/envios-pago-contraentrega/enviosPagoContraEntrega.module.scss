@@ -53,6 +53,12 @@
   }
   .containerCommercial {
     margin-bottom: 100px;
+    button,
+    a {
+      div {
+        width: 22rem;
+      }
+    }
   }
   .containerService{
     .title {

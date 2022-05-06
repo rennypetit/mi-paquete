@@ -13,6 +13,7 @@ export default function BannerSlider({ items }: PropsSlider) {
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		initialSlide: 1,
 	};
 	return (
 		<Slider {...settings} className='dots-grey'>

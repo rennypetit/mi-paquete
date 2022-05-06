@@ -3,7 +3,7 @@
   margin-top: 70px;
   margin-bottom: 500px;
   position: relative;
-  height: 600px;
+  height: 650px;
 }
 .background {
   height: 100%;
@@ -69,8 +69,10 @@
   width: 90%;
 }
 .formTitle {
-  font-size: 2.5rem;
-  margin: 0;
+  h1,h2,h3,h4,h5,h6,p {
+    font-size: 2.5rem;
+    margin: 0;
+  }
   span {
     color:$color_quaternary;
     display: block;
@@ -83,6 +85,15 @@
   line-height: 1.4;
   border-bottom: 1px solid #0000001C;
   padding-bottom: 10px;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-size: 1.6rem;
+  }
 
 }
 
@@ -193,6 +204,7 @@
   border: 0;
   color: $color_quinary;
   font-style: italic;
+  font-size: 16px;
   width: 100%;
 }
 // desktop {
@@ -200,7 +212,7 @@
   .container {
     margin-top: 300px;
     margin-bottom: 300px;
-    height: 350px;
+    height: 400px;
   }
 
   .backgroundContent {
@@ -240,4 +252,3 @@
     right: 10%;
   }
 }
-

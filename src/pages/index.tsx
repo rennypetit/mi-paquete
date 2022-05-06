@@ -12,7 +12,6 @@ import Media from '@components/media';
 import Recognition from '@components/recognition';
 import Testimonial from '@components/testimonial';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -23,6 +22,7 @@ import {
 	commercial,
 	blog,
 	recognitions,
+	testimonials,
 } from '@data/home';
 
 import styles from './Home.module.scss';
@@ -46,20 +46,20 @@ const Home: NextPage = () => {
 					<Feature items={features} />
 				</div>
 			</div>
-			<div className={styles.containerAllies}>
+			<div className={`${styles.containerAllies} container-background`}>
 				<Ally />
 			</div>
 			<div className='container'>
 				<Commercial data={commercial} />
 			</div>
-			<div className={styles.containerBlog}>
+			<div className={`${styles.containerBlog} container-background`}>
 				<h2 className={`${styles.containerTitle} containerTitle`}>
 					Blog <span>Mi Paquete</span>
 				</h2>
 				<BlogCardSlider items={blog} />
 			</div>
 			<div className='container'>
-				<div className={styles.containerBlog}>
+				<div className={styles.containerMedia}>
 					<h2 className='containerTitle'>
 						Conoce lo que los medios dicen <span>sobre nosotros</span>
 					</h2>
@@ -68,10 +68,9 @@ const Home: NextPage = () => {
 			</div>
 			<Recognition data={recognitions} />
 			<div className='container'>
-				<Testimonial />
+				<Testimonial data={testimonials} />
 			</div>
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

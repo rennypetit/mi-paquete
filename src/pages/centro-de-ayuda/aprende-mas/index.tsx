@@ -3,10 +3,8 @@ import Layout from 'layout';
 import Banner from '@components/banner/';
 import Card from '@components/cards/CardVideo';
 import Commercial from '@components/commercial/CommercialSubmit';
-import Question from '@components/question';
 import BlogCardSlider from '@components/blog/BlogCardSlider';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -28,15 +26,15 @@ const aprendeMas: NextPage = () => {
 				<Card items={cards} />
 				<Commercial data={commercial} />
 			</div>
-			<Question items={question} />
 			<div className={styles.containerBlog}>
 				<h2 className={`${styles.containerTitle} containerTitle`}>
 					Descubre más en <span>nuestro blog</span>
 				</h2>
 				<BlogCardSlider items={blog} />
 			</div>
-			<Newsletter background={'secondary'} />
-			<Footer />
+			<div className={styles.newsletter}>
+				<Newsletter background={'secondary'} />
+			</div>
 			<Fixed />
 		</Layout>
 	);

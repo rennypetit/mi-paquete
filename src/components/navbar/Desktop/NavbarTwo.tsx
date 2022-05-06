@@ -10,25 +10,29 @@ export default function NavbarTwo() {
 				{items.map((item: object, index: number) => (
 					<li key={index} className='dropdown'>
 						<button className={`${styles.items}`}>{item.title}</button>
-						<ul className={`dropdown-content ${styles.ulChildren}`}>
-							{item.subItems.map((subItem: Items, index: number) => (
-								<li key={index}>
-									<div className={styles.arrowRight}></div>
-									<Link href={subItem.url}>
-										<a>{subItem.title}</a>
-									</Link>
-								</li>
-							))}
-						</ul>
+						<div className={styles.marginSubItems}>
+							<ul className={`dropdown-content ${styles.ulChildren}`}>
+								{item.subItems.map((subItem: Items, index: number) => (
+									<li
+										key={index}
+										className={`${
+											subItem.title === 'Envíos Pago Contra Entrega'
+												? styles.liBaseline
+												: subItem.title === 'Integraciones'
+												? styles.liStrong
+												: 'li-menu'
+										}`}
+									>
+										<div className={styles.arrowRight}></div>
+										<Link href={subItem.url}>
+											<a>{subItem.title}</a>
+										</Link>
+									</li>
+								))}
+							</ul>
+						</div>
 					</li>
 				))}
-				<li>
-					<Link href='/agencias'>
-						<a>
-							<div className={styles.items}>AGENCIAS</div>
-						</a>
-					</Link>
-				</li>
 				<li>
 					<Link href='/blog'>
 						<a>
@@ -37,7 +41,12 @@ export default function NavbarTwo() {
 					</Link>
 				</li>
 				<li>
-					<a className={`${styles.items} ${styles.itemBlue}`}>
+					<a
+						href='https://app.mipaquete.com/registro'
+						target='_blank'
+						rel='noopener noreferrer'
+						className={`${styles.items} ${styles.itemBlue}`}
+					>
 						CREAR UNA CUENTA
 					</a>
 				</li>

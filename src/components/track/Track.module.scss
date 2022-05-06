@@ -43,7 +43,7 @@
 		font-size: 1.4rem;
 		border-right: 2px solid $color_quaternary;
 		padding-right: 10px;
-		width: 150px;
+		width: 19rem;
 	}
 	input {
 		background-color: transparent;
@@ -60,6 +60,7 @@
 .form {
 	.button {
 		background-color: $color_tertiary;
+		border:0;
 		font-size: 1.3rem;
 		font-family: $font_primary_bold;
 		font-style: italic;
@@ -69,6 +70,9 @@
 		margin-top: 20px;
 		height: 45px;
 		width: 150px;
+		&:hover {
+			font-size: 1.4rem !important;
+		}
 	}
 }
 .icon {

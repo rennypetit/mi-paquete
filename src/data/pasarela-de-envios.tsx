@@ -1,3 +1,4 @@
+import { TypeButton, TypeDescription } from '@types/global';
 import { TypesBannerBackground } from '@components/banner/types';
 
 export const banner: TypesBannerBackground = {
@@ -13,55 +14,45 @@ export const banner: TypesBannerBackground = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonGreen',
 		title: 'INFO POR WHATSAPP',
 		// icon: '/images/icons/whatsapp-two.png',
 		// alt: 'icon whatsapp',
-		url: '#',
+		url: 'https://walink.co/b8da4c',
+		type: TypeButton.blank,
 	},
 };
 
 export const features = {
-	image: '/images/features/pasarela-de-envios.png',
-	alt: 'features',
+	type: TypeDescription.video,
+	video: 'https://www.youtube.com/embed/ac1-Wzf_AOI',
 	title: 'Lleva tu logística de',
 	titleTwo: 'ecommerce a otro nivel',
 	colorTitleTwo: 'blue',
-	items: [
-		{
-			title:
-				'Optimiza tus recursos humanos dedicados a labores de seguimiento con las transportadoras.',
-		},
-		{
-			title:
-				'Selecciona automáticamente la transportadora más económica o la de menor tiempo de entrega.',
-		},
-		{
-			title:
-				'Unifica la información de las transportadoras con las que tienes negociación en una sola plataforma.',
-		},
-		{
-			title:
-				'Accede a informes y estadísticas en tiempo real para que tomes mejores decisiones.',
-		},
-		{
-			title:
-				'Mezcla las transportadoras con las que tengas negociación y transportadoras sin negociación para ampliar tu cobertura.',
-		},
-	],
+	items: `
+	<ul>
+		<li>Optimiza tus recursos humanos dedicados a labores de seguimiento con las transportadoras.</li>
+		<li>Selecciona automáticamente la transportadora más económica o la de menor tiempo de entrega.</li>
+		<li>Unifica la información de las transportadoras con las que tienes negociación en una sola plataforma.</li>
+		<li>Accede a informes y estadísticas en tiempo real para que tomes mejores decisiones.</li>
+		<li>Mezcla las transportadoras con las que tengas negociación y transportadoras sin negociación para ampliar tu cobertura.</li>
+	</ul>
+	`,
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'MÁS INFORMACIÓN',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 };
 
 export const commercial = {
 	colorText: 'textWhite',
-	title: 'Sigue tu envío en cada estado de su entrega',
+	title: '<p>Sigue tu envío en cada estado de su entrega</p>',
 	description:
 		'<h3>Conoce siempre el<strong> estado de tu envío con Mi Paquete</strong></h3><p>Con <strong>Mi Paquete</strong> tienes la posibilidad de ofrecer a tus clientes notificaciones vía <strong>WhatsApp</strong> para que conozcan el estado de su envío desde que es despachado, indicándoles datos clave para que tus ventas sean más seguras.</p>',
 	image: '/images/commercials/envios-tradicionales-background.png',
@@ -70,8 +61,9 @@ export const commercial = {
 	alt: 'background pasarela de envios',
 	button: {
 		title: 'CONOCE MÁS',
-		url: '#',
 		color: 'buttonOrange',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 };
 
@@ -80,43 +72,25 @@ export const form = {
 		'<h4>Genera envíos automáticos <strong>para tu ecommerce</strong></h4>',
 	description:
 		'<p>Integrar nuestro software de automatización de envíos te ayudará a ahorrar tiempo y dinero, evitando errores y procesos innecesarios, y aumentará tus ventas en poco tiempo, ya que podrás ofrecerle a tu cliente en tiempo real el valor de su compra + envío.</p>',
-	titleForm: 'Sincroniza los envíos de',
-	titleFormSpan: 'tu e-commerce',
+	titleForm: '<p>Sincroniza los envíos de <span>tu e-commerce</span></p>',
 	formDescription:
-		'Uno de nuestros expertos te contactará para explicarte cómo integrar el proceso de automatización de envíos a tu tienda online.',
+		'<p>Uno de nuestros expertos te contactará para explicarte cómo integrar el proceso de automatización de envíos a tu tienda online.</p>',
+	listId: '99',
+	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
 
 export const commercialTwo = {
 	colorText: 'textWhite',
-	title: 'Sigue tu envío en cada estado de su entrega',
+	title: '<p>Sigue tu envío en cada estado de su entrega</p>',
 	description:
-		'<h3>¡Conoce todas las ventajas de nuestra <strong>pasarela de envíos!</strong></h3><p>Podrás recibir notificaciones logísticas vía Whatsapp a tus destinatarios y adquirir solución de novedades por parte del destinatario con nuestro centro de ayuda.</p>',
+		'<h3>¡Conoce todas las ventajas de nuestra <strong>pasarela de envíos!</strong></h3><p>Almacenamos, alistamos y despachamos nuestros productos. Confía tus inventarios en nosotros e incrementa su rotación.</p>',
 	image: '/images/commercials/pasarela-background.png',
 	imageDesktop: '/images/commercials/pasarela-background-desktop.png',
 	alt: 'background pasarela',
 	button: {
 		title: 'CONOCE MÁS',
-		url: '#',
 		color: 'buttonOrange',
+		url: '/almacenamiento',
+		type: TypeButton.link,
 	},
 };
-
-export const question = [
-	{
-		title: 'Problemas para procesar la guía de envío',
-		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
-	},
-];

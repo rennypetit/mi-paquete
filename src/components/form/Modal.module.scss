@@ -1,0 +1,124 @@
+@import '../../styles/variables';
+.modal {
+  @include center;
+  background-color: rgba(0, 0, 0, .8);
+  backdrop-filter: blur(5px);
+  bottom: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  overflow-y: hidden;
+  z-index: 20;
+  a {
+    color: $color_tertiary;
+    text-decoration: underline;
+  }
+}
+.modalBackground {
+  background-color: $color_quinary;
+  border-radius: 10px;
+  position: absolute;
+  height: 400px;
+  width: 80%;
+}
+.modalContent {
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 80%;
+  img {
+    object-fit: cover;
+  }
+}
+.topAndImage {
+  position: relative;
+  background: transparent linear-gradient(90deg, #4faffc 0%, #0b93ff 100%) 0% 0% no-repeat padding-box;
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.modalTop {
+  height: 75px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.image {
+  border-radius: 15px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  border-bottom: 2px solid $color_quaternary;
+  padding-bottom: 5px;
+  color: $color_quaternary;
+  font-size: 3rem;
+  font-family: $font_primary_bold;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px
+}
+.description {
+  @include center;
+  color:$color_secondary;
+  line-height: 1.5;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+  overflow-y: auto;
+  font-size: 1.4rem;
+  height: auto;
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 10px;
+}
+.button {
+  background-color: $color_quaternary;
+  color:$color_primary;
+  font-size: 1.6rem;
+  font-style: italic;
+  margin: auto;
+  border:0;
+  margin-top: 10px;
+  button {
+    text-decoration: none !important;
+    width: 220px;
+  }
+}
+// desktop {
+@media (min-width: 1024px) {
+  .modalBackground {
+    border-radius: 44px;
+    padding: 10px 20px;
+    width: 450px;
+    height: 450px;
+  }
+  .modalContent {
+    width: 450px;
+    height: 450px;
+  }
+  .exit {
+    justify-content: flex-start;
+    left: 350px;
+    top: 50px;
+    right: 0;
+    position: absolute;
+  }
+  .title {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .description {
+    display: block;
+    height: auto;
+    padding: 10px 0;
+  }
+}

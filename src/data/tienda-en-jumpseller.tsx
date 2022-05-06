@@ -1,3 +1,4 @@
+import { TypeButton, TypeDescription } from '@types/global';
 import { TypesBanner } from '@components/banner/types';
 
 export const banner: TypesBanner = {
@@ -10,12 +11,14 @@ export const banner: TypesBanner = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonOrange',
 		title: 'CONECTA TU TIENDA',
-		url: '#',
+		url: 'https://jumpseller.co/support/mi-paquete/',
+		type: TypeButton.blank,
 	},
 };
 
@@ -53,40 +56,35 @@ export const storages = {
 		{
 			image: '/images/icons/add-blue.png',
 			alt: 'icon add',
-			title: 'Añade la aplicación',
+			title: 'configura el método de envío',
 			description:
-				'Busca nuestra aplicación en la sección de aplicaciones en el panel de Jumpseller e instálala',
+				'En el panel de configuración elige la opción de "envío" y selecciona "Mi Paquete"',
 		},
 		{
 			image: '/images/icons/update-blue.png',
 			alt: 'icon update',
-			title: 'Autoriza la configuración',
+			title: 'Habilita las transportadoras',
 			description:
-				'Confirma el mensaje de configutración interna dentro de la tienda',
-		},
-		{
-			image: '/images/icons/create-blue.png',
-			alt: 'icon create',
-			title: 'Crea tu cuenta en Mi Paquete',
-			description:
-				'Completa los datos del formulario para registrarte y accede a tu cuenta',
+				'Selecciona las empresas de transporte con las que desees que se envíen tus paquetes y la ciudad de despacho',
 		},
 	],
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'SOLICITA INFORMACIÓN',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonWhite',
 		title: 'CONECTA JUMPSELLER',
-		url: '#',
+		url: 'https://jumpseller.co/support/mi-paquete/',
+		type: TypeButton.blank,
 	},
 };
 
 export const features = {
-	image: '/images/features/jumpseller.png',
-	alt: 'features',
+	type: TypeDescription.video,
+	video: 'https://www.youtube.com/embed/SiuW2y_EB6o',
 	title: 'Ventajas de automatizar tu tienda en',
 	titleSpan: 'Jumpseller',
 	orientation: 'left',
@@ -115,36 +113,65 @@ export const features = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'ADQUIERE LA APLICACIÓN',
-		url: '#',
+		url: 'https://jumpseller.co/support/mi-paquete/',
+		type: TypeButton.blank,
 	},
 	buttonTwo: {
 		color: 'buttonOrange',
 		title: 'CONOCE MÁS',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
+};
+
+export const testimonials = {
+	icon: '/images/quote.png',
+	alt: 'quote',
+	title:
+		'<p>En Mi Paquete hemos recaudado más de $60 mil millones en envíos con pago contra entrega a nuestros clientes <span>en toda Colombia.</span></p>',
+	items: [
+		{
+			description:
+				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con Mi Paquete. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
+			url: '#',
+			person: {
+				image: '/images/testimonials/person-1.png',
+				alt: 'person',
+				name: 'Jeimer López',
+				nickName: '1000Marikdas',
+			},
+		},
+		{
+			description:
+				'<p>En <span>@paneles3dmax</span> realizamos el primer pedido con pago contraentrega y la experiencia fue estupenda: Fácil, rápido, sin papeleos, sin exigencias de pedidos mensuales, sin software tediosos, súper práctico, económico. Felicitaciones.</p>',
+			url: '#',
+			person: {
+				image: '/images/testimonials/person-1.png',
+				alt: 'person',
+				name: 'Jorge Cremades',
+				nickName: 'Paneles3DMax',
+			},
+		},
+	],
 };
 
 export const question = [
 	{
 		title: '¿Dónde puedo descargar el plugin para JumpSeller?',
-		description:
-			'Ingresas a tu tienda en JumpSeller. Da clic en la opción de aplicaciones y en la categoría de “shipping and fulfillment” encontrarás nuestra opción identificado con nuestro logo. Recuerda que nuestro plugin es gratuito.',
+		description: `<p>Ingresas a tu tienda en JumpSeller. Da clic en la opción de aplicaciones y en la categoría de "shipping and fulfillment" encontrarás nuestra opción identificado con nuestro logo. Recuerda que nuestro plugin es gratuito.</p>`,
 	},
 	{
 		title: '¿Cómo debo configurar mi plugin?',
-		description:
-			'Configurar el plugin es rápido y sencillo, en solo 5 pasos lo conseguirás. En el siguiente video te mostramos cómo hacerlo: <a href="https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj">https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj</a>',
+		description: `<p>Configurar el plugin es rápido y sencillo, en solo 5 pasos lo conseguirás. En el siguiente video te mostramos cómo hacerlo: <a href="https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj">https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj</a></p>`,
 	},
 	{
 		title: '¿Manejan un mínimo de envíos para utilizar su plugin? ',
-		description:
-			'No, lo mejor de nuestro servicio es que puedes enviar desde un paquete en adelante.',
+		description: `<p>No, lo mejor de nuestro servicio es que puedes enviar desde un paquete en adelante.</p>`,
 	},
 	{
 		title:
 			'¿Si no tengo saldo en la billetera de mipaquete.com, mi cliente no puede realizar la compra?',
-		description:
-			'Tu cliente puede generar la compra de tus productos tranquilamente, pero sí es necesario que tengas saldo en tu billetera en el momento de generar la guia.',
+		description: `<p>Tu cliente puede generar la compra de tus productos tranquilamente, pero sí es necesario que tengas saldo en tu billetera en el momento de generar la guia.</p>`,
 	},
 ];
 
@@ -156,9 +183,10 @@ export const form = {
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',
-	titleForm: 'Automatizamos el éxito de ',
-	titleFormSpan: 'tu ecommerce',
+	titleForm: '<p>Automatizamos el éxito de <span>tu ecommerce</span></p>',
 	formDescription:
-		'Simplifica tu logística y aumenta las ventas de tu tienda ¡Compártenos tus datos para ayudarte!',
+		'<p>Simplifica tu logística y aumenta las ventas de tu tienda ¡Compártenos tus datos para ayudarte!</p>',
 	FormColorSpan: 'orange',
+	listId: '102',
+	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };

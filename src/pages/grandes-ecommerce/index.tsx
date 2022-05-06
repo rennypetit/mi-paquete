@@ -5,7 +5,6 @@ import Feature from '@components/feature';
 import Ally from '@components/ally';
 import Commercial from '@components/commercial';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -22,17 +21,18 @@ const grandesEcommerce: NextPage = () => {
 					<Banner data={banner} />
 				</div>
 			</main>
-			<div className='container margin-top'>
-				<div className={styles.featuresTwo}>
+			<div className='container'>
+				<div className={styles.features}>
 					<Feature items={features} icon={true} />
 				</div>
 			</div>
 			<div className={`container ${styles.container}`}>
 				<Ally />
+			</div>
+			<div className={`container-background ${styles.containerCommercial}`}>
 				<Commercial data={commercial} />
 			</div>
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

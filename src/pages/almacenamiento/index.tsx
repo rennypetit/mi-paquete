@@ -2,14 +2,13 @@ import type { NextPage } from 'next';
 import Layout from 'layout';
 import Banner from '@components/banner/BannerBackground';
 import Row from '@components/storage/Row';
+import Slider from '@components/storage/Slider';
 import Button from '@components/button';
 import Plan from '@components/storage/Plan';
 import Commercial from '@components/commercial';
 import Form from '@components/form';
-import Slider from '@components/storage/Slider';
 import Question from '@components/question';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -29,17 +28,18 @@ import styles from './almacenamiento.module.scss';
 const almacenamiento: NextPage = () => {
 	return (
 		<Layout>
-			{/* slider of banner */}
 			<main>
-				<Banner data={banner} />
+				<div className={styles.banner}>
+					<Banner data={banner} />
+				</div>
 			</main>
 			<div className='container margin-top'>
 				<Row data={row} />
 			</div>
-			<Slider items={slider} />
+			<Slider data={slider} />
 			<div className='container'>
 				<div className={styles.containerPlans}>
-					<h2 className='containerTitle'>
+					<h2 className={`${styles.plan} containerTitle`}>
 						Planes de almacenamiento <br />
 						<span>de mercancía mensual</span>
 					</h2>
@@ -58,9 +58,10 @@ const almacenamiento: NextPage = () => {
 				<Commercial data={commercial} />
 			</div>
 			<Form data={form} background={'primary'} />
-			<Question items={question} />
+			<div className='container'>
+				<Question items={question} />
+			</div>
 			<Newsletter background={'secondary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

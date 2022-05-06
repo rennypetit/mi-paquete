@@ -17,4 +17,11 @@ module.exports = {
 	vueIndentScriptAndStyle: false,
 	printWidth: 80,
 	eslintIntegration: true,
+	stylelintIntegration: true,
+	includeLanguages: {
+		javascript: 'javascriptreact',
+		typescript: 'typescriptreact',
+		'jsx-sublime-babel-tags': 'javascriptreact',
+		SCSS: 'CSS',
+	},
 };

@@ -4,7 +4,7 @@ const Description = ({ data }) => {
 	return (
 		<section className={styles.container}>
 			<div className={styles.image}>
-				<Image src={data.image} alt={data.alt} width={340} height={378} />
+				<Image src={data.image} alt={data.alt} width={370} height={408} />
 			</div>
 			<div className={styles.descriptionMobile}>
 				<div className='container'>

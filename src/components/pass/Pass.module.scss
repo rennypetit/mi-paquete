@@ -1,8 +1,17 @@
 .container {
-  margin: 100px auto;
+  margin: 20px auto;
   width: 100%;
   text-align: center;
   img {
     object-fit: contain;
+  }
+}
+
+// desktop {
+@media (min-width: 1024px) {
+  .container {
+    img {
+      object-fit: initial;
+    }
   }
 }

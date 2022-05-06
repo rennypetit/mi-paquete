@@ -1,6 +1,6 @@
 @import '../../styles/variables';
 .container{
-  margin-top: 50px;
+  @include container;
 }
 .image{
   margin: auto;
@@ -13,6 +13,7 @@
     @include center;
     gap: 20px;
     font-size: 1.6rem;
+    padding: 10px 0;
     & > span {
       width: 70px;
     }
@@ -34,6 +35,7 @@
   .container{
     @include center;
     flex-direction: row-reverse;
+    margin-top: 50px;
   }
   .image {
     text-align: end;

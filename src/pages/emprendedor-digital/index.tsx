@@ -5,7 +5,6 @@ import Feature from '@components/feature';
 import Row from '@components/storage/Row';
 import Commercial from '@components/commercial';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -63,7 +62,6 @@ const emprendedorDigital: NextPage = () => {
 				</div>
 			</div>
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

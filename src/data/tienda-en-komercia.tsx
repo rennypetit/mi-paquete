@@ -1,4 +1,5 @@
 import { TypesBanner } from '@components/banner/types';
+import { TypeButton, TypeDescription } from '@types/global';
 
 export const banner: TypesBanner = {
 	title: `<h1>¿Tienes una <strong>tienda en Komercia? <br /></strong><span>Realiza tus envíos en segundos</span></h1>`,
@@ -10,12 +11,14 @@ export const banner: TypesBanner = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonOrange',
 		title: 'CONECTA TU TIENDA',
-		url: '#',
+		url: 'https://ayuda.komercia.co/kb/guide/es/mi-paquete-0Q7HhVASNb/Steps/1165136',
+		type: TypeButton.blank,
 	},
 };
 
@@ -41,7 +44,7 @@ export const storages = {
 			alt: 'icon personalization',
 			title: 'Personaliza tu marca',
 			description:
-				'Komercias te permite crar catálogos, usar pasarela de pagos, carrito de compras y más.',
+				'Komercia te permite crear catálogos, usar pasarela de pagos, carrito de compras y más.',
 		},
 		{
 			image: '/images/icons/fast-orange.png',
@@ -51,25 +54,11 @@ export const storages = {
 				'Añadir Mi Paquete como método de envío es sencillo y toma menos de 1 minuto.',
 		},
 		{
-			image: '/images/icons/add-orange.png',
-			alt: 'icon add',
-			title: 'Fácil creación',
+			image: '/images/icons/options.png',
+			alt: 'icon options',
+			title: 'Variedad de envíos',
 			description:
-				'Crear tu tienda online en Komercia es sencillo y puedes configurarla en minutos.',
-		},
-		{
-			image: '/images/icons/personalization-orange.png',
-			alt: 'icon personalization',
-			title: 'Personaliza tu marca',
-			description:
-				'Komercias te permite crar catálogos, usar pasarela de pagos, carrito de compras y más.',
-		},
-		{
-			image: '/images/icons/fast-orange.png',
-			alt: 'icon fast',
-			title: 'Rápida integración',
-			description:
-				'Añadir Mi Paquete como método de envío es sencillo y toma menos de 1 minuto.',
+				'Incluye la opción de pagos contra entrega a nivel urbano y nacional, y envíos normales.',
 		},
 	],
 	buttonOne: {
@@ -80,11 +69,14 @@ export const storages = {
 };
 
 export const features = {
+	type: TypeDescription.image,
 	image: '/images/features/komercia.png',
 	alt: 'features',
 	title: '¿Por qué integrar tu tienda en Komercia',
 	titleSpan: 'con Mi Paquete?',
 	orientation: 'right',
+	width: 616,
+	height: 440,
 	items: [
 		{
 			image: '/images/icons/time.png',
@@ -111,24 +103,25 @@ export const features = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonOrange',
 		title: 'CONECTA TU TIENDA',
-		url: '#',
+		url: 'https://ayuda.komercia.co/kb/guide/es/mi-paquete-0Q7HhVASNb/Steps/1165136',
+		type: TypeButton.blank,
 	},
 };
-
 export const question = [
 	{
 		title: '¿Tiene algún costo la configuración de mipaquete.com en Komercia?',
-		description: 'No tiene ningún costo. Solo pagas por tus envíos.',
+		description: '<p>No tiene ningún costo. Solo pagas por tus envíos.</p>',
 	},
 	{
 		title: 'Necesito apoyo técnico para la configuración.',
 		description:
-			'Comunícate al whatsapp de soporte de Komercia +57 310 7884893, están disponibles para ayudarte.',
+			'<p>Comunícate al whatsapp de soporte de Komercia <a href="tel:+573107884893">+57 310 7884893</a>, están disponibles para ayudarte.</p>',
 	},
 ];
 
@@ -140,9 +133,10 @@ export const form = {
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',
-	titleForm: 'Automatizamos el éxito de ',
-	titleFormSpan: 'tu ecommerce',
+	titleForm: '<p>Automatizamos el éxito de <span>tu ecommerce</span></p>',
 	formDescription:
-		'Simplifica tu logística y aumenta las ventas de tu tienda ¡Compártenos tus datos para ayudarte!',
+		'<p>Simplifica tu logística y aumenta las ventas de tu tienda <strong>¡Compártenos tus datos para ayudarte!</strong></p>',
 	FormColorSpan: 'orange',
+	listId: '103',
+	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };

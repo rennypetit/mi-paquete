@@ -1,38 +1,7 @@
-// export const pages = {
-// 	items: [
-// 		{
-// 			urlPath: 'gym-shop',
-// 			image: '/images/cards/infitworld-logo.png',
-// 			title: 'Aliquam quis augue mollis',
-// 			description:
-// 				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata. sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus',
-// 			sectionOne: {
-// 				title: '¿Cual fue la solución que brindo Mi paquete en este caso?',
-// 				description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-// 				image: '/images/cards/infitworld-logo.png',
-// 			},
-// 			sectionTwo: {
-// 				title: 'Estos fueron los resultados obtenidos',
-// 				description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-// 				image: '/images/cards/infitworld-logo.png',
-// 			},
-// 			testimonial: {
-// 				title: 'Lorem ipsum dolor sit Etiam luctus.',
-// 				items: [
-// 					{
-// 						title: 'fringilla sollicitudin',
-// 						description: 'In ornare vel urna quis venenatis. Maecenas orci mauris, lacinia eu feugiat a, fringilla quis augue. Suspendisse auctor quis velit vitae porta. Pellentesque sit amet neque sed ex vulputate volutpat. Morbi vehicula, quam in mollis dignissim.',
-// 						image: '/images/cards/infitworld-logo.png',
-// 						url: "#"
-// 					}
-// 				],
-// 				description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod nisi eu mi auctor, in feugiat diam commodo. Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit amet lacus. Integer vel molestie urna. Phasellus maximus commodo maximus.'
-// 			},
-// 		},
-// 	],
-// };
+import { TypeButton } from '@types/global';
+import { TypesBanner } from '@components/banner/types';
 
-export const banner = {
+export const banner: TypesBanner = {
 	title: `<h1>Aliquam quis augue mollis <span>scelerisque dui</span></h1>`,
 	subtitle: '',
 	image: '/images/banners/fondo-gym-caso-exito.png',
@@ -66,7 +35,6 @@ export const cards = {
 	description: "",
 	items: [
 		{
-			url: '#',
 			image: '/images/cards/infitworld-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
@@ -75,11 +43,11 @@ export const cards = {
 			buttonOne: {
 				color: 'buttonOrange',
 				title: 'Conoce más',
-				url: '#'
+				url: '/casos-de-exito/gym-shop',
+				type: TypeButton.link,
 			},
 		},
 		{
-			url: '#',
 			image: '/images/cards/gym-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
@@ -88,11 +56,11 @@ export const cards = {
 			buttonOne: {
 				color: 'buttonOrange',
 				title: 'Conoce más',
-				url: '#'
+				url: '/casos-de-exito/gym-shop',
+				type: TypeButton.link,
 			},
 		},
 		{
-			url: '#',
 			image: '/images/cards/orion-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
@@ -101,7 +69,8 @@ export const cards = {
 			buttonOne: {
 				color: 'buttonOrange',
 				title: 'Conoce más',
-				url: '#'
+				url: '/casos-de-exito/gym-shop',
+				type: TypeButton.link,
 			},
 		},
 	],
@@ -118,6 +87,28 @@ colorText: 'textBlack',
 	button: {
 		title: 'MÁS INFORMACIÓN',
 		url: '#',
+		type: TypeButton.link,
 		color: 'buttonBlue',
 	},
+};
+
+export const testimonials = {
+	icon: '/images/quote.png',
+	alt: 'quote',
+	title:
+		'Lorem ipsum dolor sit',
+	titleSpan: 'Etiam luctus.',
+	items: [
+		{
+			description:
+				'In ornare vel urna quis venenatis. Maecenas orci mauris, lacinia eu feugiat a, fringilla quis augue. Suspendisse auctor quis velit vitae porta. Pellentesque sit amet neque sed ex vulputate volutpat. Morbi vehicula, quam in mollis dignissim.',
+			url: '#',
+			person: {
+				image: '/images/stories/img-testimonial.png',
+				alt: 'person',
+				name: 'fringilla sollicitudin',
+				nickName: 'fringilla sollicitudin',
+			},
+		},
+	],
 };

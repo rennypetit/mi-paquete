@@ -1,26 +1,25 @@
-import testimonials from '@data/componentTestimonialStories';
 import Image from 'next/image';
 import {useContext} from 'react';
 import WidthContext from '@contexts/width';
 import styles from './Testimonial.module.scss';
-const Testimonial = () => {
+const TestimonialStories = ({data}) => {
 	const { widthViewport } = useContext(WidthContext);
 	return (
 		<section className={styles.container}>
 			<div className={styles.description}>
 				<Image
-					src={testimonials.icon}
-					alt={testimonials.alt}
+					src={data.icon}
+					alt={data.alt}
 					width={146}
 					height={109}
 				/>
 				<p className={styles.title}>
-					{testimonials.title} <span>{testimonials.titleSpan}</span>
+					{data.title} <span>{data.titleSpan}</span>
 				</p>
 			</div>
 
 			<div className={styles.items}>
-			{testimonials.items.map((item, index) => (
+			{data.items.map((item, index) => (
 						<div className={`${styles.card} ${styles.cardSingle}`} key={index}>
 							<div className={styles.cardIntro}>
 							{ widthViewport >= 1024 ?  
@@ -69,4 +68,4 @@ const Testimonial = () => {
 	);
 };
 
-export default Testimonial;
+export default TestimonialStories;

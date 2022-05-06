@@ -1,11 +1,92 @@
 @import '../../styles/variables';
 .container {
-  position: fixed;
+  background-color: $color_quinary;
+  box-shadow: 0px 0px 13px #00000022;
+  border-radius: 42px;
   bottom: 40px;
+  padding: 5px;
+  position: fixed;
   right: 20px;
-  z-index: 1;
+  z-index: 9;
 }
 .image {
-  width: 50px;
+  cursor: pointer;
   height: 50px;
+  position: relative;
+  width: 50px;
+  z-index: 2;
+}
+.imageHelp {
+  &:hover .helpText{
+    display: flex;
+  }
+}
+.helpText {
+  align-items: center;
+  background-color: #007EC4;
+  border-radius: 33px;
+  display: none;
+  font-family: $font_primary_bold;
+  font-size: 1.6rem;
+  font-style: italic;
+  height: 35px;
+  justify-content: center;
+  padding: 15px 30px 15px 0px;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  width: 23rem;
+  z-index: -1;
+  a {
+    color:$color_quinary;
+  }
+}
+
+.whatsappHelp {
+  &:hover .whatsappContext {
+    display: flex;
+  }
+}
+
+.whatsappContext {
+  bottom: 0;
+  display: none;
+  left:-30rem;
+  padding: 1.5rem 1.5rem 1.5rem 0;
+  position: absolute;
+  text-align: center;
+  width: 32rem;
+  z-index: -1;
+  img, div, span, a {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  p {
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    line-height: 1.3;
+    margin: 0 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+
+// desktop {
+@media (min-width: 1024px) {
+  .image {
+    height: 60px;
+    width: 60px;
+  }
+  .whatsappContext {
+    p {
+      font-size: 1.6rem;
+    }
+  }
 }

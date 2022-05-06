@@ -1,4 +1,7 @@
-export const banner = {
+import { TypeButton } from '@types/global';
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
 	title: `<h1>Agencias <span>Mi Paquete</span></h1>`,
 	subtitle: '',
 	description:
@@ -10,57 +13,59 @@ export const banner = {
 	buttonTwo: {
 		color: 'buttonBlue',
 		title: 'Conoce más',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 };
 
 export const maps = {
 	title: 'Encuentra nuestra agencia aliada ',
 	titleSpan: 'más cercana a ti',
-	description: 'Contamos con puntos aliados en diferentes sectores de las ciudades de Bogotá, Medellín y Cali para que puedas realizar los envíos de tu tienda sin problema.',
+	description:
+		'Contamos con puntos aliados en diferentes sectores de las ciudades de Bogotá, Medellín y Cali para que puedas realizar los envíos de tu tienda sin problema.',
 	titleCard: 'Descubre nuestras',
 	titleCardSpan: 'agencias aliadas',
-	descriptionCard: 'Conoce los puntos físicos en tu ciudad donde podrás realizar tus envíos y recibir asesoría con el proceso de logística para enviar tus productos. Encuentra en el mapa el lugar más cercano a ti.',
+	descriptionCard:
+		'Conoce los puntos físicos en tu ciudad donde podrás realizar tus envíos y recibir asesoría con el proceso de logística para enviar tus productos. Encuentra en el mapa el lugar más cercano a ti.',
 	titleCity: 'Ciudad',
 	items: [
 		{
 			id: 0,
 			city: 'Cali',
-			description:
-				'Ideal para negocios en expansión que requieren informes avanzados.',
-			image: '/images/card-state/shopify-basic.png',
-			alt: 'image shopify basic',
-			buttonOne: {
-				color: 'buttonWhite',
-				title: 'VER PLAN',
-				url: '#',
+			center: {
+				lat: 3.4219865,
+				lng: -76.5285415,
 			},
 		},
 		{
 			id: 1,
 			city: 'Bogotá',
-			description:
-				'2Ideal para negocios en expansión que requieren informes avanzados.',
-			image: '/images/card-state/shopify-basic.png',
-			alt: 'image shopify basic',
-			buttonOne: {
-				color: 'buttonWhite',
-				title: 'VER PLAN',
-				url: '#',
+			center: {
+				lat: 4.6182289,
+				lng: -74.1885848,
 			},
 		},
 		{
 			id: 2,
 			city: 'Medellín',
-			description:
-				'3Ideal para negocios en expansión que requieren informes avanzados.',
-			image: '/images/card-state/shopify-basic.png',
-			alt: 'image shopify basic',
-			buttonOne: {
-				color: 'buttonWhite',
-				title: 'VER PLAN',
-				url: '#',
+			center: {
+				lat: 6.2458234,
+				lng: -75.5621576,
 			},
+		},
+	],
+	pointsShops: [
+		{
+			lat: 4.6182289,
+			lng: -74.1885848,
+		},
+		{
+			lat: 4.6187622,
+			lng: -74.1888262,
+		},
+		{
+			lat: 4.6213301,
+			lng: -74.1970391,
 		},
 	],
 };
@@ -75,7 +80,8 @@ export const benefits = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'Solicita una asesoria',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	items: [
 		{
@@ -112,8 +118,7 @@ export const benefits = {
 export const ventajas = {
 	image: '/images/banners/img_ventajas.png',
 	alt: 'icon gps',
-	title:
-		'¿Qué necesitas para ser',
+	title: '¿Qué necesitas para ser',
 	titleSpan: 'una de nuestras agencias aliadas?',
 	description:
 		'<p>Ser una <strong>agencia aliada de Mi Paquete</strong> es sencillo, solo necesitas:</p>',
@@ -122,63 +127,41 @@ export const ventajas = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'ADQUIERE INFORMACIÓN',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	items: [
 		{
-			point:
-				'Tener un local físico en Bogotá, Medellín o Cali.',
+			point: 'Tener un local físico en Bogotá, Medellín o Cali.',
 		},
 		{
-			point:
-				'Tener un computador, impresora e internet.',
+			point: 'Tener un computador, impresora e internet.',
 		},
 		{
-			point:
-				'Estar legalmente constituido.',
+			point: 'Estar legalmente constituido.',
 		},
 		{
-			point:
-				'Disponibilidad para recibir capacitación.',
+			point: 'Disponibilidad para recibir capacitación.',
 		},
 		{
-			point:
-				'Espacio disponible para ubicar un aviso promocional',
-		}
+			point: 'Espacio disponible para ubicar un aviso promocional',
+		},
 	],
 };
 
 export const form = {
-	title: 'Súmate a nuestra red de agencias aliadas',
-	titleStrong: 'proceso de almacenamiento?',
+	title:
+		'<p>Súmate a nuestra red de agencias aliadas <strong>proceso de almacenamiento?</strong></p>',
 	description:
 		'<p>Si tienes un local físico y quieres generar ingresos adicionales <strong>este modelo de negocio es para ti.</strong></p>',
 	image: '/images/form/background-blue.svg',
 	alt: 'background form',
 	colorTextBackground: 'white',
-	titleForm: 'Completa el formulario y haz parte de nuestras',
-	titleFormSpan: 'agencias aliadas',
+	titleForm:
+		'<p>Completa el formulario y haz parte de nuestras <span>agencias aliadas</span></p>',
 	formDescription:
-		'Envía tus datos para que nuestro equipo pueda responder tus dudas y ayudarte con el proceso de afiliación.',
+		'<p>Envía tus datos para que nuestro equipo pueda responder tus dudas y ayudarte con el proceso de afiliación.</p>',
 	FormColorSpan: 'orange',
+	listId: '121',
+	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
-
-export const question = [
-	{
-		title: 'Problemas para procesar la guía de envío',
-		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
-	},
-];

@@ -15,61 +15,39 @@ export const features = {
 	titleTwo: 'Empieza a realizar tus envíos en minutos:',
 	colorTitleTwo: 'blue',
 	orientation: 'right',
-	items: [
-		{
-			title: 'Regístrate en: app.mipaquete.com/registro y crea un usuario.',
-		},
-		{
-			title:
-				'Cotiza tu envío desde app.mipaquete.com/cotización, tendrás la opción de cotizar 1 envío o múltiples envíos.',
-		},
-		{
-			title: 'Ingresa las especificaciones de tu paquete:',
-			subItems: [
-				{
-					title: 'Origen',
-				},
-				{
-					title: 'Peso',
-				},
-				{
-					title: 'Destino',
-				},
-				{
-					title: 'Valor declarado',
-				},
-				{
-					title: 'Dimensiones',
-				},
-				{
-					title: 'Número de paquetes a despachar',
-				},
-			],
-		},
-		{
-			title:
-				'Luego, confirma los datos y verifica si necesitas servicio de envío con pago contra entrega o envío tradicional.',
-		},
-	],
+	width: 352,
+	height: 550,
+	items: `
+	<ul>
+		<li>Regístrate en: <a href='app.mipaquete.com/registro' target='_blank' rel='noopener noreferrer'>app.mipaquete.com/registro</a> y crea un usuario.</li>
+		<li>Cotiza tu envío desde app.mipaquete.com/cotización, tendrás la opción de cotizar 1 envío o múltiples envíos.</li>
+		<li>Ingresa las especificaciones de tu paquete:</li>
+			<ul class='sub-icon'>
+				<li>Origen</li>
+				<li>Peso</li>
+				<li>Destino</li>
+				<li>Valor declarado</li>
+				<li>Dimensiones</li>
+				<li>Número de paquetes a despachar</li>
+			</ul>
+		<li>Luego, confirma los datos y verifica si necesitas <strong>servicio de envío con pago contra entrega</strong> o envío tradicional.</li>
+	</ul>`,
 };
 
 export const featuresTwo = {
 	image: '/images/features/submit-two.png',
 	alt: 'features',
+	width: 352,
+	height: 470,
 	titleTwo: '¿Qué cobertura y métodos de pago maneja Mi Paquete?',
 	colorTitleTwo: 'blue',
 	orientation: 'left',
 	description: '<p>Manejamos dos tipos de pago para tus envíos:</p>',
-	items: [
-		{
-			title:
-				'1: Descontamos el valor del envío, del recaudo realizado, es decir, del valor que pague tu cliente se descontará el costo del servicio de envío.',
-		},
-		{
-			title:
-				'2: Pago con saldo. Este tipo de envío es una recarga tipo “prepago” a través de PSE; solo debes recargar el costo del envío y al momento de la consignación, recibirás todo el recaudo completo, ya que pagaste el envío de manera anticipada.',
-		},
-	],
+	items: `
+	<ul>
+		<li><span>1: <br /></span> Descontamos el valor del envío, del recaudo realizado, es decir, del valor que pague tu cliente se descontará el costo del <strong>servicio de envío.</strong></li>
+		<li><span>2: <br /></span> Pago con saldo. Este tipo de envío es una recarga tipo "prepago" a través de PSE; solo debes recargar el costo del envío y al momento de la consignación, recibirás todo el recaudo completo, ya que pagaste el envío de manera anticipada.</li>
+	</ul>`,
 };
 
 export const commercial = {

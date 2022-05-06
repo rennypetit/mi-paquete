@@ -2,13 +2,12 @@ import type { NextPage } from 'next';
 import Layout from 'layout';
 import Card from '@components/cards/Card';
 import BannerWorks from '@components/banner/BannerWorks';
-import Testimonial from '@components/testimonial';
+import Testimonial from '@components/testimonial/';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
-import { cards, banner } from '@data/trabaja-con-nosotros';
+import { cards, banner, testimonials } from '@data/trabaja-con-nosotros';
 
 import styles from './workWithUs.module.scss';
 const workWithUs: NextPage = () => {
@@ -20,10 +19,9 @@ const workWithUs: NextPage = () => {
 				<Card data={cards} />
 			</main>
 			<div className={`container ${styles.margin_container}`}>
-				<Testimonial />
+				<Testimonial data={testimonials} />
 			</div>
 			<Newsletter background={'secondary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

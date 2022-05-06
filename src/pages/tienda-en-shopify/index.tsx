@@ -7,12 +7,10 @@ import Description from '@components/ecommerce/Description';
 import CardBenefit from '@components/ecommerce/CardBenefit';
 import Commercial from '@components/ecommerce/commercial';
 import FeatureTwo from '@components/feature';
-import Testimonial from '../../components/testimonial';
 import Row from '@components/row';
 import Question from '@components/question';
 import Form from '@components/form';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -34,11 +32,17 @@ const shopify: NextPage = () => {
 	return (
 		<Layout>
 			<main>
-				<BannerCenter data={banner} />
+				<div className={styles.banner}>
+					<BannerCenter data={banner} />
+				</div>
 			</main>
 			<div className='container margin-top'>
 				<Feature items={features} />
+			</div>
+			<div className={`${styles.containerAllies} container-background`}>
 				<Ally />
+			</div>
+			<div className='container'>
 				<Description data={description} />
 				<h2 className='containerTitle'>
 					Beneficios que <span>encontrarás</span>
@@ -50,13 +54,15 @@ const shopify: NextPage = () => {
 				<div className={styles.featuresTwo}>
 					<FeatureTwo items={featuresTwo} icon={true} />
 				</div>
-				<Testimonial />
 			</div>
 			<Row data={row} />
-			<Question items={question} />
-			<Form data={form} background={'primary'} />
+			<div className='container'>
+				<Question items={question} />
+			</div>
+			<div id='asesor'>
+				<Form data={form} background={'primary'} />
+			</div>
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

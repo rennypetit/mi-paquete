@@ -13,7 +13,10 @@ const Commercial = ({ data }) => {
 				<Image src={data.imageDesktop} alt={data.alt} layout='fill' />
 			)}
 			<div className={`${styles.content} ${styles[data.colorText]}`}>
-				<p className={styles.title}>{data.title}</p>
+				<div
+					className={styles.title}
+					dangerouslySetInnerHTML={{ __html: data.title }}
+				></div>
 				<div
 					className={styles.description}
 					dangerouslySetInnerHTML={{ __html: data.description }}

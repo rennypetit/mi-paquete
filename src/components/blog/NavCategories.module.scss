@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+.component_categories {
+	@include container;
+	&__categories {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		padding: 20px 0;
+		margin: 20px 0;
+		position: relative;
+		li {
+			background: #fcfcfc 0% 0% no-repeat padding-box;
+			border: 2px solid #009af0;
+			border-radius: 12px;
+			padding: 10px 25px;
+			min-width: 20%;
+			width: auto;
+			text-align: center;
+			color: #009af0;
+			text-transform: uppercase;
+			font-size: 17px;
+			font-style: italic;
+			cursor: pointer;
+			&:hover {
+				background: #e6eff5 0% 0% no-repeat padding-box;
+			}
+		}
+	}
+}

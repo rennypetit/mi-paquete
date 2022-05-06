@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.grid_template {
+	@include container;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	> div {
+		margin: 20px 25px 20px 0;
+	}
+}

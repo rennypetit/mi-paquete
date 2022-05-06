@@ -4,11 +4,7 @@
 }
 .image {
 	width: 100%;
-	img {
-		object-fit: contain;
-	}
 }
-
 .title {
 	font-size: 2rem;
 	text-align: center;
@@ -48,7 +44,6 @@
 				top: auto;
 			}
 		}
-		
 		.icon {
 			li {
 				position: relative;
@@ -94,14 +89,13 @@
 .buttons {
 	display: flex;
 	gap: 10px;
-	margin-top: 15px;
+	margin-top: 25px;
 	justify-content: center;
 	button,
 	a {
 		div {
-			font-size: 1.3rem;
-			height: 35px;
-			width: 200px;
+			font-size: 1.6rem;
+			width: 20rem;
 		}
 	}
 }
@@ -135,13 +129,10 @@
 	}
 	.right {
 		align-items: center;
-		.image {
+		.image, .video {
 			grid-column: 2;
 			grid-row: 1;
 			width: 100%;
-			img {
-				object-fit: cover;
-			}
 		}
 	}
 	.items {

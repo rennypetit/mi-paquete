@@ -1,4 +1,7 @@
-export const banner = {
+import { TypeButton, TypeDescription } from '@types/global';
+import { TypesBanner } from '@components/banner/types';
+
+export const banner: TypesBanner = {
 	title: `<h1>¿Quiénes somos?</h1>`,
 	subtitle: '',
 	description:
@@ -6,9 +9,16 @@ export const banner = {
 	buttonTwo: {
 		color: 'buttonWhite',
 		icon: '/images/icons/boton-de-play.png',
-		title: 'Conoce más',
+		title: 'Ver video',
 		url: '#',
+		type: TypeButton.href,
 	},
+};
+
+export const sectionVideo = {
+	type: TypeDescription.video,
+	video:
+		'<iframe width="560" height="315" src="https://www.youtube.com/embed/EcAH1XNxkc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 };
 
 export const recognitions = {

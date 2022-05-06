@@ -18,10 +18,10 @@ function Question({ items }) {
 							<div className={styles.top}>
 								<div className={styles.left}>
 									<Image
-										src='/images/icons/accordion-question.svg'
+										src='/images/icons/accordion-question.png'
 										alt='icon question'
-										width={30}
-										height={30}
+										width={35}
+										height={35}
 									/>
 									<h2>Preguntas frecuentes</h2>
 								</div>

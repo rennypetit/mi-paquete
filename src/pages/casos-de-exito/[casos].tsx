@@ -6,7 +6,6 @@ import ContentParrafo from '@components/contentStories/ContentParrafo';
 import TestimonialStories from '@components/testimonial/TestimonialStories';
 import Commercial from '@components/commercial';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -16,7 +15,8 @@ import {
 	contentParrafo,
 	sectionStories,
   cards,
-  commercial
+  commercial,
+	testimonials
 } from '@data/caso-de-exito-pages';
 
 import styles from './successStories.module.scss';
@@ -33,7 +33,7 @@ const stories: NextPage = () => {
 				<ContentParrafo content={contentParrafo} section={sectionStories} />
 			</div>
 				<div className={`container ${styles.margin_container} ${styles.width_container}`}>
-					<TestimonialStories />
+					<TestimonialStories data={testimonials} />
 				</div>
         <Card data={cards} />
 			</main>
@@ -41,7 +41,6 @@ const stories: NextPage = () => {
         <Commercial data={commercial} />
 			</div>
 			<Newsletter background={'secondary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

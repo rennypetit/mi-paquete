@@ -1,9 +1,10 @@
+import { TypeButton } from '@types/global';
+
 export const cards = {
 	title: "<h1>Casos <span>de éxito</span></h1>",
 	description: "",
 	items: [
 		{
-			url: '#',
 			image: '/images/cards/infitworld-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
@@ -12,11 +13,11 @@ export const cards = {
 			buttonOne: {
 				color: 'buttonOrange',
 				title: 'Conoce más',
-				url: '#'
+				url: '/casos-de-exito/gym-shop',
+				type: TypeButton.link,
 			},
 		},
 		{
-			url: '#',
 			image: '/images/cards/gym-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
@@ -25,11 +26,11 @@ export const cards = {
 			buttonOne: {
 				color: 'buttonOrange',
 				title: 'Conoce más',
-				url: '#'
+				url: '/casos-de-exito/gym-shop',
+				type: TypeButton.link,
 			},
 		},
 		{
-			url: '#',
 			image: '/images/cards/orion-logo.png',
 			title: 'NOMBRE DE LA EMPRESA',
 			date: 'Fecha de publicación',
@@ -38,7 +39,8 @@ export const cards = {
 			buttonOne: {
 				color: 'buttonOrange',
 				title: 'Conoce más',
-				url: '#'
+				url: '/casos-de-exito/gym-shop',
+				type: TypeButton.link,
 			},
 		},
 	],

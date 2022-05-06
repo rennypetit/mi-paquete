@@ -1,4 +1,5 @@
 import { TypesBanner } from '@components/banner/types';
+import { TypeButton, TypeDescription } from '@types/global';
 
 export const banner: TypesBanner = {
 	orientation: 'orientationRight',
@@ -10,13 +11,17 @@ export const banner: TypesBanner = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'CONOCE MÁS',
-		url: '#',
+		url: 'https://app.mipaquete.com/acumula-puntos',
+		type: TypeButton.blank,
 	},
 };
 export const features = {
+	type: TypeDescription.image,
 	orientation: 'right',
 	image: '/images/features/emprendedor.png',
 	alt: 'features',
+	width: 507,
+	height: 455,
 	title: 'Un beneficio ideal para',
 	titleTwo: 'emprendedores',
 	description:
@@ -24,37 +29,27 @@ export const features = {
 };
 
 export const featuresTwo = {
-	image: '/images/features/emprendedorTwo.png',
-	alt: 'features two',
+	type: TypeDescription.video,
+	video: 'https://www.youtube.com/embed/lror0oIgG_o',
 	title: '¿Por qué estos beneficios son',
 	titleTwo: 'perfectos para emprendedores?',
 	colorTitleTwo: 'blue',
 	description:
 		'<p>Estos son algunos de los beneficios que podrás obtener con nuestro <strong>plan emprendedor digital:</strong></p>',
-	items: [
-		{
-			title: 'Uso gratuito de nuestra plataforma',
-		},
-		{
-			title: 'Pagos solo por envíos realizados',
-		},
-		{
-			title: 'Organización de la logística de envíos',
-		},
-		{
-			title: 'Centro de ayuda para gestionar novedades',
-		},
-		{
-			title: 'Adquisición de puntos Mipaquete',
-		},
-		{
-			title: 'Diversidad de transportadoras',
-		},
-	],
+	items: `
+	<ul>
+		<li><strong>Uso gratuito de nuestra plataforma</strong></li>
+		<li><strong>Pagos solo por envíos realizados</strong></li>
+		<li><strong>Organización de la logística de envíos</strong></li>
+		<li><strong>Centro de ayuda para gestionar novedades</strong></li>
+		<li><strong>Adquisición de puntos Mipaquete</strong></li>
+		<li><strong>Diversidad de transportadoras</strong></li>
+	</ul>`,
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'MÁS INFORMACIÓN',
-		url: '#',
+		url: 'https://app.mipaquete.com/acumula-puntos',
+		type: TypeButton.blank,
 	},
 };
 
@@ -98,6 +93,7 @@ export const commercial = {
 	button: {
 		color: 'buttonOrange',
 		title: 'VER MÁS',
-		url: '#',
+		url: 'https://app.mipaquete.com/acumula-puntos',
+		type: TypeButton.blank,
 	},
 };

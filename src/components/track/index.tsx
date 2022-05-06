@@ -1,15 +1,44 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import Image from 'next/image';
 import WidthContext from '@contexts/width';
 import Button from '@components/button';
 import styles from './Track.module.scss';
+import { TypeButton } from '@types/global';
+import { useForm, SubmitHandler } from 'react-hook-form';
+import Modal from './Modal';
+import { getSendingTracking } from '@services/api';
 
+interface Input {
+	tracking: number;
+}
 export default function Track() {
-	const { widthViewport } = useContext(WidthContext);
+	const { widthViewport }: any = useContext(WidthContext);
+	const [isOpenModal, setIsOpenModal] = useState(false);
+	const [dataTracking, setDataTracking] = useState({});
+
 	const data = {
 		color: 'buttonOrange',
 		title: 'INGRESA',
-		url: '#',
+		url: 'https://app.mipaquete.com/ingreso',
+		type: TypeButton.blank,
+	};
+
+	const { register, handleSubmit } = useForm<Input>();
+	const onSubmit: SubmitHandler<Input> = async (data) => {
+		document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
+		const response = await getSendingTracking(data.tracking);
+		if (!response || response.message) {
+			setDataTracking({});
+			document.getElementsByTagName('html')[0].style.overflowY = 'auto';
+			return alert('Información no encontrada');
+		}
+		setDataTracking(response);
+		setIsOpenModal(true);
+	};
+
+	const handleCloseModal = () => {
+		setIsOpenModal(false);
+		document.getElementsByTagName('html')[0].style.overflowY = 'auto';
 	};
 	return (
 		<section className={styles.container}>
@@ -46,12 +75,18 @@ export default function Track() {
 					¿Usaste nuestro{' '}
 					<strong>servicio de envíos? Rastrea tu envío aquí</strong>
 				</p>
-				<form className={styles.form}>
+				<form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
 					<div className={styles.group}>
 						<label htmlFor='rastrear'>Número de guía</label>
-						<input id='rastrear' type='text' placeholder='Ejemplo: 123 - 32' />
+						<input
+							id='rastrear'
+							type='number'
+							placeholder='Ejemplo: 123 - 32'
+							{...register('tracking', { required: true, min: 10 })}
+							required
+						/>
 					</div>
-					<div className={`${styles.button} button`}>
+					<button className={`${styles.button} button`}>
 						RASTREAR
 						<div className={styles.icon}>
 							<Image
@@ -61,9 +96,12 @@ export default function Track() {
 								width={13}
 							/>
 						</div>
-					</div>
+					</button>
 				</form>
 			</div>
+			{isOpenModal && (
+				<Modal handleCloseModal={handleCloseModal} data={dataTracking} />
+			)}
 		</section>
 	);
 }

@@ -1,7 +1,6 @@
 @import '../../styles/variables';
 .container{
   margin: 70px auto;
-  width: 90%;
 }
 .top{
   background-color: $color_quaternary;
@@ -14,10 +13,15 @@
 }
 .left{
   display: flex;
+  align-items: center;
   gap: 20px;
   h2 {
     font-family: $font_primary_bold;
     font-size: 1.7rem;
+  }
+  & > span, img {
+    height: 35px !important;
+    width: 35px  !important;
   }
 }
 .arrow {
@@ -30,6 +34,8 @@
 
 .items {
   @include container;
+  box-shadow: 0px 6px 6px #cccccc99;
+  padding: 20px;
   ul {
     padding-left: 5px;
     li {
@@ -49,7 +55,6 @@
         color: $color_quaternary;
         transform: scale(2);
       }
-     
     }
   }
 
@@ -74,12 +79,12 @@
   }
 }
 .itemsDescription {
-  a{
+  a {
     color:#009AF0;
     text-decoration: underline;
   }
   strong {
-    display: block;
+    // display: block;
     color: $color_secondary;
     font-family: $font_secondary_bold;
     margin: 10px 0 0;
@@ -118,9 +123,6 @@
 
 // desktop {
 @media (min-width: 1024px) {
-  .container {
-    width: 80%;
-  }
   .top{
     padding: 20px;
   }

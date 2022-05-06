@@ -1,3 +1,4 @@
+import { TypeButton, TypeDescription } from '@types/global';
 import { TypesBanner } from '@components/banner/types';
 
 export const banner: TypesBanner = {
@@ -10,12 +11,14 @@ export const banner: TypesBanner = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonOrange',
 		title: 'CONECTA TU TIENDA',
-		url: '#',
+		url: 'https://wordpress.org/plugins/shipping-mipaquete-woocommerce/',
+		type: TypeButton.blank,
 	},
 };
 
@@ -25,6 +28,8 @@ export const features = {
 	title: 'Ventajas de',
 	titleSpan: 'automatizar tus envíos',
 	orientation: 'right',
+	type: TypeDescription.video,
+	video: 'https://www.youtube.com/embed/IOjghZQVtcw',
 	items: [
 		{
 			image: '/images/icons/quote.png',
@@ -58,19 +63,21 @@ export const features = {
 };
 
 export const description = {
-	title: 'Envíos en WooCommerce',
-	titleSpan: 'Automatiza la logística de envíos de tu tienda en WooCommerce',
+	title:
+		'<h3><strong>Envíos en WooCommerce</strong> <span>Automatiza la logística de envíos de tu tienda en WooCommerce</span></h3>',
 	description:
 		'<p>Genera guías y órdenes de recogida de tus paquetes de forma automática con las principales empresas de transporte de envíos, es gratis, fácil de configurar e incluye la opción de <strong>Envíos con Pago Contra Entrega.</strong></p>',
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'HABLA CON UN ASESOR',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonOrange',
 		title: 'CONECTA TU TIENDA',
-		url: '#',
+		url: 'https://wordpress.org/plugins/shipping-mipaquete-woocommerce/',
+		type: TypeButton.blank,
 	},
 };
 
@@ -144,13 +151,44 @@ export const commercial = {
 		icon: '/images/icons/download.png',
 		alt: 'icon download',
 		title: 'DESCARGA EL MANUAL',
-		url: '#',
+		url: '/downloads/woocommerce-instructivo-plugin.pdf',
+		type: TypeButton.blank,
 	},
+};
+
+export const testimonials = {
+	icon: '/images/quote.png',
+	alt: 'quote',
+	title:
+		'<p>Más de 500 comercios han instalado nuestro plugin de <span>envíos para Woocommerce</span></p>',
+	items: [
+		{
+			description:
+				'<p>"Haber integrado el plug-in de mipaquete.com para nuestra empresa ha sido una excelente opción, porque facilitó nuestros procesos internos y nos permitió ofrecer garantías a nuestros clientes, gracias al servicio que siempre ha sido rápido y seguro"</p>',
+			url: '#',
+			person: {
+				image: '/images/testimonials/user.svg',
+				alt: 'person',
+				name: 'Victoria Tabares',
+				nickName: 'iKi Pets',
+			},
+		},
+		{
+			description:
+				'<p>"Con el plug-in de mi paquete.com hemos logrado llegar a toda Colombia de manera muy sencilla, eficiente y cómoda. Ha sido un gran aliado y un alivio para nuestra logística de envíos. Cada vez más personas aprenden sobre el mundo del pan, y mipaquete.com ha sido un gran apoyo en el crecimiento de PanPillón"</p>',
+			url: '#',
+			person: {
+				image: '/images/testimonials/user.svg',
+				alt: 'person',
+				name: 'Nombre de la persona',
+				nickName: 'PanPillón',
+			},
+		},
+	],
 };
 
 export const commercialTwo = {
 	colorText: 'textWhite',
-	title: '',
 	description:
 		'<h3>¿Realizas más de 500 envíos mensuales? <strong>Cotiza múltiples envíos</strong></h3><p>Nuestros descuentos por volumen y logística de entregas pueden hacerte la vida más fácil.</p>',
 	image: '/images/commercials/woocommerce-background.png',
@@ -159,53 +197,42 @@ export const commercialTwo = {
 	button: {
 		color: 'buttonWhite',
 		title: 'CONOCE MÁS',
-		url: '#',
-	},
-};
-
-export const featuresTwo = {
-	image: '/images/features/shopify-two.png',
-	alt: 'features',
-	title: 'Servicio de transportadora Shopify',
-	titleTwo: '| Carrier Service',
-	colorTitleTwo: 'blue',
-	items: [
-		{
-			title: 'Costos de envíos en tiempo real',
-		},
-		{
-			title: 'Precios exactos',
-		},
-		{
-			title: 'Configura el servicio en pocos pasos',
-		},
-	],
-	button: {
-		color: 'buttonBlue',
-		icon: '/images/icons/download.png',
-		alt: 'icon donwload',
-		title: 'DESCARGA EL MANUAL',
-		url: '#',
+		url: '/ecommerce-medianos',
+		type: TypeButton.link,
 	},
 };
 
 export const question = [
 	{
-		title: '¿Qué beneficios tiene la aplicación para Shopify?',
-		description:
-			'<ul> <li>Permite parametrizar múltiples transportadoras.</li><li>Opción para que en el checkout el comprador pueda comparar las transportadoras y seleccionar la de su preferencia.</li><li>Opción de calcular tarifas y generar guías con pago contra entrega (recaudo de la venta al entregar el producto).</li><li>Generación y descarga de guías con un solo clic.</li><li>Opción de edición de pedido antes de generar la guía.</li><li>Calculador de tarifa de envíos (Carrier Service)</li><li>Recarga de saldo directamente desde la aplicación.</li><li>Selección automática de transportadora por criterios como: Mejor precio, mejor servicio, menor tiempo de entrega.</li></ul>',
+		title: '¿Qué beneficios tiene el plugin para Shopify?',
+		description: `
+		<p>
+			<ul>
+				<li>Permite parametrizar múltiples transportadoras.</li>
+				<li>Opción para que en el checkout el comprador pueda comparar las transportadoras y seleccionar la de su preferencia.li>
+				<li>Opción de calcular tarifas y generar guías con pago contra entrega (recaudo de la venta al entregar el producto).</li>
+				<li>Generación y descarga de guías con un solo clic.</li>
+				<li>Opción de edición de pedido antes de generar la guía.</li>
+				<li>Calculador de tarifa de envíos.</li>
+				<li>Selección automática de transportadora por criterios como: Mejor precio, mejor servicio, menor tiempo de entrega.</li>
+			</ul>
+		</p>
+		`,
+	},
+	{
+		title:
+			'¿Debo tener el Carrier Service de Shopify activo para utilizar el plugin?',
+		description: `<p>No es necesario, puedes usar nuestro plugin configurando la opción de tarifa estándar para que puedas automatizar tus envíos con nuestro servicio.</p>`,
 	},
 	{
 		title:
 			'Si no tengo saldo en la billetera de mipaquete.com ¿Mi cliente no puede realizar la compra?',
-		description:
-			'Tu cliente puede generar la compra de tus productos tranquilamente, pero si es necesario que tengas saldo en tu billetera en el momento de generar la guía.',
+		description: `<p>Tu cliente puede generar la compra de tus productos tranquilamente, pero si es necesario que tengas saldo en tu billetera en el momento de generar la guía.</p>`,
 	},
 	{
 		title:
 			'¿Dónde descargo las guías de mis envíos y hago seguimiento de los mismos?',
-		description:
-			'Puedes hacerlo directamente desde Woocommerce. También puedes ingresar a nuestra plataforma, en la sección tus envíos y desde allí descargar tus envíos y ver sus estados logísticos.',
+		description: `<p>Puedes hacerlo directamente desde Woocommerce. También puedes ingresar a nuestra plataforma, en la sección tus envíos y desde allí descargar tus envíos y ver sus estados logísticos.</p>`,
 	},
 ];
 
@@ -217,9 +244,10 @@ export const form = {
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',
-	titleForm: 'Automatizamos el éxito de ',
-	titleFormSpan: 'tu ecommerce',
+	titleForm: '<p>Automatizamos el éxito de <span>tu ecommerce</span></p>',
 	formDescription:
-		'Simplifica tu logística y aumenta las ventas de tu tienda ¡Compártenos tus datos para ayudarte!',
+		'<p>Simplifica tu logística y aumenta las ventas de tu tienda <strong>¡Compártenos tus datos para ayudarte!</strong></p>',
 	FormColorSpan: 'orange',
+	listId: '101',
+	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };

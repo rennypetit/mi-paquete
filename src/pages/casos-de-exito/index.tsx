@@ -3,7 +3,6 @@ import Layout from 'layout';
 import Card from '@components/cards/Card';
 import Commercial from '@components/commercial';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -24,7 +23,6 @@ const successStories: NextPage = () => {
 				<Commercial data={commercial} />
 			</div>
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

@@ -1,8 +1,8 @@
+import { TypeButton, TypeDescription } from '@types/global';
 import { TypesBannerSlider } from '@components/banner/types';
-
 export const banners: TypesBannerSlider = [
 	{
-		title: `<h1>¿Realizas <span>ventas por redes sociales</span> o tienes un <span>ecommerce</span> ?</h1>`,
+		title: `<h1>¿Realizas <span>ventas por redes sociales</span> o tienes un <span>ecommerce?</span></h1>`,
 		subtitle: 'Servicio de envíos',
 		description:
 			'<p>Te conectamos tecnológicamente con las principales <strong>empresas de envíos en Colombia</strong> para que compares sus precios, tiempos de entrega y calidad del servicio en una sola plataforma, para que elijas la mejor opción.</p>',
@@ -13,12 +13,14 @@ export const banners: TypesBannerSlider = [
 		buttonOne: {
 			color: 'buttonOrange',
 			title: 'COTIZA TU ENVÍO',
-			url: '#',
+			url: '#cotizar',
+			type: TypeButton.href,
 		},
 		buttonTwo: {
 			color: 'buttonBlue',
 			title: 'REGÍSTRATE',
-			url: '#',
+			url: 'https://app.mipaquete.com/registro',
+			type: TypeButton.blank,
 		},
 	},
 	{
@@ -33,12 +35,14 @@ export const banners: TypesBannerSlider = [
 		buttonOne: {
 			color: 'buttonOrange',
 			title: 'COTIZA TU ENVÍO',
-			url: '#',
+			url: '#cotizar',
+			type: TypeButton.href,
 		},
 		buttonTwo: {
 			color: 'buttonBlue',
 			title: 'REGÍSTRATE',
-			url: '#',
+			url: 'https://app.mipaquete.com/registro',
+			type: TypeButton.blank,
 		},
 	},
 	{
@@ -53,7 +57,8 @@ export const banners: TypesBannerSlider = [
 		buttonOne: {
 			color: 'buttonOrange',
 			title: 'CONOCE MÁS',
-			url: '#',
+			url: '/conecta-tu-ecommerce',
+			type: TypeButton.link,
 		},
 	},
 ];
@@ -64,7 +69,7 @@ export const services = [
 		alt: 'envios pago contra entrega',
 		title: 'ENVÍOS PAGO CONTRA ENTREGA',
 		description:
-			'Tus clientes podrán pagar el envío cuando reciban su producto en casa',
+			'Tus clientes podrán pagar el envío cuando reciban su producto en casa.',
 		url: '/envios-pago-contraentrega',
 	},
 	{
@@ -72,7 +77,7 @@ export const services = [
 		alt: 'envios tradicionales',
 		title: 'ENVÍOS TRADICIONALES',
 		description:
-			'Realiza entregas nacionales y urbanas para el mismo día, eligiendo la tarnsportadora de tu preferencia..',
+			'Realiza entregas nacionales y urbanas para el mismo día, eligiendo la transportadora de tu preferencia.',
 		url: '/envios-tradicionales',
 	},
 	{
@@ -86,7 +91,7 @@ export const services = [
 	{
 		image: '/images/services/ecommerce.svg',
 		alt: 'ecommerce',
-		title: 'CONECTA TU E- COMMERCE',
+		title: 'CONECTA TU ECOMMERCE',
 		description:
 			'Conecta tu tienda en Shopify, Woocommerce, Jumpseller, Komercia o por API para todo tipo de tiendas.',
 		url: '/conecta-tu-ecommerce',
@@ -94,35 +99,25 @@ export const services = [
 ];
 
 export const features = {
+	type: TypeDescription.video,
+	video: 'https://www.youtube.com/embed/yr4Ejh7mzn8',
 	image: '/images/features/home.png',
 	alt: 'features',
 	title: 'Más ahorro, velocidad, confianza y clientes satisfechos con nuestros',
 	titleTwo: 'envíos nacionales y urbanos',
-	items: [
-		{
-			title:
-				'Aumenta la confianza en tus compradores ofreciendo servicio de envíos seguros',
-		},
-		{
-			title: 'Recibe el dinero de tus ventas contra entrega de forma confiable',
-		},
-		{
-			title:
-				'Genera confianza en tus compradores con notificaciones vía WhatsApp sobre el estado de sus envíos',
-		},
-		{
-			title: 'Entrega el mismo día con nuestro servicio de envíos urbanos',
-		},
-		{
-			title:
-				'Resuelve dudas y novedades con nuestro Centro de Ayuda para que tus clientes estén satisfechos con el servicio',
-		},
-	],
+	items: `
+	<ul>
+		<li>Aumenta la confianza en tus compradores ofreciendo servicio de envíos seguros</li>
+		<li>Recibe el dinero de tus ventas contra entrega de forma confiable</li>
+		<li>Genera confianza en tus compradores con notificaciones vía WhatsApp sobre el estado de sus envíos</li>
+		<li>Entrega el mismo día con nuestro servicio de envíos urbanos</li>
+		<li>Resuelve dudas y novedades con nuestro Centro de Ayuda para que tus clientes estén satisfechos con el servicio</li>
+	</ul>`,
 };
 
 export const commercial = {
 	colorText: 'textBlack',
-	title: 'Envíos el mismo día',
+	title: '<p><strong>Envíos el mismo día</strong></p>',
 	description:
 		'<h3>Entrega tus productos a tiempo con nuestros<strong> envíos urbanos</strong></h3><p>Descubre cómo mejorar tu proceso de <strong>envío de mercancía</strong> con nuestras <strong>entregas urbanas</strong> y de <strong>última milla,</strong> las cuales harán que tus productos lleguen el mismo día hasta tus clientes.</p>',
 	image: '/images/commercials/home-background.png',
@@ -130,8 +125,9 @@ export const commercial = {
 	alt: 'background commercials',
 	button: {
 		title: 'COTIZA UN ENVÍO',
-		url: '#',
+		url: 'https://app.mipaquete.com/',
 		color: 'buttonBlue',
+		type: TypeButton.blank,
 	},
 };
 
@@ -209,6 +205,35 @@ export const recognitions = {
 			title: 'Alcaldia',
 			image: '/images/recognition/alcaldia-medellin.png',
 			alt: 'logo Alcaldia',
+		},
+	],
+};
+
+export const testimonials = {
+	icon: '/images/quote.png',
+	alt: 'quote',
+	title:
+		'<p>En Mi Paquete hemos recaudado más de $60 mil millones en envíos con pago contra entrega a nuestros clientes <span>en toda Colombia.</span></p>',
+	items: [
+		{
+			description:
+				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con Mi Paquete. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
+			person: {
+				image: '/images/testimonials/person-1.png',
+				alt: 'person',
+				name: 'Jeimer López',
+				nickName: '1000Marikdas',
+			},
+		},
+		{
+			description:
+				'<p>En <span>@paneles3dmax</span> realizamos el primer pedido con pago contraentrega y la experiencia fue estupenda: Fácil, rápido, sin papeleos, sin exigencias de pedidos mensuales, sin software tediosos, súper práctico, económico. Felicitaciones.</p>',
+			person: {
+				image: '/images/testimonials/person-1.png',
+				alt: 'person',
+				name: 'Jorge Cremades',
+				nickName: 'Paneles3DMax',
+			},
 		},
 	],
 };

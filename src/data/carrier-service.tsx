@@ -1,21 +1,17 @@
 import { TypesBanner } from '@components/banner/types';
+import { TypeButton, TypeDescription } from '@types/global';
 
 export const banner: TypesBanner = {
 	orientation: '',
 	title: `<h1>Servicio de transportadora Shopify <br /><span>Carrier Service</span></h1>`,
 	description:
 		'<p>Automatiza tus envíos en Shopify con la ayuda de nuestra aplicación y ofrece a tus clientes una experiencia de compra mejorada.</p>',
-	buttonOne: {
-		color: 'buttonBlue',
-		title: 'CONOCE MÁS',
-		url: '#',
-	},
 };
 
 export const features = {
 	orientation: 'right',
-	image: '/images/features/carrier.png',
-	alt: 'features',
+	type: TypeDescription.video,
+	video: 'https://www.youtube.com/embed/NIWx0fI_WM4',
 	title: '¿Qué es',
 	titleTwo: '"Carrier Service"?',
 	colorTitleTwo: 'blue',
@@ -23,8 +19,9 @@ export const features = {
 		'<p>Esta opción en Shopify le permite al comprador de la tienda virtual ver el precio del envío calculado de forma automática a través de la instalación la aplicación de <strong>Mi Paquete.</strong></p><p> El servicio Carrier Service está incluido en el "Plan Advanced Shopify".</p>',
 	buttonOne: {
 		color: 'buttonOrange',
-		title: 'CONOCE LA APLICACIÓN',
-		url: '#',
+		title: 'CONOCE LA INTEGRACIÓN',
+		url: '/tienda-en-shopify',
+		type: TypeButton.link,
 	},
 };
 
@@ -39,60 +36,43 @@ export const cardsState = {
 			id: 0,
 			title: 'Basic Shopify',
 			description:
-				'Ideal para negocios en expansión que requieren informes avanzados.',
+				'Ideal para negocios que se inician en el ecommerce y que, de vez en cuando, venden en tienda física',
 			image: '/images/card-state/shopify-basic.png',
 			alt: 'image shopify basic',
 			buttonOne: {
 				color: 'buttonWhite',
 				title: 'VER PLAN',
-				url: '#',
+				url: 'https://www.shopify.com.co/precios',
+				type: TypeButton.blank,
 			},
 		},
 		{
 			id: 1,
 			title: 'Lite Shopify',
 			description:
-				'2Ideal para negocios en expansión que requieren informes avanzados.',
+				'Ideal para negocios en crecimiento que venden online o en tienda física',
 			image: '/images/card-state/shopify-basic.png',
 			alt: 'image shopify basic',
 			buttonOne: {
 				color: 'buttonWhite',
 				title: 'VER PLAN',
-				url: '#',
+				url: 'https://www.shopify.com.co/precios',
+				type: TypeButton.blank,
 			},
 		},
 		{
 			id: 2,
 			title: 'Avanced Shopify',
 			description:
-				'3Ideal para negocios en expansión que requieren informes avanzados.',
+				'Ideal para negocios en expansión que requieren informes avanzados',
 			image: '/images/card-state/shopify-basic.png',
 			alt: 'image shopify basic',
 			buttonOne: {
 				color: 'buttonWhite',
 				title: 'VER PLAN',
-				url: '#',
+				url: 'https://www.shopify.com.co/precios',
+				type: TypeButton.blank,
 			},
 		},
 	],
 };
-
-export const question = [
-	{
-		title: 'Problemas para procesar la guía de envío',
-		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
-	},
-];

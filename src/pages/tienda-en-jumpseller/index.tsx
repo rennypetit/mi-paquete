@@ -8,7 +8,6 @@ import Testimonial from '@components/testimonial';
 import Question from '@components/question';
 import Form from '@components/form';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -16,6 +15,7 @@ import {
 	banner,
 	storages,
 	features,
+	testimonials,
 	question,
 	form,
 } from '@data/tienda-en-jumpseller';
@@ -26,20 +26,25 @@ const jumpseller: NextPage = () => {
 	return (
 		<Layout>
 			<main>
-				<Banner data={banner} />
-			</main>
-			<Storage data={storages} />
-			<div className='container margin-top'>
-				<Feature items={features} />
-				<div className={styles.containerAllies}>
-					<Ally />
+				<div className={styles.banner}>
+					<Banner data={banner} />
 				</div>
-				<Testimonial />
+			</main>
+			<div className='storages-jumpseller'>
+				<Storage data={storages} />
 			</div>
-			<Question items={question} />
+			<div className={`${styles.featureOne} container margin-top`}>
+				<Feature items={features} />
+			</div>
+			<div className={`${styles.containerAllies} container-background`}>
+				<Ally />
+			</div>
+			<div className='container'>
+				<Testimonial data={testimonials} />
+				<Question items={question} />
+			</div>
 			<Form data={form} background={'primary'} />
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

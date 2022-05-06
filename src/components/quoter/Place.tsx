@@ -1,7 +1,20 @@
 import Image from 'next/image';
+import Select from 'react-select';
 
 import styles from './Quoter.module.scss';
-export default function Place() {
+import { useState, useEffect } from 'react';
+import { getLocations } from '../../services/api';
+export default function Place({ selectOrigin, selectDestiny }) {
+	const [dataLocations, setDataLocations] = useState({});
+	useEffect(async () => {
+		const response = await getLocations();
+		const result = response.map((value) => ({
+			['value']: `${value.locationName}-${value.departmentOrStateName}`,
+			['label']: `${value.locationName}-${value.departmentOrStateName}`,
+		}));
+		setDataLocations(result);
+	}, []);
+
 	return (
 		<div className={styles.place}>
 			<div className={styles.items}>
@@ -19,42 +32,18 @@ export default function Place() {
 				<div className={styles.column}>
 					<label htmlFor='origen'>¿Cuál es la ciudad de origen?</label>
 					<div className={styles.group}>
-						<input
-							type='text'
-							id='origen'
-							placeholder='Etiam luctus'
-							className={styles.formInput}
-						/>
-						<div className={styles.formIcon}>
-							<Image
-								src='/images/icons/search.svg'
-								alt='icon search'
-								height={20}
-								width={20}
-							/>
-						</div>
+						<Select options={dataLocations} ref={selectOrigin} />
 					</div>
+					<div className={styles.errors}></div>
 				</div>
 			</div>
 			<div className={styles.row}>
 				<div className={styles.column}>
 					<label htmlFor='destino'>¿Cuál es la ciudad de destino?</label>
 					<div className={styles.group}>
-						<input
-							type='text'
-							id='destino'
-							placeholder='Etiam luctus'
-							className={styles.formInput}
-						/>
-						<div className={styles.formIcon}>
-							<Image
-								src='/images/icons/search.svg'
-								alt='icon search'
-								height={20}
-								width={20}
-							/>
-						</div>
+						<Select options={dataLocations} ref={selectDestiny} required />
 					</div>
+					<div className={styles.errors}></div>
 				</div>
 			</div>
 			<p className={styles.terms}>

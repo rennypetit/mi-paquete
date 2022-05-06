@@ -35,11 +35,11 @@ const Contact = () => {
 							<p className={styles.itemTwo}>
 								{' '}
 								<a
-									href='mailto:soporte@mipaquete.com'
+									href='mailto:info@mipaquete.com'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									soporte@mipaquete.com
+									info@mipaquete.com
 								</a>
 							</p>
 						</div>
@@ -50,7 +50,11 @@ const Contact = () => {
 							<p className={styles.itemTwo}>
 								<div className={styles.redes}>
 									<li>
-										<a href='http://' target='_blank' rel='noopener noreferrer'>
+										<a
+											href='https://www.instagram.com/mipaquete.colombia/'
+											target='_blank'
+											rel='noopener noreferrer'
+										>
 											<Image
 												src='/images/icons/instagram-blue.svg'
 												alt='icon instagram'
@@ -60,7 +64,11 @@ const Contact = () => {
 										</a>
 									</li>
 									<li>
-										<a href='http://' target='_blank' rel='noopener noreferrer'>
+										<a
+											href='https://co.linkedin.com/company/mipaquete'
+											target='_blank'
+											rel='noopener noreferrer'
+										>
 											<Image
 												src='/images/icons/linkedin-blue.svg'
 												alt='icon linkedin'
@@ -70,7 +78,11 @@ const Contact = () => {
 										</a>
 									</li>
 									<li>
-										<a href='http://' target='_blank' rel='noopener noreferrer'>
+										<a
+											href='https://www.facebook.com/mipaquete.colombia'
+											target='_blank'
+											rel='noopener noreferrer'
+										>
 											<Image
 												src='/images/icons/facebook-blue.svg'
 												alt='icon facebook'
@@ -80,7 +92,11 @@ const Contact = () => {
 										</a>
 									</li>
 									<li>
-										<a href='http://' target='_blank' rel='noopener noreferrer'>
+										<a
+											href='https://www.youtube.com/c/mipaquetecolombia'
+											target='_blank'
+											rel='noopener noreferrer'
+										>
 											<Image
 												src='/images/icons/youtube-blue.svg'
 												alt='icon youtube'

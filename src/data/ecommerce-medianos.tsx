@@ -1,4 +1,5 @@
 import { TypesBanner } from '@components/banner/types';
+import { TypeButton, TypeDescription } from '@types/global';
 
 export const banner: TypesBanner = {
 	orientation: 'orientationLeft',
@@ -10,15 +11,20 @@ export const banner: TypesBanner = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'CONOCE MÁS',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 };
 export const features = {
+	type: TypeDescription.image,
 	orientation: 'right',
 	image: '/images/features/ecommer-medianos.png',
 	alt: 'features',
+	width: 525,
+	height: 467,
 	title: '¿Cómo saber si eres',
 	titleTwo: 'un ecommerce mediano?',
+	colorTitleTwo: 'blue',
 	description:
 		'<p>Si el nivel de envíos de tu ecommerce se encuentra <strong>entre 500 y 5.000 pedidos mensuales</strong> este plan es ideal para ti, además esto ayudará a que tu <strong>equipo de logística</strong> pueda optimizar gastos de envío.</p>',
 };
@@ -26,34 +32,26 @@ export const features = {
 export const featuresTwo = {
 	image: '/images/features/ecommer-medianos-two.png',
 	alt: 'features two',
+	width: 465,
+	height: 398,
 	title: '¿Por qué es una buena opción',
 	titleTwo: 'para ti?',
 	colorTitleTwo: 'blue',
 	description: '<p>Con nuestro plan para medianos ecommerce obtendrás:</p>',
-	items: [
-		{
-			title: 'Servicio de almacenamiento',
-		},
-		{
-			title: 'Diversidad de transportadoras en una sola plataforma',
-		},
-		{
-			title: 'Acceso a descuentos por volumen de envíos',
-		},
-		{
-			title: 'Centro de ayuda para gestión de novedades',
-		},
-		{
-			title: 'Integración con Shopify, Woocommerce y más',
-		},
-		{
-			title: 'Entregas para el mismo día',
-		},
-	],
+	items: `
+	<ul>
+		<li>Servicio de almacenamiento</li>
+		<li>Diversidad de transportadoras en una sola plataforma</li>
+		<li>Acceso a descuentos por volumen de envíos</li>
+		<li>Centro de ayuda para gestión de novedades</li>
+		<li>Integración con Shopify, Woocommerce y más</li>
+		<li>Entregas para el mismo día</li>
+	</ul>`,
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'MÁS INFORMACIÓN',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 };
 
@@ -64,9 +62,10 @@ export const form = {
 	image: '/images/form/background-orange.png',
 	alt: 'background form',
 	colorTextBackground: 'black',
-	titleForm: 'Sincroniza los envíos de',
-	titleFormSpan: 'tu ecommerce',
+	titleForm: '<p>Sincroniza los envíos de <span>tu ecommerce</span></p>',
 	formDescription:
-		'Uno de nuestros expertos te contactará para explicarte cómo integrar el proceso de automatización de envíos a tu tienda online.',
+		'<p>Uno de nuestros expertos te contactará para explicarte cómo optimizar tus costos logísticos, según tu volumen de envíos.</p>',
 	FormColorSpan: 'blue',
+	listId: '',
+	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };

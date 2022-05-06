@@ -11,11 +11,14 @@
       "@hooks/*": [
         "hooks/*"
       ],
-      "@interfaces/*": [
-        "interfaces/*"
+      "@types/*": [
+        "types/*"
       ],
       "@data/*": [
         "data/*"
+      ],
+      "@services/*": [
+        "services/*"
       ]
     },
     "target": "es5",

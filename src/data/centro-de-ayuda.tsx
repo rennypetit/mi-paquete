@@ -1,4 +1,5 @@
 import { TypesBannerBackground } from '@components/banner/types';
+import { TypeButton } from '@types/global';
 
 export const banner: TypesBannerBackground = {
 	orientation: '',
@@ -6,7 +7,6 @@ export const banner: TypesBannerBackground = {
 	description: '¿Tienes alguna duda sobre tus envíos? ¡Te ayudamos!',
 	image: '/images/banners/help.png',
 	imageDesktop: '/images/banners/help-desktop.png',
-
 	alt: 'Banner background',
 };
 
@@ -15,26 +15,29 @@ export const cards = [
 		image: '/images/cards/primeros-pasos.png',
 		alt: 'card primeros pasos',
 		title: 'Primeros pasos',
+		url: '/centro-de-ayuda/primeros-pasos',
+		type: TypeButton.link,
 	},
 	{
 		image: '/images/cards/aprende-mas.png',
 		alt: 'card Aprende más',
 		title: 'Aprende más',
-	},
-	{
-		image: '/images/cards/soporte-tecnico.png',
-		alt: 'card Soporte técnico',
-		title: 'Soporte técnico',
+		url: '/centro-de-ayuda/aprende-mas',
+		type: TypeButton.link,
 	},
 	{
 		image: '/images/cards/centro-de-novedades.png',
 		alt: 'card Centro de novedades',
 		title: 'Centro de novedades',
+		url: 'https://centrodenovedades.mipaquete.com/novedades',
+		type: TypeButton.blank,
 	},
 	{
 		image: '/images/cards/consulta-tus-recaudos.png',
 		alt: 'card Consulta tus recaudos',
 		title: 'Consulta tus recaudos',
+		url: 'https://mipaquete.com/solucionesusuario/consulta_recaudos/',
+		type: TypeButton.blank,
 	},
 ];
 
@@ -47,27 +50,8 @@ export const commercial = {
 	alt: 'background commercials',
 	button: {
 		title: 'MÁS INFORMACIÓN',
-		url: '#',
 		color: 'buttonBlue',
+		url: '/centro-de-ayuda/primer-envio',
+		type: TypeButton.link,
 	},
 };
-
-export const question = [
-	{
-		title: 'Problemas para procesar la guía de envío',
-		description:
-			'Cuando el sistema te arroja un error es porque la guía no logró procesarse en el sistema de la transportadora, para obtener la guía solo debes escribirnos a nuestro WhatsApp: 3216330447, y compartirnos el código mp de tu envío, en solo minutos te estaremos compartiendo el pdf de la misma.',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ul><li>a</li></ul>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<ol><li>a</li></ol>',
-	},
-	{
-		title: 'Necesito entregar el paquete en una oficina.',
-		description: '<a href="example.com"> example</a>',
-	},
-];

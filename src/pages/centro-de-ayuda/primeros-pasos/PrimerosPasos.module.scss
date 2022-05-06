@@ -44,8 +44,9 @@
 .row {
   padding-top: 60px;
 }
-
 .commercialTwo {
+	box-shadow: 0px 3px 12px #00000029;
+  border-radius: 10px;
   strong {
     color: $color_tertiary;
   }
@@ -53,6 +54,10 @@
   a {
     width: 300px;
   }
+}
+
+.newsletter {
+  color:$color_quinary;
 }
 
 // desktop

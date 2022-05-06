@@ -48,6 +48,15 @@
 // desktop
 @media (min-width: 1024px) {
 	.description {
-		height: 13rem;
+		height: 12rem;
+	}
+}
+
+@media (min-width: 1025px ) and (max-width: 1365px) {
+	.card {
+		height: 28rem;
+	}
+	.description {
+		height: 11rem;
 	}
 }

@@ -29,11 +29,12 @@
 //desktop
 @media (min-width: 1024px) {
   .container {
+    background-color: #E6EFF5;
     margin: 130px 0;
   }
   .cards {
-    background-color: #E6EFF5;
-    grid-template-columns: repeat(5, 1fr);
+    @include container;
+    grid-template-columns: repeat(4, 1fr);
   }
   .card {
     margin-top: -100px;

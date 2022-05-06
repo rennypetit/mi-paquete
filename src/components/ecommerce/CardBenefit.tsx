@@ -9,6 +9,7 @@ const Card = ({ items }) => {
 	// configuration slider banner
 	const settings = {
 		dots: true,
+		arrows: false,
 		infinite: true,
 		speed: 500,
 		rows: 2,
@@ -23,7 +24,7 @@ const Card = ({ items }) => {
 				},
 			},
 			{
-				breakpoint: 768,
+				breakpoint: 600,
 				settings: {
 					slidesPerRow: 1,
 				},
@@ -31,7 +32,7 @@ const Card = ({ items }) => {
 		],
 	};
 	return (
-		<div className={styles.container}>
+		<div className={`${styles.container} card-benefit`}>
 			<div className={styles.items}>
 				<Slider {...settings}>
 					{items.map((item, index) => (

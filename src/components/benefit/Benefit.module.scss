@@ -1,5 +1,5 @@
 @import '../../styles/variables';
-.container, .containerAsesoria {
+.containerAsesoria {
 	margin-top: 50px;
 	width: 100%;
 }
@@ -108,29 +108,37 @@
 .buttons, .buttonsAsesoria {
 	@include center;
 	margin-top: 20px;
-	& div {
-		font-size: 1.6rem;
-		width: 200px;
-		height: 40px;
+	button,
+	a {
+		&:nth-child(1) {
+			margin-right: 10px;
+		}
+		
+		&:nth-child(2) {
+			margin-left: 10px;
+		}
+		div {
+			font-size: 1.6rem;
+			width: 20rem;
+			height: 40px;
+		}
 	}
 }
 
 .img_container{
-	display: block; 
+	display: block;
 	margin: auto auto 30px;
 	text-align: center;
 }
 
 @media (min-width: 1024px) {
 	.container {
-		margin-top: 200px;
-		margin-bottom: 100px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap:50px;
 	}
 	.card{
-		height: 320px;
+		height: 300px;
 		padding: 10%;
 	}
 	.cardTitle{
@@ -175,20 +183,6 @@
 	.buttons, .buttonsAsesoria {
 		justify-content: flex-start;
 		margin-top: 20px;
-		& div {
-			font-size: 1.6rem;
-			width: 200px;
-			height: 40px;
-		}
-	}
-
-	.buttons{
-		a:nth-child(1){
-			margin-right: 10px;
-		}
-		a:nth-child(2){
-			margin-left: 10px;
-		}
 	}
 
 	.content, .contentInverse{

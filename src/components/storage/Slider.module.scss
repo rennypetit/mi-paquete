@@ -35,6 +35,15 @@
 .button {
   font-size: 1.6rem;
   width: 180px;
+  button,
+  a {
+    div {
+      font-size: 1.6rem;
+      color:$color_tertiary;
+      border: 2px solid $color_tertiary;
+      height: 40px;
+    }
+  }
 }
 
 // desktop

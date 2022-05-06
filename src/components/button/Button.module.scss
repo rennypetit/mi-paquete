@@ -1,4 +1,8 @@
 @import '../../styles/variables';
+.container {
+	height: inherit;
+	width: inherit;
+}
 .buttonWhite {
 	background-color: $color_quinary;
 	border: 2px solid $color_tertiary;

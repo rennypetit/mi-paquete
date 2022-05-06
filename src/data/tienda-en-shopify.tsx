@@ -1,3 +1,4 @@
+import { TypeButton, TypeDescription } from '@types/global';
 import { TypesBanner } from '@components/banner/types';
 
 export const banner: TypesBanner = {
@@ -11,12 +12,14 @@ export const banner: TypesBanner = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonOrange',
 		title: 'CONECTA TU TIENDA',
-		url: '#',
+		url: 'https://apps.shopify.com/logistica-envios-ecommerce?locale=es',
+		type: TypeButton.blank,
 	},
 };
 
@@ -26,6 +29,8 @@ export const features = {
 	title: '¿Por qué integrar Mi Paquete',
 	titleSpan: 'a Shopify?',
 	orientation: 'left',
+	type: TypeDescription.video,
+	video: 'https://www.youtube.com/embed/jty8_mR_BB0',
 	items: [
 		{
 			image: '/images/icons/quote.png',
@@ -59,20 +64,21 @@ export const features = {
 };
 
 export const description = {
-	title: 'Envíos automáticos en Shopify',
-	titleSpan:
-		'Facilita el proceso de compra y envío de productos de tus clientes',
+	title:
+		'<h3>Envíos automáticos en Shopify <span>Facilita el proceso de compra y envío de productos de tus clientes</span></h3>',
 	description:
 		'<p><strong>Incrementa tus ventas en Shopify </strong> generando de manera automática el costo del envío de tus productos a los diferentes lugares del país y haz crecer tu comunidad de compradores.</p>',
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'CONTACTA UN ASESOR',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 	buttonTwo: {
 		color: 'buttonOrange',
-		title: 'CONOCE MÁS',
-		url: '#',
+		title: 'CONECTA TU TIENDA',
+		url: 'https://apps.shopify.com/logistica-envios-ecommerce?locale=es',
+		type: TypeButton.blank,
 	},
 };
 
@@ -146,33 +152,33 @@ export const commercial = {
 		icon: '/images/icons/download.png',
 		alt: 'icon donwload',
 		title: 'DESCARGA EL MANUAL',
-		url: '#',
+		url: '/downloads/manual-shopify.pdf',
+		type: TypeButton.blank,
 	},
 };
 
 export const featuresTwo = {
 	image: '/images/features/shopify-two.png',
 	alt: 'features',
+	width: 448,
+	height: 360,
 	title: 'Servicio de transportadora Shopify',
 	titleTwo: '| Carrier Service',
 	colorTitleTwo: 'blue',
-	items: [
-		{
-			title: 'Costos de envíos en tiempo real',
-		},
-		{
-			title: 'Precios exactos',
-		},
-		{
-			title: 'Configura el servicio en pocos pasos',
-		},
-	],
-	button: {
+	description:
+		'<p>Tu comprador podrá ver el precio del envío calculado de forma automática.</p>',
+	items: `
+		<ul>
+			<li><strong>Costos de envíos en tiempo real</strong></li>
+			<li><strong>Precios exactos</strong></li><strong>
+			<li><strong>Configura el servicio en pocos pasos</strong></li>
+		</ul>
+	`,
+	buttonOne: {
 		color: 'buttonBlue',
-		icon: '/images/icons/download.png',
-		alt: 'icon donwload',
-		title: 'DESCARGA EL MANUAL',
-		url: '#',
+		title: 'CONOCE MÁS',
+		url: '/carrier-service',
+		type: TypeButton.link,
 	},
 };
 
@@ -187,34 +193,44 @@ export const row = {
 		color: 'none',
 		icon: '/images/icons/play.png',
 		alt: 'icon play',
-		title: 'VER VÍDEO',
-		url: '#',
+		title: 'VER VÍDEOS',
+		url: 'https://mipaquete.com/shopify',
+		type: TypeButton.blank,
 	},
 };
 
 export const question = [
 	{
 		title: '¿Qué beneficios tiene la aplicación para Shopify?',
-		description:
-			'<ul> <li>Permite parametrizar múltiples transportadoras.</li><li>Opción para que en el checkout el comprador pueda comparar las transportadoras y seleccionar la de su preferencia.</li><li>Opción de calcular tarifas y generar guías con pago contra entrega (recaudo de la venta al entregar el producto).</li><li>Generación y descarga de guías con un solo clic.</li><li>Opción de edición de pedido antes de generar la guía.</li><li>Calculador de tarifa de envíos (Carrier Service)</li><li>Recarga de saldo directamente desde la aplicación.</li><li>Selección automática de transportadora por criterios como: Mejor precio, mejor servicio, menor tiempo de entrega.</li></ul>',
+		description: `
+		<p>
+			<ul>
+				<li>Permite parametrizar múltiples transportadoras.</li>
+				<li>Opción para que en el checkout el comprador pueda comparar las transportadoras y seleccionar la de su preferencia.</li>
+				<li>Opción de calcular tarifas y generar guías con pago contra entrega (recaudo de la venta al entregar el producto).</li>
+				<li>Generación y descarga de guías con un solo clic.</li>
+				<li>Opción de edición de pedido antes de generar la guía.</li>
+				<li>Calculador de tarifa de envíos (Carrier Service).</li>
+				<li>Recarga de saldo directamente desde la aplicación.</li>
+				<li>Selección automática de transportadora por criterios como: Mejor precio, mejor servicio, menor tiempo de entrega.</li>
+			</ul>
+		</p>
+		`,
 	},
 	{
 		title:
 			'¿Debo tener el Carrier Service de Shopify activo para utilizar el plugin?',
-		description:
-			'No es necesario, puedes usar nuestro plugin configurando la opción de tarifa estándar para que puedas automatizar tus envíos con nuestro servicio.',
+		description: `<p>No es necesario, puedes usar nuestro plugin configurando la opción de tarifa estándar para que puedas automatizar tus envíos con nuestro servicio.</p>`,
 	},
 	{
 		title:
 			'Si no tengo saldo en la billetera de mipaquete.com ¿Mi cliente no puede realizar la compra?',
-		description:
-			'Tu cliente puede generar la compra de tus productos tranquilamente, pero si es necesario que tengas saldo en tu billetera en el momento de generar la guía.',
+		description: `<p>Tu cliente puede generar la compra de tus productos tranquilamente, pero si es necesario que tengas saldo en tu billetera en el momento de generar la guía.</p>`,
 	},
 	{
 		title:
 			'¿Dónde descargo las guías de mis envíos y hago seguimiento de los mismos?',
-		description:
-			'Puedes hacerlo directamente desde Shopify. También puedes ingresar a nuestra plataforma, en la sección tus envíos y desde allí descargar tus envíos y ver sus estados logísticos.',
+		description: `<p>Puedes hacerlo directamente desde Shopify. También puedes ingresar a nuestra plataforma, en la sección tus envíos y desde allí descargar tus envíos y ver sus estados logísticos.</p>`,
 	},
 ];
 
@@ -226,9 +242,10 @@ export const form = {
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',
-	titleForm: 'Automatizamos el éxito de ',
-	titleFormSpan: 'tu ecommerce',
+	titleForm: '<p>Automatizamos el éxito de <span>tu ecommerce</span></p>',
 	formDescription:
-		'Simplifica tu logística y aumenta las ventas de tu tienda ¡Compártenos tus datos para ayudarte!',
+		'<p>Simplifica tu logística y aumenta las ventas de tu tienda <strong>¡Compártenos tus datos para ayudarte!</strong></p>',
 	FormColorSpan: 'orange',
+	listId: '100',
+	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };

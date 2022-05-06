@@ -1,3 +1,5 @@
+import { TypeButton } from '@types/global';
+
 export interface TypesBanner {
 	title?: string;
 	subtitle?: string;
@@ -11,11 +13,13 @@ export interface TypesBanner {
 		color: string;
 		title: string;
 		url: string;
+		type: TypeButton;
 	};
 	buttonTwo?: {
 		color: string;
 		title: string;
 		url: string;
+		type: TypeButton;
 	};
 }
 

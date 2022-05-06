@@ -1,8 +1,4 @@
 @import '../../styles/variables';
-.section {
-	background-color: #FCFCFC;
-	padding: 40px 20px;
-}
 
 .container {
 	display: grid;
@@ -30,6 +26,7 @@
 	margin: auto;
 	width: 100%;
 	button {
+		background: transparent;
 		border: 0;
 	}
 	.buttons {
@@ -41,12 +38,19 @@
 	border-top: 1px solid $color_tertiary;
 	padding: 10px 0;
 	button {
+		background: transparent;
 		border: 0;
 		color:$color_tertiary;
 		cursor: pointer;
 		font-weight: bold;
 		font-style: italic;
 		font-size: 1.4rem;
+	}
+}
+.open {
+	width: 100%;
+	& > span {
+		font-size: 1.6rem;
 	}
 }
 .description{
@@ -81,10 +85,6 @@
 }
 // desktop {
 @media (min-width: 1024px) {
-	.section {
-		background-color: $background;
-		padding: 40px 20px;
-	}
 	.sectionTwo{
 		width: 80%;
 	}

@@ -1,0 +1,19 @@
+.component_shared {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 2px solid #e6eff5;
+	border-bottom: 2px solid #e6eff5;
+	padding: 10px 0;
+	margin-bottom: 36px;
+	&__left {
+		display: flex;
+		align-items: center;
+	}
+	&__right {
+		display: flex;
+	}
+	p {
+		font-size: 14px;
+	}
+}

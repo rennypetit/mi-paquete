@@ -28,9 +28,11 @@
 }
 
 .button {
+  bottom: 20px;
   font-size: 1.6rem;
   margin: auto;
-  width: 220px;
+  position: absolute;
+  width: 230px;
 }
 
 .asesoria {
@@ -41,14 +43,14 @@
     position: absolute;
     bottom: 20px;
     margin: auto;
-    width: 250px;
+    width: 260px;
   }
 }
 
 // desktop
 @media (min-width: 1024px) {
   .items {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
     width: 900px;
   }
 }

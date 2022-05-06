@@ -1,19 +1,39 @@
 import Image from 'next/image';
 import Button from '@components/button';
+import { TypeDescription } from '@types/global';
 import styles from './Feature.module.scss';
 export default function Feature({ items }) {
 	return (
 		<section className={styles.section}>
 			<div className={`${styles.container} ${styles[items.orientation]}`}>
-				<div className={styles.image}>
-					<Image
-						src={items.image}
-						alt={items.alt}
-						layout='responsive'
-						height={242}
-						width={400}
-					/>
-				</div>
+				{Symbol(items.type).toString() ===
+				`Symbol(${TypeDescription.video})` ? (
+					<div className={`${styles.video} video`}>
+						<iframe
+							width='560'
+							height='315'
+							src={items.video}
+							title='YouTube video player'
+							frameBorder='0'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+							allowFullScreen
+						/>
+					</div>
+				) : (
+					<>
+						{items.image && (
+							<div className={styles.image}>
+								<Image
+									src={items.image}
+									alt={items.alt}
+									layout='responsive'
+									height={items.height}
+									width={items.width}
+								/>
+							</div>
+						)}
+					</>
+				)}
 				<div className={styles.description}>
 					<p className={styles.title}>
 						{items?.title} <span>{items?.titleSpan}</span>

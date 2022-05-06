@@ -1,3 +1,5 @@
+import { TypeButton } from '@types/global';
+
 export const items = [
 	{
 		title: 'SOLUCIONES ECOMMERCE',
@@ -24,7 +26,7 @@ export const items = [
 		title: 'CONECTA TU TIENDA VIRTUAL',
 		subItems: [
 			{
-				title: 'integraciones',
+				title: 'Integraciones',
 				url: '/conecta-tu-ecommerce',
 			},
 			{
@@ -71,11 +73,13 @@ export const items = [
 export const buttonOne = {
 	color: 'buttonWhite',
 	title: 'INICIAR SESIÓN',
-	url: '#',
+	url: 'https://app.mipaquete.com/ingreso',
+	type: TypeButton.blank,
 };
 
 export const buttonTwo = {
 	color: 'buttonBlue',
 	title: 'COTIZAR',
-	url: '#',
+	url: 'https://app.mipaquete.com/',
+	type: TypeButton.blank,
 };

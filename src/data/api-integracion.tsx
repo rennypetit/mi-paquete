@@ -1,4 +1,5 @@
 import { TypesBannerItems } from '@components/banner/types';
+import { TypeButton } from '@types/global';
 
 export const banner: TypesBannerItems = {
 	orientation: 'orientationLeft',
@@ -28,16 +29,18 @@ export const banner: TypesBannerItems = {
 		},
 	],
 	subDescription:
-		'<p>Conoce cómo automatizar en pocos pasos nuestra <strong>interfaz API</strong> en cualquier <strong>plataforma para ecommerce,</strong> para que hagas más fácil la logística de tus envíos y automatices tus procesos.',
+		'<p>Conoce cómo automatizar en pocos pasos nuestra <strong>interfaz API</strong> en cualquier <strong>plataforma de ecommerce,</strong> para que hagas más fácil la logística de tus envíos y automatices tus procesos.',
 	buttonOne: {
 		color: 'buttonOrange',
 		title: 'INTEGRA TU TIENDA',
-		url: '#',
+		url: 'https://documenter.getpostman.com/view/14212363/Tzm8GFfQ',
+		type: TypeButton.blank,
 	},
 	buttonTwo: {
 		color: 'buttonBlue',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 };
 
@@ -105,30 +108,27 @@ export const row = {
 	button: {
 		color: 'buttonOrange',
 		title: 'CONECTA TU TIENDA',
-		url: '#',
+		url: 'https://documenter.getpostman.com/view/14212363/Tzm8GFfQ',
+		type: TypeButton.blank,
 	},
 };
 
 export const question = [
 	{
 		title: '¿Dónde encuentro la documentación de la API y su alcance?',
-		description:
-			'En <a href="https://documenter.getpostman.com/view/14212363/Tzm8GFfQ">https://documenter.getpostman.com/view/14212363/Tzm8GFfQ</a> Si no eres desarrollador puedes leer el alcance completo en el link “Introducción” que aparece en el menú.',
+		description: `<p>En <a href="https://documenter.getpostman.com/view/14212363/Tzm8GFfQ">https://documenter.getpostman.com/view/14212363/Tzm8GFfQ</a> Si no eres desarrollador puedes leer el alcance completo en el link “Introducción” que aparece en el menú.</p>`,
 	},
 	{
 		title: '¿Tienen ambiente de pruebas para la API?',
-		description:
-			'si tenemos, puedes acceder al siguiente enlace: <a href="https://app.dev.mpr.mipaquete.com/cotizacion">https://app.dev.mpr.mipaquete.com/cotizacion</a>',
+		description: `<p>si tenemos, puedes acceder al siguiente enlace: <a href="https://app.dev.mpr.mipaquete.com/cotizacion">https://app.dev.mpr.mipaquete.com/cotizacion</a></p>`,
 	},
 	{
 		title: '¿Dónde puedo acceder a las API KEY?',
-		description:
-			'La api key se genera en el servicio generateApiKey, Se agrega el usuario y contraseña registrado y de esta manera las generas. No hay necesidad de generarla varias veces.',
+		description: `<p>La api key se genera en el servicio generateApiKey, Se agrega el usuario y contraseña registrado y de esta manera las generas. No hay necesidad de generarla varias veces.</p>`,
 	},
 	{
 		title: '¿Ustedes realizan la configuración de la API?',
-		description:
-			'No, la configuración la debe realizar un desarrollador con un conocimiento técnico para realizar este tipo de integración. ',
+		description: `<p>No, la configuración la debe realizar un desarrollador con un conocimiento técnico para realizar este tipo de integración. </p>`,
 	},
 ];
 
@@ -136,13 +136,14 @@ export const form = {
 	title:
 		'<h4>¿Quieres <strong>integrar API <br /></strong> a tu tienda online?</h4>',
 	description:
-		'<p>Nuestro <strong>equipo de soporte</strong> te ayudará a configurar en minutos el API Mi Paquete en tu tienda online y resolverá tus dudas durante el proceso.</p>',
+		'<p>Nuestro <strong>equipo de soporte</strong> te ayudará a configurar el API Mi Paquete en tu tienda online y resolverá tus dudas durante el proceso.</p>',
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',
-	titleForm: 'Automatizamos el éxito de',
-	titleFormSpan: 'tu ecommerce',
+	titleForm: '<p>Automatizamos el éxito de <span>tu ecommerce</span></p>',
 	formDescription:
-		'Simplifica tu logística y aumenta las ventas de tu tienda ¡Compártenos tus datos para ayudarte!',
+		'<p>Simplifica tu logística y aumenta las ventas de tu tienda <strong>¡Compártenos tus datos para ayudarte!</strong></p>',
 	FormColorSpan: 'orange',
+	listId: '104',
+	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };

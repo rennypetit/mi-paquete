@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import styles from './Quoter.module.scss';
-export default function Dimensions() {
+export default function Dimensions({ register, errors, watch }) {
 	return (
 		<div className={styles.dimensions}>
 			<div className={styles.items}>
@@ -31,13 +31,22 @@ export default function Dimensions() {
 					<div className={styles.group}>
 						<input
 							type='number'
-							id='ancho'
+							id='height'
 							placeholder='45'
 							className={styles.formInput}
+							min={1}
+							max={200}
+							{...register('height', { required: true, min: 1, max: 200 })}
+							required
 						/>
 						<div className={styles.formIcon}>
 							<span>CM</span>
 						</div>
+					</div>
+					<div className={styles.errors}>
+						{errors.height && (
+							<span>*Ingresa un valor entre 1 y 200 centímetros.</span>
+						)}
 					</div>
 				</div>
 				{/* end high */}
@@ -57,11 +66,20 @@ export default function Dimensions() {
 							type='number'
 							id='alto'
 							placeholder='45'
+							min={1}
+							max={200}
 							className={styles.formInput}
+							{...register('width', { required: true, min: 1, max: 200 })}
+							required
 						/>
 						<div className={styles.formIcon}>
 							<span>CM</span>
 						</div>
+					</div>
+					<div className={styles.errors}>
+						{errors.width && (
+							<span>*Ingresa un valor entre 1 y 200 centímetros.</span>
+						)}
 					</div>
 				</div>
 				{/* end wide */}
@@ -69,7 +87,7 @@ export default function Dimensions() {
 			{/* end row one */}
 			{/* row two */}
 			<div className={styles.row}>
-				{/* long */}
+				{/* length */}
 				<div className={styles.column}>
 					<div className={styles.labelIcons}>
 						<label htmlFor='largo'>Largo</label>
@@ -85,14 +103,23 @@ export default function Dimensions() {
 							type='number'
 							id='alto'
 							placeholder='45'
+							min={1}
+							max={200}
 							className={styles.formInput}
+							{...register('length', { required: true, min: 1, max: 200 })}
+							required
 						/>
 						<div className={styles.formIcon}>
 							<span>CM</span>
 						</div>
 					</div>
+					<div className={styles.errors}>
+						{errors.length && (
+							<span>*Ingresa un valor entre 1 y 200 centímetros.</span>
+						)}
+					</div>
 				</div>
-				{/* end long */}
+				{/* end length */}
 				{/* weight */}
 				<div className={`${styles.column} ${styles.columnTwo}`}>
 					<div className={styles.labelIcons}>
@@ -105,18 +132,48 @@ export default function Dimensions() {
 						/>
 					</div>
 					<div className={styles.group}>
-						<input
-							type='number'
-							id='alto'
-							placeholder='45'
-							className={styles.formInput}
-						/>
+						{watch('unitOfMeasurement') === 'Kg' ? (
+							<input
+								type='number'
+								id='weight'
+								min={1}
+								max={150}
+								placeholder='45'
+								className={styles.formInput}
+								{...register('weight', { required: true, min: 1, max: 150 })}
+								required
+							/>
+						) : (
+							<input
+								type='number'
+								id='weight'
+								min={1}
+								max={150000}
+								placeholder='1000'
+								className={styles.formInput}
+								{...register('weight', { required: true, min: 1, max: 250000 })}
+								required
+							/>
+						)}
+
 						<div className={styles.formIcon}>
-							<select name='peso' id='' className={styles.formSelect}>
-								<option value='KG'>KG</option>
-								<option value='GR'>GR</option>
+							<select
+								name='unitOfMeasurement'
+								id='unitOfMeasurement'
+								className={styles.formSelect}
+								{...register('unitOfMeasurement', { required: true })}
+							>
+								<option value='Kg'>KG</option>
+								<option value='Gr'>GR</option>
 							</select>
 						</div>
+					</div>
+					<div className={styles.errors}>
+						{errors.weight && (
+							<span>
+								*Ingresa un valor entre 1 y 150 kilos o 150.000 gramos.
+							</span>
+						)}
 					</div>
 				</div>
 				{/* end wide */}

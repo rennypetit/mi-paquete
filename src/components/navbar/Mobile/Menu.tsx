@@ -17,14 +17,6 @@ export default function Menu() {
 					</Fragment>
 				))}
 				<ul className={styles.ulTitle}>
-					<li>
-						<Link href='/agencias'>
-							<a>AGENCIAS</a>
-						</Link>
-					</li>
-				</ul>
-				<hr className={styles.separator} />
-				<ul className={styles.ulTitle}>
 					<Link href='/blog'>
 						<a>BLOG</a>
 					</Link>

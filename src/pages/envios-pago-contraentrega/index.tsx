@@ -9,7 +9,6 @@ import Ally from '@components/ally/AllyModal';
 import Feature from '@components/feature';
 import Testimonial from '@components/testimonial';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 import Question from '@components/question';
 
@@ -20,6 +19,7 @@ import {
 	featuresCardSlider,
 	commercial,
 	features,
+	testimonials,
 	question,
 } from '@data/envios-pago-contraentrega';
 
@@ -61,13 +61,12 @@ const enviosPagoContraEntrega: NextPage = () => {
 							/>
 							<hr className={styles.rowLine} />
 						</div>
-						<Testimonial />
+						<Testimonial data={testimonials} />
 					</div>
 				</div>
+				<Question items={question} />
 			</div>
-			<Question items={question} />
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

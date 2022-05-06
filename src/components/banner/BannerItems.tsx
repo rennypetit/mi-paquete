@@ -34,7 +34,7 @@ const BannerItems = ({ data }: PropsItems) => {
 				</div>
 
 				<div className={styles.image}>
-					<Image src={data.image} alt={data.alt} width={320} height={400} />
+					<Image src={data.image} alt={data.alt} width={500} height={425} />
 				</div>
 			</div>
 			<div className={styles.foot}>

@@ -4,10 +4,10 @@ import styles from './Description.module.scss';
 const Description = ({ data }) => {
 	return (
 		<section className={styles.container}>
-			<h3 className={styles.title}>
-				{' '}
-				{data.title} <span>{data.titleSpan}</span>
-			</h3>
+			<div
+				className={styles.title}
+				dangerouslySetInnerHTML={{ __html: data.title }}
+			></div>
 			<div
 				className={styles.description}
 				dangerouslySetInnerHTML={{ __html: data.description }}

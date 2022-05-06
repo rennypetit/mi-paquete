@@ -1,16 +1,12 @@
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Button from '@components/button';
 import styles from './Card.module.scss';
 export default function Cards ({ data }) {
 	return (
 		<div className={(data.sizeCard ? `${styles[data.sizeCard]} ${styles.card}` : `${styles.card}`)}>
 			<div className={styles.image}>
-				<Link href={data.url}>
-					<a>
-						<Image src={data.image} alt={data.alt} width={290} height={180} />
-					</a>
-				</Link>
+					<Image src={data.image} alt={data.alt} width={290} height={180} />
 			</div>
 			<div className={styles.content}>
 				<div className={styles.description}>

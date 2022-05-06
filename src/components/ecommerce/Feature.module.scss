@@ -1,12 +1,17 @@
 @import '../../styles/variables';
 .section {
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 }
 .container {
 	width: 100%;
 }
 .image {
 	width: 100%;
+}
+.video {
+	iframe {
+		border-radius: 10px;
+	}
 }
 
 .title {
@@ -52,7 +57,14 @@
 	font-size: 1.6rem;
 	gap: 20px;
 	flex-wrap: wrap;
-	width: 100%;
+	width: auto;
+	button,
+	a {
+		div {
+			font-size: 1.6rem;
+			width: 24rem;
+		}
+	}
 }
 
 @media (min-width: 1024px) {
@@ -62,7 +74,7 @@
 	}
 	.title {
 		font-size: 3rem;
-		width: 300px;
+		width: 320px;
 		margin-left: 0;
 		text-align: left;
 	}
@@ -83,7 +95,6 @@
 			margin-left: 0;
 			width: 80%;
 		}
-		
 		.description {
 			grid-column: 1;
 			grid-row: 1;
@@ -99,6 +110,24 @@
 		}
 		.description {
 			grid-column: 2;
+		}
+	}
+	.video {
+		padding-top: 20px;
+		iframe {
+			width: 80%;
+			height: 80%;
+		}
+	}
+	.buttons {
+		flex-wrap: nowrap;
+		width: auto;
+		button,
+		a {
+			div {
+				font-size: 1.6rem;
+				width: 260px;
+			}
 		}
 	}
 }

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 // components
 import NavbarDesktop from '@components/navbar/Desktop';
 import NavbarMobile from '@components/navbar/Mobile';
+import Footer from '@components/footer';
 import WidthContext from '@contexts/width';
 
 export default function Layout({ children }) {
@@ -20,8 +21,9 @@ export default function Layout({ children }) {
 					widthViewport,
 				}}
 			>
-				{children}
+				<div className='layout'>{children}</div>
 			</WidthContext.Provider>
+			<Footer />
 		</>
 	);
 }

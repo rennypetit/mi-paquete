@@ -2,17 +2,13 @@ import type { NextPage } from 'next';
 import Layout from 'layout';
 import BannerAboutUs from '@components/banner/BannerAboutUs';
 import Ally from '@components/ally';
+import Video from '@components/video/Video';
 import Media from '@components/media';
 import Recognition from '@components/recognition';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
-
 // only data of components
-import {
-	banner,
-	recognitions,
-} from '@data/quienes-somos';
+import { banner, sectionVideo, recognitions } from '@data/quienes-somos';
 
 import styles from './aboutUs.module.scss';
 const aboutUs: NextPage = () => {
@@ -23,6 +19,7 @@ const aboutUs: NextPage = () => {
 				<BannerAboutUs data={banner} />
 			</main>
 			<div className={`container ${styles.margin_container}`}>
+				<Video data={sectionVideo} />
 				<Ally />
 			</div>
 			<Recognition data={recognitions} />
@@ -35,7 +32,6 @@ const aboutUs: NextPage = () => {
 				</div>
 			</div>
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

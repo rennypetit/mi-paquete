@@ -44,6 +44,19 @@
 		display: flex;
 		align-items: center;
 	}
+	.liBaseline {
+		align-items: baseline;
+	}
+	.liStrong {
+		font-family: $font_primary_bold;
+	}
+}
+
+.marginSubItems {
+	height: 100%;
+	width: 100%;
+	padding-top: 14px;
+	position: absolute;
 }
 
 .arrowRight {

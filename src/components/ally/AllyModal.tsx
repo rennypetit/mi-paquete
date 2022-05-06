@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { Fragment, useState, useRef } from 'react';
 import Image from 'next/image';
 import Modal from './Modal';
 import allies from '@data/componentAllies';
@@ -6,15 +6,16 @@ import allies from '@data/componentAllies';
 import styles from './Ally.module.scss';
 export default function AllyModal() {
 	const [dataModal, setDataModal] = useState(allies.items[0].modal);
-
+	const refModal = useRef(null);
 	const handleOpenModal = ({ target }) => {
 		const info = allies.items.find((element) => element.modal.id === target.id);
 		setDataModal(info.modal);
-		document.getElementById(`modal-${target.id}`)?.style.display = 'flex';
+		refModal.current.style.display = 'flex';
+		document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
 	};
-	const handleCloseModal = ({ target }) => {
-		const id = target.id.split('-');
-		document.getElementById(`modal-${id[1]}`)?.style.display = 'none';
+	const handleCloseModal = () => {
+		refModal.current.style.display = 'none';
+		document.getElementsByTagName('html')[0].style.overflowY = 'auto';
 		setDataModal(dataModal);
 	};
 	const handleOpenModalButton = (id) => {
@@ -25,8 +26,8 @@ export default function AllyModal() {
 			info = allies.buttonTwo.modal;
 		}
 		setDataModal(info);
-		document.getElementById(`modal-${id}`)?.style.display = 'flex';
-		console.log(info);
+		document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
+		refModal.current.style.display = 'flex';
 	};
 	return (
 		<section className={styles.section}>
@@ -35,36 +36,41 @@ export default function AllyModal() {
 			</h2>
 			<div className={styles.container}>
 				{allies.items.map((item, index) => (
-					<div className={styles.image} key={index}>
-						<div className='image'>
-							<Image
-								src={item.image}
-								alt={item.alt}
-								title={item.title}
-								width={225}
-								height={100}
-							/>
-						</div>
-						<div className={styles.url}>
-							<button
-								className='open'
-								id={item.title}
-								onClick={(e) => handleOpenModal(e)}
-							>
-								CONOCER BENEFICIOS
-							</button>
-						</div>
-					</div>
+					<Fragment key={index}>
+						{item.title !== 'Entregalo' && (
+							<div className={styles.image} key={index}>
+								<div className='image'>
+									<Image
+										src={item.image}
+										alt={item.alt}
+										title={item.title}
+										width={225}
+										height={100}
+									/>
+								</div>
+								<div className={styles.url}>
+									<button
+										className={styles.open}
+										id={item.title}
+										ref={refModal}
+										onClick={(e) => handleOpenModal(e)}
+									>
+										CONOCER BENEFICIOS
+									</button>
+								</div>
+							</div>
+						)}
+					</Fragment>
 				))}
 			</div>
 			<div className={styles.sectionTwo}>
 				<div
-					className={styles.description}
+					className={`${styles.description}`}
 					dangerouslySetInnerHTML={{ __html: allies.description }}
 				></div>
 				<div className={styles.buttons}>
 					<button
-						className='open'
+						className={styles.open}
 						onClick={() => handleOpenModalButton('buttonOne')}
 					>
 						<span className={`button ${styles.buttonOne}`}>
@@ -72,7 +78,7 @@ export default function AllyModal() {
 						</span>
 					</button>
 					<button
-						className='open'
+						className={styles.open}
 						onClick={() => handleOpenModalButton('buttonTwo')}
 					>
 						<span className={`button ${styles.buttonTwo}`}>
@@ -81,7 +87,11 @@ export default function AllyModal() {
 					</button>
 				</div>
 			</div>
-			<Modal dataModal={dataModal} handleCloseModal={handleCloseModal} />
+			<Modal
+				dataModal={dataModal}
+				handleCloseModal={handleCloseModal}
+				refModal={refModal}
+			/>
 		</section>
 	);
 }

@@ -3,11 +3,9 @@ import Layout from 'layout';
 import Banner from '@components/banner/';
 import Card from '@components/cards/CardVideo';
 import Commercial from '@components/commercial';
-import Question from '@components/question';
 import Row from '@components/row';
 import BlogCardSlider from '@components/blog/BlogCardSlider';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -15,7 +13,6 @@ import {
 	banner,
 	cards,
 	commercial,
-	question,
 	row,
 	commercialTwo,
 	blog,
@@ -37,7 +34,6 @@ const primerosPasos: NextPage = () => {
 				<Card items={cards} />
 				<Commercial data={commercial} />
 			</div>
-			<Question items={question} />
 			<div className={styles.row}>
 				<Row data={row} />
 			</div>
@@ -50,8 +46,9 @@ const primerosPasos: NextPage = () => {
 				</h2>
 				<BlogCardSlider items={blog} />
 			</div>
-			<Newsletter background={'secondary'} />
-			<Footer />
+			<div className={styles.newsletter}>
+				<Newsletter background={'secondary'} />
+			</div>
 			<Fixed />
 		</Layout>
 	);

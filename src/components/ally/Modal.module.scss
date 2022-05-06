@@ -11,6 +11,10 @@
   display: none;
   overflow-y: hidden;
   z-index: 20;
+  a {
+    color: $color_tertiary;
+    text-decoration: underline;
+  }
 }
 .modalBackground {
   background-color: $color_quinary;
@@ -31,7 +35,12 @@
   }
 }
 .image {
+  border-radius: 15px;
+  box-shadow: 0px 0px 13px #00000022;
+  height: 100px;
+  margin: 20px auto;
   text-align: center;
+  width:225px;
 }
 .title {
   color: $color_tertiary;
@@ -41,15 +50,23 @@
   margin: 0;
 }
 .description {
+  @include center;
   margin: auto;
   text-align: center;
+  flex-direction: column;
+  overflow-y: auto;
   font-size: 1.4rem;
+  height: 50vh;
+  margin: 20px;
   width: 90%;
 }
 .button {
   font-size: 1.5rem;
   margin: auto;
   width: 180px;
+  a {
+    text-decoration: none !important;
+  }
 }
 
 .exit {
@@ -96,5 +113,20 @@
     top: 50px;
     right: 0;
     position: absolute;
+  }
+  .title {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .description {
+    display: block;
+    height: 150px;
+    padding: 10px 0;
+  }
+  .button {
+    width: auto;
+  }
+  .image {
+  margin: auto;
   }
 }

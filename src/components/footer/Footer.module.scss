@@ -41,22 +41,23 @@
   gap: 10px;
 }
 
-  .icon {
-    background: transparent linear-gradient(270deg, #F78F31 0%, #FDAD4C 100%) 0% 0% no-repeat padding-box;
-    border-radius: 25px;
-    padding: 5px 8px !important;
-    width: 180px;
-    margin: auto;
-    a {
-      @include center;
-      color: $color_primary;
-      font-family: $font_primary_bold;
-      font-style: italic;
-      gap: 10px;
-      height: 100%;
-      width: 100%;
-    }
+.icon {
+  background: transparent linear-gradient(270deg, #F78F31 0%, #FDAD4C 100%) 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  padding: 5px 8px !important;
+  margin: auto;
+  max-width: 230px;
+  width: 180px;
+  a {
+    @include center;
+    color: $color_primary;
+    font-family: $font_primary_bold;
+    font-style: italic;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
   }
+}
 // desktop {
 @media (min-width: 1024px) {
   .container {

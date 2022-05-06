@@ -14,14 +14,19 @@
   margin-top: 50px;
 }
 .featuresTwo {
-  margin: 50px 0;
+  margin: 100px 0;
+  text-align: center;
   img {
     object-fit: cover;
   }
 }
+.containerAllies {
+  padding: 40px;
+}
 
 @media (min-width: 1024px) {
   .featuresTwo {
+  text-align: initial;
     ul {
       display: grid;
       grid-template-columns: 1fr 1fr;

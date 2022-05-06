@@ -7,13 +7,21 @@ const CardVideo = ({ items }) => {
 			<div className={styles.cards}>
 				{items.map((item, index) => (
 					<a
-						className={styles.card}
-						href='http://'
+						className={`${styles.card} video`}
+						href={item.video}
 						target='_blank'
 						rel='noopener noreferrer'
 						key={index}
 					>
-						<Image src={item.video} alt='a' width={336} height={239} />
+						<iframe
+							width='336'
+							height='239'
+							src={item.video}
+							title='YouTube video player'
+							frameBorder='0'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+							allowFullScreen
+						/>
 						<div
 							className={styles.title}
 							dangerouslySetInnerHTML={{ __html: item.title }}

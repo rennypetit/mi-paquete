@@ -4,11 +4,9 @@ import Banner from '@components/banner';
 import Storage from '@components/ecommerce/Storage';
 import Feature from '@components/ecommerce/Feature';
 import Ally from '@components/ally';
-import Testimonial from '@components/testimonial';
 import Question from '@components/question';
 import Form from '@components/form';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -26,20 +24,26 @@ const komercia: NextPage = () => {
 	return (
 		<Layout>
 			<main>
-				<Banner data={banner} />
-			</main>
-			<Storage data={storages} />
-			<div className='container margin-top'>
-				<Feature items={features} />
-				<div className={styles.containerAllies}>
-					<Ally />
+				<div className={styles.banner}>
+					<Banner data={banner} />
 				</div>
-				<Testimonial />
+			</main>
+			<div className='storages-komercia'>
+				<Storage data={storages} />
 			</div>
-			<Question items={question} />
+			<div className='container margin-top'>
+				<div className={styles.features}>
+					<Feature items={features} />
+				</div>
+			</div>
+			<div className={`${styles.containerAllies} container-background`}>
+				<Ally />
+			</div>
+			<div className='container'>
+				<Question items={question} />
+			</div>
 			<Form data={form} background={'primary'} />
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

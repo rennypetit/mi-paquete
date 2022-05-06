@@ -5,20 +5,11 @@ import Ventajas from '@components/ventaja/';
 import { BenefitAsesoria } from '@components/benefit/AsesoriaGrid';
 import CardStateMaps from '@components/cardState/CardStateMaps';
 import Form from '@components/form';
-import Question from '@components/question';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
-import {
-	banner,
-	benefits,
-	maps,
-	ventajas,
-	form,
-	question,
-} from '@data/agencias';
+import { banner, benefits, maps, ventajas, form } from '@data/agencias';
 
 import styles from './agencias.module.scss';
 
@@ -30,14 +21,14 @@ const agencias: NextPage = () => {
 				<BannerAgencias data={banner} />
 			</main>
 			<div className='container margin-top'>
-				<CardStateMaps data={maps}/>
+				<CardStateMaps data={maps} />
 				<BenefitAsesoria data={benefits} />
+			</div>
+			<div className={`${styles.advantage} container-background`}>
 				<Ventajas data={ventajas} />
 			</div>
-			<Form data={form} background={'primary'} />
-			<Question items={question} />
+			<Form data={form} background={'primary'} pageAgencias={true} />
 			<Newsletter background={'secondary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

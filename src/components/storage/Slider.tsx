@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Image from 'next/image';
 import Slider from 'react-slick';
 import Button from '@components/button';
@@ -6,11 +7,9 @@ import Button from '@components/button';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from './Slider.module.scss';
-import { useState, useRef, Fragment } from 'react';
-const StorageSlider = ({ items }) => {
-	const [slider1, setSlider1] = useState(items);
-	const [slider2, setSlider2] = useState(items);
-	const [slider3, setSlider3] = useState(items);
+const StorageSlider = ({ data }) => {
+	const [slider1, setSlider1] = useState(data);
+	const [slider2, setSlider2] = useState(data);
 
 	// configuration slider banner
 	const settings = {
@@ -36,16 +35,16 @@ const StorageSlider = ({ items }) => {
 			},
 		],
 	};
-	if (items === undefined) return ''; // sino tiene nada no retorna nada
+	if (data.items === undefined) return ''; // sino tiene nada no retorna nada
 	return (
 		<div className={`${styles.container} almacenamientoSlider`}>
 			<div className={styles.sliderOne}>
 				<Slider
 					{...settings}
-					asNavFor={slider3}
+					asNavFor={slider2}
 					ref={(slider) => setSlider1(slider)}
 				>
-					{items.map((item, index) => (
+					{data.items.map((item, index) => (
 						<div className={styles.card} key={index}>
 							<Image src={item.image} alt={item.alt} width={512} height={378} />
 						</div>
@@ -60,7 +59,7 @@ const StorageSlider = ({ items }) => {
 					focusOnSelect={true}
 					ref={(slider) => setSlider2(slider)}
 				>
-					{items.map((item, index) => (
+					{data.items.map((item, index) => (
 						<div className={styles.item} key={index}>
 							<Image src={item.image} alt={item.alt} width={155} height={109} />
 						</div>
@@ -69,26 +68,16 @@ const StorageSlider = ({ items }) => {
 			</div>
 
 			<div className={styles.content}>
-				<Slider
-					{...settings}
-					asNavFor={slider2}
-					ref={(slider) => setSlider3(slider)}
-				>
-					{items.map((item, index) => (
-						<Fragment key={index}>
-							<h3 className={styles.title}>
-								{item.title} <strong>{item.titleStrong}</strong>
-							</h3>
-							<div
-								className={styles.description}
-								dangerouslySetInnerHTML={{ __html: item.description }}
-							></div>
-							<div className={styles.button}>
-								<Button data={item.button} />
-							</div>
-						</Fragment>
-					))}
-				</Slider>
+				<h3 className={styles.title}>
+					{data.title} <strong>{data.titleStrong}</strong>
+				</h3>
+				<div
+					className={styles.description}
+					dangerouslySetInnerHTML={{ __html: data.description }}
+				></div>
+				<div className={styles.button}>
+					<Button data={data.button} />
+				</div>
 			</div>
 		</div>
 	);

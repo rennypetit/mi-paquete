@@ -42,8 +42,9 @@
 	}
 	p {
 		color:	$color_secondary;
-		font-size: 1.9rem;
+		font-size: 1.8rem;
 		line-height: 1.3;
+		padding-right: 10px;
 	}
 }
 .textWhite{
@@ -63,7 +64,7 @@
 // desktop
 @media (min-width: 1024px) {
 	.container {
-		height: 309px;
+		height: 400px;
 		max-width: initial;
 	}
 	.content {
@@ -73,9 +74,15 @@
 		padding-left: 30px;
 		height: 100%;
 		width: 45%;
+		button,
+		a {
+			div {
+				font-size: 1.6rem;
+				width: 240px;
+			}
+		}
 	}
 	.description {
-	
 		h1,
 		h2,
 		h3,

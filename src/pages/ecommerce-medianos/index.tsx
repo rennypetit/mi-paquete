@@ -5,7 +5,6 @@ import Feature from '@components/feature';
 import Ally from '@components/ally';
 import Form from '@components/form';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -34,12 +33,11 @@ const ecommerceMedianos: NextPage = () => {
 					/>
 				</div>
 			</div>
-			<div className='container'>
+			<div className={`${styles.containerAllies} container-background`}>
 				<Ally />
 			</div>
 			<Form data={form} background={'secondary'} />
 			<Newsletter background={'secondary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);

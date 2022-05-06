@@ -11,7 +11,6 @@ import Testimonial from '../../components/testimonial';
 import Question from '@components/question';
 import Form from '@components/form';
 import Newsletter from '@components/newsletter';
-import Footer from '@components/footer';
 import Fixed from '@components/fixed';
 
 // only data of components
@@ -21,6 +20,7 @@ import {
 	features,
 	cards,
 	commercial,
+	testimonials,
 	commercialTwo,
 	question,
 	form,
@@ -36,9 +36,13 @@ const woocommerce: NextPage = () => {
 					<Banner data={banner} />
 				</div>
 			</main>
-			<div className='container margin-top'>
+			<div className={`${styles.featureOne} container margin-top`}>
 				<Feature items={features} />
+			</div>
+			<div className={`${styles.containerAllies} container-background`}>
 				<Ally />
+			</div>
+			<div className='container'>
 				<Description data={description} />
 				<h2 className='containerTitle'>
 					Beneficios que <span>encontrarás</span>
@@ -47,15 +51,16 @@ const woocommerce: NextPage = () => {
 			</div>
 			<Commercial data={commercial} />
 			<div className='container'>
-				<Testimonial />
+				<Testimonial data={testimonials} haveLink={false} />
 				<div className={styles.featuresTwo}>
 					<CommercialTwo data={commercialTwo} />
 				</div>
 			</div>
-			<Question items={question} />
+			<div className='container'>
+				<Question items={question} />
+			</div>
 			<Form data={form} background={'primary'} />
 			<Newsletter background={'primary'} />
-			<Footer />
 			<Fixed />
 		</Layout>
 	);
