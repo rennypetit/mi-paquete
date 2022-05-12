@@ -2,10 +2,10 @@ import { TypeButton } from '@types/global';
 import { TypesBanner } from '@components/banner/types';
 
 export const banner: TypesBanner = {
-	title: `<h1>Agencias <span>Mi Paquete</span></h1>`,
+	title: `<h1>Agencias <span><mark>Mi Paquete</mark></span></h1>`,
 	subtitle: '',
 	description:
-		'<p>Te ayudamos si quieres convertir tu negocio en un <strong>Aliado Mi Paquete</strong> o necesitas encontrar uno de nuestros puntos para realizar tus envíos.</p>',
+		'<p>Te ayudamos si quieres convertir tu negocio en un <strong>Aliado <mark>Mi Paquete</mark></strong> o necesitas encontrar uno de nuestros puntos para realizar tus envíos.</p>',
 	background: 'orange',
 	image: '/images/banners/fondo_mobile_agencia.jpg',
 	alt: 'Banner agencias',
@@ -121,7 +121,7 @@ export const ventajas = {
 	title: '¿Qué necesitas para ser',
 	titleSpan: 'una de nuestras agencias aliadas?',
 	description:
-		'<p>Ser una <strong>agencia aliada de Mi Paquete</strong> es sencillo, solo necesitas:</p>',
+		'<p>Ser una <strong>agencia aliada de <mark>Mi Paquete</mark></strong> es sencillo, solo necesitas:</p>',
 	descriptionTwo:
 		'Si cumples con estos simples requisitos podrás convertir tu local en una de nuestras agencias aliadas y recibir ingresos extra mes a mes al ofrecer nuestros servicios de logística de envíos a nivel nacional.',
 	buttonOne: {

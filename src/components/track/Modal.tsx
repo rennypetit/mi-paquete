@@ -92,108 +92,11 @@ const Modal = ({ data, handleCloseModal }) => {
 											></div>
 										)}
 									</div>
-									<p className={styles.submitItemsTitle}>{item.updateState}</p>
+									<p className={styles.submitItemsTitle}>
+										{item.updateState} {index}
+									</p>
 								</div>
 							))}
-
-							{/* two  */}
-							{/* <div className={styles.stateSubmitItems}>
-								<div className={styles.submitImageContainer}>
-									<div
-										className={`${styles.submitImageLine} ${styles.lineGray}`}
-									></div>
-									<div className={styles.submitItemsImage}>
-										<Image
-											src={'/images/icons/submit-gray.svg'}
-											alt='check'
-											width={25}
-											height={25}
-										/>
-									</div>
-									<div
-										className={`${styles.submitImageLine} ${styles.lineGray}`}
-									></div>
-								</div>
-								<p
-									className={`${styles.submitItemsTitle} ${styles.subItemsTitleGray}`}
-								>
-									Recogido por la transportadora
-								</p>
-							</div> */}
-
-							{/* three  */}
-
-							{/* <div className={styles.stateSubmitItems}>
-								<div className={styles.submitImageContainer}>
-									<div
-										className={`${styles.submitImageLine} ${styles.lineGray}`}
-									></div>
-									<div className={styles.submitItemsImage}>
-										<Image
-											src={'/images/icons/submit-gray.svg'}
-											alt='check'
-											width={25}
-											height={25}
-										/>
-									</div>
-									<div
-										className={`${styles.submitImageLine} ${styles.lineGray}`}
-									></div>
-								</div>
-								<p
-									className={`${styles.submitItemsTitle} ${styles.subItemsTitleGray}`}
-								>
-									En ciudad destino
-								</p>
-							</div> */}
-
-							{/* four  */}
-							{/* <div className={styles.stateSubmitItems}>
-								<div className={styles.submitImageContainer}>
-									<div
-										className={`${styles.submitImageLine} ${styles.lineGray}`}
-									></div>
-									<div className={styles.submitItemsImage}>
-										<Image
-											src={'/images/icons/submit-gray.svg'}
-											alt='check'
-											width={25}
-											height={25}
-										/>
-									</div>
-									<div
-										className={`${styles.submitImageLine} ${styles.lineGray}`}
-									></div>
-								</div>
-								<p
-									className={`${styles.submitItemsTitle} ${styles.subItemsTitleGray}`}
-								>
-									Distribución
-								</p>
-							</div> */}
-
-							{/* five */}
-							{/* <div className={styles.stateSubmitItems}>
-								<div className={styles.submitImageContainer}>
-									<div
-										className={`${styles.submitImageLine} ${styles.lineGray}`}
-									></div>
-									<div className={styles.submitItemsImage}>
-										<Image
-											src={'/images/icons/submit-gray.svg'}
-											alt='check'
-											width={25}
-											height={25}
-										/>
-									</div>
-									<div className={`${styles.submitImageLine}`}></div>
-								</div>
-								<p
-									className={`${styles.submitItemsTitle} ${styles.subItemsTitleGray}`}
-								>
-									Entregado
-								</p>
-							</div> */}
 						</div>
 					</div>
 				</div>

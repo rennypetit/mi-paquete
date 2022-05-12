@@ -4,7 +4,7 @@ import { TypeButton } from '@types/global';
 export const banner: TypesBanner = {
 	title: `<h1>Primeros pasos<span>¡Estás en el lugar indicado para impulsar tu emprendimiento!</span></h1>`,
 	description:
-		'<p>Aquí encontrarás respuesta a todo lo que necesitas saber para hacer envíos con <strong>Mi Paquete.</strong></p>',
+		'<p>Aquí encontrarás respuesta a todo lo que necesitas saber para hacer envíos con <strong><mark>Mi Paquete.</mark></strong></p>',
 	orientation: '',
 };
 
@@ -40,7 +40,7 @@ export const cards = [
 export const commercial = {
 	colorText: 'textWhite',
 	description:
-		'<h3><strong>¡Cotiza tus envíos en minutos!</strong></h3><p>Con <strong>Mi Paquete</strong> puedes <strong>cotizar envíos</strong> antes de mandarlos y conocer el precio aproximado del mismo a través de las medidas y algunos datos de tu paquete.</p>',
+		'<h3><strong>¡Cotiza tus envíos en minutos!</strong></h3><p>Con <strong><mark>Mi Paquete</mark></strong> puedes <strong>cotizar envíos</strong> antes de mandarlos y conocer el precio aproximado del mismo a través de las medidas y algunos datos de tu paquete.</p>',
 	image: '/images/commercials/woocommerce-background-two.png',
 	imageDesktop: '/images/commercials/woocommerce-background-desktop-two.png',
 	alt: 'background grandes ecommerce',

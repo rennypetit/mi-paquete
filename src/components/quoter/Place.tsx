@@ -32,7 +32,11 @@ export default function Place({ selectOrigin, selectDestiny }) {
 				<div className={styles.column}>
 					<label htmlFor='origen'>¿Cuál es la ciudad de origen?</label>
 					<div className={styles.group}>
-						<Select options={dataLocations} ref={selectOrigin} />
+						<Select
+							options={dataLocations}
+							ref={selectOrigin}
+							placeholder='Bogotá D.C'
+						/>
 					</div>
 					<div className={styles.errors}></div>
 				</div>
@@ -41,13 +45,18 @@ export default function Place({ selectOrigin, selectDestiny }) {
 				<div className={styles.column}>
 					<label htmlFor='destino'>¿Cuál es la ciudad de destino?</label>
 					<div className={styles.group}>
-						<Select options={dataLocations} ref={selectDestiny} required />
+						<Select
+							options={dataLocations}
+							ref={selectDestiny}
+							required
+							placeholder='Medellín'
+						/>
 					</div>
 					<div className={styles.errors}></div>
 				</div>
 			</div>
 			<p className={styles.terms}>
-				*Selecciona desde que ciudad saldrá tu paquete y a qué ciudad lo
+				*Selecciona desde qué ciudad saldrá tu paquete y a qué ciudad lo
 				enviarás
 			</p>
 		</div>

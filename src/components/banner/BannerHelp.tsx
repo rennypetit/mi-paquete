@@ -30,7 +30,7 @@ const BannerSubmit = ({ data }: PropsBackground) => {
 			<div className={styles.row}>
 				<h1 className={styles.title}>{data.title}</h1>
 				<p className={styles.description}>{data.description}</p>
-				<form action='#' className={styles.form}>
+				{/* <form action='#' className={styles.form}>
 					<input
 						type='text'
 						className={`form-input ${styles.input}`}
@@ -46,7 +46,7 @@ const BannerSubmit = ({ data }: PropsBackground) => {
 							/>
 						</button>
 					</div>
-				</form>
+				</form> */}
 			</div>
 		</div>
 	);

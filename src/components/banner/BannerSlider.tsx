@@ -8,12 +8,13 @@ import 'slick-carousel/slick/slick-theme.css';
 export default function BannerSlider({ items }: PropsSlider) {
 	// configuration slider banner
 	const settings = {
+		autoplay: true,
+		autoplaySpeed: 20000,
 		dots: true,
 		infinite: true,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
 		initialSlide: 1,
+		slidesToScroll: 1,
+		slidesToShow: 1,
 	};
 	return (
 		<Slider {...settings} className='dots-grey'>

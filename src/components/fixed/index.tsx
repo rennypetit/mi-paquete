@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './Fixed.module.scss';
 const Fixed = () => {
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id='menu-fixed'>
 			<div className={`${styles.image} ${styles.imageHelp}`}>
 				<Image
 					src='/images/icons/help-blue.svg'

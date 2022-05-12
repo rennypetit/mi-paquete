@@ -5,7 +5,7 @@ export const banner: TypesBanner = {
 	orientation: '',
 	title: `<h1>Automatiza los envíos de tu <span>tienda en Shopify</span></h1>`,
 	description:
-		'<p><strong>¡Generar guías de forma automática </strong>nunca fue tan fácil!<br />Con <strong>Mi Paquete</strong> puedes hacerlo con las <strong>principales empresas de transporte del país</strong>  y ahorrar mucho tiempo mientras nosotros nos encargamos de la <strong>logística de tu ecommerce.</strong> </p>',
+		'<p><strong>¡Generar guías de forma automática </strong>nunca fue tan fácil!<br />Con <strong><mark>Mi Paquete</mark></strong> puedes hacerlo con las <strong>principales empresas de transporte del país</strong>  y ahorrar mucho tiempo mientras nosotros nos encargamos de la <strong>logística de tu ecommerce.</strong> </p>',
 	background: 'orange',
 	image: '/images/banners/shopify.png',
 	alt: 'Banner Shopify',
@@ -26,8 +26,8 @@ export const banner: TypesBanner = {
 export const features = {
 	image: '/images/features/home.png',
 	alt: 'features',
-	title: '¿Por qué integrar Mi Paquete',
-	titleSpan: 'a Shopify?',
+	title:
+		'<p>¿Por qué integrar <mark>Mi Paquete </mark><span>a Shopify?</span></p>',
 	orientation: 'left',
 	type: TypeDescription.video,
 	video: 'https://www.youtube.com/embed/jty8_mR_BB0',
@@ -176,7 +176,7 @@ export const featuresTwo = {
 	`,
 	buttonOne: {
 		color: 'buttonBlue',
-		title: 'CONOCE MÁS',
+		title: 'DESCUBRE MÁS',
 		url: '/carrier-service',
 		type: TypeButton.link,
 	},
@@ -197,6 +197,13 @@ export const row = {
 		url: 'https://mipaquete.com/shopify',
 		type: TypeButton.blank,
 	},
+};
+
+export const testimonials = {
+	icon: '/images/quote.png',
+	alt: 'quote',
+	title:
+		'<p>Más de 100 comercios han descargado nuestra aplicación de <span>envíos para Shopify</span> ¡Súmate tú también!</p>',
 };
 
 export const question = [
@@ -238,7 +245,7 @@ export const form = {
 	title:
 		'<h4>¿Tienes una tienda en Shopify? <strong>¡Automatiza tus envíos!</strong></h4>',
 	description:
-		'<p>Añade la aplicación de Mi Paquete en tu ecommerce en Shopify y ofrece a tus clientes conocer en tiempo real el precio de sus envíos al realizar sus compras.</p>',
+		'<p>Añade la aplicación de <mark>Mi Paquete</mark> en tu ecommerce en Shopify y ofrece a tus clientes conocer en tiempo real el precio de sus envíos al realizar sus compras.</p>',
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',

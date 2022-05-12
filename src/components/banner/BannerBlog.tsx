@@ -21,7 +21,7 @@ const BannerBlog = () => {
 					<div className={styles.check}>
 						<label>
 							<input type='checkbox' id='check' />
-							Al enviar su correo usted confirma que acepta nuestros Términos y
+							Al enviar tu correo confirmas que aceptas nuestros Términos y
 							Políticas de Tratamiento de Datos
 						</label>
 					</div>

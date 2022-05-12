@@ -24,7 +24,9 @@ const aprendeMas: NextPage = () => {
 			<div className='container'>
 				<h2 className={styles.videosTitle}>Vídeo Tutoriales</h2>
 				<Card items={cards} />
-				<Commercial data={commercial} />
+				<div id='conoce-mas'>
+					<Commercial data={commercial} />
+				</div>
 			</div>
 			<div className={styles.containerBlog}>
 				<h2 className={`${styles.containerTitle} containerTitle`}>

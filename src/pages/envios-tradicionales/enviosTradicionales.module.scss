@@ -33,3 +33,12 @@
     margin-bottom: 100px;
   }
 }
+
+// desktop
+@media (max-width: 400px) {
+  .containerCommercial {
+    &>section {
+      height: 820px;
+    }
+  }
+}

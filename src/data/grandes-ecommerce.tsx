@@ -28,9 +28,9 @@ export const features = {
 	orientation: 'right',
 	items: `
 	<ul>
-		<li><strong>Ahorra en costos</strong> ya que puedes aprovechar nuestra tecnología, conservando las negociaciones que ya tienes con las transportadoras.</li>
-		<li><strong>Analiza datos</strong> a través de nuestros tableros que unifican las operaciones de todas las transportadoras, para que puedas tomar buenas decisiones logísticas y financieras.</li>
-		<li><strong>Fideliza a tus clientes,</strong> brindándoles información oportuna sobre sus entregas.</li>
+		<li><strong>Ahorra en costos</strong> Ya que puedes aprovechar nuestra tecnología, conservando las negociaciones que ya tienes con las transportadoras.</li>
+		<li><strong>Analiza datos</strong> A través de nuestros tableros que unifican las operaciones de todas las transportadoras, para que puedas tomar buenas decisiones logísticas y financieras.</li>
+		<li><strong>Fideliza a tus clientes</strong> brindándoles información oportuna sobre sus entregas.</li>
 	</ul>`,
 	buttonOne: {
 		color: 'buttonBlue',
@@ -44,7 +44,7 @@ export const commercial = {
 	colorText: 'textWhite',
 	title: 'Almacenamiento de productos',
 	description:
-		'<h3>Realiza entregas más rápidas almacenando tus productos con <strong>Mi Paquete</strong></h3><p>Con <strong>Mi Paquete</strong> tienes la posibilidad almacenar tus productos en las <strong>principales ciudades del país,</strong> para generar entregas en un menor período de tiempo.</p>',
+		'<h3>Realiza entregas más rápidas almacenando tus productos con <strong><mark>Mi Paquete</mark></strong></h3><p>Con <strong><mark>Mi Paquete</mark></strong> tienes la posibilidad almacenar tus productos en las <strong>principales ciudades del país,</strong> para generar entregas en un menor período de tiempo.</p>',
 	image: '/images/commercials/pasarela-background.png',
 	imageDesktop: '/images/commercials/pasarela-background-desktop.png',
 	alt: 'background grandes ecommerce',

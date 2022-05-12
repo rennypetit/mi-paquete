@@ -30,7 +30,7 @@ export const storages = {
 	title: 'Ventajas de',
 	titleStrong: 'integrar tu tienda',
 	description:
-		'<p>Integrar <strong>Mi Paquete</strong> a tu tienda en <strong>Komercia</strong> no solo hará más sencilla tu <strong>logística de envíos,</strong> sino que también te ayudará a cerrar más ventas gracias a su diversidad de opciones.</p>',
+		'<p>Integrar <strong><mark>Mi Paquete</mark></strong> a tu tienda en <strong>Komercia</strong> no solo hará más sencilla tu <strong>logística de envíos,</strong> sino que también te ayudará a cerrar más ventas gracias a su diversidad de opciones.</p>',
 	items: [
 		{
 			image: '/images/icons/add-orange.png',
@@ -72,8 +72,8 @@ export const features = {
 	type: TypeDescription.image,
 	image: '/images/features/komercia.png',
 	alt: 'features',
-	title: '¿Por qué integrar tu tienda en Komercia',
-	titleSpan: 'con Mi Paquete?',
+	title:
+		'<p>¿Por qué integrar tu tienda en Komercia <span><mark>con Mi Paquete?</mark></span></p>',
 	orientation: 'right',
 	width: 616,
 	height: 440,
@@ -129,7 +129,7 @@ export const form = {
 	title:
 		'<h4>¿Tienes tu tienda en Komercia Colombia? <strong>Mejora tu logística de envíos</strong></h4>',
 	description:
-		'<p>Con <strong>Mi Paquete</strong> podrás ofrecer a tus clientes la opción de conocer el costo de sus productos más el envío, y llegar a más lugares con las <strong>principales empresas de transporte de envíos</strong> en el país.</p>',
+		'<p>Con <strong><mark>Mi Paquete</mark></strong> podrás ofrecer a tus clientes la opción de conocer el costo de sus productos más el envío, y llegar a más lugares con las <strong>principales empresas de transporte de envíos</strong> en el país.</p>',
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',

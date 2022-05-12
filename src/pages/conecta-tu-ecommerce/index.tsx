@@ -21,8 +21,12 @@ const conectaTuEcommerce: NextPage = () => {
 						</h1>
 						<p className='containerDescription'>
 							No importa en qué <strong>plataforma de ecommerce </strong> tengas
-							alojada tu tienda virtual, con <strong>Mi Paquete</strong> podrás
-							automatizar tus envíos, optimizar tu logística y ahorrar tiempo.
+							alojada tu tienda virtual, con{' '}
+							<strong>
+								<mark>Mi Paquete</mark>
+							</strong>{' '}
+							podrás automatizar tus envíos, optimizar tu logística y ahorrar
+							tiempo.
 						</p>
 						<Card items={cards} />
 					</div>

@@ -2,7 +2,7 @@ import { TypeButton } from '@types/global';
 
 export const allies = {
 	description:
-		'<p>Este servicio lo brindamos a través de algunas de nuestras transportadoras integradas con las cuales facilitamos el proceso de recaudo y la transferencia del dinero de tus ventas online. La transportadora recauda el valor que indiques en la plataforma y desde <strong>Mi Paquete, </strong>nos encargamos de relizar la transferencia o desembolso en los cortes de pago.</p>',
+		'<p>Este servicio lo brindamos a través de algunas de nuestras transportadoras integradas con las cuales facilitamos el proceso de recaudo y la transferencia del dinero de tus ventas online. La transportadora recauda el valor que indiques en la plataforma y desde <strong><mark>Mi Paquete,</mark> </strong>nos encargamos de relizar la transferencia o desembolso en los cortes de pago.</p>',
 	items: [
 		{
 			title: 'Servientrega',
@@ -116,11 +116,13 @@ export const allies = {
 		modal: {
 			id: 'buttonOne',
 			title: 'PASO A PASO:',
-			description: `<p>Regístrate en <strong>mipaquete.com</strong>, en este paso te solicitaremos lo datos bancarios a donde haremos la transferencia de los recaudos. (La cuenta no necesariamente debe estar a tu nombre). <br /> Una vez estés cotizando el envío el sistema te preguntará si deseas el servicio de pago contra entrega, selecciona esta opción indicando el valor de tu venta, y si deseas o no, sumarle el costo del envío al valor a recaudar. Escribe los datos del destinatario y paga tu envío. <br /> Una vez generes tu envío DEBES descargar la guía en nuestra plataforma (en el menú “Tus Envíos”) y entregar tu paquete con la guía respectiva a la transportadora. Recuerda que ella recoge en tu domicilio. Sugerencia: Realiza la solicitud del envío antes de las 10:30m para que la transportadora alcance a recoger el mismo día.</p>
+			description: `<p>Regístrate en <strong>mipaquete.com</strong>, en este paso te solicitaremos lo datos bancarios a donde haremos la transferencia de los recaudos. (La cuenta no necesariamente debe estar a tu nombre). <br /> Una vez estés cotizando el envío el sistema te preguntará si deseas el servicio de pago contra entrega, selecciona esta opción indicando el valor de tu venta, y si deseas o no, sumarle el costo del envío al valor a recaudar. Escribe los datos del destinatario y paga tu envío. </p><p>Una vez generes tu envío DEBES descargar la guía en nuestra plataforma (en el menú “Tus Envíos”) y entregar tu paquete con la guía respectiva a la transportadora. Recuerda que ella recoge en tu domicilio. Sugerencia: Realiza la solicitud del envío antes de las 10:30m para que la transportadora alcance a recoger el mismo día.</p>
 				<p><strong>Fechas de transferencia o desembolso:</strong> Transferimos los recaudos los días 04, 14 y 24 de cada mes (o al día siguiente hábil).</p>
 				<p><span>Transferencia de recaudos:</span></p>
 				<p><strong>Envíos entregados y recaudados</strong> entre el 21 y el 30 o 31 del mes: Se pagan el día 04 (del mes siguiente)</p>
 				<p><strong>Envíos entregados y recaudados</strong> entre el 01 y el 10 del mes: Se pagan el día 14</p>
+				<p>* Para destinos especiales (poblaciones lejanas), el tiempo de pago puede ser superior.</p>
+				<p>¿Sabías que hemos transferido más de 20.000 millones de pesos en recaudos a nuestros más de 3.000 clientes en todo el país?</p>
 				`,
 			buttonOne: {
 				color: 'buttonOrange',

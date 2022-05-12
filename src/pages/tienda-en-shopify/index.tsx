@@ -7,6 +7,7 @@ import Description from '@components/ecommerce/Description';
 import CardBenefit from '@components/ecommerce/CardBenefit';
 import Commercial from '@components/ecommerce/commercial';
 import FeatureTwo from '@components/feature';
+import Testimonial from '@components/testimonial';
 import Row from '@components/row';
 import Question from '@components/question';
 import Form from '@components/form';
@@ -21,6 +22,7 @@ import {
 	cards,
 	commercial,
 	featuresTwo,
+	testimonials,
 	row,
 	question,
 	form,
@@ -49,13 +51,18 @@ const shopify: NextPage = () => {
 				</h2>
 				<CardBenefit items={cards} />
 			</div>
-			<Commercial data={commercial} />
+			<div className={styles.commercial}>
+				<Commercial data={commercial} />
+			</div>
 			<div className='container'>
 				<div className={styles.featuresTwo}>
 					<FeatureTwo items={featuresTwo} icon={true} />
 				</div>
+				<Testimonial data={testimonials} />
 			</div>
-			<Row data={row} />
+			<div className={styles.row}>
+				<Row data={row} />
+			</div>
 			<div className='container'>
 				<Question items={question} />
 			</div>

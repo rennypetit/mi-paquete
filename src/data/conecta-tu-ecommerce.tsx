@@ -90,5 +90,5 @@ export const testimonials = {
 	icon: '/images/quote.png',
 	alt: 'quote',
 	title:
-		'<p>Únete a los más de cientos de clientes que han integrado su <span>tienda online</span> en las diferentes plataformas con <span>Mi Paquete.</span></p>',
+		'<p>Únete a los más de cientos de clientes que han integrado su <span>tienda online</span> en las diferentes plataformas con <span><mark>Mi Paquete.</mark></span></p>',
 };

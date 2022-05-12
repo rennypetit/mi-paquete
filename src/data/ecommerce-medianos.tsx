@@ -26,7 +26,7 @@ export const features = {
 	titleTwo: 'un ecommerce mediano?',
 	colorTitleTwo: 'blue',
 	description:
-		'<p>Si el nivel de envíos de tu ecommerce se encuentra <strong>entre 500 y 5.000 pedidos mensuales</strong> este plan es ideal para ti, además esto ayudará a que tu <strong>equipo de logística</strong> pueda optimizar gastos de envío.</p>',
+		'<p>Si el nivel de envíos de tu ecommerce se encuentra <strong>entre 200 y 5.000 pedidos mensuales</strong> este plan es ideal para ti, además esto ayudará a que tu <strong>equipo de logística</strong> pueda optimizar gastos de envío.</p>',
 };
 
 export const featuresTwo = {
@@ -58,13 +58,13 @@ export const featuresTwo = {
 export const form = {
 	title: '<h4><strong>Recibe más beneficios </strong>que solo descuentos</h4>',
 	description:
-		'<p>Con <strong>Mi Paquete</strong> no solo recibirás <strong>descuentos por el volumen de tus envíos,</strong> también podrás integrar tu ecommerce sin importar en qué plataforma se encuentre alojado, facilitando el envío de tus productos y ahorrándote tiempo.</p>',
+		'<p>Con <strong><mark>Mi Paquete</mark></strong> no solo recibirás <strong>descuentos por el volumen de tus envíos,</strong> también podrás integrar tu ecommerce sin importar en qué plataforma se encuentre alojado, facilitando el envío de tus productos y ahorrándote tiempo.</p>',
 	image: '/images/form/background-orange.png',
 	alt: 'background form',
 	colorTextBackground: 'black',
 	titleForm: '<p>Sincroniza los envíos de <span>tu ecommerce</span></p>',
 	formDescription:
-		'<p>Uno de nuestros expertos te contactará para explicarte cómo optimizar tus costos logísticos, según tu volumen de envíos.</p>',
+		'<p>Uno de nuestros expertos te contactará para explicarte cómo optimizar tus costos logísticos según tu volumen de envíos.</p>',
 	FormColorSpan: 'blue',
 	listId: '',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',

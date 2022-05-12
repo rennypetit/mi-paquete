@@ -9,8 +9,8 @@ const Contact = () => {
 					<Image
 						src='/images/contact.png'
 						alt='contact'
-						width={256}
-						height={354}
+						width={285}
+						height={285}
 					/>
 				</div>
 				<div className={styles.content}>

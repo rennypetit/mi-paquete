@@ -21,7 +21,7 @@ export const banner: TypesBannerBackground = {
 
 export const row = {
 	title:
-		'<h2>¿Por qué almacenar tus productos <span>con Mi Paquete?</span></h2>',
+		'<h2>¿Por qué almacenar tus productos <span>con <mark>Mi Paquete?</mark></span></h2>',
 	colorText: 'black',
 	description:
 		'<p>Con nuestros servicios podrás integrar la <strong>logística de almacenamiento de mercancía y envío de paquetes</strong> en un solo lugar y evitando sobre costos innecesarios. Servicio disponible en Bogotá, Medellín, Cali y Barranquilla.</p>',
@@ -106,7 +106,7 @@ export const plans = [
 		color: 'blue',
 	},
 	{
-		title: 'STARTER',
+		title: 'PRO',
 		image: '/images/icons/star.png',
 		alt: 'icon star',
 		description: 'Más de 5.000 unidades despachadas al mes',
@@ -147,14 +147,14 @@ export const form = {
 	title:
 		'<h4>¿Quieres conocer más sobre nuestro <strong>proceso de almacenamiento?</strong> </h4>',
 	description:
-		'<p>El <strong>almacenamiento de mercancía </strong> y su distribución a través de <strong>Mi Paquete </strong>seguro generarán innumerables beneficios para tu ecommerce, por eso nuestro equipo de expertos está dispuesto a asesorarte para <strong>incrementar tus ventas</strong>y hacer crecer tu marca.</p>',
+		'<p>El <strong>almacenamiento de mercancía </strong> y su distribución a través de <strong><mark>Mi Paquete</mark> </strong>seguro generarán innumerables beneficios para tu ecommerce, por eso nuestro equipo de expertos está dispuesto a asesorarte para <strong>incrementar tus ventas</strong> y hacer crecer tu marca.</p>',
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',
 	titleForm:
 		'<p>Recibe asesoría personalizada para <span>adquirir este servicio</span></p>',
 	formDescription:
-		'<p>Al dejar tus datos nuestro equipo te contactará para asesorarte con soluciones que se adapten a tu e-commerce.</p>',
+		'<p>Al dejar tus datos nuestro equipo te contactará para asesorarte con soluciones que se adapten a tu ecommerce.</p>',
 	FormColorSpan: 'orange',
 	listId: '98',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',

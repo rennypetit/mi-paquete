@@ -131,7 +131,7 @@ const article = () => {
 						<p>
 							También te puede interesar: Compara y elige la transportadora
 							ideal para tus envíos También tienes la opción de retirar un
-							paquete o entregar una encomienda, los grandes e-commerce están
+							paquete o entregar una encomienda, los grandes ecommerce están
 							implementando smart locker como estrategia de omnicanalidad;
 							Obteniendo así una nueva experiencia de compra, diferente, sin
 							filas, con tecnología.

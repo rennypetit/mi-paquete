@@ -42,7 +42,7 @@ const enviosPagoContraEntrega: NextPage = () => {
 					<div className={styles.containerService}>
 						<h2 className={styles.title}>
 							¿Cómo funciona nuestro servicio de pago contra entrega para{' '}
-							<span>para ecommerce y tiendas online?</span>
+							<span>ecommerce y tiendas online?</span>
 						</h2>
 						<p className={styles.description}>
 							Adquirir el{' '}

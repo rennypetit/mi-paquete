@@ -32,9 +32,9 @@ export const recognitions = {
 		'Nuestros procesos de envíos y logística se encuentran regulados bajo las normativas de la CCCE.',
 	items: [
 		{
-			title: 'Cámara Colombiana',
-			image: '/images/recognition/camara.png',
-			alt: 'logo cámara colombiana',
+			title: 'DeltaX',
+			image: '/images/recognition/delta-x.png',
+			alt: 'logo DeltaX',
 		},
 		{
 			title: 'Crea',
@@ -55,11 +55,6 @@ export const recognitions = {
 			title: 'Scale',
 			image: '/images/recognition/scale.png',
 			alt: 'logo scale',
-		},
-		{
-			title: 'Alcaldia',
-			image: '/images/recognition/alcaldia-medellin.png',
-			alt: 'logo Alcaldia',
 		},
 	],
 };

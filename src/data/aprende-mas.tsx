@@ -11,8 +11,8 @@ export const banner: TypesBanner = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'CONOCE MÁS',
-		url: '/pasarela-de-envios',
-		type: TypeButton.link,
+		url: '#conoce-mas',
+		type: TypeButton.href,
 	},
 };
 

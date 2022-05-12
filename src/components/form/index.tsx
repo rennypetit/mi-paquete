@@ -157,7 +157,7 @@ const Form = ({ data, background, pageAgencias = false }) => {
 							<div className={styles.row}>
 								{!pageAgencias ? (
 									<label htmlFor='averageShipments'>
-										¿Cuántos envíos realiza al mes?
+										¿Cuántos envíos realizas al mes?
 										<select
 											className={`${styles.formInput} ${styles.formInputSelect}`}
 											{...register('averageShipments')}

@@ -41,7 +41,9 @@ const Home: NextPage = () => {
 				<div className={styles.containerFeatures}>
 					<h2 className='containerTitle'>
 						¿Por qué usar la logística de envío de productos con{' '}
-						<span>Mi Paquete?</span>
+						<span>
+							<mark>Mi Paquete?</mark>
+						</span>
 					</h2>
 					<Feature items={features} />
 				</div>

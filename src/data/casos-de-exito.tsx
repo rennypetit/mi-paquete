@@ -1,8 +1,8 @@
 import { TypeButton } from '@types/global';
 
 export const cards = {
-	title: "<h1>Casos <span>de éxito</span></h1>",
-	description: "",
+	title: '<h1>Casos <span>de éxito</span></h1>',
+	description: '',
 	items: [
 		{
 			image: '/images/cards/infitworld-logo.png',
@@ -44,13 +44,13 @@ export const cards = {
 			},
 		},
 	],
-}
+};
 
 export const commercial = {
 	colorText: 'textWhite',
 	title: '',
 	description:
-		'<h3>¡Hagamos crecer tu marca juntos!</h3><p>Conoce <strong>cómo mejorar la logística de envíos de tu marca</strong> junto al equipo de Mi Paquete y descubre todas las ventajas que puedes obtener al trabajar con nosotros.</p>',
+		'<h3>¡Hagamos crecer tu marca juntos!</h3><p>Conoce <strong>cómo mejorar la logística de envíos de tu marca</strong> junto al equipo de <mark>Mi Paquete</mark> y descubre todas las ventajas que puedes obtener al trabajar con nosotros.</p>',
 	image: '/images/commercials/fondo-casos-de-exito.png',
 	imageDesktop: '/images/commercials/fondo-casos-de-exito-desktop.png',
 	alt: 'background commercials',

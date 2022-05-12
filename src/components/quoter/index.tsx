@@ -52,7 +52,10 @@ export default function Quoter() {
 					<p className={styles.description}>
 						Comprueba lo rápido y fácil que puedes realizar{' '}
 						<strong>envíos de productos</strong> a través de{' '}
-						<strong>Mi Paquete</strong>, eligiendo la mejor opción para ti.
+						<strong>
+							<mark>Mi Paquete</mark>
+						</strong>
+						, eligiendo la mejor opción para ti.
 					</p>
 					<Slider {...settings}>
 						<Place

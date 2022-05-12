@@ -4,7 +4,7 @@ import { TypesBanner } from '@components/banner/types';
 export const banner: TypesBanner = {
 	title: `<h1>¿Tienes una <strong>tienda en WooCommerce? <br /></strong><span>Realiza tus envíos en segundos</span></h1>`,
 	description:
-		'<p><strong>¡Generar guías de forma automática </strong>nunca fue tan fácil!<br />Con <strong>Mi Paquete</strong> puedes hacerlo con las <strong>principales empresas de transporte del país</strong>  y ahorrar mucho tiempo mientras nosotros nos encargamos de la <strong>logística de tu ecommerce.</strong> </p>',
+		'<p><strong>¡Generar guías de forma automática </strong>nunca fue tan fácil!<br />Con <strong><mark>Mi Paquete</mark></strong> puedes hacerlo con las <strong>principales empresas de transporte del país</strong>  y ahorrar mucho tiempo mientras nosotros nos encargamos de la <strong>logística de tu ecommerce.</strong> </p>',
 	image: '/images/banners/woocommerce.png',
 	alt: 'Banner woocommerce',
 	orientation: '',
@@ -25,8 +25,7 @@ export const banner: TypesBanner = {
 export const features = {
 	image: '/images/features/woocommerce.png',
 	alt: 'features',
-	title: 'Ventajas de',
-	titleSpan: 'automatizar tus envíos',
+	title: '<p>Ventajas de <span>automatizar tus envíos</span></p>',
 	orientation: 'right',
 	type: TypeDescription.video,
 	video: 'https://www.youtube.com/embed/IOjghZQVtcw',
@@ -160,11 +159,11 @@ export const testimonials = {
 	icon: '/images/quote.png',
 	alt: 'quote',
 	title:
-		'<p>Más de 500 comercios han instalado nuestro plugin de <span>envíos para Woocommerce</span></p>',
+		'<p>Más de 500 comercios han instalado nuestro plugin de <span> envíos para Woocomerce</span></p>',
 	items: [
 		{
 			description:
-				'<p>"Haber integrado el plug-in de mipaquete.com para nuestra empresa ha sido una excelente opción, porque facilitó nuestros procesos internos y nos permitió ofrecer garantías a nuestros clientes, gracias al servicio que siempre ha sido rápido y seguro"</p>',
+				'<p>Haber integrado el plugin de Mi Paquete para nuestra empresa ha sido una excelente opción, porque facilitó nuestros procesos internos y nos permitió ofrecer garantías a nuestros clientes, gracias al servicio que siempre ha sido rápido y seguro.</p>',
 			url: '#',
 			person: {
 				image: '/images/testimonials/user.svg',
@@ -175,12 +174,12 @@ export const testimonials = {
 		},
 		{
 			description:
-				'<p>"Con el plug-in de mi paquete.com hemos logrado llegar a toda Colombia de manera muy sencilla, eficiente y cómoda. Ha sido un gran aliado y un alivio para nuestra logística de envíos. Cada vez más personas aprenden sobre el mundo del pan, y mipaquete.com ha sido un gran apoyo en el crecimiento de PanPillón"</p>',
+				'<p>Con el plugin de Mi Paquete hemos logrado llegar a toda Colombia de manera muy sencilla, eficiente y cómoda. Ha sido un gran aliado y un alivio para nuestra logística de envíos. </p>',
 			url: '#',
 			person: {
 				image: '/images/testimonials/user.svg',
 				alt: 'person',
-				name: 'Nombre de la persona',
+				name: 'CEO',
 				nickName: 'PanPillón',
 			},
 		},
@@ -191,7 +190,7 @@ export const commercialTwo = {
 	colorText: 'textWhite',
 	description:
 		'<h3>¿Realizas más de 500 envíos mensuales? <strong>Cotiza múltiples envíos</strong></h3><p>Nuestros descuentos por volumen y logística de entregas pueden hacerte la vida más fácil.</p>',
-	image: '/images/commercials/woocommerce-background.png',
+	image: '/images/commercials/woocommerce-background-two.png',
 	imageDesktop: '/images/commercials/woocommerce-background-desktop-two.png',
 	alt: 'background woocommerce',
 	button: {
@@ -204,12 +203,15 @@ export const commercialTwo = {
 
 export const question = [
 	{
-		title: '¿Qué beneficios tiene el plugin para Shopify?',
+		title: '¿Qué beneficios tiene el plugin para Woocommerce?',
 		description: `
 		<p>
 			<ul>
-				<li>Permite parametrizar múltiples transportadoras.</li>
-				<li>Opción para que en el checkout el comprador pueda comparar las transportadoras y seleccionar la de su preferencia.li>
+				<li>Nuestra última actualización de plugin de Mi Paquete es la 3.0</li>
+				<li>Permite parametrizar múltiples transportadoras.li>
+				<li>Envíos gratis y la opción de estandarizar sus tarifas.</li>
+				<li>Agregar medidas y configurar productos variables.</li>
+				<li>Opción para que en el checkout el comprador pueda comparar las transportadoras y seleccionar la de su preferencia.</li>
 				<li>Opción de calcular tarifas y generar guías con pago contra entrega (recaudo de la venta al entregar el producto).</li>
 				<li>Generación y descarga de guías con un solo clic.</li>
 				<li>Opción de edición de pedido antes de generar la guía.</li>
@@ -218,11 +220,6 @@ export const question = [
 			</ul>
 		</p>
 		`,
-	},
-	{
-		title:
-			'¿Debo tener el Carrier Service de Shopify activo para utilizar el plugin?',
-		description: `<p>No es necesario, puedes usar nuestro plugin configurando la opción de tarifa estándar para que puedas automatizar tus envíos con nuestro servicio.</p>`,
 	},
 	{
 		title:
@@ -240,7 +237,7 @@ export const form = {
 	title:
 		'<h4>Descubre cómo mejorar las ventas en <strong>tu WooCommerce</strong></h4>',
 	description:
-		'<p>A través de <strong>Mi Paquete</strong> y la <strong>logística de automatización de envíos</strong> con nuestro plugin, podrás incrementar tus ventas y ofrecer un mejor servicio a tus clientes.</p>',
+		'<p>A través de <strong><mark>Mi Paquete</mark></strong> y la <strong>logística de automatización de envíos</strong> con nuestro plugin, podrás incrementar tus ventas y ofrecer un mejor servicio a tus clientes.</p>',
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',

@@ -27,14 +27,14 @@
 		font-weight: 600;
 	}
 }
-.description, .descriptionAsesoria{
+.description, .descriptionAsesoria {
 	color:$color_secondary;
 	margin-top: 50px;
 	font-size: 1.6rem;
 	line-height: 1.5;
 }
 
-.descriptionAsesoria{
+.descriptionAsesoria {
 	margin-top: 30px;
 	text-align: center;
 }
@@ -43,7 +43,7 @@
 	position: relative;
 }
 
-.background, .backgroundAsesoria{
+.background, .backgroundAsesoria {
 	background-color: $color_quaternary;
 	border-radius: 29px;
 	position: absolute;
@@ -53,7 +53,7 @@
 	width: 100%;
 }
 
-.backgroundAsesoria{
+.backgroundAsesoria {
 	background: transparent linear-gradient(214deg, #4FAFFC 0%, #1296FC 100%) 0% 0% no-repeat padding-box;
 }
 
@@ -108,15 +108,11 @@
 .buttons, .buttonsAsesoria {
 	@include center;
 	margin-top: 20px;
+	flex-wrap: wrap;
+	grid-gap: 10px;
+	gap: 10px;
 	button,
 	a {
-		&:nth-child(1) {
-			margin-right: 10px;
-		}
-		
-		&:nth-child(2) {
-			margin-left: 10px;
-		}
 		div {
 			font-size: 1.6rem;
 			width: 20rem;
@@ -183,6 +179,12 @@
 	.buttons, .buttonsAsesoria {
 		justify-content: flex-start;
 		margin-top: 20px;
+		&:nth-child(1) {
+			margin-right: 10px;
+		}
+		&:nth-child(2) {
+			margin-left: 10px;
+		}
 	}
 
 	.content, .contentInverse{
@@ -195,5 +197,19 @@
 
 	.img_container{
 		text-align: left;
+	}
+}
+
+@media (max-width: 420px) {
+	.items {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+	.card {
+		text-align: center;
+		padding: 20px;
+		margin-top: 0 !important;
+		padding: 10px;
+		height: 250px;
 	}
 }

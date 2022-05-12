@@ -27,7 +27,7 @@ export const row = {
 	image: '/images/background-blue.png',
 	alt: 'background',
 	title:
-		'<h2>¡Haz parte de los emprendedores que han crecido <strong>con Mi Paquete!</strong></h2>',
+		'<h2>¡Haz parte de los emprendedores que han crecido <strong><mark>Mi Paquete!</mark></strong></h2>',
 	description:
 		'<p><strong>Hemos incrementado las ventas entre un 32% y 48% de más de 6 mil emprendedores </strong> a través de nuestros <strong>envíos con pago contra entrega</strong> a nivel  nacional.</p>',
 };
@@ -104,9 +104,9 @@ export const testimonials = {
 	items: [
 		{
 			description:
-				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con Mi Paquete. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
+				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con <mark>Mi Paquete.</mark> Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
 			person: {
-				image: '/images/testimonials/person-1.png',
+				image: '/images/testimonials/jeimer.png',
 				alt: 'person',
 				name: 'Jeimer López',
 				nickName: '1000Marikdas',
@@ -127,7 +127,7 @@ export const testimonials = {
 
 export const question = [
 	{
-		title: '¿Qué pasa si no entregan el paquete? ',
+		title: '¿Qué pasa si no entregan el paquete?',
 		description: `
 		<p>La mayoría de las transportadoras realizan hasta tres intentos de entrega, si el paquete no fue entregado con éxito es porque la persona no desea recibirlo, en este caso pagas o no el envío de regreso, dependiendo de la transportadora, así:</p>
 		<p><strong>Servientrega: </strong>Envío de regreso gratis.</p>
@@ -139,7 +139,7 @@ export const question = [
 		`,
 	},
 	{
-		title: '¿Dónde puedo consultar el informe de recaudos?',
+		title: '¿Dónde puedo consultar el informe de recaudos? ',
 		description: `Podrás consultar la información en el siguiente link: <a href="https://mipaquete.com/solucionesusuario/consulta_recaudos" target='_blank' rel='noopener noreferrer'>https://mipaquete.com/solucionesusuario/consulta_recaudos</a>
 		<ol>
 			<li>Ingresa tu número de identificación y correo electrónico con el que estás registrado en mipaquete.com</li>
@@ -151,17 +151,19 @@ export const question = [
 	{
 		title: '¿Cuándo me pagan mis recaudos?',
 		description: `<p>El desembolso se realiza cada 10 días y se puede descontar el envío del valor recaudado, con algunas de nuestras transportadoras aliadas. La consignación se transfiere a tu cuenta los días 4, 14 y 24 de cada mes. Este pago es automático y se efectúa al finalizar el día. El pago corresponde a los envíos entregados a tu cliente final, es decir el (Destinatario) así:</p>
+
 		<p>Envíos entregados y recaudados entre el 21 y el 30 o 31 del mes: se pagan el día 04 (del mes siguiente) o siguiente día hábil.</p>
+
 		<p>Envíos entregados y recaudados entre el 01 y el 10 del mes: Se pagan el día 14 o siguiente día hábil.</p>
+
 		<p>Envíos entregados y recaudados entre el 11 y el 20 del mes: Se pagan el día 24 o siguiente día hábil.</p>
+
 		<p>*Para destinos especiales (poblaciones lejanas), el tiempo de pago puede ser superior.</p>
 		`,
 	},
 	{
 		title: 'Tengo una novedad con mis recaudos. ¿Qué hago?',
-		description: `<p>Reporta y soluciona novedades con tus recaudos aquí: <a href="https://centrodenovedades.mipaquete.com/novedades
-" target='_blank' rel='noopener noreferrer'>https://centrodenovedades.mipaquete.com/novedades
-</a> Recibirás respuesta en máximo un día hábil laboral.</p>
+		description: `<p>Reporta y soluciona novedades con tus recaudos aquí: <a href="https://centrodeayuda.mipaquete.com" target='_blank' rel='noopener noreferrer'> https://centrodeayuda.mipaquete.com</a> Recibirás respuesta en máximo un día hábil laboral.</p>
 		`,
 	},
 	{
@@ -172,17 +174,12 @@ export const question = [
 	},
 	{
 		title: '¿Cuál es el costo del servicio de recaudo?',
-		description: `<p>Reporta y soluciona novedades con tus recaudos aquí: <a href="https://centrodeayuda.mipaquete.com" target='_blank' rel='noopener noreferrer'>https://centrodeayuda.mipaquete.com</a> Recibirás respuesta en máximo un día hábil laboral.</p>
-		`,
-	},
-	{
-		title: 'Tengo una novedad con mis recaudos. ¿Qué hago?',
-		description: `<p>El porcentaje del recaudo varía según la transportadora, puedes consultarlo en este enlace: <a href="https://mipaquete.com/pago-contraentrega" target='_blank' rel='noopener noreferrer'>https://mipaquete.com/pago-contraentrega</a>, haciendo clic sobre el logo de cada transportadora.</p>
+		description: `<p>El porcentaje del recaudo varía según la transportadora, puedes consultarlo en este enlace: <a href="https://mipaquete.com/soluciones-ecommerce/envios-pago-contraentrega" target='_blank' rel='noopener noreferrer'> https://mipaquete.com/soluciones-ecommerce/envios-pago-contraentrega</a>, haciendo clic sobre el logo de cada transportadora.</p>
 		`,
 	},
 	{
 		title: '¿Ofrecen descuento por volumen?',
-		description: `<p>Si, si realizas más de 500 envíos mensuales te ofrecemos descuentos especiales para que sigas ahorrando en tu logística. El porcentaje de descuento depende del volumen, contacta a uno de nuestros asesores y recibe una propuesta. Si haces menos de 500 envíos tienes acceso directo a nuestro programa de puntos mipaquete que te da automáticamente puntos por envíar que puedes canjear por productos, servicios o saldo para hacer nuevos envíos.</p>
+		description: `<p>Sí, si realizas más de 500 envíos mensuales te ofrecemos descuentos especiales para que sigas ahorrando en tu logística. El porcentaje de descuento depende del volumen, contacta a uno de nuestros asesores y recibe una propuesta. Si haces menos de 500 envíos tienes acceso directo a nuestro programa de puntos mipaquete que te da automáticamente puntos por envíar que puedes canjear por productos, servicios o saldo para hacer nuevos envíos.</p>
 		`,
 	},
 	{

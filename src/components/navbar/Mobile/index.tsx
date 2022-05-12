@@ -12,8 +12,12 @@ export default function Navbar() {
 	const handleButtonMenu = () => {
 		setOpenMenu(!openMenu);
 		if (openMenu) {
+			document.getElementById('menu-fixed')?.style.display = 'block';
 			subItems.current.style.display = 'none';
-		} else subItems.current.style.display = 'block';
+		} else {
+			document.getElementById('menu-fixed')?.style.display = 'none';
+			subItems.current.style.display = 'block';
+		}
 	};
 	return (
 		<nav className={styles.nav}>

@@ -53,7 +53,7 @@ export const featuresTwo = {
 export const commercial = {
 	colorText: 'textWhite',
 	description:
-		'<h3><strong>Envía y recibe tus paquetes ¡Sin esperas, sin filas!</strong></h3><p>Recuerda que con <strong>Mi Paquete</strong> obtienes la opción más rápida y segura en <strong>logística de envíos para ecommerce</strong> y tiendas virtuales.</p>',
+		'<h3><strong>Envía y recibe tus paquetes ¡Sin esperas, sin filas!</strong></h3><p>Recuerda que con <strong><mark>Mi Paquete</mark></strong> obtienes la opción más rápida y segura en <strong>logística de envíos para ecommerce</strong> y tiendas virtuales.</p>',
 	image: '/images/commercials/fondo-casos-de-exito.png',
 	imageDesktop: '/images/commercials/fondo-casos-de-exito-desktop.png',
 	alt: 'background primer envio',

@@ -54,7 +54,7 @@ export const commercial = {
 	colorText: 'textWhite',
 	title: '<p>Sigue tu envío en cada estado de su entrega</p>',
 	description:
-		'<h3>Conoce siempre el<strong> estado de tu envío con Mi Paquete</strong></h3><p>Con <strong>Mi Paquete</strong> tienes la posibilidad de ofrecer a tus clientes notificaciones vía <strong>WhatsApp</strong> para que conozcan el estado de su envío desde que es despachado, indicándoles datos clave para que tus ventas sean más seguras.</p>',
+		'<h3>Conoce siempre el<strong> estado de tu envío con <mark>Mi Paquete</mark></strong></h3><p>Con <strong><mark>Mi Paquete</mark></strong> tienes la posibilidad de ofrecer a tus clientes notificaciones vía <strong>WhatsApp</strong> para que conozcan el estado de su envío desde que es despachado, indicándoles datos clave para que tus ventas sean más seguras.</p>',
 	image: '/images/commercials/envios-tradicionales-background.png',
 	imageDesktop:
 		'/images/commercials/envios-tradicionales-background-desktop.png',
@@ -72,7 +72,7 @@ export const form = {
 		'<h4>Genera envíos automáticos <strong>para tu ecommerce</strong></h4>',
 	description:
 		'<p>Integrar nuestro software de automatización de envíos te ayudará a ahorrar tiempo y dinero, evitando errores y procesos innecesarios, y aumentará tus ventas en poco tiempo, ya que podrás ofrecerle a tu cliente en tiempo real el valor de su compra + envío.</p>',
-	titleForm: '<p>Sincroniza los envíos de <span>tu e-commerce</span></p>',
+	titleForm: '<p>Sincroniza los envíos de <span>tu ecommerce</span></p>',
 	formDescription:
 		'<p>Uno de nuestros expertos te contactará para explicarte cómo integrar el proceso de automatización de envíos a tu tienda online.</p>',
 	listId: '99',
@@ -81,9 +81,9 @@ export const form = {
 
 export const commercialTwo = {
 	colorText: 'textWhite',
-	title: '<p>Sigue tu envío en cada estado de su entrega</p>',
+	// title: '<p>Sigue tu envío en cada estado de su entrega</p>',
 	description:
-		'<h3>¡Conoce todas las ventajas de nuestra <strong>pasarela de envíos!</strong></h3><p>Almacenamos, alistamos y despachamos nuestros productos. Confía tus inventarios en nosotros e incrementa su rotación.</p>',
+		'<h3>¡Conoce las ventajas de nuestro servicio de <strong>almacenamiento!</strong></h3><p>Almacenamos, alistamos y despachamos tus productos. Confía tus inventarios en nosotros e incrementa su rotación.</p>',
 	image: '/images/commercials/pasarela-background.png',
 	imageDesktop: '/images/commercials/pasarela-background-desktop.png',
 	alt: 'background pasarela',

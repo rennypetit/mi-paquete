@@ -26,6 +26,12 @@ ul,ol {
 	margin: 0;
 }
 
+mark {
+	white-space: nowrap;
+	background-color: transparent;
+	color: inherit;
+}
+
 .layout {
 	max-width: 1920px;
 	margin: auto;
@@ -520,3 +526,4 @@ ul,ol {
 			font-size: 9px;
 		}
 }
+

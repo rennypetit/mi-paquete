@@ -4,9 +4,27 @@
 }
 .featuresTwo {
   margin: 50px 0 80px 0;
+  p {
+    text-align: left;
+  }
 }
 .containerAllies {
   padding: 40px;
 }
 
-// desktop
+@media (max-width: 768px) {
+  .containerAllies {
+    padding: 10px
+  }
+}
+@media (max-width: 460px) {
+  .row > div {
+    height: 370px;
+  }
+}
+
+@media (max-width: 350px) {
+  .commercial > section > div {
+    padding: 50px 35px;
+  }
+}

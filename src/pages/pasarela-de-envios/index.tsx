@@ -30,7 +30,9 @@ const pasarelaDeEnvios: NextPage = () => {
 			</main>
 			<div className='container margin-top' id='logistica'>
 				<Feature items={features} icon={true} />
-				<Commercial data={commercial} />
+				<div className={styles.commercial}>
+					<Commercial data={commercial} />
+				</div>
 			</div>
 			<div className={`container-background ${styles.background}`}>
 				<Pass />

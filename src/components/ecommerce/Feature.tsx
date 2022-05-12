@@ -35,9 +35,10 @@ export default function Feature({ items }) {
 					</>
 				)}
 				<div className={styles.description}>
-					<p className={styles.title}>
-						{items?.title} <span>{items?.titleSpan}</span>
-					</p>
+					<div
+						className={`${styles.title}`}
+						dangerouslySetInnerHTML={{ __html: items.title }}
+					></div>
 					<div className={styles.items}>
 						<ul>
 							{items.items.map((item, index) => (

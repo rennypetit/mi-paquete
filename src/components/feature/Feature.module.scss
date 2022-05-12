@@ -88,9 +88,10 @@
 }
 .buttons {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 10px;
-	margin-top: 25px;
 	justify-content: center;
+	margin-top: 25px;
 	button,
 	a {
 		div {

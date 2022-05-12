@@ -25,7 +25,7 @@ export const features = {
 	title: 'Un beneficio ideal para',
 	titleTwo: 'emprendedores',
 	description:
-		'<p>Si realizas <strong>500 envíos mensuales o menos,</strong> seguro necesitarás <strong>soluciones tecnológicas para la logística de envíos,</strong> por eso a través de <strong>Mi Paquete</strong> podrás obtener no solo beneficios increíbles sino opciones que se adaptan a tus necesidades.</p>',
+		'<p>Si realizas <strong>500 envíos mensuales o menos,</strong> seguro necesitarás <strong>soluciones tecnológicas para la logística de envíos,</strong> por eso a través de <strong><mark>Mi Paquete</mark></strong> podrás obtener no solo beneficios increíbles sino opciones que se adaptan a tus necesidades.</p>',
 };
 
 export const featuresTwo = {
@@ -58,7 +58,7 @@ export const row = {
 		'<h4><strong>Suma puntos realizando tus envíos </strong>y gana premios increíbles</h4>',
 	colorText: 'white',
 	description:
-		'<p>Al generar tus envíos a través de <strong>Mi Paquete</strong> no solo beneficiarás a tus clientes, también obtendrás puntos que <strong>podrás canjear por saldo a favor para realizar nuevos envíos,</strong> ahorrándote no solo en tiempo sino también en costos.</p>',
+		'<p>Al generar tus envíos a través de <strong><mark>Mi Paquete</mark></strong> no solo beneficiarás a tus clientes, también obtendrás puntos que <strong>podrás canjear por saldo a favor para realizar nuevos envíos,</strong> ahorrándote no solo en tiempo sino también en costos.</p>',
 	items: [
 		{
 			title: 'ENVÍOS PAGO CONTRA ENTREGA',
@@ -86,7 +86,7 @@ export const row = {
 export const commercial = {
 	colorText: 'textWhite',
 	description:
-		'<h3>Recompensamos tu fidelidad <strong> puntos Mi Paquete</strong></h3><p>Por cada envío efectivo que realices a través de <strong>Mi Paquete</strong> podrás adquirir productos y servicios exclusivos, o usarlo para pagar nuevos envíos.</p>',
+		'<h3>Recompensamos tu fidelidad <strong> puntos <mark>Mi Paquete</mark></strong></h3><p>Por cada envío efectivo que realices a través de <strong><mark>Mi Paquete</mark></strong> podrás adquirir productos y servicios exclusivos, o usarlo para pagar nuevos envíos.</p>',
 	image: '/images/commercials/woocommerce-background-two.png',
 	imageDesktop: '/images/commercials/woocommerce-background-desktop-two.png',
 	alt: 'background emprendimiento',

@@ -27,7 +27,7 @@ export const banners: TypesBannerSlider = [
 		title: `<h2>¿Las <span> empresas de envíos</span> te exigen documentos para <span>enviar paquetes?</span></h2>`,
 		subtitle: 'Envío de paquetes',
 		description:
-			'<p>Muchos emprendedores suelen tener problemas con el <strong>envío de mercancía.</strong> Con <strong>Mi Paquete</strong> envías tus productos fácil y rápido. Regístrate en minutos y <strong>sin papeleos.</strong></p>',
+			'<p>Muchos emprendedores suelen tener problemas con el <strong>envío de mercancía.</strong> Con <strong><mark>Mi Paquete</mark></strong> envías tus productos fácil y rápido. Regístrate en minutos y <strong>sin papeleos.</strong></p>',
 		background: 'blue',
 		image: '/images/banners/home-2.png',
 		alt: 'Banner',
@@ -65,7 +65,7 @@ export const banners: TypesBannerSlider = [
 
 export const services = [
 	{
-		image: '/images/services/envios-tradicionales.svg',
+		image: '/images/services/pago-contra-entrega.svg',
 		alt: 'envios pago contra entrega',
 		title: 'ENVÍOS PAGO CONTRA ENTREGA',
 		description:
@@ -77,7 +77,7 @@ export const services = [
 		alt: 'envios tradicionales',
 		title: 'ENVÍOS TRADICIONALES',
 		description:
-			'Realiza entregas nacionales y urbanas para el mismo día, eligiendo la transportadora de tu preferencia.',
+			'Realiza entregas nacionales y urbanas para el mismo día eligiendo la transportadora de su preferencia.',
 		url: '/envios-tradicionales',
 	},
 	{
@@ -93,7 +93,7 @@ export const services = [
 		alt: 'ecommerce',
 		title: 'CONECTA TU ECOMMERCE',
 		description:
-			'Conecta tu tienda en Shopify, Woocommerce, Jumpseller, Komercia o por API para todo tipo de tiendas.',
+			'Vincula tu ecommerce desde cualquier plataforma para realizar envíos con las principales transportadoras.',
 		url: '/conecta-tu-ecommerce',
 	},
 ];
@@ -177,9 +177,9 @@ export const recognitions = {
 		'Gracias a nuestros procesos de logística de envíos hemos sido seleccionados en varias ocasiones como un emprendimiento destacado.',
 	items: [
 		{
-			title: 'Cámara Colombiana',
-			image: '/images/recognition/camara.png',
-			alt: 'logo cámara colombiana',
+			title: 'DeltaX',
+			image: '/images/recognition/delta-x.png',
+			alt: 'logo DeltaX',
 		},
 		{
 			title: 'Crea',
@@ -201,11 +201,6 @@ export const recognitions = {
 			image: '/images/recognition/scale.png',
 			alt: 'logo scale',
 		},
-		{
-			title: 'Alcaldia',
-			image: '/images/recognition/alcaldia-medellin.png',
-			alt: 'logo Alcaldia',
-		},
 	],
 };
 
@@ -217,9 +212,9 @@ export const testimonials = {
 	items: [
 		{
 			description:
-				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con Mi Paquete. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
+				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con <mark>Mi Paquete</mark>. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
 			person: {
-				image: '/images/testimonials/person-1.png',
+				image: '/images/testimonials/jeimer.png',
 				alt: 'person',
 				name: 'Jeimer López',
 				nickName: '1000Marikdas',

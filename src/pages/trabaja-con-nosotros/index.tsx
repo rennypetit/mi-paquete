@@ -16,7 +16,7 @@ const workWithUs: NextPage = () => {
 			{/* slider of banner */}
 			<main className={styles.main}>
 				<BannerWorks data={banner} />
-				<Card data={cards} />
+				{/* <Card data={cards} /> */}
 			</main>
 			<div className={`container ${styles.margin_container}`}>
 				<Testimonial data={testimonials} />

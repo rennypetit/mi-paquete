@@ -83,13 +83,13 @@ export default function Newsletter({ background }) {
 								{...register('check')}
 								required
 							/>
-							Al enviar su correo usted confirma que acepta nuestros Términos y
+							Al enviar tu correo confirmas que aceptas nuestros Términos y
 							Políticas de Tratamiento de Datos
 						</label>
 					</div>
 					<div className={styles.containerButton}>
 						<button className={`${styles.button} button`}>
-							SUSCRIBIRSE
+							SUSCRÍBETE
 							<div className={styles.icon}>
 								<Image
 									src='/images/icons/search-dark.svg'

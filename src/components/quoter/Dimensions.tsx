@@ -65,7 +65,7 @@ export default function Dimensions({ register, errors, watch }) {
 						<input
 							type='number'
 							id='alto'
-							placeholder='45'
+							placeholder='34'
 							min={1}
 							max={200}
 							className={styles.formInput}
@@ -102,7 +102,7 @@ export default function Dimensions({ register, errors, watch }) {
 						<input
 							type='number'
 							id='alto'
-							placeholder='45'
+							placeholder='24'
 							min={1}
 							max={200}
 							className={styles.formInput}
@@ -138,7 +138,7 @@ export default function Dimensions({ register, errors, watch }) {
 								id='weight'
 								min={1}
 								max={150}
-								placeholder='45'
+								placeholder='12'
 								className={styles.formInput}
 								{...register('weight', { required: true, min: 1, max: 150 })}
 								required
@@ -149,7 +149,7 @@ export default function Dimensions({ register, errors, watch }) {
 								id='weight'
 								min={1}
 								max={150000}
-								placeholder='1000'
+								placeholder='$10.000'
 								className={styles.formInput}
 								{...register('weight', { required: true, min: 1, max: 250000 })}
 								required

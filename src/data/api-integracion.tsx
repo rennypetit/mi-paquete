@@ -29,7 +29,7 @@ export const banner: TypesBannerItems = {
 		},
 	],
 	subDescription:
-		'<p>Conoce cómo automatizar en pocos pasos nuestra <strong>interfaz API</strong> en cualquier <strong>plataforma de ecommerce,</strong> para que hagas más fácil la logística de tus envíos y automatices tus procesos.',
+		'<p>Conoce cómo automatizar en pocos pasos nuestra <strong>interfaz API</strong> en cualquier <strong>plataforma para ecommerce, </strong>y haz más fácil la logística de tus envíos automatizando tus procesos.',
 	buttonOne: {
 		color: 'buttonOrange',
 		title: 'INTEGRA TU TIENDA',
@@ -136,7 +136,7 @@ export const form = {
 	title:
 		'<h4>¿Quieres <strong>integrar API <br /></strong> a tu tienda online?</h4>',
 	description:
-		'<p>Nuestro <strong>equipo de soporte</strong> te ayudará a configurar el API Mi Paquete en tu tienda online y resolverá tus dudas durante el proceso.</p>',
+		'<p>Nuestro <strong>equipo de soporte</strong>  te ayudará a configurar el API de <mark>Mi Paquete</mark> en tu tienda online y resolverá tus dudas durante el proceso.</p>',
 	image: '/images/form/background-blue.png',
 	alt: 'background form',
 	colorTextBackground: 'white',

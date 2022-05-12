@@ -58,7 +58,7 @@ export const description = {
 
 export const benefits = {
 	title:
-		'<h2>¿Por qué realizar envíos con <span>Mi Paquete</span> en vez de hacerlo directamente con <span>las transportadoras?</span></h2>',
+		'<h2>¿Por qué realizar envíos con <span><mark>Mi Paquete</mark></span> en vez de hacerlo directamente con <span>las transportadoras?</span></h2>',
 	description:
 		'Conoce por qué desde <strong>Mi Paquete</strong> el servicio de envío con las <strong>principales empresas de transporte de envíos</strong> nacionales y urbanos, te ahorra tiempo y dinero, ya que puedes realizar tus envíos sin obstáculos, trámites o papeleos.',
 	buttonOne: {
@@ -93,7 +93,7 @@ export const benefits = {
 			alt: 'icon notification',
 			title: 'NOTIFICACIONES DEL ESTADO DEL ENVÍO',
 			description:
-				'Tenemos contactos clave para seguir tus envíos y solucionar novedades',
+				'Notificamos a través de Whatsapp a tu destinatario cuando su envío sea despachado',
 		},
 		{
 			image: '/images/icons/attention.png',
@@ -186,7 +186,7 @@ export const question = [
 	},
 	{
 		title: '¿Ofrecen descuento por volumen?',
-		description: `<p>Si, si realizas más de 500 envíos mensuales te ofrecemos descuentos especiales para que sigas ahorrando en tu logística. El porcentaje de descuento depende del volumen, contacta a uno de nuestros asesores y recibe una propuesta. Si haces menos de 500 envíos tienes acceso directo a nuestro programa de puntos mipaquete que te da automáticamente puntos por envíar que puedes canjear por productos, servicios o saldo para hacer nuevos envíos.</p>`,
+		description: `<p>Sí, si realizas más de 500 envíos mensuales te ofrecemos descuentos especiales para que sigas ahorrando en tu logística. El porcentaje de descuento depende del volumen, contacta a uno de nuestros asesores y recibe una propuesta. Si haces menos de 500 envíos tienes acceso directo a nuestro programa de puntos mipaquete que te da automáticamente puntos por envíar que puedes canjear por productos, servicios o saldo para hacer nuevos envíos.</p>`,
 	},
 ];
 
@@ -194,7 +194,7 @@ export const testimonials = {
 	icon: '/images/quote.png',
 	alt: 'quote',
 	title:
-		'<p>En Mi Paquete hemos recaudado más de $60 mil millones en envíos con pago contra entrega a nuestros clientes <span>en toda Colombia.</span></p>',
+		'<p>En Mi Paquete hemos realizado más de 500 mil envíos a más de 6 mil clientes en <span>en toda Colombia.</span></p>',
 	items: [
 		{
 			description:

@@ -252,3 +252,20 @@
     right: 10%;
   }
 }
+
+// mobile {
+@media (min-width: 400px) and (max-width: 510px) {
+  .container {
+    min-height: 750px;
+  }
+}
+@media (min-width: 330px) and (max-width: 400px) {
+  .container {
+    min-height: 800px;
+  }
+}
+@media (max-width: 330px) {
+  .container {
+    min-height: 870px;
+  }
+}

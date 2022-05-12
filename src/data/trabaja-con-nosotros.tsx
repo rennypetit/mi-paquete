@@ -4,7 +4,7 @@ import { TypesBanner } from '@components/banner/types';
 export const banner: TypesBanner = {
 	title: '<h1>Trabaja con <span>nosotros</span></h1>',
 	description:
-		'<p>Haz parte de la gran familia de Mi Paquete y conoce las diferentes vacantes que tenemos para ti.</p>',
+		'<p>En este momento no tenemos convocatorias disponibles, pero te invitamos a explorar nuestra página para que conozcas más sobre nosotros.</p>',
 	image: '/images/banners/banner-work-with-us.png',
 	imageDesktop: '/images/banners/banner-works-with-us-desktop.jpg',
 	alt: 'Trabaja con nosotros',
@@ -78,7 +78,7 @@ export const testimonials = {
 	items: [
 		{
 			description:
-				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con Mi Paquete. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
+				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con <mark>Mi Paquet.</mark> Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
 			url: '#',
 			person: {
 				image: '/images/testimonials/person-1.png',

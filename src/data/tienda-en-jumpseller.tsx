@@ -4,7 +4,7 @@ import { TypesBanner } from '@components/banner/types';
 export const banner: TypesBanner = {
 	title: `<h1>Aumenta el volumen de tus envíos con nuestra <span>integración en Jumpseller</span></h1>`,
 	description:
-		'<p>Genera <strong>guías de envíos automáticamente</strong> integrándote fácil y rápido con la aplicación de <strong>Mi Paquete.</strong> Ahorrarás tiempo que puedes invertir en hacer crecer tu ecommerce y ofrecerás a tus clientes un gran servicio de entregas.</p>',
+		'<p>Genera <strong>guías de envíos automáticamente</strong> integrándote fácil y rápido con la aplicación de <strong><mark>Mi Paquete.</mark></strong> Ahorrarás tiempo que puedes invertir en hacer crecer tu ecommerce y ofrecerás a tus clientes un gran servicio de entregas.</p>',
 	image: '/images/banners/jumpseller.png',
 	alt: 'Banner jumpseller',
 	orientation: 'orientationLeft',
@@ -85,8 +85,7 @@ export const storages = {
 export const features = {
 	type: TypeDescription.video,
 	video: 'https://www.youtube.com/embed/SiuW2y_EB6o',
-	title: 'Ventajas de automatizar tu tienda en',
-	titleSpan: 'Jumpseller',
+	title: '<p>Ventajas de automatizar tu tienda en <span>Jumpseller</span></p>',
 	orientation: 'left',
 	items: [
 		{
@@ -132,7 +131,7 @@ export const testimonials = {
 	items: [
 		{
 			description:
-				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con Mi Paquete. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
+				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con <mark>Mi Paquete.</mark> Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
 			url: '#',
 			person: {
 				image: '/images/testimonials/person-1.png',

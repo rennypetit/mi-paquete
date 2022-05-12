@@ -16,12 +16,12 @@ export const features = {
 	titleTwo: '"Carrier Service"?',
 	colorTitleTwo: 'blue',
 	description:
-		'<p>Esta opción en Shopify le permite al comprador de la tienda virtual ver el precio del envío calculado de forma automática a través de la instalación la aplicación de <strong>Mi Paquete.</strong></p><p> El servicio Carrier Service está incluido en el "Plan Advanced Shopify".</p>',
+		'<p>Esta opción en Shopify le permite al comprador de la tienda virtual ver el precio del envío calculado de forma automática a través de la instalación la aplicación de <strong><mark>Mi Paquete.</mark></strong></p><p> El servicio Carrier Service está incluido en el "Plan Advanced Shopify".</p>',
 	buttonOne: {
 		color: 'buttonOrange',
 		title: 'CONOCE LA INTEGRACIÓN',
-		url: '/tienda-en-shopify',
-		type: TypeButton.link,
+		url: 'https://apps.shopify.com/logistica-envios-ecommerce?locale=es',
+		type: TypeButton.blank,
 	},
 };
 
@@ -36,7 +36,7 @@ export const cardsState = {
 			id: 0,
 			title: 'Basic Shopify',
 			description:
-				'Ideal para negocios que se inician en el ecommerce y que, de vez en cuando, venden en tienda física',
+				'Ideal para negocios que se inician en el ecommerce y que, de vez en cuando, venden en tienda física.',
 			image: '/images/card-state/shopify-basic.png',
 			alt: 'image shopify basic',
 			buttonOne: {
@@ -50,7 +50,7 @@ export const cardsState = {
 			id: 1,
 			title: 'Lite Shopify',
 			description:
-				'Ideal para negocios en crecimiento que venden online o en tienda física',
+				'Ideal para negocios en expansión que requieren informes avanzados.',
 			image: '/images/card-state/shopify-basic.png',
 			alt: 'image shopify basic',
 			buttonOne: {
@@ -64,7 +64,7 @@ export const cardsState = {
 			id: 2,
 			title: 'Avanced Shopify',
 			description:
-				'Ideal para negocios en expansión que requieren informes avanzados',
+				'Ideal para negocios en expansión que requieren informes avanzados.',
 			image: '/images/card-state/shopify-basic.png',
 			alt: 'image shopify basic',
 			buttonOne: {

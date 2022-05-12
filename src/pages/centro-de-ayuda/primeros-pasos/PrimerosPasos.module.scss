@@ -50,9 +50,9 @@
   strong {
     color: $color_tertiary;
   }
-  button,
-  a {
-    width: 300px;
+  a div {
+    width: 100%;
+    padding: 10px 20px;
   }
 }
 
@@ -81,6 +81,7 @@
       height: 450px;
       margin-bottom: 0;
     }
+    
   }
   .containerBlog {
     padding: 50px 10%;
@@ -89,5 +90,9 @@
     p {
      width: 80%;
     }
+    & a > div {
+      width: 270px;
+    }
   }
 }
+
