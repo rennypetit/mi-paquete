@@ -37,6 +37,61 @@ export const cards = [
 	},
 ];
 
+export const videosWhatsapp = [
+	{
+		video: 'https://www.youtube.com/embed/KRjQwJy1bx8',
+		title:
+			'<h3>Notificación por <strong>Whatsapp</strong> para destinatarios de <strong>envíos ecommerce</strong></h3>',
+	},
+];
+
+export const videosCarrierService = [
+	{
+		video: 'https://www.youtube.com/embed/GuMjb1t-kV0',
+		title:
+			'<h3><strong>Paso 1: </strong>Instalación y configuración de la aplicación</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/zEGVIzLh_tM',
+		title:
+			'<h3><strong>Paso 2: </strong>Guardado de la generación y la orden de envío</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/kACkP2axZro',
+		title:
+			'<h3><strong>Paso 3: </strong>Configuración transportadoras. aplicación  <a href="https://mipaquete.com" target="_blank" rel="noopener noreferrer"><mark>mipaquete.com</mark></a> en Shopify</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/_925WLY7Si8',
+		title:
+			'<h3><strong>Paso 4: </strong> Configuración productos. aplicación <a href="https://mipaquete.com" target="_blank" rel="noopener noreferrer"><mark>mipaquete.com</mark></a> en Shopify</h3>',
+	},
+];
+
+export const videosWoocommerce = [
+	{
+		video: 'https://www.youtube.com/embed/UrWzKzwdE9U',
+		title: '<h3><strong>Paso 1: </strong>Instalación del plugin</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/qx3GK2C6kb8',
+		title: '<h3><strong>Paso 2: </strong>Configuración</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/2eQ3nV1U3r4',
+		title: '<h3><strong>Paso 3: </strong>Configura tus productos</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/WxeGxMiy4dw',
+		title:
+			'<h3><strong>Paso 4: </strong>Procesa tus envíos y descarga tus guías</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/QpfJXCSvZr0',
+		title: '<h3><strong>Paso 5: </strong>Experiencia del cliente</h3>',
+	},
+];
+
 export const commercial = {
 	colorText: 'textWhite',
 	description:

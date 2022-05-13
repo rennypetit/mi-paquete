@@ -12,6 +12,9 @@ import Fixed from '@components/fixed';
 import {
 	banner,
 	cards,
+	videosWhatsapp,
+	videosCarrierService,
+	videosWoocommerce,
 	commercial,
 	row,
 	commercialTwo,
@@ -32,6 +35,18 @@ const primerosPasos: NextPage = () => {
 			<div className='container'>
 				<h2 className={styles.videosTitle}>Vídeo Tutoriales</h2>
 				<Card items={cards} />
+				<h2 className={styles.videosTitle}>
+					Vídeos notificaciónes por whatsapp
+				</h2>
+				<Card items={videosWhatsapp} />
+				<h2 className={styles.videosTitle}>
+					Vídeos ¿Cómo instalar Carrier Service en tu Shopify?
+				</h2>
+				<Card items={videosCarrierService} />
+				<h2 className={styles.videosTitle}>
+					¿Cómo configurar Mi Paquete en tu tienda en Woocomerce?
+				</h2>
+				<Card items={videosWoocommerce} />
 				<Commercial data={commercial} />
 			</div>
 			<div className={styles.row}>

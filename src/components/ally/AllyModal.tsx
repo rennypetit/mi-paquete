@@ -37,29 +37,27 @@ export default function AllyModal() {
 			<div className={styles.container}>
 				{allies.items.map((item, index) => (
 					<Fragment key={index}>
-						{item.title !== 'Entregalo' && (
-							<div className={styles.image} key={index}>
-								<div className='image'>
-									<Image
-										src={item.image}
-										alt={item.alt}
-										title={item.title}
-										width={225}
-										height={100}
-									/>
-								</div>
-								<div className={styles.url}>
-									<button
-										className={styles.open}
-										id={item.title}
-										ref={refModal}
-										onClick={(e) => handleOpenModal(e)}
-									>
-										CONOCER BENEFICIOS
-									</button>
-								</div>
+						<div className={styles.image}>
+							<div className='image'>
+								<Image
+									src={item.image}
+									alt={item.alt}
+									title={item.title}
+									width={225}
+									height={100}
+								/>
 							</div>
-						)}
+							<div className={styles.url}>
+								<button
+									className={styles.open}
+									id={item.title}
+									ref={refModal}
+									onClick={(e) => handleOpenModal(e)}
+								>
+									CONOCER BENEFICIOS
+								</button>
+							</div>
+						</div>
 					</Fragment>
 				))}
 			</div>

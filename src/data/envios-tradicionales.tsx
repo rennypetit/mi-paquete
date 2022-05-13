@@ -198,10 +198,9 @@ export const testimonials = {
 	items: [
 		{
 			description:
-				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con Mi Paquete. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
-			url: '#',
+				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con <mark>Mi Paquete</mark>. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
 			person: {
-				image: '/images/testimonials/person-1.png',
+				image: '/images/testimonials/jeimer.png',
 				alt: 'person',
 				name: 'Jeimer López',
 				nickName: '1000Marikdas',
@@ -209,13 +208,12 @@ export const testimonials = {
 		},
 		{
 			description:
-				'<p>En <span>@paneles3dmax</span> realizamos el primer pedido con pago contraentrega y la experiencia fue estupenda: Fácil, rápido, sin papeleos, sin exigencias de pedidos mensuales, sin software tediosos, súper práctico, económico. Felicitaciones.</p>',
-			url: '#',
+				'<p>mipaquete.com me permite cotizar rápidamente envíos a múltiples destinos en Colombia, la programación de envío es fácil y amigable.</p>',
 			person: {
-				image: '/images/testimonials/person-1.png',
+				image: '/images/testimonials/camila.png',
 				alt: 'person',
-				name: 'Jorge Cremades',
-				nickName: 'Paneles3DMax',
+				name: 'Camila Duque',
+				nickName: 'Ecowindel',
 			},
 		},
 	],

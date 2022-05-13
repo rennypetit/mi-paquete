@@ -1,5 +1,6 @@
 @import '../../styles/variables';
 .banner {
+  padding-bottom: 50px;
   h1 {
     font-weight: 100;
     span {
@@ -7,6 +8,12 @@
       display: block;
       font-size: 2rem;
       font-family: $font_primary_bold;
+    }
+  }
+  button,
+  a {
+    div {
+      width: 280px !important;
     }
   }
 }

@@ -31,7 +31,7 @@ const conectaTuEcommerce: NextPage = () => {
 						<Card items={cards} />
 					</div>
 				</main>
-				<div className='container'>
+				<div className={`container ${styles.testimonials}`}>
 					<Testimonial data={testimonials} />
 				</div>
 			</div>

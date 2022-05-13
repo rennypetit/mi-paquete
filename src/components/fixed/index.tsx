@@ -5,12 +5,17 @@ const Fixed = () => {
 	return (
 		<div className={styles.container} id='menu-fixed'>
 			<div className={`${styles.image} ${styles.imageHelp}`}>
-				<Image
-					src='/images/icons/help-blue.svg'
-					alt='icon help'
-					width={60}
-					height={60}
-				/>
+				<Link href='/centro-de-ayuda'>
+					<a>
+						<Image
+							src='/images/icons/help-blue.svg'
+							alt='icon help'
+							width={60}
+							height={60}
+						/>
+					</a>
+				</Link>
+
 				<div className={styles.helpText}>
 					<Link href='/centro-de-ayuda'>
 						<a>CENTRO DE AYUDA</a>
@@ -18,12 +23,18 @@ const Fixed = () => {
 				</div>
 			</div>
 			<div className={`${styles.image} ${styles.whatsappHelp}`}>
-				<Image
-					src='/images/icons/whatsapp.svg'
-					alt='icon whatsapp'
-					width={60}
-					height={60}
-				/>
+				<a
+					href='https://walink.co/b8da4c'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					<Image
+						src='/images/icons/whatsapp.svg'
+						alt='icon whatsapp'
+						width={60}
+						height={60}
+					/>
+				</a>
 				<div className={styles.whatsappContext}>
 					<a
 						href='https://walink.co/b8da4c'

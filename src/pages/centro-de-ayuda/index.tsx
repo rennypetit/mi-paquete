@@ -22,7 +22,13 @@ const centroDeAyuda: NextPage = () => {
 			<div className='container'>
 				<div className={styles.commercial}>
 					<Commercial data={commercial} />
-					<AllQuestions items={allQuestions} />
+					<div
+						id='preguntas-frecuentes'
+						className={styles.preguntasFrecuentes}
+					></div>
+					<div className={styles.allQuestions}>
+						<AllQuestions items={allQuestions} />
+					</div>
 				</div>
 				<Contact />
 			</div>

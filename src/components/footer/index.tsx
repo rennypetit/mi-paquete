@@ -78,7 +78,7 @@ export default function Footer() {
 								</a>
 							</li>
 							<li>
-								<Link href='/centro-de-ayuda'>
+								<Link href='/centro-de-ayuda#preguntas-frecuentes'>
 									<a>Preguntas Frecuentes</a>
 								</Link>
 							</li>

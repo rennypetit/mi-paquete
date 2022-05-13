@@ -222,12 +222,12 @@ export const testimonials = {
 		},
 		{
 			description:
-				'<p>En <span>@paneles3dmax</span> realizamos el primer pedido con pago contraentrega y la experiencia fue estupenda: Fácil, rápido, sin papeleos, sin exigencias de pedidos mensuales, sin software tediosos, súper práctico, económico. Felicitaciones.</p>',
+				'<p>mipaquete.com me permite cotizar rápidamente envíos a múltiples destinos en Colombia, la programación de envío es fácil y amigable.</p>',
 			person: {
-				image: '/images/testimonials/person-1.png',
+				image: '/images/testimonials/camila.png',
 				alt: 'person',
-				name: 'Jorge Cremades',
-				nickName: 'Paneles3DMax',
+				name: 'Camila Duque',
+				nickName: 'Ecowindel',
 			},
 		},
 	],

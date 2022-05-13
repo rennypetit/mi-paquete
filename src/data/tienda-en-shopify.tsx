@@ -199,6 +199,29 @@ export const row = {
 	},
 };
 
+export const videos = [
+	{
+		video: 'https://www.youtube.com/embed/GuMjb1t-kV0',
+		title:
+			'<h3><strong>Paso 1: </strong> Instalación y configuración de la aplicación</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/zEGVIzLh_tM',
+		title:
+			'<h3><strong>Paso 2: </strong>Guardado de la generación y la orden de envío</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/kACkP2axZro',
+		title:
+			'<h3><strong>Paso 3: </strong>Configuración transportadoras. aplicación <a href="https://mipaquete.com" target="_blank" rel="noopener noreferrer"><mark>mipaquete.com</mark></a> en Shopify</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/_925WLY7Si8',
+		title:
+			'<h3><strong>Paso 4: </strong>Configuración productos. aplicación <a href="https://mipaquete.com" target="_blank" rel="noopener noreferrer"><mark>mipaquete.com</mark></a> en Shopify</h3>',
+	},
+];
+
 export const testimonials = {
 	icon: '/images/quote.png',
 	alt: 'quote',

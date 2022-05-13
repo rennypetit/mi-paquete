@@ -3,6 +3,7 @@ import Layout from 'layout';
 import Banner from '@components/banner';
 import Feature from '@components/ecommerce/Feature';
 import Ally from '@components/ally';
+import SliderVideos from '@components/ecommerce/SliderVideos';
 import Description from '@components/ecommerce/Description';
 import CardBenefit from '@components/ecommerce/CardBenefit';
 import Commercial from '@components/ecommerce/commercial';
@@ -18,6 +19,7 @@ import {
 	banner,
 	description,
 	features,
+	videos,
 	cards,
 	commercial,
 	testimonials,
@@ -36,13 +38,21 @@ const woocommerce: NextPage = () => {
 					<Banner data={banner} />
 				</div>
 			</main>
-			<div className={`${styles.featureOne} container margin-top`}>
+			<div className={`${styles.featureOne} container`}>
 				<Feature items={features} />
 			</div>
 			<div className={`${styles.containerAllies} container-background`}>
 				<Ally />
 			</div>
-			<div className='container'>
+			<div className={'containerVideos'}>
+				<div className='container'>
+					<h2 className='containerTitle'>
+						¿Cómo configurar Mi Paquete en <span>tu tienda en Woocomerce?</span>
+					</h2>
+					<SliderVideos items={videos} />
+				</div>
+			</div>
+			<div className={`container ${styles.description}`}>
 				<Description data={description} />
 				<h2 className='containerTitle'>
 					Beneficios que <span>encontrarás</span>
@@ -50,7 +60,7 @@ const woocommerce: NextPage = () => {
 				<CardBenefit items={cards} />
 			</div>
 			<Commercial data={commercial} />
-			<div className='container'>
+			<div className={`container ${styles.testimonials}`}>
 				<Testimonial data={testimonials} haveLink={false} />
 				<div className={styles.featuresTwo}>
 					<CommercialTwo data={commercialTwo} />

@@ -9,6 +9,7 @@ import Commercial from '@components/ecommerce/commercial';
 import FeatureTwo from '@components/feature';
 import Testimonial from '@components/testimonial';
 import Row from '@components/row';
+import SliderVideos from '@components/ecommerce/SliderVideos';
 import Question from '@components/question';
 import Form from '@components/form';
 import Newsletter from '@components/newsletter';
@@ -24,6 +25,7 @@ import {
 	featuresTwo,
 	testimonials,
 	row,
+	videos,
 	question,
 	form,
 } from '@data/tienda-en-shopify';
@@ -38,18 +40,20 @@ const shopify: NextPage = () => {
 					<BannerCenter data={banner} />
 				</div>
 			</main>
-			<div className='container margin-top'>
+			<div className={`container ${styles.features}`}>
 				<Feature items={features} />
 			</div>
 			<div className={`${styles.containerAllies} container-background`}>
 				<Ally />
 			</div>
-			<div className='container'>
+			<div className={`container ${styles.description}`}>
 				<Description data={description} />
-				<h2 className='containerTitle'>
-					Beneficios que <span>encontrarás</span>
-				</h2>
-				<CardBenefit items={cards} />
+				<div className={styles.benefits}>
+					<h2 className='containerTitle'>
+						Beneficios que <span>encontrarás</span>
+					</h2>
+					<CardBenefit items={cards} />
+				</div>
 			</div>
 			<div className={styles.commercial}>
 				<Commercial data={commercial} />
@@ -58,10 +62,20 @@ const shopify: NextPage = () => {
 				<div className={styles.featuresTwo}>
 					<FeatureTwo items={featuresTwo} icon={true} />
 				</div>
-				<Testimonial data={testimonials} />
+				<div className={styles.testimonials}>
+					<Testimonial data={testimonials} />
+				</div>
 			</div>
 			<div className={styles.row}>
 				<Row data={row} />
+			</div>
+			<div className={'containerVideos'}>
+				<div className='container'>
+					<h2 className='containerTitle'>
+						¿Cómo instalar Carrier Service <span>en tu Shopify?</span>
+					</h2>
+					<SliderVideos items={videos} />
+				</div>
 			</div>
 			<div className='container'>
 				<Question items={question} />

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import styles from './CardVideo.module.scss';
 const CardVideo = ({ items }) => {

@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 .container {
 	margin-top: 50px;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 	span {
 		font-family: $font_primary_bold;
 	}
@@ -30,7 +30,7 @@
 }
 
 .items {
-	padding-top: 150px;
+	padding-top: 100px;
 	gap: 20px;
 }
 .card, .cardSingle {
@@ -113,7 +113,7 @@
 	}
 	.cardDescription {
 		padding-right: 20px;
-		height: 150px;
+		height: 100px;
 	}
 	.cardSingle{
 		width: 70%;

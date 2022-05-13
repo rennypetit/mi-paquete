@@ -194,6 +194,19 @@ mark {
 	}
 }
 
+.dots-blue {
+	.slick-dots {
+			bottom: -40px;
+		}
+	.slick-dots li button:before {
+		color: #E6EFF5 !important;
+	}
+
+	.slick-dots li.slick-active button:before {
+		color: $color_tertiary  !important;
+	}
+}
+
 // services home
 .services {
 	.slick-list {
@@ -496,6 +509,13 @@ mark {
 // 	cursor: pointer;
 // 	width: auto !important;
 // }
+
+.containerVideos {
+	background-color: $background;
+	padding: 20px 0 50px;
+	margin: 0px auto;
+}
+
 
 // responsive
 @media (max-width: 380px) {

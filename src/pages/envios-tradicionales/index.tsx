@@ -49,7 +49,9 @@ const enviosTradicionales: NextPage = () => {
 			</div>
 			<div className='container'>
 				<Question items={question} />
-				<Testimonial data={testimonials} />
+				<div className={styles.testimonials}>
+					<Testimonial data={testimonials} />
+				</div>
 
 				<div className={styles.containerCommercial}>
 					<Commercial data={commercial} />

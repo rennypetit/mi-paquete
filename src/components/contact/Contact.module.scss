@@ -17,9 +17,8 @@
   align-items: center;
   text-align: center;
   margin: auto;
-  position: absolute;
   left: 0;
-  padding: 20px 10px;
+  padding: 0 10px;
   width: 100%;
 }
 
@@ -63,12 +62,12 @@
 // desktop
 @media (min-width: 1024px) {
   .container {
-    height: 326px;
+    height: auto;
     width: 80%;
   }
   .containerTwo {
     grid-template-columns: 1fr 1fr;
-    margin: 20px auto;
+    margin: 0px auto;
   }
   .image {
     border:0;
@@ -76,6 +75,7 @@
   }
   .title {
     text-align: left;
+    margin-top: 0;
   }
   .content {
     grid-column: 1;

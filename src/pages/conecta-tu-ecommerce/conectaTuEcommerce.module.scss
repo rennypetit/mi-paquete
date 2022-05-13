@@ -1,7 +1,19 @@
 @import '../../styles/variables';
 .container {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .background {
   padding: 40px
+}
+.testimonials > section{
+  margin-bottom: 100px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+      padding-top: 100px;
+    }
+  .testimonials > section {
+    margin-bottom: 150px;
+  }
 }

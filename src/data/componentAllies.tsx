@@ -107,6 +107,20 @@ export const allies = {
 			title: 'Entregalo',
 			image: '/images/allies/entregalo.png',
 			alt: 'logo entregalo',
+			modal: {
+				id: 'Entregalo',
+				title: 'ENTREGAMOS TUS ENVÍOS CON ENTRÉGALO',
+				description: `<p>Los tiempos de recogida y entrega son aproximados bajo condiciones normales de transporte para entrega el mismo día. Los servicios solicitados después de las 11 a.m. son recogidos al día siguiente hábil. Entregalo no presta servicio de recogidas ni entregas los domingos y festivos. Sábados tiene condiciones especiales de servicio. Incluye la opción de recaudo contra entrega en efectivo. Los paquetes deben estar bien empacados en cajas, bolsas selladas. Entregalo realiza hasta 2 intentos de entrega, siempre y cuando el envío no tenga novedad reportada. En caso de no recibir una solución a la incidencia dentro del 1 día hábil o el destinatario confirme que no va a recibir, se realiza la devolución del envío, solo se cobra el flete de ida sin comisión de recaudo. El producto no puede ser abierto frente al destinatario justo en el momento de entrega, con el propósito de garantizar la seguridad de la mercancía. No es posible recomendar fechas, horas exactas de entrega, ni llamadas previas al destinatario. El cubrimiento en ciudades es dentro del perímetro urbano. No se cubren corregimientos. La plataforma genera tu guía, En caso de que no se entregue la guía con la mercancía, mipaquete.com no se hace responsable del servicio ni de recaudos no efectuados. En caso de daño, pérdida parcial o total mipaquete.com en representación del titular de la cuenta realizará la solicitud de indemnización por el valor declarado diligenciado en la plataforma y quedará sujeto a la respuesta final por parte de la transportadora. Es indispensable que tu envío tenga condiciones de empaque óptimas para el transporte, contar con el comprobante de despacho firmado, documentos que soporten el valor declarado, que la unidad no se encuentre en la categoría de artículos prohibidos y en caso de que esta llegue al destinatario o remitente en mal estado se debe dejar como obligación la observación sobre la guía que firma a la transportadora como material probatorio y reportar el caso por medio del remitente dentro de las 24 horas siguientes, solo se responde en caso tal de que la unidad se encuentre en alguno de los estados anteriormente mencionados y la omisión de alguno de estos puede afectar la aprobación del caso.</p>`,
+				image: '/images/allies/entregalo.png',
+				alt: 'logo entregalo',
+				orientation: 'transform',
+				buttonOne: {
+					color: 'buttonOrange',
+					title: 'COTIZA TU ENVÍO',
+					url: 'https://app.mipaquete.com/',
+					type: TypeButton.blank,
+				},
+			},
 		},
 	],
 	buttonOne: {

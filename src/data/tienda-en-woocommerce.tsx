@@ -61,6 +61,30 @@ export const features = {
 	],
 };
 
+export const videos = [
+	{
+		video: 'https://www.youtube.com/embed/UrWzKzwdE9U',
+		title: '<h3><strong>Paso 1: </strong>Instalación del plugin</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/qx3GK2C6kb8',
+		title: '<h3><strong>Paso 2: </strong>Configuración</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/2eQ3nV1U3r4',
+		title: '<h3><strong>Paso 3: </strong>Configura tus productos</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/WxeGxMiy4dw',
+		title:
+			'<h3><strong>Paso 4: </strong>Procesa tus envíos y descarga tus guías</h3>',
+	},
+	{
+		video: 'https://www.youtube.com/embed/QpfJXCSvZr0',
+		title: '<h3><strong>Paso 5: </strong>Experiencia del cliente</h3>',
+	},
+];
+
 export const description = {
 	title:
 		'<h3><strong>Envíos en WooCommerce</strong> <span>Automatiza la logística de envíos de tu tienda en WooCommerce</span></h3>',
