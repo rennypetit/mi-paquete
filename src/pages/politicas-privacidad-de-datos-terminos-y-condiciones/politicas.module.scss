@@ -1,0 +1,51 @@
+@import '../../styles/variables';
+.container {
+  box-shadow: 0px 1px 6px #00000026;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 0 0 30px 30px;
+}
+.title {
+  color: $color_tertiary;
+  text-align: center;
+  font-size: 2rem;
+}
+.content {
+  font-family: $font_secondary_regular;
+  color:$color_secondary;
+  span {
+    color:$color_tertiary;
+  font-family: $font_secondary_bold;
+  }
+  p {
+      line-height: 1.4;
+      margin: 20px 0;
+      font-size: 1.6rem;
+    }
+  
+    ol, ul {
+      padding-left: 20px;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      list-style: none;
+      li {
+        padding-bottom: 20px;
+        list-style: none;
+        &::before {
+          content: "\2022";
+          color: $color_quaternary;
+          font-weight: bold;
+          display: inline-block;
+          width:1rem;
+          transform: scale(2) !important;
+        }
+      }
+    }
+}
+
+// desktop
+@media (min-width: 768px) {
+  .container {
+    padding: 20px 40px;
+  }
+}

@@ -18,6 +18,7 @@ import {
 	question,
 	commercial,
 	testimonials,
+	textWhatsapp,
 } from '@data/envios-tradicionales';
 
 import styles from './enviosTradicionales.module.scss';
@@ -58,7 +59,7 @@ const enviosTradicionales: NextPage = () => {
 				</div>
 			</div>
 			<Newsletter background={'primary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

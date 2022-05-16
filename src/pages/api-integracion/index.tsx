@@ -16,6 +16,7 @@ import {
 	row,
 	question,
 	form,
+	textWhatsapp,
 } from '@data/api-integracion';
 import styles from './ApiIntegracion.module.scss';
 const apiIntegracion: NextPage = () => {
@@ -36,7 +37,7 @@ const apiIntegracion: NextPage = () => {
 			</div>
 			<Form data={form} background={'primary'} />
 			<Newsletter background={'primary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

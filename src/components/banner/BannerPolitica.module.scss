@@ -1,0 +1,42 @@
+@import '../../styles/variables';
+.container {
+  position: relative;
+}
+.background {
+  height: 50rem;
+}
+.title {
+  @include center;
+  bottom: 0;
+  height: auto;
+  left: 0;
+  margin: 0;
+  padding-top: 60px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  h1 {
+    border-bottom: 2px solid $color_quinary;
+    font-family: $font_primary_bold;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: auto;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    h1 {
+        border-bottom: 2px solid $color_quinary;
+        font-size: 3.5rem;
+        line-height: 1.4;
+        margin: auto;
+        padding-bottom: 5px;
+        text-align: center;
+        width: 400px;
+      }
+  }
+}

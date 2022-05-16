@@ -94,3 +94,6 @@ export const commercialTwo = {
 		type: TypeButton.link,
 	},
 };
+
+export const textWhatsapp =
+	'<p>¿Te gustaría poder encender y apagar transportadoras, según su desempeño?</p>';

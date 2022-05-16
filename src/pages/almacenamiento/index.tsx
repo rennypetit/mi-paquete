@@ -21,6 +21,7 @@ import {
 	commercial,
 	form,
 	question,
+	textWhatsapp,
 } from '@data/almacenamiento';
 
 import styles from './almacenamiento.module.scss';
@@ -62,7 +63,7 @@ const almacenamiento: NextPage = () => {
 				<Question items={question} />
 			</div>
 			<Newsletter background={'secondary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

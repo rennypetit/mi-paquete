@@ -187,3 +187,6 @@ export const form = {
 	listId: '102',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
+
+export const textWhatsapp =
+	'<p>¿Necesitas asesoría para automatizar <br />los envíos de tu tienda jumpseller? <strong>¡Te ayudamos!</strong></p>';

@@ -169,7 +169,7 @@ export default function Footer() {
 				<div className={styles.secondSection}>
 					<p>Mi Paquete SAS 2020. Todos los derechos reservados</p>
 					<a
-						href='https://mipaquete.com/politicas-privacidad-de-datos-terminos-y-condiciones/'
+						href='/politicas-privacidad-de-datos-terminos-y-condiciones'
 						target='_blank'
 						rel='noopener noreferrer'
 					>

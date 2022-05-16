@@ -8,7 +8,13 @@ import Newsletter from '@components/newsletter';
 import Fixed from '@components/fixed';
 
 // only data of components
-import { banner, features, featuresTwo, form } from '@data/ecommerce-medianos';
+import {
+	banner,
+	features,
+	featuresTwo,
+	form,
+	textWhatsapp,
+} from '@data/ecommerce-medianos';
 
 import styles from './EcommerceMedianos.module.scss';
 
@@ -38,7 +44,7 @@ const ecommerceMedianos: NextPage = () => {
 			</div>
 			<Form data={form} background={'secondary'} />
 			<Newsletter background={'secondary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

@@ -174,3 +174,6 @@ export const question = [
 		description: `<p>Escríbenos a nuestra línea de whatsapp <a href="tel:+573216330447">+57 321 6330447</a> y te asignaremos un asesor especializado para ayudarte.</p>`,
 	},
 ];
+
+export const textWhatsapp =
+	'<p>Almacenamos, alistamos y <br /> despachamos tus productos ¿Necesitas ayuda para obtener nuestro servicio?</p>';

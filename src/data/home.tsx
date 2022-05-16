@@ -232,3 +232,6 @@ export const testimonials = {
 		},
 	],
 };
+
+export const textWhatsapp =
+	'<p>¿Necesitas asesoría personalizada? <br /> <strong>¡Te ayudamos!</strong></p>';

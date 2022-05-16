@@ -10,7 +10,7 @@ export default function BlogCardSlider({ items }) {
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
-		slidesToScroll: 1,
+		slidesToScroll: 2,
 		variableWidth: true,
 		responsive: [
 			{
@@ -23,8 +23,8 @@ export default function BlogCardSlider({ items }) {
 		],
 	};
 	return (
-		<Slider {...settings} className='dots-grey'>
-			{items.map((item, index) => (
+		<Slider {...settings} className={`dots-grey`}>
+			{items.slice(0, 5).map((item, index) => (
 				<BlogCard data={item} key={index} />
 			))}
 		</Slider>

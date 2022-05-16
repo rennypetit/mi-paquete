@@ -9,6 +9,7 @@ import Fixed from '@components/fixed';
 
 // only data of components
 import { banner, cards, commercial, question, blog } from '@data/aprende-mas';
+import posts from '@data/componentPostsBlog';
 
 import styles from './AprendeMas.module.scss';
 
@@ -32,7 +33,7 @@ const aprendeMas: NextPage = () => {
 				<h2 className={`${styles.containerTitle} containerTitle`}>
 					Descubre más en <span>nuestro blog</span>
 				</h2>
-				<BlogCardSlider items={blog} />
+				<BlogCardSlider items={posts} />
 			</div>
 			<div className={styles.newsletter}>
 				<Newsletter background={'secondary'} />

@@ -189,3 +189,6 @@ export const question = [
 		`,
 	},
 ];
+
+export const textWhatsapp =
+	'<p>¡Hola! ¿Necesitas ayuda para realizar <br />tu envío con pago contra entrega?</p>';

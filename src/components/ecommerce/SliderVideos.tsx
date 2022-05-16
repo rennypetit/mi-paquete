@@ -5,7 +5,7 @@ const SliderVideos = ({ items }) => {
 	const settings = {
 		autoplay: false,
 		dots: true,
-		infinite: true,
+		infinite: false,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		responsive: [

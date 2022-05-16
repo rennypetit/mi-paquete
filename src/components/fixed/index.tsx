@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './Fixed.module.scss';
-const Fixed = () => {
+const Fixed = ({
+	textWhatsapp = `<p> ¿Necesitas asesoría personalizada? <br /> <strong>¡Te ayudamos!</strong> </p>`,
+}) => {
 	return (
 		<div className={styles.container} id='menu-fixed'>
 			<div className={`${styles.image} ${styles.imageHelp}`}>
@@ -47,10 +49,10 @@ const Fixed = () => {
 							width={254}
 							height={58}
 						/>
-						<p>
-							¿Necesitas asesoría personalizada? <br />{' '}
-							<strong>¡Te ayudamos!</strong>
-						</p>
+						<div
+							className={styles.containerTextWhatsapp}
+							dangerouslySetInnerHTML={{ __html: textWhatsapp }}
+						></div>
 					</a>
 				</div>
 			</div>

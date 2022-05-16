@@ -272,3 +272,6 @@ export const form = {
 	listId: '101',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
+
+export const textWhatsapp =
+	'<p>¿Necesitas asesoría para automatizar <br />los envíos de tu tienda WooCommerce? <strong>¡Te ayudamos!</strong></p>';

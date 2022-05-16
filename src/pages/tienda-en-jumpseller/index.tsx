@@ -18,6 +18,7 @@ import {
 	testimonials,
 	question,
 	form,
+	textWhatsapp,
 } from '@data/tienda-en-jumpseller';
 
 import styles from './Jumpseller.module.scss';
@@ -45,7 +46,7 @@ const jumpseller: NextPage = () => {
 			</div>
 			<Form data={form} background={'primary'} />
 			<Newsletter background={'primary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

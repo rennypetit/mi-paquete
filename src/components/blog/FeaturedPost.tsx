@@ -23,12 +23,7 @@ const FeaturedPost = () => {
 						para incrementar sus ventas y fidelizar clientes. In ornare vel urna
 						quis venenatis. Maecenas orci mauris.
 					</p>
-					<div className={styles.author}>
-						<Link href={'/'}>
-							<a>Ver Más</a>
-						</Link>
-						<p>Author y Fecha</p>
-					</div>
+					<div className={styles.seeMore}>VER MÁS</div>
 				</div>
 			</div>
 		</div>

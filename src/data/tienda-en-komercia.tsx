@@ -64,7 +64,8 @@ export const storages = {
 	buttonOne: {
 		color: 'buttonOrange',
 		title: 'SOLICITA UNA ASESORÍA',
-		url: '#',
+		url: '#asesoria',
+		type: TypeButton.href,
 	},
 };
 
@@ -140,3 +141,6 @@ export const form = {
 	listId: '103',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
+
+export const textWhatsapp =
+	'<p>¡Hola! ¿Quieres automatizar los envíos <br />de tu tienda en Komercia?</p>';

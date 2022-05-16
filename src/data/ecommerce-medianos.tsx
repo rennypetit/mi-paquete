@@ -69,3 +69,6 @@ export const form = {
 	listId: '',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
+
+export const textWhatsapp =
+	'<p>¡Hola! ¿Quieres recibir descuentos <br />por tus envíos?</p>';

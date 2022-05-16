@@ -26,6 +26,7 @@ import {
 	commercialTwo,
 	question,
 	form,
+	textWhatsapp,
 } from '@data/tienda-en-woocommerce';
 
 import styles from './Woocommerce.module.scss';
@@ -71,7 +72,7 @@ const woocommerce: NextPage = () => {
 			</div>
 			<Form data={form} background={'primary'} />
 			<Newsletter background={'primary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

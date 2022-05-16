@@ -21,6 +21,7 @@ import {
 	features,
 	testimonials,
 	question,
+	textWhatsapp,
 } from '@data/envios-pago-contraentrega';
 
 import styles from './enviosPagoContraEntrega.module.scss';
@@ -67,7 +68,7 @@ const enviosPagoContraEntrega: NextPage = () => {
 				<Question items={question} />
 			</div>
 			<Newsletter background={'primary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

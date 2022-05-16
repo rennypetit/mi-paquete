@@ -20,10 +20,11 @@ import {
 	services,
 	features,
 	commercial,
-	blog,
 	recognitions,
 	testimonials,
+	textWhatsapp,
 } from '@data/home';
+import posts from '@data/componentPostsBlog';
 
 import styles from './Home.module.scss';
 
@@ -58,7 +59,7 @@ const Home: NextPage = () => {
 				<h2 className={`${styles.containerTitle} containerTitle`}>
 					Blog <span>Mi Paquete</span>
 				</h2>
-				<BlogCardSlider items={blog} />
+				<BlogCardSlider items={posts} />
 			</div>
 			<div className='container'>
 				<div className={styles.containerMedia}>
@@ -73,7 +74,7 @@ const Home: NextPage = () => {
 				<Testimonial data={testimonials} />
 			</div>
 			<Newsletter background={'primary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

@@ -16,6 +16,7 @@ import {
 	features,
 	question,
 	form,
+	textWhatsapp,
 } from '@data/tienda-en-komercia';
 
 import styles from './Komercia.module.scss';
@@ -44,7 +45,7 @@ const komercia: NextPage = () => {
 			</div>
 			<Form data={form} background={'primary'} />
 			<Newsletter background={'primary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

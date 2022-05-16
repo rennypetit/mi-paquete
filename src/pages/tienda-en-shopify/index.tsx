@@ -28,6 +28,7 @@ import {
 	videos,
 	question,
 	form,
+	textWhatsapp,
 } from '@data/tienda-en-shopify';
 
 import styles from './Shopify.module.scss';
@@ -84,7 +85,7 @@ const shopify: NextPage = () => {
 				<Form data={form} background={'primary'} />
 			</div>
 			<Newsletter background={'primary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

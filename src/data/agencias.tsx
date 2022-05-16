@@ -165,3 +165,6 @@ export const form = {
 	listId: '121',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
+
+export const textWhatsapp =
+	'<p>¿Quieres generar ingresos adicionales con Mi Paquete?</p>';

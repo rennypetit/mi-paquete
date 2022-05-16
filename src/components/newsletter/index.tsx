@@ -3,8 +3,8 @@ import Image from 'next/image';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import WidthContext from '@contexts/width';
 import Modal from '@components/form/Modal';
-import styles from './Newsletter.module.scss';
 import { postForm } from '@services/api';
+import styles from './Newsletter.module.scss';
 
 type Inputs = {
 	email: string;
@@ -83,8 +83,14 @@ export default function Newsletter({ background }) {
 								{...register('check')}
 								required
 							/>
-							Al enviar tu correo confirmas que aceptas nuestros Términos y
-							Políticas de Tratamiento de Datos
+							Al enviar tu correo confirmas que aceptas nuestros{' '}
+							<a
+								href='/politicas-privacidad-de-datos-terminos-y-condiciones'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Términos y Políticas de Tratamiento de Datos
+							</a>
 						</label>
 					</div>
 					<div className={styles.containerButton}>

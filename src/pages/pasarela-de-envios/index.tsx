@@ -17,6 +17,7 @@ import {
 	features,
 	form,
 	commercialTwo,
+	textWhatsapp,
 } from '@data/pasarela-de-envios';
 
 import styles from './pasarelaDeEnvios.module.scss';
@@ -46,7 +47,7 @@ const pasarelaDeEnvios: NextPage = () => {
 				<Commercial data={commercialTwo} />
 			</div>
 			<Newsletter background={'secondary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

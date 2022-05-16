@@ -9,7 +9,14 @@ import Newsletter from '@components/newsletter';
 import Fixed from '@components/fixed';
 
 // only data of components
-import { banner, benefits, maps, ventajas, form } from '@data/agencias';
+import {
+	banner,
+	benefits,
+	maps,
+	ventajas,
+	form,
+	textWhatsapp,
+} from '@data/agencias';
 
 import styles from './agencias.module.scss';
 
@@ -29,7 +36,7 @@ const agencias: NextPage = () => {
 			</div>
 			<Form data={form} background={'primary'} pageAgencias={true} />
 			<Newsletter background={'secondary'} />
-			<Fixed />
+			<Fixed textWhatsapp={textWhatsapp} />
 		</Layout>
 	);
 };

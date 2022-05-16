@@ -9,7 +9,8 @@ export default async function handler(
 	res: NextApiResponse<Data>
 ) {
 	try {
-		const data = await require(`./posts/${req.query.post}`);
+		const data =
+			await require(`./posts/${req.query.category}/${req.query.post}`);
 		return res.status(200).json(data);
 	} catch (error: any) {
 		if (error.code === 'MODULE_NOT_FOUND')

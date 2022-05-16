@@ -1,6 +1,6 @@
 import styles from './NavCategories.module.scss';
 
-const NavCategories = () => {
+const NavCategories = ({ handleChangeFilter }) => {
 	const allCategories = [
 		'TODAS LAS CATEGORÍAS',
 		'CONSEJOS PARA EMPRENDEDORES',
@@ -10,8 +10,10 @@ const NavCategories = () => {
 	return (
 		<div className={styles.component_categories}>
 			<ul className={styles.component_categories__categories}>
-				{allCategories.map((categorie, index) => (
-					<li key={index}>{categorie}</li>
+				{allCategories.map((category, index) => (
+					<li key={index} onClick={handleChangeFilter}>
+						{category}
+					</li>
 				))}
 			</ul>
 		</div>

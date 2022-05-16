@@ -451,6 +451,12 @@ mark {
 	}
 }
 
+.table-left td {
+	&:nth-child(2) {
+		text-align: left;
+	}
+}
+
 // react select
 .css-b62m3t-container {
 	border:1px solid $color_quaternary;
@@ -514,6 +520,19 @@ mark {
 	background-color: $background;
 	padding: 20px 0 50px;
 	margin: 0px auto;
+}
+
+.postBannerImage img {
+	height: auto;
+	max-height: 300px;
+	object-fit: contain;
+	width: 100%;
+}
+
+.postSmallImage img {
+	height: auto;
+	max-height: 300px;
+	width: auto !important;
 }
 
 

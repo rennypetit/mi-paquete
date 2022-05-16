@@ -147,3 +147,6 @@ export const form = {
 	listId: '104',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
+
+export const textWhatsapp =
+	'<p>¡Hola! ¿Quieres automatizar los envíos <br />de tu tienda con nuestra API?</p>';

@@ -1,7 +1,6 @@
-import Button from '@components/button';
-
 // types
 import { Props } from './types';
+
 import styles from './BannerAboutUs.module.scss';
 
 export default function BannerAboutUs({ data }: Props) {
