@@ -38,12 +38,12 @@ export const items = [
 				url: '/tienda-en-woocommerce',
 			},
 			{
-				title: 'Komercia',
-				url: '/tienda-en-komercia',
-			},
-			{
 				title: 'Jumpseller',
 				url: '/tienda-en-jumpseller',
+			},
+			{
+				title: 'Komercia',
+				url: '/tienda-en-komercia',
 			},
 			{
 				title: 'Vía API',

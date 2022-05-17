@@ -11,11 +11,21 @@ import posts from '@data/componentPostsBlog';
 
 const Blog: NextPage = () => {
 	const [dataBlog, setDataBlog] = useState(posts);
-	const handleChangeFilter = () => {
-		console.log('aa');
-		// const data = posts.filter((item) => (item.category = 'ENVÍOS'));
-		// console.log(data);
+	const handleChangeFilter = (category) => {
+		const items = document.getElementsByClassName('filters');
+		for (let i = 0; i < items.length; i++) {
+			items[i].style.background = '#ffffff';
+		}
+		let active = document.getElementById(category);
+		active.style.background = '#E6EFF5';
+
+		if (category === 'all') setDataBlog(posts);
+		else {
+			const data = posts.filter((element) => element.category === category);
+			setDataBlog(data);
+		}
 	};
+	const lastPosts = posts.filter((element) => element.last === true);
 	return (
 		<Layout>
 			<BannerBlog />
@@ -28,9 +38,8 @@ const Blog: NextPage = () => {
 			<h2 className={styles.title}>
 				Últimas <strong>entradas</strong>
 			</h2>
-			<FeaturedPost />
-			<GridCards dataBlog={dataBlog} />
-			<FeaturedPost />
+			<FeaturedPost data={lastPosts[0]} />
+			<GridCards dataBlog={lastPosts} />
 			<Fixed />
 		</Layout>
 	);

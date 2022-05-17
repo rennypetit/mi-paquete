@@ -48,6 +48,19 @@
 		padding-right: 10px;
 		width: 19rem;
 	}
+	.formSelect {
+		background-color: transparent;
+		border: 0;
+		color: $color_quaternary;
+		font-size: 14px;
+		font-family: $font_secondary_bold;
+		line-height: 1.5;
+		margin-right: 5px;
+
+		&:focus {
+			outline: none;
+		}
+	}
 	input {
 		background-color: transparent;
 		font-size: 16px;

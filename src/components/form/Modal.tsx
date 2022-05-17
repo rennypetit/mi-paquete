@@ -17,11 +17,10 @@ const Modal = ({ handleCloseModal }) => {
 						</div>
 					</div>
 				</div>
-				<h3 className={styles.title}>GRACIAS</h3>
+				<h3 className={styles.title}>Tus datos fueron enviados</h3>
 				<div className={styles.description}>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In orci
-					turpis, imperdiet sit amet sodales nec, accumsan non arcu. Mauris in
-					enim sit amet urna vehicula tempus.
+					Pronto nuestro equipo estará comunicándose contigo para asesorarte y
+					darte más información sobre nuestras soluciones ecommerce.
 				</div>
 				<div className='modal-button'>
 					<button

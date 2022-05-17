@@ -66,7 +66,7 @@ export const form = {
 	formDescription:
 		'<p>Uno de nuestros expertos te contactará para explicarte cómo optimizar tus costos logísticos según tu volumen de envíos.</p>',
 	FormColorSpan: 'blue',
-	listId: '',
+	listId: '128',
 	textSubmit: 'PROGRAMA UNA ASESORÍA',
 };
 

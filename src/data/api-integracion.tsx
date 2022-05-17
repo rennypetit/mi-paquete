@@ -116,7 +116,7 @@ export const row = {
 export const question = [
 	{
 		title: '¿Dónde encuentro la documentación de la API y su alcance?',
-		description: `<p>En <a href="https://documenter.getpostman.com/view/14212363/Tzm8GFfQ">https://documenter.getpostman.com/view/14212363/Tzm8GFfQ</a> Si no eres desarrollador puedes leer el alcance completo en el link “Introducción” que aparece en el menú.</p>`,
+		description: `<p>En <a href="https://bit.ly/3lcGsIM">https://bit.ly/3lcGsIM</a> Si no eres desarrollador puedes leer el alcance completo en el link “Introducción” que aparece en el menú.</p>`,
 	},
 	{
 		title: '¿Tienen ambiente de pruebas para la API?',

@@ -1,61 +1,13 @@
+import Head from 'next/head';
 import Layout from 'layout';
 import BlogCard from '@components/blog/BlogCard';
 import Shared from '@components/blog/Shared';
 import Fixed from '@components/fixed';
+import posts from '@data/componentPostsBlog';
 
 import styles from './Post.module.scss';
-import Head from 'next/head';
 export default function pageblog({ data }) {
-	const blog = [
-		{
-			url: '#',
-			image: '/images/blog/entrada.png',
-			title: 'NOMBRE DE LA ENTRADA',
-			date: 'Autor y Fecha',
-			description:
-				'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-		},
-		{
-			url: '#',
-			image: '/images/blog/entrada.png',
-			title: 'NOMBRE DE LA ENTRADA',
-			date: 'Autor y Fecha',
-			description:
-				'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-		},
-		{
-			url: '#',
-			image: '/images/blog/entrada.png',
-			title: 'NOMBRE DE LA ENTRADA',
-			date: 'Autor y Fecha',
-			description:
-				'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-		},
-		{
-			url: '#',
-			image: '/images/blog/entrada.png',
-			title: 'NOMBRE DE LA ENTRADA',
-			date: 'Autor y Fecha',
-			description:
-				'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-		},
-		{
-			url: '#',
-			image: '/images/blog/entrada.png',
-			title: 'NOMBRE DE LA ENTRADA',
-			date: 'Autor y Fecha',
-			description:
-				'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-		},
-		{
-			url: '#',
-			image: '/images/blog/entrada.png',
-			title: 'NOMBRE DE LA ENTRADA',
-			date: 'Autor y Fecha',
-			description:
-				'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-		},
-	];
+	const lastPosts = posts.filter((element) => element.last === true);
 	if (!data) return '';
 	return (
 		<>
@@ -78,11 +30,11 @@ export default function pageblog({ data }) {
 						></div>
 						<Shared />
 					</article>
-					{/* <aside className={styles.sidebar}>
-						{blog.map((item, index) => (
+					<aside className={styles.sidebar}>
+						{lastPosts.map((item, index) => (
 							<BlogCard data={item} key={index} />
 						))}
-					</aside> */}
+					</aside>
 				</div>
 				<Fixed />
 			</Layout>

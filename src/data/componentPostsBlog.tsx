@@ -7,7 +7,7 @@ const posts = [
 			'Aquí hay cinco consejos que puedes implementar de inmediato para evitar la temida caída de las ventas en Semana Santa',
 		image: '/images/blog/5-consejos-rapidos-para-activar-tu-comercio.jpg',
 		imageAlt: '5 CONSEJOS RÁPIDOS PARA ACTIVAR TU COMERCIO',
-		principal: true,
+		last: true,
 	},
 	{
 		category: 'consejos-para-emprendedores',
@@ -17,7 +17,7 @@ const posts = [
 			'Si estás buscando formas de aumentar la rentabilidad de tu empresa, el departamento de servicio al cliente es un buen lugar para comenzar',
 		image: '/images/blog/8-razones-banner.jpg',
 		imageAlt: '¿POR QUÉ ES IMPORTANTE EL SERVICIO AL CLIENTE?',
-		principal: false,
+		last: true,
 	},
 	{
 		category: 'consejos-para-emprendedores',
@@ -27,7 +27,7 @@ const posts = [
 			'Es la última etapa de entrega de un pedido al consumidor final',
 		image: '/images/blog/entregas-de-ultima-milla-para-tu-negocio.png',
 		imageAlt: 'ENTREGAS DE ÚLTIMA MILLA PARA TU NEGOCIO',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'consejos-para-emprendedores',
@@ -37,7 +37,7 @@ const posts = [
 			'Si alguna vez realizaste una compra en línea, entonces sabes lo agradable que es recibir un paquete en tu puerta poco después de ordenarla',
 		image: '/images/blog/servicio-de-almacenamiento-para-tu-ecommerce.png',
 		imageAlt: 'SERVICIO DE ALMACENAMIENTO',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'consejos-para-emprendedores',
@@ -47,7 +47,7 @@ const posts = [
 			'Si tu negocio empieza a crecer y ves la oportunidad de vender en línea, te enfrentas a  un primer desafío y es decidir dónde montar tu tienda',
 		image: '/images/blog/plataformas-ecommerce.png',
 		imageAlt: 'PLATAFORMAS ECOMMERCE',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'consejos-para-emprendedores',
@@ -56,7 +56,7 @@ const posts = [
 		description: '',
 		image: '/images/blog/abc-para-vender-en-dias-sin-iva.png',
 		imageAlt: 'ABC PARA VENDER EN DIAS SIN IVA',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'consejos-para-emprendedores',
@@ -66,7 +66,7 @@ const posts = [
 			'Realizar el inventario es una de las tareas indispensables para cualquier negocio',
 		image: '/images/blog/como-hacer-inventarios.png',
 		imageAlt: 'COMO HACER INVENTARIOS',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'consejos-para-emprendedores',
@@ -78,7 +78,7 @@ const posts = [
 		image: '/images/blog/pautas-para-abrir-mi-tienda-online.jpg',
 		imageAlt:
 			'PAUTAS PARA IDENTIFICAR CUÁNDO DEBES ABRIR TU TIENDA VIRTUAL SI HOY VENDES POR REDES SOCIALES',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'consejos-para-emprendedores',
@@ -90,7 +90,7 @@ const posts = [
 		image: '/images/blog/buenas-practicas-para-emprender.png',
 		imageAlt:
 			'PAUTAS PARA IDENTIFICAR CUÁNDO DEBES ABRIR TU TIENDA VIRTUAL SI HOY VENDES POR REDES SOCIALES',
-		principal: false,
+		last: false,
 	},
 
 	{
@@ -103,7 +103,7 @@ const posts = [
 			'/images/blog/guia-con-todo-lo-que-debes-saber-para-hacer-tu-primer-envio.jpg',
 		imageAlt:
 			'ACABAS DE REALIZAR TU PRIMER ENVÍO, NOS ENCANTA ESTAR DE TU LADO',
-		principal: true,
+		last: true,
 	},
 
 	{
@@ -114,7 +114,7 @@ const posts = [
 			'Si ya cuentas con un emprendimiento digital o estás empezando tu proyecto, es importante tener en cuenta una planeación de marketing que contribuya al cumplimiento de tus objetivos y al crecimiento de tu negocio',
 		image: '/images/blog/marketing-para-tus-envios.jpg',
 		imageAlt: 'MARKETING PARA TUS ENVÍOS',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'envios',
@@ -124,7 +124,7 @@ const posts = [
 			'Un Casillero Inteligente es un espacio de almacenamiento seguro y de fácil acceso',
 		image: '/images/blog/ventajas-envios-casilleros-inteligentes.jpg',
 		imageAlt: 'VENTAJAS DE ENVÍOS CASILLEROS INTELIGENTES',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'envios',
@@ -134,7 +134,7 @@ const posts = [
 			'Diciembre es un mes en el que las compras aumentan y las personas consumen más',
 		image: '/images/blog/pautas-para-envios-de-diciembre.png',
 		imageAlt: '4 PAUTAS PARA QUE TUS ENVÍOS EN DICIEMBRE LLEGUEN A SU DESTINO',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'envios',
@@ -144,7 +144,7 @@ const posts = [
 			'¿Te has preguntado cuál es el proceso que debe pasar un envío para llegar hasta la puerta de tu casa?',
 		image: '/images/blog/detras-de-un-envio.jpg',
 		imageAlt: 'LO QUE OCURRE DETRÁS DE UN ENVÍO',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'envios',
@@ -155,7 +155,7 @@ const posts = [
 		image:
 			'/images/blog/5-recomendaciones-para-enviar-un-paquete-de-tu-tienda-online.png',
 		imageAlt: '5 RECOMENDACIONES PARA ENVIAR UN PAQUETE DE TU TIENDA ONLINE',
-		principal: false,
+		last: false,
 	},
 
 	{
@@ -168,7 +168,7 @@ const posts = [
 		image: '/images/blog/gana-la-batalla-con-una-logistica-eficiente.jpg',
 		imageAlt:
 			'¿PÉRDIDAS O GANANCIAS EN TUS ENTREGAS? GANA LA BATALLA CON UNA LOGÍSTICA EFICIENTE',
-		principal: false,
+		last: true,
 	},
 
 	{
@@ -179,7 +179,7 @@ const posts = [
 			'Si quieres terminar de enamorar a tus clientes, este artículo es perfecto para ti',
 		image: '/images/blog/guia-programa-de-fidelizacion.png',
 		imageAlt: 'GUÍA PARA CREAR TU PROGRAMA DE FIDELIZACIÓN EN 5 PASOS',
-		principal: false,
+		last: false,
 	},
 
 	{
@@ -190,7 +190,7 @@ const posts = [
 			'Actualmente los emprendedores cuentan con un sin fin de opciones para crear sus tiendas online y aumentar ventas',
 		image: '/images/blog/tienda-komercia.png',
 		imageAlt: 'KOMERCIA VENDE MÁS CON LA VERSIÓN 2.0',
-		principal: false,
+		last: false,
 	},
 
 	{
@@ -201,7 +201,7 @@ const posts = [
 			'Actualmente los emprendedores cuentan con un sin fin de opciones para crear sus tiendas online y aumentar ventas',
 		image: '/images/blog/tienda-komercia.png',
 		imageAlt: 'KOMERCIA VENDE MÁS CON LA VERSIÓN 2.0',
-		principal: false,
+		last: false,
 	},
 
 	{
@@ -214,7 +214,7 @@ const posts = [
 		image: '/images/blog/mi-tienda-en-woocommerce.png',
 		imageAlt:
 			'¿POR QUÉ MONTAR UNA TIENDA ONLINE EN WOOCOMMERCE ES UNA BUENA IDEA?',
-		principal: false,
+		last: false,
 	},
 
 	{
@@ -225,7 +225,7 @@ const posts = [
 			'Esta es una de las plataformas más recomendadas para hacer el montaje de tu comercio electrónico. Te contamos cómo puedes sacarle provecho para beneficio de tu negocio',
 		image: '/images/blog/mi-tienda-en-shopify.png',
 		imageAlt: '¿QUÉ VENTAJAS OFRECE SHOPIFY PARA CREAR UNA TIENDA ONLINE?',
-		principal: false,
+		last: false,
 	},
 	{
 		category: 'noticias',
@@ -237,7 +237,7 @@ const posts = [
 		image: '/images/blog/ventas-y-envios-basados-en-datos.png',
 		imageAlt:
 			'EL ANÁLISIS DE DATOS, UNA ESTRATEGIA PARA TOMAR MEJORES DECISIONES EN TU TIENDA ONLINE',
-		principal: false,
+		last: false,
 	},
 ];
 export default posts;

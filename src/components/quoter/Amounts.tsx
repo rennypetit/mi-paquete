@@ -29,14 +29,7 @@ export default function Amounts({ register, errors }) {
 							{...register('quantity', { required: true, min: 1 })}
 							required
 						/>
-						<div className={styles.formIcon}>
-							<Image
-								src='/images/icons/search.svg'
-								alt='icon search'
-								height={20}
-								width={20}
-							/>
-						</div>
+						<div className={styles.formIcon}></div>
 					</div>
 					<div className={styles.errors}>
 						{errors.quantity && <span>This field is required</span>}
@@ -50,9 +43,10 @@ export default function Amounts({ register, errors }) {
 						<input
 							type='number'
 							id='valor'
-							placeholder='10.000'
+							placeholder='$10.000'
+							min={10000}
 							className={styles.formInput}
-							{...register('declaredValue', { required: true })}
+							{...register('declaredValue', { required: true, min: 1 })}
 							required
 						/>
 						<div className={`${styles.formIcon} ${styles.helpInputHover}`}>
@@ -77,8 +71,9 @@ export default function Amounts({ register, errors }) {
 								</div>
 							</div>
 							<div className={styles.helpInputDescription}>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-								Necessitatibus optio, accusantium quasi ullam iure{' '}
+								Recuerda que en caso de pérdida o necesidad de indemnización, el
+								proceso se realizará sobre el valor que haya indicado aquí
+								además del soporte de tu factura.
 							</div>
 						</div>
 					</div>

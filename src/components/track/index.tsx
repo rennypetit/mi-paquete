@@ -25,15 +25,17 @@ export default function Track() {
 
 	const { register, handleSubmit } = useForm<Input>();
 	const onSubmit: SubmitHandler<Input> = async (data) => {
-		document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
+		console.log(data);
+		// document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
 		const response = await getSendingTracking(data.tracking);
-		if (!response || response.message) {
-			setDataTracking({});
-			document.getElementsByTagName('html')[0].style.overflowY = 'auto';
-			return alert('Información no encontrada');
-		}
-		setDataTracking(response);
-		setIsOpenModal(true);
+		console.log(response);
+		// if (!response || response.message) {
+		// 	setDataTracking({});
+		// 	document.getElementsByTagName('html')[0].style.overflowY = 'auto';
+		// 	return alert('Información no encontrada');
+		// }
+		// setDataTracking(response);
+		// setIsOpenModal(true);
 	};
 
 	const handleCloseModal = () => {
@@ -77,7 +79,17 @@ export default function Track() {
 				</p>
 				<form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
 					<div className={styles.group}>
-						<label htmlFor='rastrear'>Número de guía</label>
+						<div className={styles.formIcon}>
+							<select
+								name='unitOfMeasurement'
+								id='unitOfMeasurement'
+								className={styles.formSelect}
+								{...register('unitOfMeasurement', { required: true })}
+							>
+								<option value='guia'>Número de guía</option>
+								<option value='MP'>Código MP</option>
+							</select>
+						</div>
 						<input
 							id='rastrear'
 							type='number'

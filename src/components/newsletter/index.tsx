@@ -4,6 +4,7 @@ import { useForm, SubmitHandler } from 'react-hook-form';
 import WidthContext from '@contexts/width';
 import Modal from '@components/form/Modal';
 import { postForm } from '@services/api';
+import newsletter from '@hooks/newsletter';
 import styles from './Newsletter.module.scss';
 
 type Inputs = {
@@ -22,16 +23,9 @@ export default function Newsletter({ background }) {
 	const { register, handleSubmit } = useForm<Inputs>();
 	const onSubmit: SubmitHandler<Inputs> = async (dataSubmit) => {
 		if (!dataSubmit.check) return alert('Faltan por completar');
-		dataSubmit.fieldValues = [
-			{
-				field: '98', // Número de envíos realizados
-				value: '120',
-			},
-		];
-		// remove data
-		const { check, ...body } = dataSubmit;
+
+		const body = newsletter(dataSubmit);
 		const response = await postForm(body);
-		console.log(response);
 		if (response.contacts) {
 			document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
 			setIsOpenModal(true);

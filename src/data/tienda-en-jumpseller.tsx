@@ -159,7 +159,7 @@ export const question = [
 	},
 	{
 		title: '¿Cómo debo configurar mi plugin?',
-		description: `<p>Configurar el plugin es rápido y sencillo, en solo 5 pasos lo conseguirás. En el siguiente video te mostramos cómo hacerlo: <a href="https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj">https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj</a></p>`,
+		description: `<p>Configurar el plugin es rápido y sencillo, en solo 5 pasos lo conseguirás. En el siguiente video te mostramos cómo hacerlo: <a href=" https://bit.ly/3yBfVNf"> https://bit.ly/3yBfVNf</a></p>`,
 	},
 	{
 		title: '¿Manejan un mínimo de envíos para utilizar su plugin? ',

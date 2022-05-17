@@ -1,4 +1,5 @@
 import { TypesBanner } from '@components/banner/types';
+import { TypeButton } from '../types/global';
 
 export const banner: TypesBanner = {
 	orientation: '',
@@ -59,7 +60,8 @@ export const commercial = {
 	alt: 'background primer envio',
 	button: {
 		title: 'CONOCE MÁS',
-		url: '#',
+		url: 'https://app.mipaquete.com/',
 		color: 'buttonWhite',
+		type: TypeButton.blank,
 	},
 };

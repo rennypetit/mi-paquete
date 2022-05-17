@@ -56,7 +56,8 @@ export const commercial = {
 	alt: 'background commercials',
 	button: {
 		title: 'REGÍSTRATE',
-		url: '#',
+		url: 'https://app.mipaquete.com/registro',
 		color: 'buttonWhite',
+		type: TypeButton.blank,
 	},
 };

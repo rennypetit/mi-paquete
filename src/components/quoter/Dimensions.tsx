@@ -149,7 +149,7 @@ export default function Dimensions({ register, errors, watch }) {
 								id='weight'
 								min={1}
 								max={150000}
-								placeholder='$10.000'
+								placeholder='10'
 								className={styles.formInput}
 								{...register('weight', { required: true, min: 1, max: 250000 })}
 								required
@@ -163,8 +163,8 @@ export default function Dimensions({ register, errors, watch }) {
 								className={styles.formSelect}
 								{...register('unitOfMeasurement', { required: true })}
 							>
-								<option value='Kg'>KG</option>
-								<option value='Gr'>GR</option>
+								<option value='kg'>KG</option>
+								<option value='g'>GR</option>
 							</select>
 						</div>
 					</div>
