@@ -7,7 +7,7 @@ export const media = {
 		{
 			image: '/images/media/antioquia.png',
 			alt: 'logo antioquia',
-			title: 'MI PAQUETE REVOLUCIONA LA LOGÍSTICA',
+			title: 'ACTITUD POSITIVA, CLAVE PARA SACAR ADELANTE...',
 			url: 'https://youtu.be/_6tjajW7bdw',
 		},
 		{

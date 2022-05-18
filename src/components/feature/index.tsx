@@ -34,6 +34,7 @@ export default function Feature({
 					<iframe
 						width='560'
 						height='315'
+						loading='lazy'
 						src={items.video}
 						title='YouTube video player'
 						frameBorder='0'

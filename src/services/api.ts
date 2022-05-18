@@ -14,7 +14,7 @@ export const getLocations = async (): Promise<Object> => {
 		);
 		return await res.json();
 	} catch (error) {
-		alert('Ocurrió un error, intente más tarde');
+		// alert('Ocurrió un error, intente más tarde');
 		console.error(error);
 		return {};
 	}
