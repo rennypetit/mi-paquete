@@ -6,19 +6,19 @@ export const items = [
 		subItems: [
 			{
 				title: 'Envíos tradicionales',
-				url: '/envios-tradicionales',
+				url: '/soluciones-ecommerce/envios-tradicionales',
 			},
 			{
 				title: 'Envíos Pago Contra Entrega',
-				url: '/envios-pago-contraentrega',
+				url: '/soluciones-ecommerce/envios-pago-contraentrega',
 			},
 			{
 				title: 'Almacenamiento',
-				url: '/almacenamiento',
+				url: '/soluciones-ecommerce/almacenamiento',
 			},
 			{
 				title: 'Pasarela de envíos',
-				url: '/pasarela-de-envios',
+				url: '/soluciones-ecommerce/pasarela-de-envios',
 			},
 		],
 	},
@@ -27,27 +27,27 @@ export const items = [
 		subItems: [
 			{
 				title: 'Integraciones',
-				url: '/conecta-tu-ecommerce',
+				url: '/conecta-tu-tiendavirtual/conecta-tu-ecommerce',
 			},
 			{
 				title: 'Shopify',
-				url: '/tienda-en-shopify',
+				url: '/conecta-tu-tiendavirtual/tienda-en-shopify',
 			},
 			{
 				title: 'Woocommerce',
-				url: '/tienda-en-woocommerce',
+				url: '/conecta-tu-tiendavirtual/tienda-en-woocommerce',
 			},
 			{
 				title: 'Jumpseller',
-				url: '/tienda-en-jumpseller',
+				url: '/conecta-tu-tiendavirtual/tienda-en-jumpseller',
 			},
 			{
 				title: 'Komercia',
-				url: '/tienda-en-komercia',
+				url: '/conecta-tu-tiendavirtual/tienda-en-komercia',
 			},
 			{
 				title: 'Vía API',
-				url: '/api-integracion',
+				url: '/conecta-tu-tiendavirtual/api-integracion',
 			},
 		],
 	},
@@ -56,15 +56,15 @@ export const items = [
 		subItems: [
 			{
 				title: 'Emprendedor digital',
-				url: '/emprendedor-digital',
+				url: '/beneficios-a-tu-medida/emprendedor-digital',
 			},
 			{
 				title: 'Ecommerce medianos',
-				url: '/ecommerce-medianos',
+				url: '/beneficios-a-tu-medida/ecommerce-medianos',
 			},
 			{
 				title: 'Grandes ecommerce',
-				url: '/grandes-ecommerce',
+				url: '/beneficios-a-tu-medida/grandes-ecommerce',
 			},
 		],
 	},

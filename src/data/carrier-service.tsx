@@ -1,6 +1,12 @@
 import { TypesBanner } from '@components/banner/types';
 import { TypeButton, TypeDescription } from '@types/global';
 
+export const metaTags = {
+	title: 'Shopify Carrier service | Mi Paquete',
+	description:
+		'Si tienes una tienda en Shopify, adquirir Carrier Service permitirá a tus clientes ver el precio de su envío automáticamente al comprar tus productos',
+};
+
 export const banner: TypesBanner = {
 	orientation: '',
 	title: `<h1>Servicio de transportadora Shopify <br /><span>Carrier Service</span></h1>`,

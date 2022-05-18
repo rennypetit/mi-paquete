@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Head from '@components/Head';
 import Layout from 'layout';
 import Card from '@components/cards/Card';
 import BannerWorks from '@components/banner/BannerWorks';
@@ -7,23 +8,30 @@ import Newsletter from '@components/newsletter';
 import Fixed from '@components/fixed';
 
 // only data of components
-import { cards, banner, testimonials } from '@data/trabaja-con-nosotros';
+import {
+	cards,
+	banner,
+	testimonials,
+	metaTags,
+} from '@data/trabaja-con-nosotros';
 
 import styles from './workWithUs.module.scss';
 const workWithUs: NextPage = () => {
 	return (
-		<Layout>
-			{/* slider of banner */}
-			<main className={styles.main}>
-				<BannerWorks data={banner} />
-				{/* <Card data={cards} /> */}
-			</main>
-			<div className={`container ${styles.margin_container}`}>
-				<Testimonial data={testimonials} />
-			</div>
-			<Newsletter background={'secondary'} />
-			<Fixed />
-		</Layout>
+		<>
+			<Head data={metaTags} />
+			<Layout>
+				<main className={styles.main}>
+					<BannerWorks data={banner} />
+					{/* <Card data={cards} /> */}
+				</main>
+				<div className={`container ${styles.margin_container}`}>
+					<Testimonial data={testimonials} />
+				</div>
+				<Newsletter background={'secondary'} />
+				<Fixed />
+			</Layout>
+		</>
 	);
 };
 

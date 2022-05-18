@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from '@components/Head';
 import Layout from 'layout';
 import BlogCard from '@components/blog/BlogCard';
 import Shared from '@components/blog/Shared';
@@ -11,12 +11,7 @@ export default function pageblog({ data }) {
 	if (!data) return '';
 	return (
 		<>
-			<Head>
-				<meta
-					content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no'
-					name='viewport'
-				/>
-			</Head>
+			<Head />
 			<Layout>
 				<div className={styles.wrapper}>
 					<article>
@@ -47,7 +42,7 @@ export const getServerSideProps = async ({ params }) => {
 
 	try {
 		const res = await fetch(
-			`http://localhost:3000/api/blog?category=${params.category}&post=${params.slug}`
+			`${process.env.NEXT_PUBLIC_HOST}/api/blog?category=${params.category}&post=${params.slug}`
 		);
 		const { data } = await res.json();
 		return {

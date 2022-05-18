@@ -1,6 +1,12 @@
 import { TypesBanner } from '@components/banner/types';
 import { TypeButton, TypeDescription } from '@types/global';
 
+export const metaTags = {
+	title: 'Automatización de envíos para tiendas virtuales | Mi Paquete',
+	description:
+		'Automatiza envíos de tu tienda en Shopify, WooCommerce, Jumpseller, Komercia o integra tu tienda vía API sin importar en qué plataforma esté alojada.',
+};
+
 export const banner: TypesBanner = {
 	orientation: 'orientationLeft',
 	title: `<h1>Beneficios para ecommerce medianos<span> Para comercios electrónicos que hagan entre 500 y 5.000 envíos mensuales</span></h1>`,

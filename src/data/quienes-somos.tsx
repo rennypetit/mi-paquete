@@ -1,6 +1,12 @@
 import { TypeButton, TypeDescription } from '@types/global';
 import { TypesBanner } from '@components/banner/types';
 
+export const metaTags = {
+	title: 'Nosotros | Mi Paquete',
+	description:
+		'Mi Paquete, una startup Colombiana dedicada a ayudar en el proceso de logística de envíos de ecommerce y social sellers con plataformas tecnológicas.',
+};
+
 export const banner: TypesBanner = {
 	title: `<h1>¿Quiénes somos?</h1>`,
 	subtitle: '',

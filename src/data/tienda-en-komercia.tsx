@@ -1,6 +1,12 @@
 import { TypesBanner } from '@components/banner/types';
 import { TypeButton, TypeDescription } from '@types/global';
 
+export const metaTags = {
+	title: 'Automatización de envíos para tiendas virtuales | Mi Paquete',
+	description:
+		'Automatiza envíos de tu tienda en Shopify, WooCommerce, Jumpseller, Komercia o integra tu tienda vía API sin importar en qué plataforma esté alojada.',
+};
+
 export const banner: TypesBanner = {
 	title: `<h1>¿Tienes una <strong>tienda en Komercia? <br /></strong><span>Realiza tus envíos en segundos</span></h1>`,
 	description:

@@ -1,0 +1,45 @@
+@import '../../../styles/variables';
+.banner {
+  padding-bottom: 50px;
+  h1 {
+    font-weight: 100;
+    span {
+      padding-top: 10px;
+      display: block;
+      font-size: 2rem;
+      font-family: $font_primary_bold;
+    }
+  }
+  button,
+  a {
+    div {
+      width: 280px !important;
+    }
+  }
+}
+
+.features {
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.containerCommercial {
+  padding: 20px 5%;
+  margin-bottom: 80px;
+  & > section {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerCommercial {
+    padding: 20px 10%;
+  }
+  .features {
+    text-align: initial;
+  }
+}

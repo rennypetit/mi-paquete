@@ -1,6 +1,12 @@
 import { TypesBannerBackground } from '@components/banner/types';
 import { TypeButton } from '@types/global';
 
+export const metaTags = {
+	title: 'Centro de ayuda | Mi Paquete',
+	description:
+		'¿Tienes preguntas sobre nuestros servicios? En nuestro centro de ayuda podrás obtener soporte técnico, consultar tus recaudos, recibir asesoría y más.',
+};
+
 export const banner: TypesBannerBackground = {
 	orientation: '',
 	title: 'Centro de ayuda Mi Paquete',

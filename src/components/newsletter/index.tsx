@@ -20,7 +20,7 @@ export default function Newsletter({ background }) {
 	const { widthViewport }: any = useContext(WidthContext);
 	const [isOpenModal, setIsOpenModal] = useState(false);
 
-	const { register, handleSubmit } = useForm<Inputs>();
+	const { register, handleSubmit, resetField } = useForm<Inputs>();
 	const onSubmit: SubmitHandler<Inputs> = async (dataSubmit) => {
 		if (!dataSubmit.check) return alert('Faltan por completar');
 
@@ -29,6 +29,8 @@ export default function Newsletter({ background }) {
 		if (response.contacts) {
 			document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
 			setIsOpenModal(true);
+			resetField('email');
+			resetField('check');
 		} else {
 			alert('Ocurrió un error, intente más tarde');
 		}

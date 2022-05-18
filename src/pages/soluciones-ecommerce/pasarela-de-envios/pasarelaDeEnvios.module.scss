@@ -1,0 +1,23 @@
+@import '../../../styles/variables';
+.commercialTwo {
+  margin-bottom: 100px;
+}
+.background {
+  margin: 0;
+  padding: 0px;
+}
+
+// desktop {
+@media (min-width: 1024px) {
+  .background {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .commercial {
+    & > section {
+      height: 820px !important;
+    }
+  }
+}

@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import styles from './Modal.module.scss';
 const Modal = ({ data, handleCloseModal }) => {
-	console.log(data);
 	if (!data) return null;
 	return (
 		<div className={`${styles.container}}`}>
@@ -92,9 +91,7 @@ const Modal = ({ data, handleCloseModal }) => {
 											></div>
 										)}
 									</div>
-									<p className={styles.submitItemsTitle}>
-										{item.updateState} {index}
-									</p>
+									<p className={styles.submitItemsTitle}>{item.updateState}</p>
 								</div>
 							))}
 						</div>

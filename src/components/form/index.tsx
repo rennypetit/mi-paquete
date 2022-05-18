@@ -14,6 +14,7 @@ const Form = ({ data, background, pageAgencias = false }) => {
 	const {
 		register,
 		handleSubmit,
+		resetField,
 		formState: { errors },
 	} = useForm<Inputs>({
 		resolver: yupResolver(schema),
@@ -27,7 +28,7 @@ const Form = ({ data, background, pageAgencias = false }) => {
 		if (!pageAgencias) {
 			dataSubmit.fieldValues = [
 				{
-					field: '98', // Número de envíos realizados
+					field: '105', // Número de envíos realizados
 					value: dataSubmit.averageShipments,
 				},
 			];
@@ -41,6 +42,11 @@ const Form = ({ data, background, pageAgencias = false }) => {
 		if (response.contacts) {
 			document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
 			setIsOpenModal(true);
+			resetField('name');
+			resetField('surname');
+			resetField('email');
+			resetField('phone');
+			resetField('check');
 		} else {
 			alert('Ocurrió un error, intente más tarde');
 		}

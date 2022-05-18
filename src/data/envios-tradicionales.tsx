@@ -1,6 +1,12 @@
 import { TypeButton, TypeDescription } from '@types/global';
 import { TypesBanner } from '@components/banner/types';
 
+export const metaTags = {
+	title: 'Soluciones logística de envíos para ecommerce | Mi Paquete',
+	description:
+		'Adquiere envíos con pago contra entrega, envíos tradicionales, almacenamiento de mercancía y diferentes transportadoras de envíos para tu ecommerce..',
+};
+
 export const banner: TypesBanner = {
 	title: `<h1>Envíos tradicionales <br /><span>Comparador de costos de envío</span></h1>`,
 	subtitle: '',

@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Head from '@components/Head';
 import Layout from 'layout';
 import Banner from '@components/banner/BannerHelp';
 import Card from '@components/cards/CardHelp';

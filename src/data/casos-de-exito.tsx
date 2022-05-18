@@ -1,5 +1,11 @@
 import { TypeButton } from '@types/global';
 
+export const metaTags = {
+	title: 'Casos de éxito | Mi Paquete',
+	description:
+		'Conoce las empresas que han logrado sus metas y han adquirido mejores resultados mejorando su logística de envíos gracias a Mi Paquete',
+};
+
 export const cards = {
 	title: '<h1>Casos <span>de éxito</span></h1>',
 	description: '',

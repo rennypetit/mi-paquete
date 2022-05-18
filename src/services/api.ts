@@ -2,14 +2,16 @@ import { Inputs } from '@components/form/types';
 
 export const getLocations = async (): Promise<Object> => {
 	try {
-		const res = await fetch(`${process.env.NEXT_PUBLIC_URL_LOCATION}` || '', {
-			headers: {
-				'session-tracker':
-					process.env.NEXT_PUBLIC_SESSION_TRACKER_LOCATION || '',
-				apikey: process.env.NEXT_PUBLIC_API_KEY_LOCATION || '',
-				'Content-Type': 'application/json',
-			},
-		});
+		const res = await fetch(
+			`${process.env.NEXT_PUBLIC_API_MI_PAQUETE}/getLocations` || '',
+			{
+				headers: {
+					'session-tracker': process.env.NEXT_PUBLIC_SESSION_MI_PAQUETE || '',
+					apikey: process.env.NEXT_PUBLIC_API_KEY_MI_PAQUETE || '',
+					'Content-Type': 'application/json',
+				},
+			}
+		);
 		return await res.json();
 	} catch (error) {
 		alert('Ocurrió un error, intente más tarde');
@@ -21,13 +23,12 @@ export const getLocations = async (): Promise<Object> => {
 export const getSendingTracking = async (tracking: number): Promise<Object> => {
 	try {
 		const res = await fetch(
-			`${process.env.NEXT_PUBLIC_API_TRACKING}?mpCode=${tracking}` || '',
+			`${process.env.NEXT_PUBLIC_API_MI_PAQUETE}/getSendingTracking?mpCode=${tracking}` ||
+				'',
 			{
 				headers: {
-					'session-tracker':
-						process.env.NEXT_PUBLIC_SESSION_TRACKER_TRACKING || '',
-					apikey: process.env.NEXT_PUBLIC_API_KEY_TRACKING || '',
-					'Content-Type': 'application/json',
+					'session-tracker': process.env.NEXT_PUBLIC_SESSION_MI_PAQUETE || '',
+					apikey: process.env.NEXT_PUBLIC_API_KEY_MI_PAQUETE || '',
 				},
 			}
 		);
@@ -41,15 +42,20 @@ export const getSendingTracking = async (tracking: number): Promise<Object> => {
 
 export const postForm = async (data: Inputs): Promise<Object> => {
 	try {
-		const res = await fetch(process.env.NEXT_PUBLIC_URL_FORM || '', {
-			method: 'POST',
-			body: JSON.stringify(data),
-			headers: {
-				'session-tracker': process.env.NEXT_PUBLIC_SESSION_TRACKER_FORM || '',
-				'customer-key': process.env.NEXT_PUBLIC_CUSTOMER_KEY_FORM || '',
-				'Content-Type': 'application/json',
-			},
-		});
+		const res = await fetch(
+			`${process.env.NEXT_PUBLIC_API_FORM_MI_PAQUETE}/users/createUserAC` || '',
+			{
+				method: 'POST',
+				body: JSON.stringify(data),
+				headers: {
+					'session-tracker':
+						process.env.NEXT_PUBLIC_FORM_SESSION_KEY_MI_PAQUETE || '',
+					'customer-key':
+						process.env.NEXT_PUBLIC_FORM_SESSION_KEY_MI_PAQUETE || '',
+					'Content-Type': 'application/json',
+				},
+			}
+		);
 		return await res.json();
 	} catch (error) {
 		alert('Ocurrió un error, intente más tarde');

@@ -63,6 +63,12 @@ export const banners: TypesBannerSlider = [
 	},
 ];
 
+export const metaTags = {
+	title: 'Servicio de envío de paquetes | Mi Paquete',
+	description:
+		'Adquiere servicios de mensajería con pago contra entrega, envíos WooCommerce, mensajería para tiendas de Shopify, almacenamiento de paquetes y más.',
+};
+
 export const services = [
 	{
 		image: '/images/services/pago-contra-entrega.svg',

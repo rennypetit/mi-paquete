@@ -1,6 +1,12 @@
 import { TypeButton } from '@types/global';
 import { TypesBanner } from '@components/banner/types';
 
+export const metaTags = {
+	title: 'Trabaja con nosotros | Mi Paquete',
+	description:
+		'Conoce las vacantes de empleo disponibles para diferentes cargos en nuestras áreas de trabajo. Aplica a la vacante que más se adapte a tu perfil',
+};
+
 export const banner: TypesBanner = {
 	title: '<h1>Trabaja con <span>nosotros</span></h1>',
 	description:

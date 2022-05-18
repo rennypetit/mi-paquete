@@ -16,13 +16,13 @@ import styles from './Quoter.module.scss';
 export default function Quoter() {
 	const selectOrigin = useRef(null);
 	const selectDestiny = useRef(null);
-	const refUnitOfMeasurement = useRef('Kg');
 	const router = useRouter();
 
 	const {
 		register,
 		handleSubmit,
 		watch,
+		resetField,
 		formState: { errors },
 	} = useForm<Inputs>();
 	const onSubmit: SubmitHandler<Inputs> = async (data) => {
@@ -30,8 +30,20 @@ export default function Quoter() {
 			return alert('Debe llenar la ciudad de origen');
 		if (!selectDestiny.current?.props?.value?.value)
 			return alert('Debe llenar la ciudad de destino');
+		if (
+			selectOrigin.current?.props?.value?.value ===
+			selectDestiny.current?.props?.value?.value
+		)
+			return alert('El origin y destino deben ser distintos.');
 		data.origin = selectOrigin.current.props.value.value;
 		data.destiny = selectDestiny.current.props.value.value;
+
+		resetField('height');
+		resetField('width');
+		resetField('length');
+		resetField('weight');
+		resetField('quantity');
+		resetField('declaredValue');
 		router.push(
 			`https://app.mipaquete.com/cotizacion?quoteShipping=${JSON.stringify(
 				data

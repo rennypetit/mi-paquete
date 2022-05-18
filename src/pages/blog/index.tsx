@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { NextPage } from 'next';
+import Head from '@components/Head';
 import Layout from 'layout';
 import Fixed from '@components/fixed';
 import BannerBlog from '@components/banner/BannerBlog';
@@ -27,21 +28,24 @@ const Blog: NextPage = () => {
 	};
 	const lastPosts = posts.filter((element) => element.last === true);
 	return (
-		<Layout>
-			<BannerBlog />
-			<h2 className={styles.title}>
-				¿Qué quieres <strong>descubrir hoy?</strong>
-			</h2>
-			<NavCategories handleChangeFilter={handleChangeFilter} />
-			<GridCards dataBlog={dataBlog} />
-			<hr className={styles.hr} />
-			<h2 className={styles.title}>
-				Últimas <strong>entradas</strong>
-			</h2>
-			<FeaturedPost data={lastPosts[0]} />
-			<GridCards dataBlog={lastPosts} />
-			<Fixed />
-		</Layout>
+		<>
+			<Head />
+			<Layout>
+				<BannerBlog />
+				<h2 className={styles.title}>
+					¿Qué quieres <strong>descubrir hoy?</strong>
+				</h2>
+				<NavCategories handleChangeFilter={handleChangeFilter} />
+				<GridCards dataBlog={dataBlog} />
+				<hr className={styles.hr} />
+				<h2 className={styles.title}>
+					Últimas <strong>entradas</strong>
+				</h2>
+				<FeaturedPost data={lastPosts[0]} />
+				<GridCards dataBlog={lastPosts} />
+				<Fixed />
+			</Layout>
+		</>
 	);
 };
 

@@ -1,5 +1,11 @@
 import { TypeButton } from '@types/global';
 
+export const metaTags = {
+	title: 'Automatización de envíos para tiendas virtuales | Mi Paquete',
+	description:
+		'Automatiza envíos de tu tienda en Shopify, WooCommerce, Jumpseller, Komercia o integra tu tienda vía API sin importar en qué plataforma esté alojada.',
+};
+
 export const cards = [
 	{
 		image: '/images/ecommerce/shopify.png',
@@ -67,7 +73,7 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '/api-integracion',
+			url: '/conecta-tu-tiendavirtual/api-integracion',
 			type: TypeButton.link,
 		},
 	},

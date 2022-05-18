@@ -1,0 +1,49 @@
+@import '../../../styles/variables';
+.banner{
+  button,
+  a {
+    div {
+      font-size: 1.6rem;
+      width: 260px !important;
+    }
+  }
+}
+.benefit {
+  text-align: center;
+  margin-bottom: 60px;
+  .benefitTitle {
+    font-size: 2rem;
+  }
+  .benefitDescription {
+    color:$color_secondary;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 30px;
+  }
+  .benefitButton {
+    margin: auto;
+    font-size: 1.6rem;
+    width: 250px;
+    a {
+      width: 100%;
+    }
+    div {
+      width: 100%;
+    }
+  }
+}
+.plan {
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.containerPlans {
+  padding-top: 20px;
+}
+
+// desktop {
+@media (min-width: 1024px) {
+  .containerPlans {
+      padding-top: 0px;
+    }
+}
