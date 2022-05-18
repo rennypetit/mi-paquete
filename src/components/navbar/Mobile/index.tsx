@@ -28,8 +28,8 @@ export default function Navbar() {
 							<Image
 								src='/images/logo.svg'
 								alt='logo'
-								width={142}
-								height={86}
+								width={284}
+								height={182}
 							/>
 						</a>
 					</Link>

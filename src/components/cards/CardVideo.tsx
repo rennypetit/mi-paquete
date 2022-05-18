@@ -13,9 +13,10 @@ const CardVideo = ({ items }) => {
 						key={index}
 					>
 						<iframe
+							src={item.video}
+							loading='lazy'
 							width='336'
 							height='239'
-							src={item.video}
 							title='YouTube video player'
 							frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'

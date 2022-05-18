@@ -10,9 +10,10 @@ export default function Feature({ items }) {
 				`Symbol(${TypeDescription.video})` ? (
 					<div className={`${styles.video} video`}>
 						<iframe
+							src={items.video}
+							loading='lazy'
 							width='560'
 							height='315'
-							src={items.video}
 							title='YouTube video player'
 							frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
