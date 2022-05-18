@@ -4,7 +4,7 @@ import styles from './BlogCard.module.scss';
 export default function BlogCard({ data, blog = false }) {
 	return (
 		<div className={`${styles.card} ${!blog && styles.cardWidth}`}>
-			<Link href={`/blog/${data.category}/${data.url}`}>
+			<Link href={`/blog/${data.category}${data.url}`}>
 				<a>
 					<div className={styles.image}>
 						<Image

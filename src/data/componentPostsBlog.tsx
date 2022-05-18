@@ -6,7 +6,7 @@ const posts = [
 		description:
 			'Aquí hay cinco consejos que puedes implementar de inmediato para evitar...',
 		image: '/images/blog/5-consejos-rapidos-para-activar-tu-comercio.jpg',
-		imageAlt: '5 CONSEJOS RÁPIDOS PARA ACTIVAR TU COMERCIO',
+		alt: '5 CONSEJOS RÁPIDOS PARA ACTIVAR TU COMERCIO',
 		last: true,
 	},
 	{
@@ -16,7 +16,7 @@ const posts = [
 		description:
 			'Si estás buscando formas de aumentar la rentabilidad de tu empresa...',
 		image: '/images/blog/8-razones-banner.jpg',
-		imageAlt: '¿POR QUÉ ES IMPORTANTE EL SERVICIO AL CLIENTE?',
+		alt: '¿POR QUÉ ES IMPORTANTE EL SERVICIO AL CLIENTE?',
 		last: true,
 	},
 	{
@@ -26,7 +26,7 @@ const posts = [
 		description:
 			'Es la última etapa de entrega de un pedido al consumidor final',
 		image: '/images/blog/entregas-de-ultima-milla-para-tu-negocio.png',
-		imageAlt: 'ENTREGAS DE ÚLTIMA MILLA PARA TU NEGOCIO',
+		alt: 'ENTREGAS DE ÚLTIMA MILLA PARA TU NEGOCIO',
 		last: false,
 	},
 	{
@@ -36,7 +36,7 @@ const posts = [
 		description:
 			'Si alguna vez realizaste una compra en línea, entonces sabes lo agradable....',
 		image: '/images/blog/servicio-de-almacenamiento-para-tu-ecommerce.png',
-		imageAlt: 'SERVICIO DE ALMACENAMIENTO',
+		alt: 'SERVICIO DE ALMACENAMIENTO',
 		last: false,
 	},
 	{
@@ -46,7 +46,7 @@ const posts = [
 		description:
 			'Si tu negocio empieza a crecer y ves la oportunidad de vender en línea...',
 		image: '/images/blog/plataformas-ecommerce.png',
-		imageAlt: 'PLATAFORMAS ECOMMERCE',
+		alt: 'PLATAFORMAS ECOMMERCE',
 		last: false,
 	},
 	{
@@ -56,7 +56,7 @@ const posts = [
 		description:
 			'Complementos de vestuario, Electrodomésticos, computadores...',
 		image: '/images/blog/abc-para-vender-en-dias-sin-iva.png',
-		imageAlt: 'ABC PARA VENDER EN DIAS SIN IVA',
+		alt: 'ABC PARA VENDER EN DIAS SIN IVA',
 		last: false,
 	},
 	{
@@ -66,7 +66,7 @@ const posts = [
 		description:
 			'Realizar el inventario es una de las tareas indispensables para cualquier negocio',
 		image: '/images/blog/como-hacer-inventarios.png',
-		imageAlt: 'COMO HACER INVENTARIOS',
+		alt: 'COMO HACER INVENTARIOS',
 		last: false,
 	},
 	{
@@ -76,7 +76,7 @@ const posts = [
 		description:
 			'La información que obtienes en tus gestiones diarias es un insumo...',
 		image: '/images/blog/pautas-para-abrir-mi-tienda-online.jpg',
-		imageAlt: 'PAUTAS PARA IDENTIFICAR CUÁNDO DEBES ABRIR TU TIENDA VIRTUAL',
+		alt: 'PAUTAS PARA IDENTIFICAR CUÁNDO DEBES ABRIR TU TIENDA VIRTUAL',
 		last: false,
 	},
 	{
@@ -86,7 +86,7 @@ const posts = [
 		description:
 			'En mipaquete.com entendemos que puedes tener muchas dudas si estás...',
 		image: '/images/blog/buenas-practicas-para-emprender.png',
-		imageAlt: 'PAUTAS PARA IDENTIFICAR CUÁNDO DEBES ABRIR TU TIENDA VIRTUAL',
+		alt: 'PAUTAS PARA IDENTIFICAR CUÁNDO DEBES ABRIR TU TIENDA VIRTUAL',
 		last: false,
 	},
 
@@ -97,8 +97,7 @@ const posts = [
 		description: 'Te recomendamos que guardes está página en tus favoritos...',
 		image:
 			'/images/blog/guia-con-todo-lo-que-debes-saber-para-hacer-tu-primer-envio.jpg',
-		imageAlt:
-			'ACABAS DE REALIZAR TU PRIMER ENVÍO, NOS ENCANTA ESTAR DE TU LADO',
+		alt: 'ACABAS DE REALIZAR TU PRIMER ENVÍO, NOS ENCANTA ESTAR DE TU LADO',
 		last: true,
 	},
 
@@ -109,7 +108,7 @@ const posts = [
 		description:
 			'Si ya cuentas con un emprendimiento digital o estás empezando...',
 		image: '/images/blog/marketing-para-tus-envios.jpg',
-		imageAlt: 'MARKETING PARA TUS ENVÍOS',
+		alt: 'MARKETING PARA TUS ENVÍOS',
 		last: false,
 	},
 	{
@@ -119,7 +118,7 @@ const posts = [
 		description:
 			'Un Casillero Inteligente es un espacio de almacenamiento seguro...',
 		image: '/images/blog/ventajas-envios-casilleros-inteligentes.jpg',
-		imageAlt: 'VENTAJAS DE ENVÍOS CASILLEROS INTELIGENTES',
+		alt: 'VENTAJAS DE ENVÍOS CASILLEROS INTELIGENTES',
 		last: false,
 	},
 	{
@@ -128,7 +127,7 @@ const posts = [
 		title: '4 PAUTAS PARA QUE TUS ENVÍOS EN DICIEMBRE LLEGUEN A SU DESTINO',
 		description: 'Diciembre es un mes en el que las compras aumentan...',
 		image: '/images/blog/pautas-para-envios-de-diciembre.png',
-		imageAlt: '4 PAUTAS PARA QUE TUS ENVÍOS EN DICIEMBRE LLEGUEN A SU DESTINO',
+		alt: '4 PAUTAS PARA QUE TUS ENVÍOS EN DICIEMBRE LLEGUEN A SU DESTINO',
 		last: false,
 	},
 	{
@@ -137,7 +136,7 @@ const posts = [
 		title: 'LO QUE OCURRE DETRÁS DE UN ENVÍO',
 		description: '¿Te has preguntado cuál es el proceso que debe pasar...?',
 		image: '/images/blog/detras-de-un-envio.jpg',
-		imageAlt: 'LO QUE OCURRE DETRÁS DE UN ENVÍO',
+		alt: 'LO QUE OCURRE DETRÁS DE UN ENVÍO',
 		last: false,
 	},
 	{
@@ -147,7 +146,7 @@ const posts = [
 		description: 'Si quieres ganar la confianza de tus clientes, lograr...',
 		image:
 			'/images/blog/5-recomendaciones-para-enviar-un-paquete-de-tu-tienda-online.png',
-		imageAlt: '5 RECOMENDACIONES PARA ENVIAR UN PAQUETE DE TU TIENDA ONLINE',
+		alt: '5 RECOMENDACIONES PARA ENVIAR UN PAQUETE DE TU TIENDA ONLINE',
 		last: false,
 	},
 
@@ -159,8 +158,7 @@ const posts = [
 		description:
 			'Los clientes quieren saber cuándo pueden esperar su entrega en...',
 		image: '/images/blog/gana-la-batalla-con-una-logistica-eficiente.jpg',
-		imageAlt:
-			'¿PÉRDIDAS O GANANCIAS EN TUS ENTREGAS? GANA LA BATALLA CON UNA LOGÍSTICA EFICIENTE',
+		alt: '¿PÉRDIDAS O GANANCIAS EN TUS ENTREGAS? GANA LA BATALLA CON UNA LOGÍSTICA EFICIENTE',
 		last: true,
 	},
 
@@ -171,7 +169,7 @@ const posts = [
 		description:
 			'Si quieres terminar de enamorar a tus clientes, este artículo...',
 		image: '/images/blog/guia-programa-de-fidelizacion.png',
-		imageAlt: 'GUÍA PARA CREAR TU PROGRAMA DE FIDELIZACIÓN EN 5 PASOS',
+		alt: 'GUÍA PARA CREAR TU PROGRAMA DE FIDELIZACIÓN EN 5 PASOS',
 		last: false,
 	},
 
@@ -182,7 +180,7 @@ const posts = [
 		description:
 			'Actualmente los emprendedores cuentan con un sin fin de opciones...',
 		image: '/images/blog/tienda-komercia.png',
-		imageAlt: 'KOMERCIA VENDE MÁS CON LA VERSIÓN 2.0',
+		alt: 'KOMERCIA VENDE MÁS CON LA VERSIÓN 2.0',
 		last: false,
 	},
 
@@ -193,7 +191,7 @@ const posts = [
 		description:
 			'Actualmente los emprendedores cuentan con un sin fin de opciones...',
 		image: '/images/blog/tienda-komercia.png',
-		imageAlt: 'KOMERCIA VENDE MÁS CON LA VERSIÓN 2.0',
+		alt: 'KOMERCIA VENDE MÁS CON LA VERSIÓN 2.0',
 		last: false,
 	},
 
@@ -205,8 +203,7 @@ const posts = [
 		description:
 			'En la actualidad los emprendedores cuentan con muchas opciones para...',
 		image: '/images/blog/mi-tienda-en-woocommerce.png',
-		imageAlt:
-			'¿POR QUÉ MONTAR UNA TIENDA ONLINE EN WOOCOMMERCE ES UNA BUENA IDEA?',
+		alt: '¿POR QUÉ MONTAR UNA TIENDA ONLINE EN WOOCOMMERCE ES UNA BUENA IDEA?',
 		last: false,
 	},
 
@@ -217,7 +214,7 @@ const posts = [
 		description:
 			'Esta es una de las plataformas más recomendadas para hacer...',
 		image: '/images/blog/mi-tienda-en-shopify.png',
-		imageAlt: '¿QUÉ VENTAJAS OFRECE SHOPIFY PARA CREAR UNA TIENDA ONLINE?',
+		alt: '¿QUÉ VENTAJAS OFRECE SHOPIFY PARA CREAR UNA TIENDA ONLINE?',
 		last: false,
 	},
 	{
@@ -228,8 +225,7 @@ const posts = [
 		description:
 			'La información que obtienes en tus gestiones diarias es un...',
 		image: '/images/blog/ventas-y-envios-basados-en-datos.png',
-		imageAlt:
-			'EL ANÁLISIS DE DATOS, UNA ESTRATEGIA PARA TOMAR MEJORES DECISIONES EN TU TIENDA ONLINE',
+		alt: 'EL ANÁLISIS DE DATOS, UNA ESTRATEGIA PARA TOMAR MEJORES DECISIONES EN TU TIENDA ONLINE',
 		last: false,
 	},
 ];
