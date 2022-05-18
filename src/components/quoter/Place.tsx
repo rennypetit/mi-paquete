@@ -31,12 +31,14 @@ export default function Place({ selectOrigin, selectDestiny }) {
 			<div className={styles.row}>
 				<div className={styles.column}>
 					<label htmlFor='origen'>¿Cuál es la ciudad de origen?</label>
-					<div className={styles.group}>
-						<Select
-							options={dataLocations}
-							ref={selectOrigin}
-							placeholder='Bogotá D.C'
-						/>
+					<div className={styles.marginTop}>
+						<div className={styles.group}>
+							<Select
+								options={dataLocations}
+								ref={selectOrigin}
+								placeholder='Bogotá D.C'
+							/>
+						</div>
 					</div>
 					<div className={styles.errors}></div>
 				</div>

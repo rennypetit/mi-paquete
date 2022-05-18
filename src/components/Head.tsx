@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-const MyHead = ({ title = '', description = '' }) => {
+const MyHead = ({ data }) => {
 	const router = useRouter();
 	const canonical = `${process.env.NEXT_PUBLIC_HOST}${router.pathname}`;
 	const image = `${process.env.NEXT_PUBLIC_HOST}/images/image-og.jpg`;
 	return (
 		<Head>
-			<title>{title}</title>
+			<title>{data?.title}</title>
 			<meta charSet='utf-8' />
 			<meta httpEquiv='X-UA-Compatible' content='IE=edge' />
 			<meta
@@ -16,13 +16,13 @@ const MyHead = ({ title = '', description = '' }) => {
 			<meta name='robots' content='index' />
 
 			{/* navegador */}
-			<meta name='title' content={title} />
-			<meta name='description' content={description} />
+			<meta name='title' content={data?.title} />
+			<meta name='description' content={data?.description} />
 			<link rel='canonical' href={canonical} />
 
 			{/* opengraph */}
-			<meta property='og:title' content={title} />
-			<meta property='og:description' content={description} />
+			<meta property='og:title' content={data?.title} />
+			<meta property='og:description' content={data?.description} />
 			<meta property='og:url' content={canonical} />
 			<meta property='og:image' content={image} />
 			<meta property='og:type' content='website' />
@@ -32,8 +32,8 @@ const MyHead = ({ title = '', description = '' }) => {
 			<meta property='og:image:height' content='400' />
 
 			{/* twitter */}
-			<meta name='twitter:title' content={title} />
-			<meta name='twitter:description' content={description} />
+			<meta name='twitter:title' content={data?.title} />
+			<meta name='twitter:description' content={data?.description} />
 			<meta name='twitter:url' content={canonical} />
 			<meta name='twitter:image' content={image} />
 			<meta name='twitter:card' content='summary' />

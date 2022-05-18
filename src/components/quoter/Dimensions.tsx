@@ -19,7 +19,7 @@ export default function Dimensions({ register, errors, watch }) {
 			<div className={styles.row}>
 				{/* high */}
 				<div className={styles.column}>
-					<div className={styles.labelIcons}>
+					<div className={`${styles.labelIcons} ${styles.marginTop}`}>
 						<label htmlFor='alto'>Alto</label>
 						<Image
 							src='/images/icons/box-high.svg'
@@ -28,6 +28,7 @@ export default function Dimensions({ register, errors, watch }) {
 							width={20}
 						/>
 					</div>
+
 					<div className={styles.group}>
 						<input
 							type='number'
@@ -52,7 +53,7 @@ export default function Dimensions({ register, errors, watch }) {
 				{/* end high */}
 				{/* wide */}
 				<div className={`${styles.column} ${styles.columnTwo}`}>
-					<div className={styles.labelIcons}>
+					<div className={`${styles.labelIcons} ${styles.marginTop}`}>
 						<label htmlFor='ancho'>Ancho</label>
 						<Image
 							src='/images/icons/box-wide.svg'

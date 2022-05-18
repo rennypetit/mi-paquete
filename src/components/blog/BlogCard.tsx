@@ -18,7 +18,6 @@ export default function BlogCard({ data, blog = false }) {
 					<div className={styles.content}>
 						<div className={styles.description}>
 							<h4>{data.title}</h4>
-							<h5>{data.date}</h5>
 							<p>{data.description}</p>
 							<div className={styles.seeMore}>VER MÁS</div>
 						</div>

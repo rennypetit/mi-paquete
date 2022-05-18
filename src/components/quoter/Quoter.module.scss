@@ -123,6 +123,11 @@
 	}
 }
 
+.containerPass {
+	display: flex;
+	flex-direction: column;
+}
+
 .terms {
 	color: $color_secondary;
 	font-size: 1.4rem;
@@ -148,7 +153,6 @@
 	padding-bottom: 5px;
 	label {
 		padding: 0;
-		font-family: $font_secondary_bold;
 	}
 }
 
@@ -157,7 +161,6 @@
 }
 
 .button {
-	display: none;
 	background: transparent linear-gradient(90deg, #ff9a3e 0%, #ff9c26 100%) 0% 0%
 		no-repeat padding-box;
 	border: 0;
@@ -169,10 +172,10 @@
 	margin-top: -10px;
 	width: 100%;
 	font-size: 16px;
+	height: 3.5rem;
 }
 .place, .dimensions, .amounts {
 	padding: 0 10px;
-	margin-bottom: 110px;
 }
 
 .errors {
@@ -209,7 +212,10 @@
 		margin: 0;
 	}
 }
-
+.marginTop {
+	margin-top: 20px;
+	width: 100%;
+}
 .helpInputDescription {
 	font-size: 1rem;
 	padding: 10px 0;
@@ -231,6 +237,10 @@
 // desktop
 @media (min-width: 1024px) {
 
+
+	.containerPass {
+		flex-direction: row;
+	}
 	// components
 	.place,
 	.dimensions {
@@ -238,6 +248,7 @@
 		height: 300px;
 		margin-bottom: 0;
 	}
+	
 	.place {
 		padding-right: 20px;
 	}

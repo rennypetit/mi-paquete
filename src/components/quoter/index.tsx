@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { useRouter } from 'next/router';
-import Slider from 'react-slick';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import Place from './Place';
 import Dimensions from './Dimensions';
@@ -8,10 +7,6 @@ import Amounts from './Amounts';
 
 import { settings } from './sliderConfig';
 import { Inputs } from './types';
-
-// styles
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import styles from './Quoter.module.scss';
 export default function Quoter() {
 	const selectOrigin = useRef(null);
@@ -69,7 +64,7 @@ export default function Quoter() {
 						</strong>
 						, eligiendo la mejor opción para ti.
 					</p>
-					<Slider {...settings}>
+					<div className={styles.containerPass}>
 						<Place
 							register={register}
 							errors={errors}
@@ -78,7 +73,7 @@ export default function Quoter() {
 						/>
 						<Dimensions register={register} errors={errors} watch={watch} />
 						<Amounts register={register} errors={errors} />
-					</Slider>
+					</div>
 				</div>
 				<button className={`${styles.button} button`}>COTIZA TU ENVÍO</button>
 			</form>
