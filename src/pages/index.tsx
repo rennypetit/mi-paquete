@@ -32,7 +32,7 @@ import posts from '@data/componentPostsBlog';
 import styles from './Home.module.scss';
 
 const DynamicFeature = dynamic(() => import('@components/feature'), {
-	ssr: true,
+	ssr: false,
 });
 const Home: NextPage = () => {
 	return (
