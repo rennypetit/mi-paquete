@@ -324,7 +324,13 @@ export const allQuestions = [
 			},
 			{
 				title: '¿Cómo debo configurar mi plugin?',
-				description: `<p>Configurar el plugin es rápido y sencillo, en solo 5 pasos lo conseguirás. En el siguiente video te mostramos cómo hacerlo: <a href="https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj">https://drive.google.com/drive/u/1/folders/1MIAT91ifAp_sw26PYGOBVFtK4pHqL3Fj</a></p>`,
+				description: `<p>Configurar el plugin es rápido y sencillo, en solo 5 pasos lo conseguirás. En los siguientes videos te mostramos cómo hacerlo: </p>
+		<p>
+			Video 1: <a href="https://www.youtube.com/watch?v=1RKH6BfZrmc"> Instalación y panel Jumpseller - mipaquete.com</a> <br />
+			Video 2: <a href="https://www.youtube.com/watch?v=tffPUdQaIlc"> Método de envío y checkout Jumpseller - mipaquete.com</a> <br />
+			Video 3: <a href="https://www.youtube.com/watch?v=ZgzR-1mH2-E">Configuración de productos Jumpseller - mipaquete.com</a> <br />
+			Video 4: <a href="https://www.youtube.com/watch?v=2n0Jq5yUfT4&t=15s"> Generación de ordenes Jumpseller - mipaquete.com</a> <br />
+			</p>`,
 			},
 			{
 				title: '¿Manejan un mínimo de envíos para utilizar su plugin? ',

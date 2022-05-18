@@ -60,7 +60,7 @@ export const commercial = {
 	alt: 'background primer envio',
 	button: {
 		title: 'CONOCE MÁS',
-		url: 'https://app.mipaquete.com/',
+		url: 'https://app.mipaquete.com/cotizacion',
 		color: 'buttonWhite',
 		type: TypeButton.blank,
 	},

@@ -25,7 +25,7 @@ export default function Track() {
 
 	const { register, handleSubmit, resetField } = useForm<Input>();
 	const onSubmit: SubmitHandler<Input> = async (data) => {
-		// document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
+		document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
 		const response = await getSendingTracking(data.tracking);
 		if (!response || response.message) {
 			setDataTracking({});

@@ -5,8 +5,8 @@ export const media = {
 	altDesktop: 'medios de comunicación',
 	items: [
 		{
-			image: '/images/media/semana.png',
-			alt: 'logo semana',
+			image: '/images/media/antioquia.png',
+			alt: 'logo antioquia',
 			title: 'MI PAQUETE REVOLUCIONA LA LOGÍSTICA',
 			url: 'https://youtu.be/_6tjajW7bdw',
 		},

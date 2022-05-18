@@ -182,4 +182,4 @@ export const question = [
 ];
 
 export const textWhatsapp =
-	'<p>Almacenamos, alistamos y <br /> despachamos tus productos ¿Necesitas ayuda para obtener nuestro servicio?</p>';
+	'<p>Almacenamos, alistamos y despachamos <br /> tus productos ¿Necesitas ayuda para  <br /> obtener nuestro servicio?</p>';

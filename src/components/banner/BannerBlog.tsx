@@ -56,14 +56,16 @@ const BannerBlog = () => {
 								{...register('check')}
 								required
 							/>
-							Al enviar tu correo confirmas que aceptas nuestros{' '}
-							<a
-								href='/politicas-privacidad-de-datos-terminos-y-condiciones'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Términos y Políticas de Tratamiento de Datos
-							</a>
+							<span>
+								Al enviar tu correo confirmas que aceptas nuestros{' '}
+								<a
+									href='/politicas-privacidad-de-datos-terminos-y-condiciones'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Términos y Políticas de Tratamiento de Datos
+								</a>
+							</span>
 						</label>
 					</div>
 					<div className={styles.containerButton}>
