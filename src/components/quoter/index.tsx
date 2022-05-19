@@ -9,8 +9,8 @@ import { settings } from './sliderConfig';
 import { Inputs } from './types';
 import styles from './Quoter.module.scss';
 export default function Quoter() {
-	const selectOrigin = useRef(null);
-	const selectDestiny = useRef(null);
+	const selectOrigin = useRef('');
+	const selectDestiny = useRef('');
 	const router = useRouter();
 
 	const {

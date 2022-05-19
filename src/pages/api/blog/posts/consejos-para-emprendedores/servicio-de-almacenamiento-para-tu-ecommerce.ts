@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: '¿Qué es el almacenamiento de mercancía? | Blog Mi Paquete ',
+		description:
+			'El servicio de almacenamiento de mercancía permite a las empresas realizar sus envíos y cumplir con los tiempos de entrega en el menor tiempo',
+	},
 	title: 'TODO LO QUE DEBES SABER SOBRE',
 	titleSpan: 'NUESTRO SERVICIO DE ALMACENAMIENTO',
 	content: `

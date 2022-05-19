@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Ventajas de los casilleros inteligentes | Blog Mi Paquete',
+		description:
+			'Los casilleros inteligentes te permiten almacenar tus compras en el mismo lugar y retirarlas en el mismo sitio a través de la tecnología Smart Locker',
+	},
 	title: 'VENTAJAS DE ENVÍOS CASILLEROS INTELIGENTES',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/ventajas-envios-casilleros-inteligentes.jpg" alt="ventajas-envios-casilleros-inteligentes" /></div>

@@ -1,0 +1,68 @@
+@import '../../styles/variables';
+.container {
+  @include center;
+  flex-direction: column;
+  height: 100vh;
+  hr {
+    border: 1px solid $color_quaternary;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+  }
+  img {
+    object-fit: cover;
+  }
+}
+.title {
+  padding-top: 20px;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+  strong {
+    color:$color_quaternary;
+    font-family: $font_secondary_bold;
+    display: block;
+    font-size: 8rem;
+  }
+}
+.containerBackground {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+}
+.background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.image {
+  text-align: center;
+  width: 100%;
+}
+.buttons {
+  @include center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+  z-index: 2;
+  button,
+  a {
+    div {
+      font-size: 1.3rem;
+      width: 200px;
+    }
+  }
+}
+// desktop
+@media (min-width: 1024px) {
+  .title {
+      font-size: 4rem;
+      strong {
+        font-size: 10rem;
+      }
+    }
+}

@@ -1,6 +1,12 @@
 import { TypeButton } from '@types/global';
 import { TypesBanner } from '@components/banner/types';
 
+export const metaTags = {
+	title: 'Agencias aliadas de envíos | Mi Paquete',
+	description:
+		'Descubre nuestras agencias aliadas cerca a ti para que realices envíos en puntos físicos o convierte tu negocio en una agencia aliada Mi Paquete.',
+};
+
 export const banner: TypesBanner = {
 	title: `<h1>Agencias <span><mark>Mi Paquete</mark></span></h1>`,
 	subtitle: '',

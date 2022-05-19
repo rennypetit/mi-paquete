@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Recomendaciones envíos para tiendas online | Blog Mi Paquete',
+		description:
+			'Enviar un productos requiere de un proceso de logística para que este llegue hasta tu cliente final, te contamos cómo hacerlo correctamente',
+	},
 	title: '5 RECOMENDACIONES PARA ENVIAR UN PAQUETE DE TU TIENDA ONLINE',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/5-recomendaciones-para-enviar-un-paquete-de-tu-tienda-online.png" alt="5-recomendaciones-para-enviar-un-paquete-de-tu-tienda-online" /></div>

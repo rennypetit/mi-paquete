@@ -1,5 +1,10 @@
 import { TypesBanner } from '@components/banner/types';
 import { TypeButton } from '@types/global';
+export const metaTags = {
+	title: 'Centro de ayuda | Primeros pasos | Mi Paquete',
+	description:
+		'¿Deseas hacer envíos con Mi Paquete? Encuentra cómo mandar tus productos y el paso a paso del proceso en nuestras diferentes modalidades de envíos',
+};
 
 export const banner: TypesBanner = {
 	title: `<h1>Primeros pasos<span>¡Estás en el lugar indicado para impulsar tu emprendimiento!</span></h1>`,

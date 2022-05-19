@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'La importancia del servicio al cliente | Blog Mi Paquete',
+		description:
+			'¿Sabías que el servicio al cliente es clave para generar el proceso de recompra? Conoce por qué es importante prestar un buen servicio y cómo hacerlo',
+	},
 	title: '¿POR QUÉ ES IMPORTANTE',
 	titleSpan: 'EL SERVICIO AL CLIENTE?',
 	content: `

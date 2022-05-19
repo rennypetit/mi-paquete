@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: '¿Qué plataformas de ecommerce existen? | Blog Mi Paquete',
+		description:
+			'Existen diferentes plataformas para alojar tiendas virtuales, todas pueden brindarte el servidor, pasarelas de pago e incluso pueden personalizarse',
+	},
 	title: 'PLATAFORMAS ECOMMERCE',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/plataformas-ecommerce.png" alt="plataformas-ecommerce" /></div>

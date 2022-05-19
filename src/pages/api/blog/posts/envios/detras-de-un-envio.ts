@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Conoce el proceso de envío de un paquete | Blog Mi Paquete',
+		description:
+			'¿Conoces toda la logística que hay detrás de un envío? En esta ocasión te contamos cómo es el proceso para despachar tus envíos desde Mi Paquete',
+	},
 	title: 'LO QUE OCURRE DETRÁS DE UN ENVÍO',
 	titleSpan: ' POR TEMPO EXPRESS Y MIPAQUETE.COM',
 	content: `

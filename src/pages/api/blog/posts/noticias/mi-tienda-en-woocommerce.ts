@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Ventajas de crear una tienda Woocommerce | Blog Mi Paquete',
+		description:
+			'Si vendes productos online, crear una tienda en WooCommerce te ayudará a organizar el inventario de tus productos, realizar más ventas y hacer envíos',
+	},
 	title: '¿POR QUÉ MONTAR UNA TIENDA ONLINE EN WOOCOMMERCE ES UNA BUENA IDEA?',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/mi-tienda-en-woocommerce.png" alt="mi-tienda-en-woocommerce" /></div>

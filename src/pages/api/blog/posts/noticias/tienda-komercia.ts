@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: '¿Por qué crear una tienda en Komercia? | Blog Mi Paquete',
+		description:
+			'Komercia Colombia es una plataforma  que te permitirá alojar tu tienda y tus productos, además puedes integrar Mi Paquete para realizar tus envíos',
+	},
 	title: 'VENDE MÁS CON LA VERSIÓN 2.0 ',
 	titleSpan: 'KOMERCIA  – mipaquete.com',
 	content: `

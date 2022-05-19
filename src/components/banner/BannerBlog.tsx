@@ -83,7 +83,9 @@ const BannerBlog = () => {
 					</div>
 				</form>
 			</div>
-			{isOpenModal && <Modal handleCloseModal={handleCloseModal} />}
+			{isOpenModal && (
+				<Modal handleCloseModal={handleCloseModal} newsletter={true} />
+			)}
 		</div>
 	);
 };

@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Cómo crear un programa de fidelización | Blog Mi Paquete',
+		description:
+			'Enamora a tus clientes creando un programa de fidelización, el cual premiará a tus compradores por las compras que realicen en tu tienda o marca',
+	},
 	title: 'ACABAS DE REALIZAR TU PRIMER ENVÍO, NOS ENCANTA ESTAR DE TU LADO',
 	content: `
 	<p>¡Te recomendamos que guardes está página en tus favoritos o en un lugar que siempre esté a tu alcance, es una guía fundamental para nuestra relación que ahora empieza!</p>

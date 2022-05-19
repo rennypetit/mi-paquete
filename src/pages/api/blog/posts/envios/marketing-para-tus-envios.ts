@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Implementa estrategias de Marketing para emprendimientos',
+		description:
+			'Si cuentas con un emprendimiento debes tener en cuenta aspectos como el buyer persona, creación de objetivos de Marketing, obtención de leads y más',
+	},
 	title: 'MARKETING PARA TUS ENVÍOS',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/marketing-para-tus-envios.jpg" alt="marketing-para-tus-envios" /></div>

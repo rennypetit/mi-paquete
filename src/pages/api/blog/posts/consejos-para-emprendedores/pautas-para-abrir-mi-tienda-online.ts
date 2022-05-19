@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Abre tu tienda online sin complicaciones | Blog Mi Paquete',
+		description:
+			'Abrir una tienda online puede parecer difícil, pero hay diferentes plataformas que ayudan a hacer el proceso de venta y envíos de manera sencilla',
+	},
 	title:
 		'PAUTAS PARA IDENTIFICAR CUÁNDO DEBES ABRIR TU TIENDA VIRTUAL SI HOY VENDES POR REDES SOCIALES',
 	content: `

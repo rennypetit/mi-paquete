@@ -45,6 +45,11 @@ export default function Footer() {
 									<a>Trabaja con Nosotros</a>
 								</Link>
 							</li>
+							<li>
+								<Link href='/tyc-campanas-comerciales'>
+									<a>TyC campañas comerciales</a>
+								</Link>
+							</li>
 						</ul>
 					</div>
 					{/* end column 2 */}

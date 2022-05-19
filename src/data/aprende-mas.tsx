@@ -1,6 +1,12 @@
 import { TypesBanner } from '@components/banner/types';
 import { TypeButton } from '@types/global';
 
+export const metaTags = {
+	title: 'Centro de ayuda | Aprende más | Mi Paquete',
+	description:
+		'Aumenta tus conocimientos en logística, marketing para ecommerce, automatización de envíos y más, con nuestros tutoriales impartidos por expertos',
+};
+
 export const banner: TypesBanner = {
 	title: `<h1><span>¿Quieres aumentar tus conocimientos en automatización de envíos, logística, marketing digital para ecommerce y ventas?</span></h1>`,
 	description:

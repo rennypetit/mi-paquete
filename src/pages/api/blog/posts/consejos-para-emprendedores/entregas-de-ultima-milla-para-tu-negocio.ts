@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: '¿Qué son las entregas de última milla? | Blog Mi Paquete',
+		description:
+			'La última milla es la etapa final de un pedido al consumidor final y es quizás la más importante, ya que allí es donde se generan más inconvenientes.',
+	},
 	title: 'ENTREGAS DE ÚLTIMA MILLA',
 	titleSpan: 'PARA TU NEGOCIO',
 	content: `

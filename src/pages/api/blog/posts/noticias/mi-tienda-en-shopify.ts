@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Ventajas de crear una tienda en Shopify | Blog Mi Paquete',
+		description:
+			'Shopify, una gran opción para las personas que tienen tiendas online, quieren incrementar sus ventas y automatizar sus envíos con Mi Paquete',
+	},
 	title: '¿QUÉ VENTAJAS OFRECE SHOPIFY PARA CREAR UNA TIENDA ONLINE?',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/mi-tienda-en-shopify.png" alt="mi-tienda-en-woocommerce" /></div>

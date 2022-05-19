@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Envíos en diciembre sin complicaciones | Blog Mi Paquete',
+		description:
+			'Enviar paquetes en diciembre puede ser difícil ya que se presentan retrasos por la cantidad de envíos, te damos algunas pautas para ayudarte',
+	},
 	title: '4 PAUTAS PARA QUE TUS ENVÍOS EN DICIEMBRE LLEGUEN A SU DESTINO',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/pautas-para-envios-de-diciembre.png" alt="pautas-para-envios-de-diciembre" /></div>

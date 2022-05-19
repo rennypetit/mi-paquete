@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: '¿Cómo hacer un inventario de productos? | Blog Mi Paquete',
+		description:
+			'Si te preguntas cómo realizar un inventario, te daremos algunas técnicas que te ayudarán a organizar tus productos y tener control sobre ellos',
+	},
 	title: 'COMO HACER INVENTARIOS',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/como-hacer-inventarios.png" alt="como-hacer-inventarios" /></div>

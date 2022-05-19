@@ -1,6 +1,12 @@
 import { TypesBanner } from '@components/banner/types';
 import { TypeButton } from '../types/global';
 
+export const metaTags = {
+	title: 'Centro de ayuda | Primer envío | Mi Paquete',
+	description:
+		'Si vas a realizar tu primer envío con Mi Paquete, acá podrás encontrar lo que necesitas para enviar tus paquetes, transportadoras disponibles y más',
+};
+
 export const banner: TypesBanner = {
 	orientation: '',
 	title: `¿Vas a realizar tu primer envío con Mi Paquete?`,

@@ -106,7 +106,9 @@ export default function Newsletter({ background }) {
 					</div>
 				</form>
 			</div>
-			{isOpenModal && <Modal handleCloseModal={handleCloseModal} />}
+			{isOpenModal && (
+				<Modal handleCloseModal={handleCloseModal} newsletter={true} />
+			)}
 		</section>
 	);
 }

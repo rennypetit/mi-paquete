@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Envíos que generan confianza | Blog Mi Paquete',
+		description:
+			'Si tienes una tienda o marca en línea sabrás que la confianza es crucial para atraer clientes, te enseñamos cómo generar envíos seguros y confiables',
+	},
 	title:
 		'REFUERZA LA CONFIANZA DE TUS CLIENTES CON UNA LOGÍSTICA EFICIENTE DE ENVÍOS',
 	content: `

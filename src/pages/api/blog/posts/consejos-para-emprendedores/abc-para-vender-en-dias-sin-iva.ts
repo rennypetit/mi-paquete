@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Aprende a vender en el día sin IVA | Blog Mi Paquete',
+		description:
+			'El día sin IVA es una de las fechas ideales para incrementar las ventas de tu marca, por eso te dejamos algunos aspectos que no se te pueden escapar',
+	},
 	title: 'ABC PARA VENDER EN DIAS SIN IVA',
 	content: `
 	<div class="postBannerImage"><img src="/images/blog/abc-para-vender-en-dias-sin-iva.png" alt="abc-para-vender-en-dias-sin-iva" /></div>

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './Modal.module.scss';
-const Modal = ({ handleCloseModal }) => {
+const Modal = ({ handleCloseModal, newsletter = false }) => {
 	return (
 		<div className={styles.modal}>
 			<div className={styles.modalBackground}></div>
@@ -17,10 +17,15 @@ const Modal = ({ handleCloseModal }) => {
 						</div>
 					</div>
 				</div>
-				<h3 className={styles.title}>Tus datos fueron enviados</h3>
+				<h3 className={styles.title}>
+					{newsletter
+						? '¡Te has suscrito exitosamente!'
+						: 'Tus datos fueron enviados'}
+				</h3>
 				<div className={styles.description}>
-					Pronto nuestro equipo estará comunicándose contigo para asesorarte y
-					darte más información sobre nuestras soluciones ecommerce.
+					{newsletter
+						? 'Ahora que haces parte de nuestra comunidad recibirás información exclusiva sobre el mundo del ecommerce, tips de logística de envíos, noticias en tendencia en el sector, promociones especiales y más.'
+						: 'Pronto nuestro equipo estará comunicándose contigo para asesorarte y darte más información sobre nuestras soluciones ecommerce.'}
 				</div>
 				<div className='modal-button'>
 					<button

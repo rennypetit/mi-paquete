@@ -183,7 +183,7 @@ export const featuresTwo = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'DESCUBRE MÁS',
-		url: '/carrier-service',
+		url: '/conecta-tu-tiendavirtual/tienda-en-shopify/carrier-service',
 		type: TypeButton.link,
 	},
 };

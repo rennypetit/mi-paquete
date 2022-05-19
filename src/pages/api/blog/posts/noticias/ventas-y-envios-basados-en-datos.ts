@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Análisis de datos en tiendas online | Blog Mi Paquete',
+		description:
+			'El análisis de datos es una gran estrategia para tomar buenas decisiones en tu emprendimiento, te contamos cómo hacerlo y los beneficios que trae',
+	},
 	title:
 		'EL ANÁLISIS DE DATOS, UNA ESTRATEGIA PARA TOMAR MEJORES DECISIONES EN TU TIENDA ONLINE',
 	content: `

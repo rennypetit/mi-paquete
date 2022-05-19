@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Buenas prácticas para emprender | Blog Mi Paquete',
+		description:
+			'Emprender no es tarea fácil, sin embargo, con organización y cumpliendo con buenas prácticas puedes cumplir los objetivos de tu emprendimiento',
+	},
 	title:
 		'PAUTAS PARA IDENTIFICAR CUÁNDO DEBES ABRIR TU TIENDA VIRTUAL SI HOY VENDES POR REDES SOCIALES',
 	content: `
