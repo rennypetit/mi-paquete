@@ -23,8 +23,15 @@ export default function Track() {
 		type: TypeButton.blank,
 	};
 
-	const { register, handleSubmit, resetField } = useForm<Input>();
+	const {
+		register,
+		handleSubmit,
+		resetField,
+		formState: { errors },
+	} = useForm<Input>();
 	const onSubmit: SubmitHandler<Input> = async (data) => {
+		if (data.tracking.trim().length !== 6)
+			return alert('El campo tracking debe tener 6 dígitos');
 		document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
 		const response = await getSendingTracking(data.tracking);
 		if (!response || response.message) {
@@ -78,12 +85,16 @@ export default function Track() {
 				</p>
 				<form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
 					<div className={styles.group}>
-						<label htmlFor='rastrear'>Número de MP</label>
+						<label htmlFor='rastrear'>Código MP</label>
 						<input
 							id='rastrear'
 							type='number'
-							placeholder='Ejemplo: 123 - 32'
-							{...register('tracking', { required: true, min: 10 })}
+							placeholder='Ejemplo: 123456'
+							max={999999}
+							{...register('tracking', {
+								required: true,
+								max: 999999,
+							})}
 							required
 						/>
 					</div>
@@ -99,6 +110,11 @@ export default function Track() {
 						</div>
 					</button>
 				</form>
+				{/* <div className={`${styles.error} form-error`}>
+					{errors.tracking && (
+						<span>El campo tracking debe tener 6 digitos</span>
+					)}
+				</div> */}
 			</div>
 			{isOpenModal && (
 				<Modal handleCloseModal={handleCloseModal} data={dataTracking} />

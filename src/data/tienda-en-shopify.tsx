@@ -195,14 +195,14 @@ export const row = {
 		'<h2>Todo lo que tienes que saber para automatizar tu tienda en <strong>Shopify con Carrier Service</strong></h2>',
 	description:
 		'<p>Conoce paso por paso cómo configurar nuestra aplicación en tu <strong>tienda de Shopify</strong> y cómo puede ayudarte a la hora de generar ventas en tu ecommerce.</p>',
-	button: {
-		color: 'none',
-		icon: '/images/icons/play.png',
-		alt: 'icon play',
-		title: 'VER VÍDEOS',
-		url: 'https://mipaquete.com/shopify',
-		type: TypeButton.blank,
-	},
+	// button: {
+	// 	color: 'none',
+	// 	icon: '/images/icons/play.png',
+	// 	alt: 'icon play',
+	// 	title: 'VER VÍDEOS',
+	// 	url: 'https://mipaquete.com/shopify',
+	// 	type: TypeButton.blank,
+	// },
 };
 
 export const videos = [
@@ -219,7 +219,7 @@ export const videos = [
 	{
 		video: 'https://www.youtube.com/embed/kACkP2axZro',
 		title:
-			'<h3><strong>Paso 3: </strong>Configuración transportadoras. aplicación <a href="https://mipaquete.com" target="_blank" rel="noopener noreferrer"><mark>mipaquete.com</mark></a> en Shopify</h3>',
+			'<h3><strong>Paso 3: </strong>Configuración transportadoras. aplicación <mark>mipaquete.com</mark> en Shopify</h3>',
 	},
 	{
 		video: 'https://www.youtube.com/embed/_925WLY7Si8',

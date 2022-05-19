@@ -9,3 +9,12 @@
 		margin: 20px;
 	}
 }
+
+@media (min-width: 1480px) {
+	.grid_template {
+		@include container;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+		margin: auto;
+	}
+}

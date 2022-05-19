@@ -38,7 +38,7 @@ export const data = {
 		<li><strong>Hazle seguimiento a los resultados: </strong>Lo que no se mide no se hizo, por eso, es importante analizar la respuesta del público para conocer la efectividad de la estrategia y ejecutar cambios y decisiones en pro del programa de fidelización.</li>
 	</ol>
 	<p><strong>Conoce nuestro programa de fidelización Puntos mipaquete</strong></p>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/lror0oIgG_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/lror0oIgG_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<p>¡Recompensamos tu fidelidad! Acumula puntos por cada envío efectivo que realices y redímelos por increíbles productos o servicios, o si prefieres también los puedes usar para pagar nuevos envíos con una recarga de saldo.</p>
 
 	<div class="postBannerImage"><img src="/images/blog/guia-programa-de-fidelizacion-4.png" alt="guia-programa-de-fidelizacion-4" /></div>

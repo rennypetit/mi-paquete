@@ -68,7 +68,7 @@ export const data = {
 
 	<p>Mira este breve tutorial que te servirá para aclarar dudas que puedas tener con tus guías</p>
 
-	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/tgW1b8v0NfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+	<p><iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/tgW1b8v0NfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 	<p><strong>¿Cómo es la trazabilidad para los destinatarios?</strong></p>
 	<p>Al momento de la recolección le notificamos a tu cliente a su WhatsApp toda la información del envío para su seguimiento, lo mejor de todo es que es una notificación gratuita, automática y no genera costos adicionales.📱</p>
@@ -155,7 +155,7 @@ export const data = {
 	<p>Cuando te estés registrando, el sistema te solicitará inscribir una cuenta bancaria, a ésta, te estaremos realizando los desembolsos de los recaudos en las fechas específicas de corte.</p>
 	<p>El desembolso lo realizamos cada 10 días y se puede descontar el envío del valor recaudado, con algunas de nuestras transportadoras aliadas. La consignación se transfiere a tu cuenta los días 4, 14 y 24 de cada mes, este pago es automático y se realiza al finalizar el día. El pago corresponde a los envíos entregados a tu cliente final, es decir, el (Destinatario) así:</p>
 	
-	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1iTKTafsKZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+	<p><iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/1iTKTafsKZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 	<p>Según la entidad bancaria se puede generar o no un cobro de desembolso, es importante aclarar que este cobro es por transferencia del total de recaudo, no es un cobro que se genere por cada envío. El cobro de desembolso corresponde a:</p>
 
@@ -182,10 +182,10 @@ export const data = {
 
 	<p><strong>Acumula puntos <mark>Mi Paquete</mark> y redime por saldo, productos o servicios.</strong></p>
 	<p>Ahora que ya hiciste tu primer envío con nosotros, queremos que hagas muchos más y premiarte con <strong>Puntos <mark>Mi Paquete</mark>,</strong> el programa para premiar tu fidelidad como emprendedor con premios, donde por cada envío que realices ya estás acumulando puntos, es decir, en este momento ya acumulaste,  puedes llegar a redimirlos por producto, servicios o recargas de saldo para nuevos envíos. Tenemos 5 niveles para que evoluciones y avances como negocio, y mientras lo haces accedes a beneficios adicionales ¡Por esta y muchas más razones, <mark>Mi Paquete</mark> es para ti!</p>
-	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lror0oIgG_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+	<p><iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/lror0oIgG_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 	<p><strong>Contáctate con nosotros para todo lo que necesites</strong></p>
-	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Cbd_IchtWHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+	<p><iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/Cbd_IchtWHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 	<p>Por último, si impulsas tu negocio, te impulsas a ti mismo. Envía y recibe tus paquetes. ¡Sin contratiempos, sin complicaciones! Recuerda que en Mi Paquete somos la mejor opción para la logística y cotización de tus envíos. </p>
 	<p>Contáctanos a través de estos canales:</p>
