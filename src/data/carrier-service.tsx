@@ -56,7 +56,7 @@ export const cardsState = {
 			id: 1,
 			title: 'Lite Shopify',
 			description:
-				'Ideal para negocios en expansión que requieren informes avanzados.',
+				'Ideal para negocios en crecimiento que venden online o tienda física.',
 			image: '/images/card-state/shopify-basic.png',
 			alt: 'image shopify basic',
 			buttonOne: {

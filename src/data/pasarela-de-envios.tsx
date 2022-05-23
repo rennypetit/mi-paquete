@@ -96,7 +96,7 @@ export const commercialTwo = {
 	button: {
 		title: 'CONOCE MÁS',
 		color: 'buttonOrange',
-		url: '/almacenamiento',
+		url: '/soluciones-ecommerce/almacenamiento',
 		type: TypeButton.link,
 	},
 };

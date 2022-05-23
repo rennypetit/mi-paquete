@@ -17,7 +17,7 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '/tienda-en-shopify',
+			url: '/conecta-tu-tiendavirtual/tienda-en-shopify',
 			type: TypeButton.link,
 		},
 	},
@@ -31,7 +31,7 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '/tienda-en-woocommerce',
+			url: '/conecta-tu-tiendavirtual/tienda-en-woocommerce',
 			type: TypeButton.link,
 		},
 	},
@@ -45,7 +45,7 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '/tienda-en-jumpseller',
+			url: '/conecta-tu-tiendavirtual/tienda-en-jumpseller',
 			type: TypeButton.link,
 		},
 	},
@@ -59,7 +59,7 @@ export const cards = [
 		button: {
 			color: 'buttonOrange',
 			title: 'CONECTA TU TIENDA',
-			url: '/tienda-en-komercia',
+			url: '/conecta-tu-tiendavirtual/tienda-en-komercia',
 			type: TypeButton.link,
 		},
 	},

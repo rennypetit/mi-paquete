@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Realiza una logística de envíos eficiente | Blog Mi Paquete',
+		description:
+			'La logística depende de costos, por lo que hay que tener control de los diferentes canales, opciones de cumplimiento, empresas transportadoras y más',
+	},
 	title:
 		'¿PÉRDIDAS O GANANCIAS EN TUS ENTREGAS? GANA LA BATALLA CON UNA LOGÍSTICA EFICIENTE',
 	content: `

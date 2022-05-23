@@ -1,7 +1,7 @@
 import Head from '@components/Head';
 import Layout from 'layout';
 import BlogCard from '@components/blog/BlogCard';
-import Shared from '@components/blog/Shared';
+import Shared from '@components/shared';
 import Fixed from '@components/fixed';
 import posts from '@data/componentPostsBlog';
 
@@ -11,7 +11,7 @@ export default function pageblog({ data }) {
 	if (!data) return '';
 	return (
 		<>
-			<Head />
+			<Head data={data.metaTags} />
 			<Layout>
 				<div className={styles.wrapper}>
 					<article>

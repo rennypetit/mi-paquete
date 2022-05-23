@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.containerCard {
+  padding-top: 50px;
+}
+
+.commercial {
+  padding-bottom: 70px;
+}
+@media (min-width: 768px) {
+  .containerCard {
+    @include center;
+    gap: 40px;
+  }
+}

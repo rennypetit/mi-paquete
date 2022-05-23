@@ -72,7 +72,7 @@ export const commercial = {
 	button: {
 		color: 'buttonBlue',
 		title: 'MÁS INFORMACIÓN',
-		url: '/conecta-tu-ecommerce',
+		url: '/conecta-tu-tiendavirtual/conecta-tu-ecommerce',
 		type: TypeButton.link,
 	},
 };
@@ -98,7 +98,7 @@ export const features = {
 		color: 'buttonBlue',
 		title: 'COTIZA TU ENVÍO',
 		url: '/#cotizar',
-		type: TypeButton.href,
+		type: TypeButton.link,
 	},
 };
 
@@ -169,7 +169,7 @@ export const question = [
 	},
 	{
 		title: 'Tengo una novedad con mis recaudos. ¿Qué hago?',
-		description: `<p>Reporta y soluciona novedades con tus recaudos aquí: <a href="https://centrodeayuda.mipaquete.com" target='_blank' rel='noopener noreferrer'> https://centrodeayuda.mipaquete.com</a> Recibirás respuesta en máximo un día hábil laboral.</p>
+		description: `<p>Reporta y soluciona novedades con tus recaudos aquí: <a href="https://centrodenovedades.mipaquete.com/novedades" target='_blank' rel='noopener noreferrer'> https://centrodenovedades.mipaquete.com/novedades</a> Recibirás respuesta en máximo un día hábil laboral.</p>
 		`,
 	},
 	{

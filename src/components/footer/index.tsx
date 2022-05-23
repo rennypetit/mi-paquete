@@ -71,7 +71,7 @@ export default function Footer() {
 					<div className={styles.column}>
 						<ul>
 							<li className={styles.liTitle}>
-								<strong>Contáctenos</strong>
+								<strong>Contáctanos</strong>
 							</li>
 							<li>
 								<a

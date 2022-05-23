@@ -1,31 +1,47 @@
 import type { NextPage } from 'next';
 import Head from '@components/Head';
 import Layout from 'layout';
-import Card from '@components/cards/Card';
+import BannerExito from '@components/banner/BannerExito';
+import CardExito from '@components/cards/CardExito';
 import Commercial from '@components/commercial';
 import Newsletter from '@components/newsletter';
 import Fixed from '@components/fixed';
 
 // only data of components
-import { cards, commercial, metaTags } from '@data/casos-de-exito';
+import {
+	metaTags,
+	banner,
+	items,
+	sectionThree,
+	commercial,
+} from '@data/casos-de-exito';
 
-import styles from './successStories.module.scss';
-const successStories: NextPage = () => {
+import styles from './CasosDeExito.module.scss';
+import Expansion from '@components/expansion';
+const CasosDeExito: NextPage = () => {
 	return (
 		<>
 			<Head data={metaTags} />
 			<Layout>
 				<main>
-					<Card data={cards} />
+					<BannerExito data={banner} />
+					<div className={`${styles.containerCard} container`}>
+						{items.map((item, index) => (
+							<CardExito data={item} key={index} />
+						))}
+					</div>
+					<div className={styles.background}>
+						<Expansion data={sectionThree} />
+					</div>
 				</main>
-				<div className={`container ${styles.margin_container}`}>
+				<div className={`container ${styles.commercial}`}>
 					<Commercial data={commercial} />
 				</div>
-				<Newsletter background={'primary'} />
+				<Newsletter background={'secondary'} />
 				<Fixed />
 			</Layout>
 		</>
 	);
 };
 
-export default successStories;
+export default CasosDeExito;

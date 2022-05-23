@@ -1,0 +1,135 @@
+@import '../../styles/variables';
+
+.background {
+  background-color: #E6EFF5;
+  height: 500px;
+  h2 {
+    color: $color_tertiary;
+    font-family: $font_primary_bold;
+    font-size: 3rem;
+    padding: 60px 0 30px;
+    text-align: center;
+  }
+}
+.content {
+  @include center;
+  padding-bottom: 60px;
+  position: relative;
+}
+.info {
+  width: 100%;
+  padding: 0 20px;
+}
+.infoImage {
+  background-color: $color_quinary;
+  border-radius: 24px;
+  border: 2px solid $color_quaternary;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.infoDescriptionTitle {
+  font-size: 1.6rem;
+  padding-top: 30px;
+  text-align: center;
+  span {
+    color:$color_quaternary;
+    font-weight: bold;
+  }
+}
+.descriptionP {
+  color:$color_secondary;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+.iconOne {
+  align-self: flex-start;
+  position: absolute;
+  top: -30px;
+  left: 50px;
+  span,img {
+    height: 50px !important;
+    width: 50px !important;
+    object-fit: contain;
+  }
+}
+.iconTwo {
+  align-self: flex-end;
+  position: absolute;
+  top: -30px;
+  right: 50px;
+  img {
+    transform: rotate(180deg);
+    object-fit: contain;
+  }
+  span,
+  img {
+    height: 50px !important;
+    width: 50px !important;
+  }
+}
+.iconPersonMobile {
+  position: absolute;
+  top: -50px;
+  img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+}
+.iconPersonDesktop {
+  display: none;
+}
+.shared {
+  & > div {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    height: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .iconPersonDesktop {
+    display: block;
+    width: 50%;
+  }
+  .iconPersonMobile {
+    display: none;
+  }
+
+  .iconOne {
+    align-self: flex-start;
+    position: relative;
+    left: 0;
+    top: -50px;
+    span,
+    img {
+      height: auto !important;
+      width: auto !important;
+      object-fit: contain;
+    }
+  }
+  .iconTwo {
+    position: relative;
+    right: 0;
+    top: auto;
+    bottom: -50px;
+    span,
+    img {
+      height: auto !important;
+      width: auto !important;
+    }
+  }
+  .info {
+    width: 70%;
+    margin: auto;
+    display: grid;
+  }
+  .infoImage {
+    padding: 10px;
+  }
+  .infoDescriptionTitle {
+    text-align: left;
+    padding-top: 0;
+  }
+}

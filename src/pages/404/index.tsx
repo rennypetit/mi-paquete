@@ -30,7 +30,6 @@ const Page404 = () => {
 			</div>
 			<div className={styles.buttons}>
 				<Button data={data.buttonOne} />
-				<Button data={data.buttonTwo} />
 			</div>
 		</main>
 	);

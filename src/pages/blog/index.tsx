@@ -9,6 +9,7 @@ import GridCards from '@components/blog/GridCards';
 import styles from './Blog.module.scss';
 import NavCategories from '@components/blog/NavCategories';
 import posts from '@data/componentPostsBlog';
+import { metaTags } from '@data/blog';
 
 const Blog: NextPage = () => {
 	const [dataBlog, setDataBlog] = useState(posts);
@@ -29,7 +30,7 @@ const Blog: NextPage = () => {
 	const lastPosts = posts.filter((element) => element.last === true);
 	return (
 		<>
-			<Head />
+			<Head data={metaTags} />
 			<Layout>
 				<BannerBlog />
 				<h2 className={styles.title}>

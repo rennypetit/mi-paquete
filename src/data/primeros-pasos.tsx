@@ -138,7 +138,7 @@ export const commercialTwo = {
 	button: {
 		color: 'buttonBlue',
 		title: 'SOLICITA ACOMPAÑAMIENTO',
-		url: '#',
+		url: '#whatsapp',
 	},
 };
 

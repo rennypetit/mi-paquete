@@ -8,33 +8,41 @@ import Commercial from '@components/commercial/CommercialHelp';
 import Contact from '@components/contact';
 import Fixed from '@components/fixed';
 // only data of components
-import { banner, cards, commercial, allQuestions } from '@data/centro-de-ayuda';
+import {
+	banner,
+	cards,
+	commercial,
+	allQuestions,
+	metaTags,
+} from '@data/centro-de-ayuda';
 
 import styles from './CentroAyuda.module.scss';
 
 const centroDeAyuda: NextPage = () => {
 	return (
-		<Layout>
-			{/* slider of banner */}
-			<main>
-				<Banner data={banner} />
-			</main>
-			<Card items={cards} />
-			<div className='container'>
-				<div className={styles.commercial}>
-					<Commercial data={commercial} />
-					<div
-						id='preguntas-frecuentes'
-						className={styles.preguntasFrecuentes}
-					></div>
-					<div className={styles.allQuestions}>
-						<AllQuestions items={allQuestions} />
+		<>
+			<Head data={metaTags} />
+			<Layout>
+				<main>
+					<Banner data={banner} />
+				</main>
+				<Card items={cards} />
+				<div className='container'>
+					<div className={styles.commercial}>
+						<Commercial data={commercial} />
+						<div
+							id='preguntas-frecuentes'
+							className={styles.preguntasFrecuentes}
+						></div>
+						<div className={styles.allQuestions}>
+							<AllQuestions items={allQuestions} />
+						</div>
 					</div>
+					<Contact />
 				</div>
-				<Contact />
-			</div>
-			<Fixed />
-		</Layout>
+				<Fixed />
+			</Layout>
+		</>
 	);
 };
 

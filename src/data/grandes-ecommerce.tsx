@@ -16,8 +16,8 @@ export const banner: TypesBanner = {
 	alt: 'Banner grandes-ecommerce',
 	buttonOne: {
 		color: 'buttonBlue',
-		title: 'MÁS INFORMACIÓN',
-		url: '/pasarela-de-envios',
+		title: 'VER MÁS',
+		url: '/soluciones-ecommerce/pasarela-de-envios',
 		type: TypeButton.link,
 	},
 };
@@ -41,14 +41,14 @@ export const features = {
 	buttonOne: {
 		color: 'buttonBlue',
 		title: 'MÁS INFORMACIÓN',
-		url: '/pasarela-de-envios',
+		url: '/soluciones-ecommerce/pasarela-de-envios',
 		type: TypeButton.link,
 	},
 };
 
 export const commercial = {
 	colorText: 'textWhite',
-	title: 'Almacenamiento de productos',
+	title: '<p>Almacenamiento de productos</p>',
 	description:
 		'<h3>Realiza entregas más rápidas almacenando tus productos con <strong><mark>Mi Paquete</mark></strong></h3><p>Con <strong><mark>Mi Paquete</mark></strong> tienes la posibilidad almacenar tus productos en las <strong>principales ciudades del país,</strong> para generar entregas en un menor período de tiempo.</p>',
 	image: '/images/commercials/pasarela-background.png',
@@ -57,7 +57,7 @@ export const commercial = {
 	button: {
 		title: 'CONOCE MÁS',
 		color: 'buttonOrange',
-		url: '/almacenamiento',
+		url: '/soluciones-ecommerce/almacenamiento',
 		type: TypeButton.link,
 	},
 };

@@ -38,7 +38,6 @@ const Form = ({ data, background, pageAgencias = false }) => {
 		const { check, averageShipments, ...body } = dataSubmit;
 
 		const response = await postForm(body);
-		console.log(response);
 		if (response.contacts) {
 			document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
 			setIsOpenModal(true);
@@ -207,7 +206,11 @@ const Form = ({ data, background, pageAgencias = false }) => {
 									required
 								/>
 								Acepto los{' '}
-								<a href='http://' target='_blank' rel='noopener noreferrer'>
+								<a
+									href='/politicas-privacidad-de-datos-terminos-y-condiciones'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									Términos y condiciones.
 								</a>
 							</label>

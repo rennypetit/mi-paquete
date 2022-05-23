@@ -3,7 +3,6 @@ import React from 'react';
 import Button from '@components/button';
 import styles from './Modal.module.scss';
 const Modal = ({ dataModal, handleCloseModal, refModal }) => {
-	// console.log(dataModal);
 	if (!dataModal) return '';
 	return (
 		<div className={`${styles.container} ${styles[dataModal.orientation]}`}>

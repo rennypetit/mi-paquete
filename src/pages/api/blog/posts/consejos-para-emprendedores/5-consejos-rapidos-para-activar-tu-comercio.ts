@@ -1,4 +1,9 @@
 export const data = {
+	metaTags: {
+		title: 'Activa las ventas de tu emprendimiento | Blog Mi Paquete',
+		description:
+			'Incrementar las ventas de tu ecommerce es una tarea constante, te damos técnicas de Marketing, tácticas de autopromoción, descuentos especiales y más',
+	},
 	title: '5 CONSEJOS RÁPIDOS PARA ACTIVAR TU COMERCIO',
 	content: `
 	<p>Aquí hay cinco consejos que puedes implementar de inmediato para evitar la temida caída de las ventas en Semana Santa. Por suerte, estos consejos también se pueden implementar en cualquier otro momento en que experimentes una caída importante de las ventas en escenarios como vacaciones de mitad de año, Navidad, fin de año, etc.</p>

@@ -32,6 +32,7 @@
   font-size: 2rem;
   font-weight: bold;
   padding-bottom: 20px;
+  margin-top: 100px;
 }
 
 .containerBlog {
@@ -42,7 +43,13 @@
 }
 
 .row {
-  padding-top: 60px;
+  padding-top: 100px;
+  button,
+    a {
+      div {
+        width: 250px;
+      }
+    }
 }
 .commercialTwo {
 	box-shadow: 0px 3px 12px #00000029;
@@ -54,12 +61,21 @@
     width: 100%;
     padding: 10px 20px;
   }
+  #button {
+    width: 100%;
+  }
 }
 
 .newsletter {
   color:$color_quinary;
 }
 
+.whatsapp{
+  height: 15px;
+}
+.titleWhatsapp {
+  margint-top:0;
+}
 // desktop
 @media (min-width: 1024px) {
   .banner {
@@ -94,5 +110,9 @@
       width: 270px;
     }
   }
+
+.videosTitle {
+  margin-top: 110px;
+}
 }
 

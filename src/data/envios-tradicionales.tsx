@@ -123,7 +123,7 @@ export const commercial = {
 	button: {
 		color: 'buttonOrange',
 		title: 'CONOCE MÁS',
-		url: 'https://mipaquete.com/logistica-notificacion-whatsapp/',
+		url: '/centro-de-ayuda/primeros-pasos#whatsapp',
 		type: TypeButton.blank,
 	},
 };

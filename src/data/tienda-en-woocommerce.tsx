@@ -226,7 +226,7 @@ export const commercialTwo = {
 	button: {
 		color: 'buttonWhite',
 		title: 'CONOCE MÁS',
-		url: '/ecommerce-medianos',
+		url: '/beneficios-a-tu-medida/ecommerce-medianos',
 		type: TypeButton.link,
 	},
 };
