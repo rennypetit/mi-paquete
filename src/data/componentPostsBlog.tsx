@@ -153,12 +153,11 @@ const posts = [
 	{
 		category: 'noticias',
 		url: '/gana-la-batalla-con-una-logistica-eficiente',
-		title:
-			'¿PÉRDIDAS O GANANCIAS EN TUS ENTREGAS? GANA LA BATALLA CON UNA LOGÍSTICA EFICIENTE',
+		title: '¿PÉRDIDAS O GANANCIAS EN TUS ENTREGAS?',
 		description:
 			'Los clientes quieren saber cuándo pueden esperar su entrega en...',
 		image: '/images/blog/gana-la-batalla-con-una-logistica-eficiente.jpg',
-		alt: '¿PÉRDIDAS O GANANCIAS EN TUS ENTREGAS? GANA LA BATALLA CON UNA LOGÍSTICA EFICIENTE',
+		alt: '¿PÉRDIDAS O GANANCIAS EN TUS ENTREGAS?s',
 		last: true,
 	},
 

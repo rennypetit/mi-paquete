@@ -124,7 +124,7 @@ export const commercial = {
 		color: 'buttonOrange',
 		title: 'CONOCE MÁS',
 		url: '/centro-de-ayuda/primeros-pasos#whatsapp',
-		type: TypeButton.blank,
+		type: TypeButton.link,
 	},
 };
 

@@ -17,8 +17,8 @@ const Card = ({ items }) => {
 									alt={item.alt}
 									title={item.title}
 									quality={100}
-									width={120}
-									height={183}
+									width={200}
+									height={197}
 								/>
 							</div>
 							<p className={styles.description}>{item.description}</p>

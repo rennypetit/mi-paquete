@@ -23,12 +23,7 @@ export default function Track() {
 		type: TypeButton.blank,
 	};
 
-	const {
-		register,
-		handleSubmit,
-		resetField,
-		formState: { errors },
-	} = useForm<Input>();
+	const { register, handleSubmit, resetField } = useForm<Input>();
 	const onSubmit: SubmitHandler<Input> = async (data) => {
 		if (data.tracking.trim().length !== 6)
 			return alert('El campo tracking debe tener 6 dígitos');

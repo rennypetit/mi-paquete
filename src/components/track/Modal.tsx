@@ -53,7 +53,7 @@ const Modal = ({ data, handleCloseModal }) => {
 							</p>
 							<div className={styles.trackImage}>
 								<Image
-									src={`/images/allies/${data.deliveryCompanyName.toLocaleLowerCase()}.png`}
+									src={`/images/allies/${data.deliveryCompany}.png`}
 									alt={'transport'}
 									quality={100}
 									width={225}

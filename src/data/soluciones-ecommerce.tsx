@@ -29,7 +29,7 @@ export const cards = [
 		button: {
 			color: 'buttonBlue',
 			title: 'VER MÁS',
-			url: '/soluciones-ecommerce/envios-tradicionales',
+			url: '/soluciones-ecommerce/envios-pago-contraentrega',
 			type: TypeButton.link,
 		},
 	},
@@ -42,7 +42,7 @@ export const cards = [
 		button: {
 			color: 'buttonBlue',
 			title: 'VER MÁS',
-			url: '/soluciones-ecommerce/envios-tradicionales',
+			url: '/soluciones-ecommerce/almacenamiento',
 			type: TypeButton.link,
 		},
 	},
@@ -55,7 +55,7 @@ export const cards = [
 		button: {
 			color: 'buttonBlue',
 			title: 'VER MÁS',
-			url: '/soluciones-ecommerce/envios-tradicionales',
+			url: '/soluciones-ecommerce/pasarela-de-envios',
 			type: TypeButton.link,
 		},
 	},

@@ -68,8 +68,8 @@ export const commercial = {
 	button: {
 		title: 'CONOCE MÁS',
 		color: 'buttonOrange',
-		url: '#asesoria',
-		type: TypeButton.href,
+		url: '/centro-de-ayuda/primeros-pasos#whatsapp',
+		type: TypeButton.link,
 	},
 };
 

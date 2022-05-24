@@ -47,7 +47,7 @@ const BannerExito = ({ data }) => {
 								height={28}
 							/>
 							<Image
-								src='/images/casos-de-exito/star-empty.svg'
+								src='/images/casos-de-exito/star.svg'
 								alt='star'
 								width={29}
 								height={28}

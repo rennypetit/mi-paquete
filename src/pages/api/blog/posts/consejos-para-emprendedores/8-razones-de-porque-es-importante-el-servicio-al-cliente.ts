@@ -21,7 +21,7 @@ export const data = {
 		<dt>Refuerza los valores y la marca de la empresa</dt>
 		<dd>Tu equipo de atención al cliente se comunica con los clientes a diario o muchas veces eres tú mismo, lo que significa que eres directamente responsable de representar la misión y los valores de tu marca. Un excelente servicio al cliente puede dar como resultado críticas positivas y recomendaciones de boca en boca para tu negocio que pueden conducir a nuevos negocios. </dd>
 
-		<dt>También te puede interesar: <a href='https://mipaquete.com pautas-para-abrir-mi-tienda-online/' target='_blank' rel='noopener noreferrer'>El análisis de datos, una estrategia para tomar mejores decisiones en tu tienda online</a></dt>
+		<dt>También te puede interesar: <a href='/blog/consejos-para-emprendedores/pautas-para-abrir-mi-tienda-online' target='_blank' rel='noopener noreferrer'>El análisis de datos, una estrategia para tomar mejores decisiones en tu tienda online</a></dt>
 
 		<dt>Genera referidos</dt>
 		<dd>Las referencias positivas que provienen directamente de clientes anteriores y existentes que han tenido una gran experiencia con tu empresa, les contarán a sus amigos, familiares, colegas e incluso pueden publicar en sus redes sociales acerca de tu amable y útil servicio al cliente. Sus contactos, a su vez, se sentirán animados a comprarte.</dd>

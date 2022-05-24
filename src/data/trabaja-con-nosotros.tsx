@@ -80,26 +80,26 @@ export const testimonials = {
 	icon: '/images/quote.png',
 	alt: 'quote',
 	title:
-		'<p>En Mi Paquete hemos recaudado más de $60 mil millones en envíos con pago contra entrega a nuestros clientes <span>en toda Colombia.</span></p>',
+		'<p>Somos un equipo de soñadores que trabajamos con <span>pasión y diversión</span> para facilitar la entrega de productos de los emprendedores.</p>',
 	items: [
 		{
 			description:
-				'<p>Mis ventas aumentaron en un 50% desde que envío con Pago Contra Entrega a nivel nacional con <mark>Mi Paquete</mark>. Tienen un gran equipo de trabajo y recibo todo el soporte logístico.</p>',
+				'<p><mark>Mi Paquete</mark> es una empresa que te habilita la posibilidad de dejar volar tu imaginación, donde tus propuestas son escuchadas e implementadas en el corto o mediano plazo, además el ambiente de trabajo es dinámico y cálido, donde prima la persona.</p> ',
 			person: {
-				image: '/images/testimonials/jeimer.png',
-				alt: 'person',
-				name: 'Jeimer López',
-				nickName: '1000Marikdas',
+				image: '/images/testimonials/brandon.png',
+				alt: 'brandon',
+				name: 'Brandon Giraldo',
+				nickName: 'Líder de operaciones',
 			},
 		},
 		{
 			description:
-				'<p>mipaquete.com me permite cotizar rápidamente envíos a múltiples destinos en Colombia, la programación de envío es fácil y amigable.</p>',
+				'<p>En el poco tiempo que llevo en <mark>Mi Paquete</mark> se maneja un excelente ambiente laboral y un buen compañerismo, también he mejorado mis habilidades en desarrollo y mi conocimiento en base de datos.</p>',
 			person: {
-				image: '/images/testimonials/camila.png',
-				alt: 'person',
-				name: 'Camila Duque',
-				nickName: 'Ecowindel',
+				image: '/images/testimonials/julian.png',
+				alt: 'julian',
+				name: 'Julián Echavarria',
+				nickName: 'Área T.I. y soporte',
 			},
 		},
 	],
