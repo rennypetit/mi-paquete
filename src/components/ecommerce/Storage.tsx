@@ -28,7 +28,7 @@ const Storage = ({ data }) => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.image}>
-				<Image src={data.image} alt={data.alt} layout='fill' />
+				<Image src={data.image} alt={data.alt} quality={100} layout='fill' />
 			</div>
 			<div className={styles.data}>
 				<div className={`${styles.top} ${styles[data.colorText]}`}>
@@ -51,6 +51,7 @@ const Storage = ({ data }) => {
 									<Image
 										src={item.image}
 										alt={item.alt}
+										quality={100}
 										width={95}
 										height={95}
 									/>

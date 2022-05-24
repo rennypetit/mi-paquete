@@ -24,31 +24,31 @@ const BannerExito = ({ data }) => {
 						<div className={styles.starContainer}>
 							<Image
 								src='/images/casos-de-exito/star.svg'
-								alt='Picture of the author'
+								alt='star'
 								width={29}
 								height={28}
 							/>
 							<Image
 								src='/images/casos-de-exito/star.svg'
-								alt='Picture of the author'
+								alt='star'
 								width={29}
 								height={28}
 							/>
 							<Image
 								src='/images/casos-de-exito/star.svg'
-								alt='Picture of the author'
+								alt='star'
 								width={29}
 								height={28}
 							/>
 							<Image
 								src='/images/casos-de-exito/star.svg'
-								alt='Picture of the author'
+								alt='star'
 								width={29}
 								height={28}
 							/>
 							<Image
 								src='/images/casos-de-exito/star-empty.svg'
-								alt='Picture of the author'
+								alt='star'
 								width={29}
 								height={28}
 							/>

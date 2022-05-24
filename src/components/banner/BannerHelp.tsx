@@ -12,7 +12,13 @@ const BannerSubmit = ({ data }: PropsBackground) => {
 			{widthViewport < 1024 ? (
 				<>
 					{data.image && (
-						<Image src={data.image} alt={data.alt} width={1024} height={768} />
+						<Image
+							src={data.image}
+							alt={data.alt}
+							quality={100}
+							width={1024}
+							height={768}
+						/>
 					)}
 				</>
 			) : (
@@ -21,6 +27,7 @@ const BannerSubmit = ({ data }: PropsBackground) => {
 						<Image
 							src={data.imageDesktop}
 							alt={data.alt}
+							quality={100}
 							width={1920}
 							height={1080}
 						/>

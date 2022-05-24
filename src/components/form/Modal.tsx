@@ -11,6 +11,7 @@ const Modal = ({ handleCloseModal, newsletter = false }) => {
 							<Image
 								src={'/images/form/thank-you.png'}
 								alt='thank you'
+								quality={100}
 								width={107}
 								height={170}
 							/>

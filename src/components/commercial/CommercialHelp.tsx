@@ -5,7 +5,12 @@ const Commercial = ({ data }) => {
 	return (
 		<section className={styles.container}>
 			<div className={styles.image}>
-				<Image src={data.imageDesktop} alt={data.alt} layout='fill' />
+				<Image
+					src={data.imageDesktop}
+					alt={data.alt}
+					quality={100}
+					layout='fill'
+				/>
 			</div>
 			<div className={`${styles.content} ${styles[data.colorText]}`}>
 				<p className={styles.title}>{data.title}</p>

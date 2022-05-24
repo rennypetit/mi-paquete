@@ -17,7 +17,13 @@ const Row = ({ data }) => {
 				{data.items.map((item, index) => (
 					<div className={styles.item} key={index}>
 						<div className={styles.itemImage}>
-							<Image src={item.image} alt={item.alt} height={48} width={48} />
+							<Image
+								src={item.image}
+								alt={item.alt}
+								quality={100}
+								height={48}
+								width={48}
+							/>
 						</div>
 						<p className={styles.itemTitle}>{item.title}</p>
 					</div>

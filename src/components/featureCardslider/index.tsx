@@ -29,7 +29,13 @@ export default function FeatureCardSlider({ items }) {
 			<Slider {...settings}>
 				{items.map((item, index) => (
 					<div className={styles.card} key={index}>
-						<Image src={item.image} alt={item.alt} width={84} height={84} />
+						<Image
+							src={item.image}
+							alt={item.alt}
+							quality={100}
+							width={84}
+							height={84}
+						/>
 						<h3 className={styles.title}>{item.title}</h3>
 						<p className={styles.description}>{item.description}</p>
 					</div>

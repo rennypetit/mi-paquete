@@ -38,7 +38,13 @@ const Card = ({ items }) => {
 					{items.map((item, index) => (
 						<div className={styles.item} key={index}>
 							<div className={styles.image}>
-								<Image src={item.image} alt={item.alt} width={25} height={25} />
+								<Image
+									src={item.image}
+									alt={item.alt}
+									quality={100}
+									width={25}
+									height={25}
+								/>
 							</div>
 							<h4 className={styles.title}>
 								{item.title}{' '}

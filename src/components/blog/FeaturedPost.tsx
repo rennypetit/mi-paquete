@@ -13,6 +13,7 @@ const FeaturedPost = ({ data }) => {
 							src={'/images/blog/featured-post.png'}
 							width={600}
 							height={420}
+							quality={100}
 							alt={'imagen-destacada'}
 						/>
 						<div className={styles.card__content}>

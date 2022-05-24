@@ -46,7 +46,13 @@ const StorageSlider = ({ data }) => {
 				>
 					{data.items.map((item, index) => (
 						<div className={styles.card} key={index}>
-							<Image src={item.image} alt={item.alt} width={512} height={378} />
+							<Image
+								src={item.image}
+								alt={item.alt}
+								quality={100}
+								width={512}
+								height={378}
+							/>
 						</div>
 					))}
 				</Slider>
@@ -61,7 +67,13 @@ const StorageSlider = ({ data }) => {
 				>
 					{data.items.map((item, index) => (
 						<div className={styles.item} key={index}>
-							<Image src={item.image} alt={item.alt} width={155} height={109} />
+							<Image
+								src={item.image}
+								alt={item.alt}
+								quality={100}
+								width={155}
+								height={109}
+							/>
 						</div>
 					))}
 				</Slider>

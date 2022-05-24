@@ -9,7 +9,7 @@ function Row({ data }) {
 			}`}
 		>
 			<div className={styles.background}>
-				<Image src={data.image} alt={data.alt} layout='fill' />
+				<Image src={data.image} alt={data.alt} quality={100} layout='fill' />
 			</div>
 			<div className={styles.content}>
 				<div className={styles.rowPrincipal}>
@@ -18,6 +18,7 @@ function Row({ data }) {
 							<Image
 								src={data.imagePerson}
 								alt={data.altPerson}
+								quality={100}
 								width={207}
 								height={252}
 							/>
@@ -42,6 +43,7 @@ function Row({ data }) {
 										<Image
 											src={data.button.icon}
 											alt={data.button.alt}
+											quality={100}
 											width={20}
 											height={20}
 										/>

@@ -49,6 +49,9 @@
 	}
 	.liStrong {
 		font-family: $font_primary_bold;
+		& > div {
+			border: 0;
+		}
 	}
 }
 

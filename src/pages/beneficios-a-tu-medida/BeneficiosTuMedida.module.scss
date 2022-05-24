@@ -1,0 +1,80 @@
+@import '../../styles/variables';
+.container {
+  @include container;
+  color: $color_primary;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.containerService {
+  margin: auto;
+  .title {
+    margin: auto;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 100;
+    width: 100%;
+
+    span {
+      color: $color_tertiary;
+      font-weight: bold;
+    }
+  }
+
+  .description {
+    color: $color_secondary;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 30px auto;
+    line-height: 1.5;
+    width: 100%;
+  }
+}
+.features,.featuresTwo,.featuresThree {
+  margin-top: 30px;
+  text-align: center;
+  & > div {
+    align-items: center;
+  }
+  
+  span {
+    color: $color_primary;
+    display: inline;
+    font-weight: bold;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .container {
+      margin-bottom: -2px;
+    }
+  .containerService {
+    .title {
+      width: 80%;
+      font-size: 3rem;
+    }
+
+    .description {
+      width: 70%;
+    }
+  }
+    .features,
+    .featuresTwo,
+    .featuresThree {
+      margin-top: 50px;
+      text-align: initial;
+    p {
+        margin: 0;
+      }
+    }
+  .featuresTwo {
+    &>div>div {
+      &:nth-child(2) {
+        text-align: end;
+      }
+    }
+  }
+}

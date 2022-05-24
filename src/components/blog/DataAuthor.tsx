@@ -8,6 +8,7 @@ const DataAuthor = () => {
 				<Image
 					src={'/images/blog/avatar.png'}
 					alt={'avatar'}
+					quality={100}
 					width={80}
 					height={80}
 				/>

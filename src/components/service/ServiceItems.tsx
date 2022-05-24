@@ -9,7 +9,7 @@ export default function ServiceItems({
 		<div className={styles.container}>
 			<div className={styles.card}>
 				<div className={styles.image}>
-					<Image src={image} alt={alt} width={95} height={95} />
+					<Image src={image} alt={alt} quality={100} width={95} height={95} />
 				</div>
 				<h5 className={styles.title}>{title}</h5>
 				<p className={styles.description}>{description}</p>
@@ -20,6 +20,7 @@ export default function ServiceItems({
 								<Image
 									src='/images/icons/search.svg'
 									alt='icon search'
+									quality={100}
 									height={17}
 									width={17}
 								/>

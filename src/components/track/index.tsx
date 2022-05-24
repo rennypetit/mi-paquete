@@ -56,6 +56,7 @@ export default function Track() {
 						src='/images/track-background-mobile.png'
 						alt='background mobile'
 						layout='responsive'
+						quality={100}
 						width={600}
 						height={638}
 					/>
@@ -64,6 +65,7 @@ export default function Track() {
 						src='/images/track-background.png'
 						alt='background desktop'
 						layout='responsive'
+						quality={100}
 						width={1041}
 						height={453}
 					/>

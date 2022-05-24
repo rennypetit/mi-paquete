@@ -9,7 +9,12 @@ const CommercialSubmit = ({ data }) => {
 			{widthViewport < 1024 ? (
 				<Image src={data.image} alt={data.alt} layout='fill' quality={100} />
 			) : (
-				<Image src={data.imageDesktop} alt={data.alt} layout='fill' />
+				<Image
+					src={data.imageDesktop}
+					alt={data.alt}
+					quality={100}
+					layout='fill'
+				/>
 			)}
 			<div className={`${styles.content} ${styles[data.colorText]}`}>
 				<p className={styles.title}>{data.title}</p>

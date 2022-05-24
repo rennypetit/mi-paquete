@@ -14,7 +14,13 @@ export default function BannerAgencias({ data }: Props) {
 		<div className={styles.container}>
 			<div className={`${styles.image} bannerBackgroundImage`}>
 				{widthViewport < 1024 ? (
-					<Image src={data.image} alt={data.alt} width={1024} height={768} />
+					<Image
+						src={data.image}
+						alt={data.alt}
+						quality={100}
+						width={1024}
+						height={768}
+					/>
 				) : (
 					''
 				)}

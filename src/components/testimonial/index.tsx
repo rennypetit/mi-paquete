@@ -27,7 +27,13 @@ const Testimonial = ({ data, haveLink = true }) => {
 	return (
 		<section className={styles.container}>
 			<div className={styles.description}>
-				<Image src={data.icon} alt={data.alt} width={146} height={109} />
+				<Image
+					src={data.icon}
+					alt={data.alt}
+					quality={100}
+					width={146}
+					height={109}
+				/>
 				<div
 					className={styles.title}
 					dangerouslySetInnerHTML={{ __html: data.title }}
@@ -54,6 +60,7 @@ const Testimonial = ({ data, haveLink = true }) => {
 										<Image
 											src={item.person.image}
 											alt={item.person.alt}
+											quality={100}
 											width={92}
 											height={92}
 										/>

@@ -9,6 +9,7 @@ const CardExito = ({ data }) => {
 					alt={data.alt}
 					width={340}
 					height={310}
+					quality={100}
 					layout='responsive'
 				/>
 			</div>

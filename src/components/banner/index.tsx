@@ -40,7 +40,13 @@ const Banner = ({ data }: Props) => {
 					></div>
 				)}
 				{data.image && (
-					<Image src={data.image} alt={data.alt} width={320} height={400} />
+					<Image
+						src={data.image}
+						alt={data.alt}
+						quality={100}
+						width={320}
+						height={400}
+					/>
 				)}
 			</div>
 		</div>

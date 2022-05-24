@@ -55,6 +55,7 @@ const Modal = ({ data, handleCloseModal }) => {
 								<Image
 									src={`/images/allies/${data.deliveryCompanyName.toLocaleLowerCase()}.png`}
 									alt={'transport'}
+									quality={100}
 									width={225}
 									height={90}
 								/>

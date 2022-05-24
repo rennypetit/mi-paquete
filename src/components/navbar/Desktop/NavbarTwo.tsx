@@ -9,7 +9,11 @@ export default function NavbarTwo() {
 			<ul className={styles.ul}>
 				{items.map((item: object, index: number) => (
 					<li key={index} className='dropdown'>
-						<button className={`${styles.items}`}>{item.title}</button>
+						<button className={`${styles.items}`}>
+							<Link href={item.url}>
+								<a>{item.title}</a>
+							</Link>
+						</button>
 						<div className={styles.marginSubItems}>
 							<ul className={`dropdown-content ${styles.ulChildren}`}>
 								{item.subItems.map((subItem: Items, index: number) => (
@@ -24,9 +28,13 @@ export default function NavbarTwo() {
 										}`}
 									>
 										<div className={styles.arrowRight}></div>
-										<Link href={subItem.url}>
-											<a>{subItem.title}</a>
-										</Link>
+										{subItem.title === 'Integraciones' ? (
+											subItem.title
+										) : (
+											<Link href={subItem.url}>
+												<a>{subItem.title}</a>
+											</Link>
+										)}
 									</li>
 								))}
 							</ul>

@@ -19,6 +19,7 @@ const Modal = ({ dataModal, handleCloseModal, refModal }) => {
 					<Image
 						src={'/images/icons/arrow-slider-left.svg'}
 						alt='exit'
+						quality={100}
 						width={29}
 						height={29}
 						id={`exit-${dataModal?.id}`}
@@ -33,7 +34,7 @@ const Modal = ({ dataModal, handleCloseModal, refModal }) => {
 							<Image
 								src={dataModal.image}
 								alt={dataModal.alt}
-								width={225}
+								quality={100}
 								height={100}
 							/>
 						</div>

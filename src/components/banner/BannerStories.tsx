@@ -8,12 +8,19 @@ export default function BannerWorks({ data }) {
 	return (
 		<div className={styles.containerStories}>
 			<div className={`${styles.imageStories}`}>
-			{widthViewport < 1024 ? (
-					<Image src={data.image} alt={data.alt} width={1024} height={768} />
+				{widthViewport < 1024 ? (
+					<Image
+						src={data.image}
+						alt={data.alt}
+						width={1024}
+						quality={100}
+						height={768}
+					/>
 				) : (
 					<Image
 						src={data.imageDesktop}
 						alt={data.alt}
+						quality={100}
 						width={896}
 						height={496}
 					/>

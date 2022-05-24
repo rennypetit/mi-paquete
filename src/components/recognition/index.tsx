@@ -10,6 +10,7 @@ const Recognition = ({ data }) => {
 				<Image
 					src={data.imageBackgroundDesktop}
 					alt={data.altBackground}
+					quality={100}
 					layout='fill'
 				/>
 				<div className={styles.row}>
@@ -19,6 +20,7 @@ const Recognition = ({ data }) => {
 								<Image
 									src={data.image}
 									alt={data.alt}
+									quality={100}
 									width={413}
 									height={284}
 								/>
@@ -38,6 +40,7 @@ const Recognition = ({ data }) => {
 								<Image
 									src={item.image}
 									alt={item.alt}
+									quality={100}
 									title={item.title}
 									width={146}
 									height={68}

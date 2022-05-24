@@ -7,11 +7,18 @@ const Pass = () => {
 	return (
 		<section className={styles.container}>
 			{widthViewport < 1024 ? (
-				<Image src={'/images/pass.png'} alt={'pass'} width={305} height={706} />
+				<Image
+					src={'/images/pass.png'}
+					alt={'pass'}
+					quality={100}
+					width={305}
+					height={706}
+				/>
 			) : (
 				<Image
 					src={'/images/pass-desktop.png'}
 					alt={'pass'}
+					quality={100}
 					width={604}
 					height={619}
 				/>

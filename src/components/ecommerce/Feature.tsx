@@ -28,6 +28,7 @@ export default function Feature({ items }) {
 									src={items.image}
 									alt={items.alt}
 									layout='responsive'
+									quality={100}
 									height={items.height}
 									width={items.width}
 								/>
@@ -47,6 +48,7 @@ export default function Feature({ items }) {
 									<Image
 										src={item.image}
 										alt={item.alt}
+										quality={100}
 										height={50}
 										width={50}
 									/>

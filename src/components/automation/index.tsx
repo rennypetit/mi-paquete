@@ -23,6 +23,7 @@ const Automation = ({ data }) => {
 								<Image
 									src={item.image}
 									alt={item.title}
+									quality={100}
 									width={30}
 									height={30}
 								/>
@@ -33,6 +34,7 @@ const Automation = ({ data }) => {
 					))}
 				</div>
 				<div className={styles.image}>
+					quality={100}
 					<Image src={data.image} alt={data.title} width={616} height={441} />
 				</div>
 				<div className={styles.itemDesktopRight}>
@@ -42,6 +44,7 @@ const Automation = ({ data }) => {
 								<Image
 									src={item.image}
 									alt={item.title}
+									quality={100}
 									width={30}
 									height={30}
 								/>
@@ -58,6 +61,7 @@ const Automation = ({ data }) => {
 								<Image
 									src={item.image}
 									alt={item.title}
+									quality={100}
 									width={30}
 									height={30}
 								/>

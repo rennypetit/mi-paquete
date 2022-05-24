@@ -72,7 +72,7 @@ export const commercial = {
 	button: {
 		color: 'buttonBlue',
 		title: 'MÁS INFORMACIÓN',
-		url: '/conecta-tu-tiendavirtual/conecta-tu-ecommerce',
+		url: '/conecta-tu-tiendavirtual',
 		type: TypeButton.link,
 	},
 };

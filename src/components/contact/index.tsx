@@ -9,6 +9,7 @@ const Contact = () => {
 					<Image
 						src='/images/contact.png'
 						alt='contact'
+						quality={100}
 						width={285}
 						height={285}
 					/>

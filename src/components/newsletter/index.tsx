@@ -46,12 +46,14 @@ export default function Newsletter({ background }) {
 				<Image
 					src={`/images/footer/background-${background}.png`}
 					alt='background newsletter'
+					quality={100}
 					layout='fill'
 				/>
 			) : (
 				<Image
 					src={`/images/footer/background-${background}.png`}
 					alt='background newsletter'
+					quality={100}
 					layout='fill'
 				/>
 			)}

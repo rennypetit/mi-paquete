@@ -16,7 +16,7 @@ const BannerCenter = ({ data }: Props) => {
 
 			{data.image && (
 				<div className={styles.image}>
-					<Image src={data.image} alt={data.alt} layout='fill' />
+					<Image src={data.image} alt={data.alt} quality={100} layout='fill' />
 				</div>
 			)}
 

@@ -4,7 +4,13 @@ const Description = ({ data }) => {
 	return (
 		<section className={styles.container}>
 			<div className={styles.image}>
-				<Image src={data.image} alt={data.alt} width={370} height={408} />
+				<Image
+					src={data.image}
+					alt={data.alt}
+					quality={100}
+					width={370}
+					height={408}
+				/>
 			</div>
 			<div className={styles.descriptionMobile}>
 				<div className='container'>
@@ -17,7 +23,13 @@ const Description = ({ data }) => {
 				<ul>
 					{data.items.map((item, index) => (
 						<li key={index}>
-							<Image src={item.image} alt={item.alt} width={84} height={84} />
+							<Image
+								src={item.image}
+								alt={item.alt}
+								quality={100}
+								width={84}
+								height={84}
+							/>
 							<p>{item.description}</p>
 						</li>
 					))}

@@ -3,6 +3,7 @@ import { TypeButton } from '@types/global';
 export const items = [
 	{
 		title: 'SOLUCIONES ECOMMERCE',
+		url: '/soluciones-ecommerce',
 		subItems: [
 			{
 				title: 'Envíos tradicionales',
@@ -24,10 +25,11 @@ export const items = [
 	},
 	{
 		title: 'CONECTA TU TIENDA VIRTUAL',
+		url: '/conecta-tu-tiendavirtual',
 		subItems: [
 			{
 				title: 'Integraciones',
-				url: '/conecta-tu-tiendavirtual/conecta-tu-ecommerce',
+				url: '/',
 			},
 			{
 				title: 'Shopify',
@@ -53,6 +55,7 @@ export const items = [
 	},
 	{
 		title: 'BENEFICIOS A TU MEDIDA',
+		url: '/beneficios-a-tu-medida',
 		subItems: [
 			{
 				title: 'Emprendedor digital',

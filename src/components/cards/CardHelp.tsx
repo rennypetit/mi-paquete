@@ -15,6 +15,7 @@ const CardHelp = ({ items }) => {
 									<Image
 										src={item.image}
 										alt={items.alt}
+										quality={100}
 										width={118}
 										height={118}
 									/>
@@ -31,6 +32,7 @@ const CardHelp = ({ items }) => {
 								<Image
 									src={item.image}
 									alt={items.alt}
+									quality={100}
 									width={118}
 									height={118}
 								/>

@@ -61,6 +61,7 @@ const enviosPagoContraEntrega: NextPage = () => {
 								<Image
 									src='/images/icons/truck.png'
 									alt='icon truck'
+									quality={100}
 									width={117}
 									height={40}
 								/>

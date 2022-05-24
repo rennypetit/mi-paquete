@@ -16,6 +16,7 @@ const Card = ({ items }) => {
 										src={item.image}
 										alt={item.alt}
 										title={item.title}
+										quality={100}
 										width={200}
 										height={118}
 									/>
@@ -32,6 +33,7 @@ const Card = ({ items }) => {
 										src={item.image}
 										alt={item.alt}
 										title={item.title}
+										quality={100}
 										layout='fill'
 									/>
 								</div>

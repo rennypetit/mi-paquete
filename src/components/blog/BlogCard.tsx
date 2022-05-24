@@ -12,6 +12,7 @@ export default function BlogCard({ data, blog = false }) {
 							alt={data.alt}
 							width={270}
 							height={150}
+							quality={100}
 							layout='responsive'
 						/>
 					</div>

@@ -5,7 +5,11 @@ export default function SubItems({ item }: any) {
 	return (
 		<div className={styles.container}>
 			<ul className={styles.ulTitle}>
-				<li>{item.title}</li>
+				<li>
+					<Link href={item.url}>
+						<a>{item.title}</a>
+					</Link>
+				</li>
 			</ul>
 			<ul className={styles.ulChildren}>
 				{item.subItems.map((subItem: object, index: number) => (

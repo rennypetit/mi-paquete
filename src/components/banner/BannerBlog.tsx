@@ -75,6 +75,7 @@ const BannerBlog = () => {
 								<Image
 									src='/images/icons/search-dark.svg'
 									alt='icon search'
+									quality={100}
 									height={16}
 									width={16}
 								/>

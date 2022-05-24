@@ -61,6 +61,7 @@ const Form = ({ data, background, pageAgencias = false }) => {
 				<div className={styles.image}>
 					<Image
 						src={`/images/form/background-${background}.svg`}
+						quality={100}
 						alt={'background'}
 						layout='fill'
 					/>

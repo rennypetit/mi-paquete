@@ -45,6 +45,7 @@ export default function AllyModal() {
 									title={item.title}
 									width={225}
 									height={100}
+									quality={100}
 								/>
 							</div>
 							<div className={styles.url}>

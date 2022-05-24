@@ -49,6 +49,7 @@ export default function Feature({
 							<Image
 								src={items.image}
 								alt={items.alt}
+								quality={100}
 								height={items.height}
 								width={items.width}
 							/>

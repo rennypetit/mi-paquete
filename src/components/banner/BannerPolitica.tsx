@@ -9,6 +9,7 @@ const BannerPolitica = ({ textBanner }) => {
 					alt='banner'
 					width={1920}
 					height={1080}
+					quality={100}
 					layout='fill'
 				/>
 			</div>

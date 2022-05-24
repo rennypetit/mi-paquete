@@ -36,6 +36,7 @@ export default function Media() {
 											<Image
 												src={item.image}
 												alt={item.alt}
+												quality={100}
 												width={192}
 												height={50}
 											/>
@@ -48,7 +49,13 @@ export default function Media() {
 						</Slider>
 					</div>
 					<div className={styles.person}>
-						<Image src={media.image} alt={media.alt} width={281} height={379} />
+						<Image
+							src={media.image}
+							alt={media.alt}
+							quality={100}
+							width={281}
+							height={379}
+						/>
 					</div>
 				</div>
 			) : (
@@ -57,6 +64,7 @@ export default function Media() {
 						<Image
 							src={media.imageDesktop}
 							alt={media.altDesktop}
+							quality={100}
 							useMap='#media'
 							width={1024}
 							height={700}

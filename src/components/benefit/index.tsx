@@ -14,7 +14,13 @@ export const Benefit = ({ data }) => {
 					{data.items.map((item, index) => (
 						<div className={styles.card} key={index}>
 							<div className={styles.cardImage}>
-								<Image src={item.image} alt={item.alt} width={84} height={84} />
+								<Image
+									src={item.image}
+									alt={item.alt}
+									quality={100}
+									width={84}
+									height={84}
+								/>
 							</div>
 							<h3 className={styles.cardTitle}>{item.title}</h3>
 							<p className={styles.cardDescription}>{item.description}</p>

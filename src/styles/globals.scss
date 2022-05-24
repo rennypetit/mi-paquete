@@ -317,6 +317,12 @@ mark {
 		width: 100%;
 	}
 }
+.pageSolucionesEcommerce {
+	.Feature-image {
+		text-align: center;
+	}
+}
+
 .almacenamientoSlider {
 	.slick-dots{
 		bottom: -40px;
@@ -478,6 +484,18 @@ mark {
 	border: 0 !important;
 }
 
+.pageBeneficiosTuMedida .beneficios-description {
+	p {
+		margin: 0;
+	}
+	span {
+		color: $color_tertiary;
+		display: inline;
+	}
+}
+
+
+
 // desktop
 @media (min-width: 1024px) {
 	.containerTitle {
@@ -489,6 +507,15 @@ mark {
 	}
 	.margin-top {
 		margin-top: 0px;
+	}
+	.pageSolucionesEcommerce {
+		& p>span {
+			display: inline;
+		}
+
+		.Feature-image {
+			text-align: end;
+		}
 	}
 	.almacenamientoSlider {
 		.button {
@@ -513,6 +540,7 @@ mark {
 		height: 35px;
 	}
 }
+
 .form-error {
 	color: red;
 	margin-top: 5px;

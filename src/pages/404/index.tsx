@@ -14,6 +14,7 @@ const Page404 = () => {
 					<Image
 						src='/images/404/background.png'
 						alt='background'
+						quality={100}
 						layout='fill'
 					/>
 				</div>
@@ -22,6 +23,7 @@ const Page404 = () => {
 					<Image
 						src='/images/404/person.png'
 						alt='person'
+						quality={100}
 						width={362}
 						height={399}
 					/>

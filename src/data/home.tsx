@@ -57,7 +57,7 @@ export const banners: TypesBannerSlider = [
 		buttonOne: {
 			color: 'buttonOrange',
 			title: 'CONOCE MÁS',
-			url: '/conecta-tu-ecommerce',
+			url: '/conecta-tu-tiendavirtual',
 			type: TypeButton.link,
 		},
 	},
@@ -100,7 +100,7 @@ export const services = [
 		title: 'CONECTA TU ECOMMERCE',
 		description:
 			'Vincula tu ecommerce desde cualquier plataforma para realizar envíos con las principales transportadoras.',
-		url: '/conecta-tu-ecommerce',
+		url: '/conecta-tu-tiendavirtual',
 	},
 ];
 

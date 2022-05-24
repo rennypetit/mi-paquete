@@ -12,7 +12,13 @@ export default function Cards({ data }) {
 			}
 		>
 			<div className={styles.image}>
-				<Image src={data.image} alt={data.alt} width={290} height={180} />
+				<Image
+					src={data.image}
+					alt={data.alt}
+					quality={100}
+					width={290}
+					height={180}
+				/>
 			</div>
 			<div className={styles.content}>
 				<div className={styles.description}>

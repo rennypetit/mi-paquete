@@ -18,6 +18,7 @@ export default function Ally({ title = true }) {
 								src={item.image}
 								alt={item.alt}
 								title={item.title}
+								quality={100}
 								width={225}
 								height={100}
 							/>

@@ -7,11 +7,11 @@ import Newsletter from '@components/newsletter';
 import Fixed from '@components/fixed';
 
 // only data of components
-import { cards, testimonials, metaTags } from '@data/conecta-tu-ecommerce';
+import { cards, testimonials, metaTags } from '@data/conecta-tu-tiendavirtual';
 
-import styles from './conectaTuEcommerce.module.scss';
+import styles from './ConectaTutiendaVirtual.module.scss';
 
-const conectaTuEcommerce: NextPage = () => {
+const ConectaTuTienda: NextPage = () => {
 	return (
 		<>
 			<Head data={metaTags} />
@@ -45,4 +45,4 @@ const conectaTuEcommerce: NextPage = () => {
 	);
 };
 
-export default conectaTuEcommerce;
+export default ConectaTuTienda;

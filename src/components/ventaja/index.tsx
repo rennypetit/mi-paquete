@@ -6,7 +6,7 @@ export const Ventajas = ({ data }) => {
 		<section className={styles.container}>
 			<div className={styles.container_div}>
 				<div className={styles.container_div_div_image}>
-					<Image src={data.image} width={440} height={332} />
+					<Image src={data.image} quality={100} width={440} height={332} />
 				</div>
 				<div className={styles.container_div_div_description}>
 					<h2>
