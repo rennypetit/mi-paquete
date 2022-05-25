@@ -141,38 +141,3 @@ export const commercialTwo = {
 		url: '#whatsapp',
 	},
 };
-
-export const blog = [
-	{
-		url: '#',
-		image: '/images/blog/entrada.png',
-		title: 'NOMBRE DE LA ENTRADA',
-		date: 'Autor y Fecha',
-		description:
-			'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-	},
-	{
-		url: '#',
-		image: '/images/blog/entrada.png',
-		title: 'NOMBRE DE LA ENTRADA',
-		date: 'Autor y Fecha',
-		description:
-			'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-	},
-	{
-		url: '#',
-		image: '/images/blog/entrada.png',
-		title: 'NOMBRE DE LA ENTRADA',
-		date: 'Autor y Fecha',
-		description:
-			'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-	},
-	{
-		url: '#',
-		image: '/images/blog/entrada.png',
-		title: 'NOMBRE DE LA ENTRADA',
-		date: 'Autor y Fecha',
-		description:
-			'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-	},
-];

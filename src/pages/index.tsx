@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import dynamic from 'next/dynamic';
 import Head from '@components/Head';
 import Layout from 'layout';
 import BannerSlider from '@components/banner/BannerSlider';
@@ -7,6 +6,7 @@ import Quoter from '@components/quoter';
 import Track from '@components/track';
 import Services from '@components/service';
 // import Feature from '@components/feature';
+import Feature from '@components/feature';
 import Ally from '@components/ally';
 import Commercial from '@components/commercial';
 import BlogCardSlider from '@components/blog/BlogCardSlider';
@@ -31,9 +31,6 @@ import posts from '@data/componentPostsBlog';
 
 import styles from './Home.module.scss';
 
-const DynamicFeature = dynamic(() => import('@components/feature'), {
-	ssr: true,
-});
 const Home: NextPage = () => {
 	return (
 		<>
@@ -54,7 +51,7 @@ const Home: NextPage = () => {
 								<mark>Mi Paquete?</mark>
 							</span>
 						</h2>
-						<DynamicFeature items={features} />
+						<Feature items={features} />
 					</div>
 				</div>
 				<div className={`${styles.containerAllies} container-background`}>

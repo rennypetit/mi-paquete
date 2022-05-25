@@ -18,6 +18,7 @@ export const banner: TypesBannerBackground = {
 
 export const cards = [
 	{
+		id: 1,
 		image: '/images/cards/primeros-pasos.png',
 		alt: 'card primeros pasos',
 		title: 'Primeros pasos',
@@ -25,6 +26,7 @@ export const cards = [
 		type: TypeButton.link,
 	},
 	{
+		id: 2,
 		image: '/images/cards/aprende-mas.png',
 		alt: 'card Aprende más',
 		title: 'Aprende más',
@@ -32,6 +34,7 @@ export const cards = [
 		type: TypeButton.link,
 	},
 	{
+		id: 3,
 		image: '/images/cards/centro-de-novedades.png',
 		alt: 'card Centro de novedades',
 		title: 'Centro de novedades',
@@ -39,6 +42,7 @@ export const cards = [
 		type: TypeButton.blank,
 	},
 	{
+		id: 4,
 		image: '/images/cards/consulta-tus-recaudos.png',
 		alt: 'card Consulta tus recaudos',
 		title: 'Consulta tus recaudos',
@@ -380,3 +384,7 @@ export const allQuestions = [
 		],
 	},
 ];
+
+export const primerosPasos = `¡estas en el lugar indicado para impulsar tu emprendimiento!, aqui encontraras respuesta a todo lo que necesitas saber para hacer envios con mi paquete. cotiza un envio tradicional cotiza un envio con pago contra entrega cotiza un envio urbano o de entrega inmediata conoce la fecha de  recaudos de envios con pago contra entrega solicita la recoleccion de un paquete recuerda ¿que es el valor declarado? notificacion por whatsapp para destinatarios de envios ecommerce paso 1: instalacion y configuracion de la aplicacion paso 2: guardado de la generacion y la orden de envio paso 3: <configuracion transportadoras. aplicacion  mipaquete.com en shopify paso 4: configuracion productos. aplicacion mipaquete.com en shopify paso 1: instalacion del plugin paso 2: configuracion paso 3: configura tus productos paso 4: procesa tus envios y descarga tus guias paso 5: experiencia del cliente ¡cotiza tus envios en minutos! con mi paquete puedes cotizar envios antes de mandarlos y conocer el precio aproximado del mismo a traves de las medidas y algunos datos de tu paquete. si tienes dudas con el envio de tus paquetes, deseas reportar una novedad o necesitas asistencia, nuestro equipo esta dispuesto a ayudarte siempre. encuentra la respuesta que necesitas si presentas alguna novedad con tus envios o tienes preguntas, te ayudamos a solucionarlo.`;
+
+export const aprendeMas = `¿quieres aumentar tus conocimientos en automatizacion de envios, logistica, marketing digital para ecommerce y ventas? aqui encontraras tutoriales, consejos, tips y herramientas que te ayudaran a hacer crecer tu ecommerce o tienda en redes sociales. ¿como vender en el cyberlunes y otras fechas promocionales? descubre la importancia de la automatizacion de envios en ecommerce automatiza tus envios jumpseller automatiza los envios de tu tienda en shopify adquiere informacion,  tips y consejos para tu ecommerce suscribete y recibe informacion exclusiva, promociones especiales, consejos para incrementar las ventas de tu ecommerce o tienda en redes sociales, y mas.`;

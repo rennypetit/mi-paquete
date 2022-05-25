@@ -2,11 +2,22 @@ import Image from 'next/image';
 import styles from './Feature.module.scss';
 import Button from '@components/button';
 import { TypeDescription } from '../../types/global';
+import { useEffect } from 'react';
 export default function Feature({
 	items,
 	icon = false,
 	optionalText = 'optionalFalse',
 }) {
+	useEffect(() => {
+		window.addEventListener(
+			'LazyLoad::Initialized',
+			function (event) {
+				window.lazyLoadInstance = event.detail.instance;
+			},
+			false
+		);
+	}, []);
+
 	return (
 		<div
 			className={`${styles.container} ${styles[optionalText]} ${
@@ -33,6 +44,7 @@ export default function Feature({
 				<div className={`${styles.video} video`}>
 					<iframe
 						src={items.video}
+						className='lazy'
 						loading='lazy'
 						width='560'
 						height='315'
@@ -67,7 +79,7 @@ export default function Feature({
 						className={styles.description}
 						dangerouslySetInnerHTML={{ __html: items.description }}
 					></div>
-					<div className={icon && styles.icon}>
+					<div className={icon ? styles.icon : ''}>
 						<div
 							className={styles.description}
 							dangerouslySetInnerHTML={{ __html: items.items }}

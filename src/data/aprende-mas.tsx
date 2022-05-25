@@ -53,38 +53,3 @@ export const commercial = {
 		'/images/commercials/envios-tradicionales-background-desktop.png',
 	alt: 'background grandes ecommerce',
 };
-
-export const blog = [
-	{
-		url: '#',
-		image: '/images/blog/entrada.png',
-		title: 'NOMBRE DE LA ENTRADA',
-		date: 'Autor y Fecha',
-		description:
-			'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-	},
-	{
-		url: '#',
-		image: '/images/blog/entrada.png',
-		title: 'NOMBRE DE LA ENTRADA',
-		date: 'Autor y Fecha',
-		description:
-			'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-	},
-	{
-		url: '#',
-		image: '/images/blog/entrada.png',
-		title: 'NOMBRE DE LA ENTRADA',
-		date: 'Autor y Fecha',
-		description:
-			'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-	},
-	{
-		url: '#',
-		image: '/images/blog/entrada.png',
-		title: 'NOMBRE DE LA ENTRADA',
-		date: 'Autor y Fecha',
-		description:
-			'Praesent vestibulum, ligula eu porttitor imperdiet, arcu lacus mollis eros, quis dapibus lacus risus sit…',
-	},
-];
