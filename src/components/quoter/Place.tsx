@@ -12,7 +12,9 @@ export default function Place({ selectOrigin, selectDestiny }) {
 			['value']: `${value.locationName}-${value.departmentOrStateName}`,
 			['label']: `${value.locationName}-${value.departmentOrStateName}`,
 		}));
-		setDataLocations(result);
+		setTimeout(() => {
+			setDataLocations(result);
+		}, 10000);
 	}, []);
 
 	return (

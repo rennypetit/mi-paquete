@@ -4,8 +4,6 @@ import { useForm, SubmitHandler } from 'react-hook-form';
 import Place from './Place';
 import Dimensions from './Dimensions';
 import Amounts from './Amounts';
-
-import { settings } from './sliderConfig';
 import { Inputs } from './types';
 import styles from './Quoter.module.scss';
 export default function Quoter() {
