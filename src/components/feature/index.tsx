@@ -1,7 +1,9 @@
 import Image from 'next/image';
-import styles from './Feature.module.scss';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import Button from '@components/button';
 import { TypeDescription } from '../../types/global';
+import IframeVideo from '@components/iframeVideo';
+import styles from './Feature.module.scss';
 export default function Feature({
 	items,
 	icon = false,
@@ -31,17 +33,9 @@ export default function Feature({
 			)}
 			{Symbol(items.type).toString() === `Symbol(${TypeDescription.video})` ? (
 				<div className={`${styles.video} video`}>
-					<iframe
-						src={items.video}
-						className='lazy'
-						loading='lazy'
-						width='560'
-						height='315'
-						title='YouTube video player'
-						frameBorder='0'
-						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-						allowFullScreen
-					/>
+					<LazyLoadComponent>
+						<IframeVideo url={items.video} />
+					</LazyLoadComponent>
 				</div>
 			) : (
 				<>

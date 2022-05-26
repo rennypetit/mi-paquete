@@ -44,8 +44,8 @@ const Banner = ({ data }: Props) => {
 						src={data.image}
 						alt={data.alt}
 						quality={100}
-						width={320}
-						height={400}
+						width={'320'}
+						height={'400'}
 					/>
 				)}
 			</div>

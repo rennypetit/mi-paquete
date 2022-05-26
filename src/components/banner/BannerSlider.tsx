@@ -3,8 +3,6 @@ import Banner from './index';
 // types
 import { PropsSlider } from './types';
 // styles
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 export default function BannerSlider({ items }: PropsSlider) {
 	// configuration slider banner
 	const settings = {
