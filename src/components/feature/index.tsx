@@ -2,22 +2,11 @@ import Image from 'next/image';
 import styles from './Feature.module.scss';
 import Button from '@components/button';
 import { TypeDescription } from '../../types/global';
-import { useEffect } from 'react';
 export default function Feature({
 	items,
 	icon = false,
 	optionalText = 'optionalFalse',
 }) {
-	useEffect(() => {
-		window.addEventListener(
-			'LazyLoad::Initialized',
-			function (event) {
-				window.lazyLoadInstance = event.detail.instance;
-			},
-			false
-		);
-	}, []);
-
 	return (
 		<div
 			className={`${styles.container} ${styles[optionalText]} ${

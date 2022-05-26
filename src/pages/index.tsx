@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import Head from '@components/Head';
 import Layout from 'layout';
 import BannerSlider from '@components/banner/BannerSlider';
@@ -51,7 +52,9 @@ const Home: NextPage = () => {
 								<mark>Mi Paquete?</mark>
 							</span>
 						</h2>
-						<Feature items={features} />
+						<LazyLoadComponent>
+							<Feature items={features} />
+						</LazyLoadComponent>
 					</div>
 				</div>
 				<div className={`${styles.containerAllies} container-background`}>
