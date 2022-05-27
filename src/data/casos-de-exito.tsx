@@ -55,17 +55,17 @@ export const sectionThree = {
 };
 
 export const commercial = {
-	colorText: 'textBlack',
+	colorText: 'textWhite',
 	title: '<p><strong>Plataforma de automatización multitransporte</strong></p>',
 	description:
-		'<h3>Mejora tus procesos <strong>de logística de envío de productos</strong></h3><p>Descubre cómo mejorar tu <strong>proceso de envío de mercancía</strong> a nivel nacional y urbano con <strong><mark>Mi Paquete</mark></strong> e incrementa tus ventas a través de nuestras soluciones de <strong>automatización de envíos para ecommerce y tiendas online.</strong></p>',
-	image: '/images/commercials/home-background.png',
-	imageDesktop: '/images/commercials/home-background-desktop.png',
-	alt: 'background commercials',
+		'<h3><strong>¡Hagamos crecer tu marca juntos!</strong></h3><p>Conoce cómo mejorar <strong>la logística de envíos de tu marca</strong> junto al equipo de Mi Paquete y descubre todas las ventajas que puedes obtener al trabajar con nosotros.</p>',
+	image: '/images/commercials/fondo-casos-de-exito.png',
+	imageDesktop: '/images/commercials/fondo-casos-de-exito-desktop.png',
+	alt: 'background casos de exito',
 	button: {
-		title: 'MÁS INFORMACIÓN',
+		title: 'REGÍSTRATE',
 		url: 'https://app.mipaquete.com/registro',
-		color: 'buttonBlue',
+		color: 'buttonWhite',
 		type: TypeButton.blank,
 	},
 };

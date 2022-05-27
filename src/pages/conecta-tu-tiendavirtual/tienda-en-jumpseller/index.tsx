@@ -42,6 +42,10 @@ const jumpseller: NextPage = () => {
 					<Feature items={features} />
 				</div>
 				<div className={`${styles.containerAllies} container-background`}>
+					<h4 className={`containerTitle ${styles.title}`}>
+						Transportadoras aliadas con las que podrás{' '}
+						<span>enviar mercancía</span>
+					</h4>
 					<Ally />
 				</div>
 				<div className='container'>

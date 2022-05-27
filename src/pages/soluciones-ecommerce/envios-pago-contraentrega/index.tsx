@@ -45,10 +45,10 @@ const enviosPagoContraEntrega: NextPage = () => {
 							<Ally />
 						</div>
 						<div className={styles.containerService}>
-							<h2 className={styles.title}>
+							<h3 className={styles.title}>
 								¿Cómo funciona nuestro servicio de pago contra entrega para{' '}
 								<span>ecommerce y tiendas online?</span>
-							</h2>
+							</h3>
 							<p className={styles.description}>
 								Adquirir el{' '}
 								<strong>servicio de mensajería de pagos contra entrega</strong>{' '}

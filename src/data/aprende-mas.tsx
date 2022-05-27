@@ -16,7 +16,7 @@ export const banner: TypesBanner = {
 	orientation: 'orientationRight',
 	buttonOne: {
 		color: 'buttonBlue',
-		title: 'CONOCER MÁS',
+		title: 'CONOCE MÁS',
 		url: '#conocer-mas',
 		type: TypeButton.href,
 	},

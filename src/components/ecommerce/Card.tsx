@@ -21,7 +21,7 @@ const Card = ({ items }) => {
 										height={118}
 									/>
 								</div>
-								<p className={styles.description}>{item.description}</p>
+								<h2 className={styles.description}>{item.description}</h2>
 								<div className={styles.button}>
 									<Button data={item.button} />
 								</div>

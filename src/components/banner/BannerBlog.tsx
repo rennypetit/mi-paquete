@@ -5,11 +5,13 @@ import { postForm } from '@services/api';
 import newsletter from '@hooks/newsletter';
 import Modal from '@components/form/Modal';
 import styles from './BannerBlog.module.scss';
-
+type Input = {
+	email: string;
+};
 const BannerBlog = () => {
 	const [isOpenModal, setIsOpenModal] = useState(false);
-	const { register, handleSubmit, resetField } = useForm<Inputs>();
-	const onSubmit: SubmitHandler<Inputs> = async (dataSubmit) => {
+	const { register, handleSubmit, resetField } = useForm<Input>();
+	const onSubmit: SubmitHandler<Input> = async (dataSubmit) => {
 		if (!dataSubmit.check) return alert('Faltan por completar');
 
 		const body = newsletter(dataSubmit);

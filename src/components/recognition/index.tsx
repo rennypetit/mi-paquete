@@ -28,9 +28,9 @@ const Recognition = ({ data }) => {
 						</div>
 					)}
 					<div className={styles.description}>
-						<h4 className={styles.title}>
+						<h6 className={styles.title}>
 							{data.title} <strong>{data.titleStrong}</strong>
-						</h4>
+						</h6>
 						<p>{data.description}</p>
 						<hr className={styles.separator} />
 					</div>

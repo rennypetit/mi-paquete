@@ -44,14 +44,14 @@ const almacenamiento: NextPage = () => {
 				<Slider data={slider} />
 				<div className='container'>
 					<div className={styles.containerPlans}>
-						<h2 className={`${styles.plan} containerTitle`}>
+						<h3 className={`${styles.plan} containerTitle`}>
 							Planes de almacenamiento <br />
 							<span>de mercancía mensual</span>
-						</h2>
+						</h3>
 						<Plan items={plans} />
 					</div>
 					<div className={styles.benefit}>
-						<h3 className={styles.benefitTitle}>{benefit.title}</h3>
+						<h3 className={styles.benefitTitle}>{benefit.title}1</h3>
 						<div
 							className={styles.benefitDescription}
 							dangerouslySetInnerHTML={{ __html: benefit.description }}

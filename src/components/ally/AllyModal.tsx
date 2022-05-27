@@ -31,9 +31,9 @@ export default function AllyModal() {
 	};
 	return (
 		<section className={styles.section}>
-			<h2 className='containerTitle'>
+			<h3 className='containerTitle'>
 				Transportadoras aliadas con las que podrás <span>enviar mercancía</span>
-			</h2>
+			</h3>
 			<div className={styles.container}>
 				{allies.items.map((item, index) => (
 					<Fragment key={index}>

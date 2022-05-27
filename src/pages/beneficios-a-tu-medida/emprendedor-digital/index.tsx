@@ -49,10 +49,10 @@ const emprendedorDigital: NextPage = () => {
 				</div>
 				<div className='container'>
 					<div className={styles.containerService}>
-						<h2 className={styles.title}>
+						<h3 className={styles.title}>
 							Conoce a detalle nuestros beneficios para <br />
 							<span>emprendedores digitales</span>
-						</h2>
+						</h3>
 						<p className={styles.description}>
 							Descubre cómo ganar <strong>puntos Mi Paquete</strong> y usarlos a
 							tu favor para hacer crecer tu tienda online o incrementar tus{' '}

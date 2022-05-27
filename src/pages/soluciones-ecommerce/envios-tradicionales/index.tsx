@@ -43,6 +43,10 @@ const enviosTradicionales: NextPage = () => {
 				</div>
 				<div className='container'>
 					<div className={styles.containerAllies}>
+						<h2 className={`containerTitle ${styles.title}`}>
+							Transportadoras aliadas con las que podrás{' '}
+							<span>enviar mercancía</span>
+						</h2>
 						<Ally />
 					</div>
 				</div>

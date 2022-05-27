@@ -18,9 +18,11 @@ const Banner = ({ data }: Props) => {
 			></div>
 			<div className={styles.content}>
 				{data?.subtitle && (
-					<h2>
-						{data.subtitle} <span>|</span> Mi Paquete
-					</h2>
+					<p className={styles.subTitle}>
+						<strong>
+							{data.subtitle} <span>|</span> Mi Paquete
+						</strong>
+					</p>
 				)}
 				<div
 					className={styles.description}
@@ -44,8 +46,8 @@ const Banner = ({ data }: Props) => {
 						src={data.image}
 						alt={data.alt}
 						quality={100}
-						width={'320'}
-						height={'400'}
+						width={320}
+						height={400}
 					/>
 				)}
 			</div>

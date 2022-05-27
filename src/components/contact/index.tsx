@@ -15,9 +15,9 @@ const Contact = () => {
 					/>
 				</div>
 				<div className={styles.content}>
-					<h4 className={styles.title}>
+					<h3 className={styles.title}>
 						Canales <span>de contacto</span>
-					</h4>
+					</h3>
 					<div className={styles.items}>
 						<div className={styles.item}>
 							<p className={styles.itemOne}>

@@ -18,9 +18,10 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  h2 {
+  .testimonialsTitle {
     font-family: $font_primary_bold;
     font-size: 1.7rem;
+    margin: 10px 0;
   }
   & > span, img {
     height: 35px !important;
@@ -144,7 +145,7 @@
     }
   }
   .left {
-    h2 {
+    .testimonialsTitle {
       font-size: 2rem;
     }
   }

@@ -56,7 +56,7 @@ const Storage = ({ data }) => {
 										height={95}
 									/>
 								</div>
-								<h3 className={styles.itemTitle}>{item.title}</h3>
+								<p className={styles.itemTitle}>{item.title}</p>
 								<p className={styles.itemDescription}>{item.description}</p>
 							</div>
 						))}

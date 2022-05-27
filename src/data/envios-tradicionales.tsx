@@ -64,7 +64,7 @@ export const description = {
 
 export const benefits = {
 	title:
-		'<h2>¿Por qué realizar envíos con <span><mark>Mi Paquete</mark></span> en vez de hacerlo directamente con <span>las transportadoras?</span></h2>',
+		'<h3>¿Por qué realizar envíos con <span><mark>Mi Paquete</mark></span> en vez de hacerlo directamente con <span>las transportadoras?</span></h3>',
 	description:
 		'Conoce por qué desde <strong>Mi Paquete</strong> el servicio de envío con las <strong>principales empresas de transporte de envíos</strong> nacionales y urbanos, te ahorra tiempo y dinero, ya que puedes realizar tus envíos sin obstáculos, trámites o papeleos.',
 	buttonOne: {
@@ -113,9 +113,9 @@ export const benefits = {
 
 export const commercial = {
 	colorText: 'textWhite',
-	title: '<p>Sigue tu envío en cada estado de su entrega</p>',
+	title: '<h4>Sigue tu envío en cada estado de su entrega</h4>',
 	description:
-		'<h3>Conoce siempre el<strong> estado de tu envío con Mi Paquete</strong></h3><p>Con <strong>Mi Paquete</strong> tienes la posibilidad de ofrecer a tus clientes notificaciones vía <strong> WhatsApp</strong> para que conozcan el estado de su envío desde que es despachado, indicándoles datos clave para que tus ventas sean más seguras.</p>',
+		'<h4>Conoce siempre el<strong> estado de tu envío con Mi Paquete</strong></h4><p>Con <strong>Mi Paquete</strong> tienes la posibilidad de ofrecer a tus clientes notificaciones vía <strong> WhatsApp</strong> para que conozcan el estado de su envío desde que es despachado, indicándoles datos clave para que tus ventas sean más seguras.</p>',
 	image: '/images/commercials/envios-tradicionales-background.png',
 	imageDesktop:
 		'/images/commercials/envios-tradicionales-background-desktop.png',

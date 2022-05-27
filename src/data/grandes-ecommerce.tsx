@@ -50,7 +50,7 @@ export const commercial = {
 	colorText: 'textWhite',
 	title: '<p>Almacenamiento de productos</p>',
 	description:
-		'<h3>Realiza entregas más rápidas almacenando tus productos con <strong><mark>Mi Paquete</mark></strong></h3><p>Con <strong><mark>Mi Paquete</mark></strong> tienes la posibilidad almacenar tus productos en las <strong>principales ciudades del país,</strong> para generar entregas en un menor período de tiempo.</p>',
+		'<h4>Realiza entregas más rápidas almacenando tus productos con <strong><mark>Mi Paquete</mark></strong></h3><p>Con <strong><mark>Mi Paquete</mark></strong> tienes la posibilidad almacenar tus productos en las <strong>principales ciudades del país,</strong> para generar entregas en un menor período de tiempo.</p>',
 	image: '/images/commercials/pasarela-background.png',
 	imageDesktop: '/images/commercials/pasarela-background-desktop.png',
 	alt: 'background grandes ecommerce',

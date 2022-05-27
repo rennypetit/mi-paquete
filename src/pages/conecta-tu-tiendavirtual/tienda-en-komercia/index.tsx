@@ -42,6 +42,10 @@ const komercia: NextPage = () => {
 					</div>
 				</div>
 				<div className={`${styles.containerAllies} container-background`}>
+					<h5 className={`containerTitle ${styles.title}`}>
+						Transportadoras aliadas con las que podrás{' '}
+						<span>enviar mercancía</span>
+					</h5>
 					<Ally />
 				</div>
 				<div className='container'>

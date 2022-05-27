@@ -7,7 +7,7 @@ const Plan = ({ items }) => {
 			{items.map((item, index) => (
 				<div className={styles.card} key={index}>
 					<div className={styles.top}>
-						<h4 className={styles.title}>{item.title}</h4>
+						<p className={styles.title}>{item.title}</p>
 						<Image
 							src={item.image}
 							alt={item.alt}

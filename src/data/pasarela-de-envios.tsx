@@ -58,7 +58,7 @@ export const features = {
 
 export const commercial = {
 	colorText: 'textWhite',
-	title: '<p>Sigue tu envío en cada estado de su entrega</p>',
+	title: '<h3>Sigue tu envío en cada estado de su entrega</h3>',
 	description:
 		'<h3>Conoce siempre el<strong> estado de tu envío con <mark>Mi Paquete</mark></strong></h3><p>Con <strong><mark>Mi Paquete</mark></strong> tienes la posibilidad de ofrecer a tus clientes notificaciones vía <strong>WhatsApp</strong> para que conozcan el estado de su envío desde que es despachado, indicándoles datos clave para que tus ventas sean más seguras.</p>',
 	image: '/images/commercials/envios-tradicionales-background.png',
@@ -87,9 +87,8 @@ export const form = {
 
 export const commercialTwo = {
 	colorText: 'textWhite',
-	// title: '<p>Sigue tu envío en cada estado de su entrega</p>',
 	description:
-		'<h3>¡Conoce las ventajas de nuestro servicio de <strong>almacenamiento!</strong></h3><p>Almacenamos, alistamos y despachamos tus productos. Confía tus inventarios en nosotros e incrementa su rotación.</p>',
+		'<h4>¡Conoce las ventajas de nuestro servicio de <strong>almacenamiento!</strong></h4><p>Almacenamos, alistamos y despachamos tus productos. Confía tus inventarios en nosotros e incrementa su rotación.</p>',
 	image: '/images/commercials/pasarela-background.png',
 	imageDesktop: '/images/commercials/pasarela-background-desktop.png',
 	alt: 'background pasarela',

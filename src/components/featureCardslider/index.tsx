@@ -36,7 +36,7 @@ export default function FeatureCardSlider({ items }) {
 							width={84}
 							height={84}
 						/>
-						<h3 className={styles.title}>{item.title}</h3>
+						<p className={styles.title}>{item.title}</p>
 						<p className={styles.description}>{item.description}</p>
 					</div>
 				))}

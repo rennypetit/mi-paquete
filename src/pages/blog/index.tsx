@@ -39,9 +39,9 @@ const Blog: NextPage = () => {
 				<NavCategories handleChangeFilter={handleChangeFilter} />
 				<GridCards dataBlog={dataBlog} />
 				<hr className={styles.hr} />
-				<h2 className={styles.title}>
+				<h3 className={styles.title}>
 					Últimas <strong>entradas</strong>
-				</h2>
+				</h3>
 				<FeaturedPost data={lastPosts[0]} />
 				<GridCards dataBlog={lastPosts} />
 				<Fixed />

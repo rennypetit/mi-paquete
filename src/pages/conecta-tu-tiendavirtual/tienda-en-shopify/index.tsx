@@ -49,14 +49,18 @@ const shopify: NextPage = () => {
 					<Feature items={features} />
 				</div>
 				<div className={`${styles.containerAllies} container-background`}>
+					<h3 className={`containerTitle ${styles.title}`}>
+						Transportadoras aliadas con las que podrás{' '}
+						<span>enviar mercancía</span>
+					</h3>
 					<Ally />
 				</div>
 				<div className={`container ${styles.description}`}>
 					<Description data={description} />
 					<div className={styles.benefits}>
-						<h2 className='containerTitle'>
+						<h4 className='containerTitle'>
 							Beneficios que <span>encontrarás</span>
-						</h2>
+						</h4>
 						<CardBenefit items={cards} />
 					</div>
 				</div>
@@ -76,9 +80,9 @@ const shopify: NextPage = () => {
 				</div>
 				<div className={'containerVideos'}>
 					<div className='container'>
-						<h2 className='containerTitle'>
+						<h5 className='containerTitle'>
 							¿Cómo instalar Carrier Service <span>en tu Shopify?</span>
-						</h2>
+						</h5>
 						<SliderVideos items={videos} />
 					</div>
 				</div>

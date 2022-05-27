@@ -34,6 +34,10 @@ const grandesEcommerce: NextPage = () => {
 					</div>
 				</div>
 				<div className={`container ${styles.container}`}>
+					<h3 className={`containerTitle ${styles.title}`}>
+						Transportadoras aliadas con las que podrás{' '}
+						<span>enviar mercancía</span>
+					</h3>
 					<Ally />
 				</div>
 				<div className={`container-background ${styles.containerCommercial}`}>

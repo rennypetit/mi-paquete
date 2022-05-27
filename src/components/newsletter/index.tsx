@@ -9,11 +9,6 @@ import styles from './Newsletter.module.scss';
 
 type Inputs = {
 	email: string;
-	check?: boolean;
-	fieldValues?: Array<{
-		field: string;
-		value: string;
-	}>;
 };
 
 export default function Newsletter({ background }) {
@@ -58,10 +53,10 @@ export default function Newsletter({ background }) {
 				/>
 			)}
 			<div className={styles.content}>
-				<h2 className={styles.title}>
+				<h6 className={styles.title}>
 					Recibe novedades y consejos para{' '}
 					<strong>ecommerce en nuestro Newsletter</strong>
-				</h2>
+				</h6>
 				<form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
 					<input
 						type='email'

@@ -12,7 +12,7 @@ import { banner, features, cardsState, metaTags } from '@data/carrier-service';
 
 import styles from './CarrierService.module.scss';
 
-const woocommerce: NextPage = () => {
+const CarrierService: NextPage = () => {
 	return (
 		<>
 			<Head data={metaTags} />
@@ -35,4 +35,4 @@ const woocommerce: NextPage = () => {
 	);
 };
 
-export default woocommerce;
+export default CarrierService;

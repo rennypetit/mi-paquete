@@ -31,7 +31,7 @@ export const banner: TypesBanner = {
 export const features = {
 	image: '/images/features/woocommerce.png',
 	alt: 'features',
-	title: '<p>Ventajas de <span>automatizar tus envíos</span></p>',
+	title: '<h2>Ventajas de <span>automatizar tus envíos</span></h2>',
 	orientation: 'right',
 	type: TypeDescription.video,
 	video: 'https://www.youtube.com/embed/IOjghZQVtcw',
@@ -70,30 +70,30 @@ export const features = {
 export const videos = [
 	{
 		video: 'https://www.youtube.com/embed/UrWzKzwdE9U',
-		title: '<h3><strong>Paso 1: </strong>Instalación del plugin</h3>',
+		title: '<h4><strong>Paso 1: </strong>Instalación del plugin</h4>',
 	},
 	{
 		video: 'https://www.youtube.com/embed/qx3GK2C6kb8',
-		title: '<h3><strong>Paso 2: </strong>Configuración</h3>',
+		title: '<h4><strong>Paso 2: </strong>Configuración</h4>',
 	},
 	{
 		video: 'https://www.youtube.com/embed/2eQ3nV1U3r4',
-		title: '<h3><strong>Paso 3: </strong>Configura tus productos</h3>',
+		title: '<h4><strong>Paso 3: </strong>Configura tus productos</h4>',
 	},
 	{
 		video: 'https://www.youtube.com/embed/WxeGxMiy4dw',
 		title:
-			'<h3><strong>Paso 4: </strong>Procesa tus envíos y descarga tus guías</h3>',
+			'<h4><strong>Paso 4: </strong>Procesa tus envíos y descarga tus guías</h4>',
 	},
 	{
 		video: 'https://www.youtube.com/embed/QpfJXCSvZr0',
-		title: '<h3><strong>Paso 5: </strong>Experiencia del cliente</h3>',
+		title: '<h4><strong>Paso 5: </strong>Experiencia del cliente</h4>',
 	},
 ];
 
 export const description = {
 	title:
-		'<h3><strong>Envíos en WooCommerce</strong> <span>Automatiza la logística de envíos de tu tienda en WooCommerce</span></h3>',
+		'<h4><strong>Envíos en WooCommerce</strong> <span>Automatiza la logística de envíos de tu tienda en WooCommerce</span></h4>',
 	description:
 		'<p>Genera guías y órdenes de recogida de tus paquetes de forma automática con las principales empresas de transporte de envíos, es gratis, fácil de configurar e incluye la opción de <strong>Envíos con Pago Contra Entrega.</strong></p>',
 	buttonOne: {
@@ -171,7 +171,7 @@ export const commercial = {
 	colorText: 'textBlack',
 	title: '',
 	description:
-		'<h3>Configura nuestra aplicación fácil y<strong> en pocos minutos</strong></h3><p>Sigue paso a paso el proceso de configuración e integra tu tienda de <strong>Woocommerce</strong> fácilmente.</p>',
+		'<h5>Configura nuestra aplicación fácil y<strong> en pocos minutos</strong></h5><p>Sigue paso a paso el proceso de configuración e integra tu tienda de <strong>Woocommerce</strong> fácilmente.</p>',
 	image: '/images/commercials/woocommerce-background.png',
 	imageDesktop: '/images/commercials/woocommerce-background-desktop.png',
 	alt: 'background woocommerce',
@@ -219,7 +219,7 @@ export const testimonials = {
 export const commercialTwo = {
 	colorText: 'textWhite',
 	description:
-		'<h3>¿Realizas más de 500 envíos mensuales? <strong>Cotiza múltiples envíos</strong></h3><p>Nuestros descuentos por volumen y logística de entregas pueden hacerte la vida más fácil.</p>',
+		'<h5>¿Realizas más de 500 envíos mensuales? <strong>Cotiza múltiples envíos</strong></h5><p>Nuestros descuentos por volumen y logística de entregas pueden hacerte la vida más fácil.</p>',
 	image: '/images/commercials/woocommerce-background-two.png',
 	imageDesktop: '/images/commercials/woocommerce-background-desktop-two.png',
 	alt: 'background woocommerce',
@@ -265,7 +265,7 @@ export const question = [
 
 export const form = {
 	title:
-		'<h4>Descubre cómo mejorar las ventas en <strong>tu WooCommerce</strong></h4>',
+		'<h5>Descubre cómo mejorar las ventas en <strong>tu WooCommerce</strong></h5>',
 	description:
 		'<p>A través de <strong><mark>Mi Paquete</mark></strong> y la <strong>logística de automatización de envíos</strong> con nuestro plugin, podrás incrementar tus ventas y ofrecer un mejor servicio a tus clientes.</p>',
 	image: '/images/form/background-blue.png',

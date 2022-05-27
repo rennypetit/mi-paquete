@@ -47,22 +47,26 @@ const woocommerce: NextPage = () => {
 					<Feature items={features} />
 				</div>
 				<div className={`${styles.containerAllies} container-background`}>
+					<h3 className={`containerTitle ${styles.title}`}>
+						Transportadoras aliadas con las que podrás{' '}
+						<span>enviar mercancía</span>
+					</h3>
 					<Ally />
 				</div>
 				<div className={'containerVideos'}>
 					<div className='container'>
-						<h2 className='containerTitle'>
+						<h3 className='containerTitle'>
 							¿Cómo configurar Mi Paquete en{' '}
 							<span>tu tienda en Woocomerce?</span>
-						</h2>
+						</h3>
 						<SliderVideos items={videos} />
 					</div>
 				</div>
 				<div className={`container ${styles.description}`}>
 					<Description data={description} />
-					<h2 className='containerTitle'>
+					<h4 className='containerTitle'>
 						Beneficios que <span>encontrarás</span>
-					</h2>
+					</h4>
 					<CardBenefit items={cards} />
 				</div>
 				<Commercial data={commercial} />

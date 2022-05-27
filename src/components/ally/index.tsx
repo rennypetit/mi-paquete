@@ -1,15 +1,9 @@
 import Image from 'next/image';
 import allies from '@data/componentAllies';
 import styles from './Ally.module.scss';
-export default function Ally({ title = true }) {
+export default function Ally() {
 	return (
 		<section className={styles.section}>
-			{title && (
-				<h2 className={`containerTitle ${styles.title}`}>
-					Transportadoras aliadas con las que podrás{' '}
-					<span>enviar mercancía</span>
-				</h2>
-			)}
 			<div className={styles.container}>
 				{allies.items.map((item, index) => (
 					<div className={styles.image} key={index}>

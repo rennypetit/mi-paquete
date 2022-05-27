@@ -23,7 +23,9 @@ function Question({ items }) {
 										width={35}
 										height={35}
 									/>
-									<h2>Preguntas frecuentes</h2>
+									<p className={styles.testimonialsTitle}>
+										Preguntas frecuentes
+									</p>
 								</div>
 								<div className={styles.arrow}>
 									<Image

@@ -11,7 +11,7 @@ export default function ServiceItems({
 				<div className={styles.image}>
 					<Image src={image} alt={alt} quality={100} width={95} height={95} />
 				</div>
-				<h5 className={styles.title}>{title}</h5>
+				<h4 className={styles.title}>{title}</h4>
 				<p className={styles.description}>{description}</p>
 				<div className={styles.buttonContainer}>
 					<Link href={url}>

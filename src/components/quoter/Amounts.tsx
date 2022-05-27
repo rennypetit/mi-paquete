@@ -9,7 +9,6 @@ export default function Amounts({ register, errors }) {
 					<Image
 						src='/images/icons/amounts.svg'
 						alt='icon amounts'
-						aria-hidden='true'
 						height={50}
 						width={50}
 					/>

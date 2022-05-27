@@ -2,9 +2,9 @@ import { TypesBannerItems } from '@components/banner/types';
 import { TypeButton } from '@types/global';
 
 export const metaTags = {
-	title: 'Automatización de envíos para tiendas virtuales | Mi Paquete',
+	title: 'Automatización de envíos para ecommerce | Mi Paquete',
 	description:
-		'Automatiza envíos de tu tienda en Shopify, WooCommerce, Jumpseller, Komercia o integra tu tienda vía API sin importar en qué plataforma esté alojada.',
+		'Mejora tu logística y automatiza los envíos de tu tienda online a través de nuestra interfaz API sin importar en qué plataforma está alojada',
 };
 
 export const banner: TypesBannerItems = {
@@ -108,7 +108,7 @@ export const row = {
 	image: '/images/background-blue.png',
 	alt: 'background',
 	title:
-		'<h2><strong>Incrementa tus envíos</strong> <br /> a través de nuestra API</h2>',
+		'<h4><strong>Incrementa tus envíos</strong> <br /> a través de nuestra API</h4>',
 	description:
 		'<p>Con nuestra API cada vez que realices una venta en tu ecommerce, se generará la guía y orden de despacho automáticamente para que ahorres tiempo en trámites y papeleos.</p>',
 	button: {
@@ -140,7 +140,7 @@ export const question = [
 
 export const form = {
 	title:
-		'<h4>¿Quieres <strong>integrar API <br /></strong> a tu tienda online?</h4>',
+		'<h5>¿Quieres <strong>integrar API <br /></strong> a tu tienda online?</h5>',
 	description:
 		'<p>Nuestro <strong>equipo de soporte</strong>  te ayudará a configurar el API de <mark>Mi Paquete</mark> en tu tienda online y resolverá tus dudas durante el proceso.</p>',
 	image: '/images/form/background-blue.png',

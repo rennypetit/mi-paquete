@@ -22,7 +22,7 @@ export const Benefit = ({ data }) => {
 									height={84}
 								/>
 							</div>
-							<h3 className={styles.cardTitle}>{item.title}</h3>
+							<p className={styles.cardTitle}>{item.title}</p>
 							<p className={styles.cardDescription}>{item.description}</p>
 						</div>
 					))}

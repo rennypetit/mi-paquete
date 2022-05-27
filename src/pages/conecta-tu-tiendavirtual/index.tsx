@@ -7,7 +7,7 @@ import Newsletter from '@components/newsletter';
 import Fixed from '@components/fixed';
 
 // only data of components
-import { cards, testimonials, metaTags } from '@data/conecta-tu-tiendavirtual';
+import { metaTags, cards, testimonials } from '@data/conecta-tu-tiendavirtual';
 
 import styles from './ConectaTutiendaVirtual.module.scss';
 

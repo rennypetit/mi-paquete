@@ -33,7 +33,7 @@ export const features = {
 	image: '/images/features/home.png',
 	alt: 'features',
 	title:
-		'<p>¿Por qué integrar <mark>Mi Paquete </mark><span>a Shopify?</span></p>',
+		'<h2>¿Por qué integrar <mark>Mi Paquete </mark><span>a Shopify?</span></h2>',
 	orientation: 'left',
 	type: TypeDescription.video,
 	video: 'https://www.youtube.com/embed/jty8_mR_BB0',
@@ -149,7 +149,7 @@ export const commercial = {
 	colorText: 'textBlack',
 	title: '',
 	description:
-		'<h3>Conoce paso a paso cómo instalar nuestra<strong> aplicación en Shopify</strong></h3><p>Sigue paso a paso el proceso de instalación e integra tu tienda de <strong>Shopify</strong> fácilmente.</p>',
+		'<h4>Conoce paso a paso cómo instalar nuestra<strong> aplicación en Shopify</strong></h4><p>Sigue paso a paso el proceso de instalación e integra tu tienda de <strong>Shopify</strong> fácilmente.</p>',
 	image: '/images/commercials/shopify-background.png',
 	imageDesktop: '/images/commercials/shopify-background-desktop.png',
 	alt: 'background shopify',
@@ -192,39 +192,31 @@ export const row = {
 	image: '/images/background-blue.png',
 	alt: 'background',
 	title:
-		'<h2>Todo lo que tienes que saber para automatizar tu tienda en <strong>Shopify con Carrier Service</strong></h2>',
+		'<h5>Todo lo que tienes que saber para automatizar tu tienda en <strong>Shopify con Carrier Service</strong></h5>',
 	description:
 		'<p>Conoce paso por paso cómo configurar nuestra aplicación en tu <strong>tienda de Shopify</strong> y cómo puede ayudarte a la hora de generar ventas en tu ecommerce.</p>',
-	// button: {
-	// 	color: 'none',
-	// 	icon: '/images/icons/play.png',
-	// 	alt: 'icon play',
-	// 	title: 'VER VÍDEOS',
-	// 	url: 'https://mipaquete.com/shopify',
-	// 	type: TypeButton.blank,
-	// },
 };
 
 export const videos = [
 	{
 		video: 'https://www.youtube.com/embed/GuMjb1t-kV0',
 		title:
-			'<h3><strong>Paso 1: </strong> Instalación y configuración de la aplicación</h3>',
+			'<h4><strong>Paso 1: </strong> Instalación y configuración de la aplicación</h4>',
 	},
 	{
 		video: 'https://www.youtube.com/embed/zEGVIzLh_tM',
 		title:
-			'<h3><strong>Paso 2: </strong>Guardado de la generación y la orden de envío</h3>',
+			'<h4><strong>Paso 2: </strong>Guardado de la generación y la orden de envío</h4>',
 	},
 	{
 		video: 'https://www.youtube.com/embed/kACkP2axZro',
 		title:
-			'<h3><strong>Paso 3: </strong>Configuración transportadoras. aplicación <mark>mipaquete.com</mark> en Shopify</h3>',
+			'<h4><strong>Paso 4: </strong>Configuración transportadoras. aplicación <mark>mipaquete.com</mark> en Shopify</h4>',
 	},
 	{
 		video: 'https://www.youtube.com/embed/_925WLY7Si8',
 		title:
-			'<h3><strong>Paso 4: </strong>Configuración productos. aplicación <a href="https://mipaquete.com" target="_blank" rel="noopener noreferrer"><mark>mipaquete.com</mark></a> en Shopify</h3>',
+			'<h4><strong>Paso 4: </strong>Configuración productos. aplicación <a href="https://mipaquete.com" target="_blank" rel="noopener noreferrer"><mark>mipaquete.com</mark></a> en Shopify</h4>',
 	},
 ];
 
@@ -272,7 +264,7 @@ export const question = [
 
 export const form = {
 	title:
-		'<h4>¿Tienes una tienda en Shopify? <strong>¡Automatiza tus envíos!</strong></h4>',
+		'<h5>¿Tienes una tienda en Shopify? <strong>¡Automatiza tus envíos!</strong></h5>',
 	description:
 		'<p>Añade la aplicación de <mark>Mi Paquete</mark> en tu ecommerce en Shopify y ofrece a tus clientes conocer en tiempo real el precio de sus envíos al realizar sus compras.</p>',
 	image: '/images/form/background-blue.png',

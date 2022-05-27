@@ -91,7 +91,8 @@ export const storages = {
 export const features = {
 	type: TypeDescription.video,
 	video: 'https://www.youtube.com/embed/SiuW2y_EB6o',
-	title: '<p>Ventajas de automatizar tu tienda en <span>Jumpseller</span></p>',
+	title:
+		'<h3>Ventajas de automatizar tu tienda en <span>Jumpseller</span></h3>',
 	orientation: 'left',
 	items: [
 		{
@@ -186,7 +187,7 @@ export const question = [
 
 export const form = {
 	title:
-		'<h4>Mejora tu logística de envíos para tu <strong>tienda en Jumpseller</strong></h4>',
+		'<h5>Mejora tu logística de envíos para tu <strong>tienda en Jumpseller</strong></h5>',
 	description:
 		'<p>Conecta tu <strong>tienda virtual</strong> con nuestra aplicación para Jumpseller y genera envíos con las <strong>principales</strong> <strong>transportadoras del país.</strong></p>',
 	image: '/images/form/background-blue.png',

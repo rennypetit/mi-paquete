@@ -26,7 +26,7 @@ const workWithUs: NextPage = () => {
 					{/* <Card data={cards} /> */}
 				</main>
 				<div className={`container ${styles.margin_container}`}>
-					<Testimonial data={testimonials} />
+					<Testimonial data={testimonials} haveLink={false} />
 				</div>
 				<Newsletter background={'secondary'} />
 				<Fixed />

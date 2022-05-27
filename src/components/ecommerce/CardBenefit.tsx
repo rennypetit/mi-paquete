@@ -46,10 +46,10 @@ const Card = ({ items }) => {
 									height={25}
 								/>
 							</div>
-							<h4 className={styles.title}>
+							<p className={styles.title}>
 								{item.title}{' '}
 								<span className={styles[item.color]}>{item.titleSpan}</span>
-							</h4>
+							</p>
 							<p className={styles.description}>{item.description}</p>
 						</div>
 					))}

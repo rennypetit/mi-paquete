@@ -33,6 +33,10 @@ const apiIntegracion: NextPage = () => {
 					<Automations data={automations} />
 				</div>
 				<div className={`${styles.containerAllies} container-background`}>
+					<h3 className={`containerTitle ${styles.title}`}>
+						Transportadoras aliadas con las que podrás{' '}
+						<span>enviar mercancía</span>
+					</h3>
 					<Ally />
 				</div>
 				<Row data={row} />

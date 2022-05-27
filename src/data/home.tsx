@@ -125,7 +125,7 @@ export const commercial = {
 	colorText: 'textBlack',
 	title: '<p><strong>Envíos el mismo día</strong></p>',
 	description:
-		'<h3>Entrega tus productos a tiempo con nuestros<strong> envíos urbanos</strong></h3><p>Descubre cómo mejorar tu proceso de <strong>envío de mercancía</strong> con nuestras <strong>entregas urbanas</strong> y de <strong>última milla,</strong> las cuales harán que tus productos lleguen el mismo día hasta tus clientes.</p>',
+		'<h5>Entrega tus productos a tiempo con nuestros<strong> envíos urbanos</strong></h5><p>Descubre cómo mejorar tu proceso de <strong>envío de mercancía</strong> con nuestras <strong>entregas urbanas</strong> y de <strong>última milla,</strong> las cuales harán que tus productos lleguen el mismo día hasta tus clientes.</p>',
 	image: '/images/commercials/home-background.png',
 	imageDesktop: '/images/commercials/home-background-desktop.png',
 	alt: 'background commercials',

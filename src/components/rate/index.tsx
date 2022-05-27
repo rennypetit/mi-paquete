@@ -2,10 +2,10 @@ import styles from './Rate.module.scss';
 const Rate = () => {
 	return (
 		<div className={styles.container}>
-			<h2 className='containerTitle'>
+			<h3 className='containerTitle'>
 				Conoce las tarifas por el uso de nuestra <br />
 				<span>pasarela de envíos</span>
-			</h2>
+			</h3>
 
 			<table className={styles.table}>
 				<thead>

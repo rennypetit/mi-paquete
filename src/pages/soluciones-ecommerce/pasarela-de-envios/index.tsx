@@ -44,6 +44,10 @@ const pasarelaDeEnvios: NextPage = () => {
 				</div>
 				<div className='container margin-top'>
 					<Rate />
+					<h3 className={`containerTitle ${styles.title}`}>
+						Transportadoras aliadas con las que podrás{' '}
+						<span>enviar mercancía</span>
+					</h3>
 					<Ally />
 				</div>
 				<Form data={form} background={'secondary'} />

@@ -17,7 +17,7 @@ const FeaturedPost = ({ data }) => {
 							alt={'imagen-destacada'}
 						/>
 						<div className={styles.card__content}>
-							<h3>{data.title}</h3>
+							<h4>{data.title}</h4>
 							<p>{data.description}</p>
 							<div className={styles.seeMore}>VER MÁS</div>
 						</div>

@@ -31,10 +31,10 @@ export default function Services({ items }) {
 	return (
 		<div className={`${styles.container} services`}>
 			<div className={styles.information}>
-				<h3 className={styles.category}>SERVICIOS</h3>
-				<h4 className={styles.title}>
+				<p className={styles.category}>SERVICIOS</p>
+				<h3 className={styles.title}>
 					Conoce más sobre nuestros <span>servicios logísticos</span>
-				</h4>
+				</h3>
 				<p className={styles.description}>
 					Crear una tienda virtual implica tener control sobre todos los
 					procesos, por eso te ayudamos con automatización de envíos, pagos
