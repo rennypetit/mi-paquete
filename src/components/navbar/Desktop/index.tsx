@@ -12,7 +12,7 @@ export default function Navbar() {
 			<div className={styles.container}>
 				<div className={styles.logo}>
 					<Link href='/'>
-						<a>
+						<a tabIndex='-1'>
 							<Image
 								src='/images/logo.svg'
 								alt='logo'

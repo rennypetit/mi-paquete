@@ -37,11 +37,6 @@ const Banner = ({ data }: Props) => {
 			</div>
 
 			<div className={styles.image}>
-				{data.background && (
-					<div
-						className={`${styles.background} ${styles[data.background]}`}
-					></div>
-				)}
 				{data.image && (
 					<Image
 						src={data.image}

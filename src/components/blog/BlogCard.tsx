@@ -3,7 +3,10 @@ import Link from 'next/link';
 import styles from './BlogCard.module.scss';
 export default function BlogCard({ data, blog = false }) {
 	return (
-		<div className={`${styles.card} ${!blog && styles.cardWidth}`}>
+		<div
+			className={`${styles.card} ${!blog && styles.cardWidth}`}
+			tabIndex='-1'
+		>
 			<Link href={`/blog/${data.category}${data.url}`}>
 				<a>
 					<div className={styles.image}>

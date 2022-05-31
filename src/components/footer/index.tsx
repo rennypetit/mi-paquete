@@ -112,7 +112,7 @@ export default function Footer() {
 							<li className={`${styles.liTitle} ${styles.padding}`}>
 								<strong>Nuestras Redes Sociales</strong>
 							</li>
-							<div className={styles.redes}>
+							<ul className={styles.redes}>
 								<li>
 									<a
 										href='https://www.instagram.com/mipaquete.colombia/'
@@ -173,7 +173,7 @@ export default function Footer() {
 										/>
 									</a>
 								</li>
-							</div>
+							</ul>
 						</ul>
 					</div>
 					{/* end column 5 */}

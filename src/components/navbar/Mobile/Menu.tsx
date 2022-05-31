@@ -18,7 +18,7 @@ export default function Menu() {
 				))}
 				<ul className={styles.ulTitle}>
 					<Link href='/blog'>
-						<a>BLOG</a>
+						<a tabIndex='-1'>BLOG</a>
 					</Link>
 				</ul>
 				<hr className={styles.separator} />

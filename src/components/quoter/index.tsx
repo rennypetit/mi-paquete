@@ -52,9 +52,9 @@ export default function Quoter() {
 				onSubmit={handleSubmit(onSubmit)}
 			>
 				<div className={styles.body}>
-					<h3 className={styles.title}>
+					<h2 className={styles.title}>
 						Cotizar <span>envío de paquetes</span>
-					</h3>
+					</h2>
 					<p className={styles.description}>
 						Comprueba lo rápido y fácil que puedes realizar{' '}
 						<strong>envíos de productos</strong> a través de{' '}

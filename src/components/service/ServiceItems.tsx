@@ -6,7 +6,7 @@ export default function ServiceItems({
 	item: { image, alt, title, description, url },
 }) {
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} tabIndex='-1'>
 			<div className={styles.card}>
 				<div className={styles.image}>
 					<Image

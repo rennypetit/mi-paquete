@@ -32,7 +32,7 @@ export default function NavbarTwo() {
 											subItem.title
 										) : (
 											<Link href={subItem.url}>
-												<a>{subItem.title}</a>
+												<a tabIndex='-1'>{subItem.title}</a>
 											</Link>
 										)}
 									</li>
