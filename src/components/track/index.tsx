@@ -104,6 +104,8 @@ export default function Track() {
 								height={13}
 								width={13}
 								layout='fixed'
+								placeholder='blur'
+								blurDataURL='/images/icons/search-dark.svg'
 							/>
 						</div>
 					</button>

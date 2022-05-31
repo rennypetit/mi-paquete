@@ -49,6 +49,8 @@ const Banner = ({ data }: Props) => {
 						width={'320'}
 						height={'400'}
 						layout='fixed'
+						placeholder='blur'
+						blurDataURL={data.image}
 					/>
 				)}
 			</div>
