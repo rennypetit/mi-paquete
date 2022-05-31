@@ -37,6 +37,8 @@ export default function Place({ selectOrigin, selectDestiny }) {
 								options={dataLocations}
 								ref={selectOrigin}
 								placeholder='Bogotá D.C'
+								id='selectOrigin'
+								instanceId='selectOrigin'
 							/>
 						</div>
 					</div>
@@ -52,6 +54,8 @@ export default function Place({ selectOrigin, selectDestiny }) {
 							ref={selectDestiny}
 							required
 							placeholder='Medellín'
+							id='selectDestiny'
+							instanceId='selectDestiny'
 						/>
 					</div>
 					<div className={styles.errors}></div>

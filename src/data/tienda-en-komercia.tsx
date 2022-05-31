@@ -80,7 +80,7 @@ export const features = {
 	image: '/images/features/komercia.png',
 	alt: 'features',
 	title:
-		'<p>¿Por qué integrar tu tienda en Komercia <span><mark>con Mi Paquete?</mark></span></p>',
+		'<h3>¿Por qué integrar tu tienda en Komercia <span><mark>con Mi Paquete?</mark></span></h3>',
 	orientation: 'right',
 	width: 616,
 	height: 440,

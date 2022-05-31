@@ -27,6 +27,9 @@ const aboutUs: NextPage = () => {
 				</main>
 				<div className={`container ${styles.margin_container}`}>
 					<Video data={sectionVideo} />
+					<h2 className={`containerTitle ${styles.title}`}>
+						Transportadoras de envíos con <span>las que trabajamos</span>
+					</h2>
 					<Ally />
 				</div>
 				<Recognition data={recognitions} />

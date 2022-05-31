@@ -36,6 +36,10 @@ const SolucionesEcommerce: NextPage = () => {
 								<div className={styles.features}>
 									<Feature items={features} />
 								</div>
+								<h3 className={`containerTitle ${styles.title}`}>
+									Transportadoras aliadas con las que podrás{' '}
+									<span>enviar mercancía</span>
+								</h3>
 								<div className={`${styles.containerAllies}`}>
 									<Ally />
 								</div>

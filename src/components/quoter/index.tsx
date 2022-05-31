@@ -1,11 +1,10 @@
 import { useRef } from 'react';
 import { useRouter } from 'next/router';
 import { useForm, SubmitHandler } from 'react-hook-form';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import Place from './Place';
 import Dimensions from './Dimensions';
 import Amounts from './Amounts';
-
-import { settings } from './sliderConfig';
 import { Inputs } from './types';
 import styles from './Quoter.module.scss';
 export default function Quoter() {
@@ -65,12 +64,15 @@ export default function Quoter() {
 						, eligiendo la mejor opción para ti.
 					</p>
 					<div className={styles.containerPass}>
-						<Place
-							register={register}
-							errors={errors}
-							selectOrigin={selectOrigin}
-							selectDestiny={selectDestiny}
-						/>
+						<LazyLoadComponent>
+							<Place
+								register={register}
+								errors={errors}
+								selectOrigin={selectOrigin}
+								selectDestiny={selectDestiny}
+							/>
+						</LazyLoadComponent>
+
 						<Dimensions register={register} errors={errors} watch={watch} />
 						<Amounts register={register} errors={errors} />
 					</div>
