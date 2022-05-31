@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import Slider from 'react-slick';
 import Button from '@components/button';
+// styles
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import styles from './Storage.module.scss';
 const Storage = ({ data }) => {
 	// configuration slider banner
@@ -51,7 +54,7 @@ const Storage = ({ data }) => {
 										quality={100}
 										width={95}
 										height={95}
-										layout='fixed'
+										loading='lazy'
 									/>
 								</div>
 								<p className={styles.itemTitle}>{item.title}</p>
