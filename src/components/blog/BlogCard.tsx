@@ -13,9 +13,8 @@ export default function BlogCard({ data, blog = false }) {
 							width={270}
 							height={150}
 							quality={100}
-							layout='responsive'
-							placeholder='blur'
-							blurDataURL={data.image}
+							layout='fixed'
+							loading='lazy'
 						/>
 					</div>
 					<div className={styles.content}>

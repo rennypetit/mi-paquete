@@ -83,7 +83,7 @@ const primerEnvio: NextPage = () => {
 					<div className={styles.video}>
 						<div className='video'>
 							<iframe
-								loading='lazy'
+								layout='fixed'
 								width='560'
 								height='315'
 								src='https://www.youtube.com/embed/G6WRE4tvPFI'
@@ -125,7 +125,7 @@ const primerEnvio: NextPage = () => {
 								<div className={styles.videoItems}>
 									<div className='video'>
 										<iframe
-											loading='lazy'
+											layout='fixed'
 											width='560'
 											height='315'
 											src='https://www.youtube.com/embed/1iTKTafsKZY'
@@ -249,7 +249,7 @@ const primerEnvio: NextPage = () => {
 								<div className={styles.videoItems}>
 									<div className='video'>
 										<iframe
-											loading='lazy'
+											layout='fixed'
 											width='560'
 											height='315'
 											src='https://www.youtube.com/embed/Cbd_IchtWHE'

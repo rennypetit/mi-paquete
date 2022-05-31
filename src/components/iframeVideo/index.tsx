@@ -5,7 +5,7 @@ const IframeVideo = ({ url }) => {
 		<iframe
 			src={url}
 			className='lazy'
-			loading='lazy'
+			layout='fixed'
 			width='560'
 			height='315'
 			title='YouTube video player'

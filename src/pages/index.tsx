@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import dynamic from 'next/dynamic';
 import Head from '@components/Head';
 import Layout from 'layout';
 import BannerSlider from '@components/banner/BannerSlider';

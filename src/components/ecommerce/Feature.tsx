@@ -11,7 +11,7 @@ export default function Feature({ items }) {
 					<div className={`${styles.video} video`}>
 						<iframe
 							src={items.video}
-							loading='lazy'
+							layout='fixed'
 							width='560'
 							height='315'
 							title='YouTube video player'

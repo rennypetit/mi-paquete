@@ -39,7 +39,7 @@ const SliderVideos = ({ items }) => {
 						>
 							<iframe
 								src={item.video}
-								loading='lazy'
+								layout='fixed'
 								width='336'
 								height='239'
 								title='YouTube video player'
