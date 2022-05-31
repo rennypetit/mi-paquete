@@ -18,7 +18,6 @@ export const data = {
 
 	<p><strong>Benchmarking</strong></p>
 	<p>Conocer a tu competencia te puede dar la delantera al momento de crear diferenciales de tu producto, alguna promoción, acción publicitaria o de servicio. ¡Es muy fácil hacerlo!, deja sacar tu lado de detective y visita las redes sociales o página web de tu competencia, échale un vistazo a su diseño, precios y forma de comunicar, si encuentras algún teléfono, correo electrónico o formulario no dudes en  ponerte en contacto por estos canales para indagar más y así podrás saber si contestan rápido, si son atentos y resolutivos.</p>
-	<p><a href='https://mipaquete.com/plataformas-ecommerce/' target='_blank' rel='noopener noreferrer'>También te puede interesar leer: las 3 plataformas de ecommerce ideales para emprendedores</a></p>
 	
 	<p><strong>Redes sociales</strong></p>
 	<p>Haz una parrilla de contenido teniendo en cuenta temas de interés como: promociones, canales de atención, comunicación de algún evento de tu marca, memes o contenido que entretenga a tu audiencia. Conocer el buyer persona facilitará tu inspiración en este proceso.</p>
@@ -30,7 +29,7 @@ export const data = {
 	<p><strong>Fija tus objetivos de marketing</strong></p>
 	<p>Esto es vital en tu planeación, fija unos objetivos retadores pero alcanzables. Luego concéntrate en las estrategias y tácticas para conseguirlos y haz una medición constante para saber cómo va el trabajo y así tomar decisiones. Algunos objetivos de marketing que puedes fijarte son: número de leads mensuales, aumento de seguidores en redes sociales mensuales, visitas a tu página web semanal y ventas virtuales, entre otros.</p>
 	
-	<p>Esperamos que pongas en práctica todos estos consejos para que tu emprendimiento siga creciendo sin parar. Recuerda que cuentas con mipaquete.com para hacer las entregas de tus envíos.</p>
+	<p>Esperamos que pongas en práctica todos estos consejos para que tu emprendimiento siga creciendo sin parar. Recuerda que cuentas con <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> para hacer las entregas de tus envíos.</p>
 
 	<p>Si quieres crear una cuenta con nosotros, haz clic <a href='https://app.mipaquete.com/registro' target='_blank' rel='noopener noreferrer'>aquí</a></p>
 

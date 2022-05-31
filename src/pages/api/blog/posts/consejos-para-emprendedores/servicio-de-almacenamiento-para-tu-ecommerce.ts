@@ -15,7 +15,7 @@ export const data = {
 	<ol>
 		<li><strong>¿Qué es el cumplimiento de pedidos?</strong></li>
 		<li><strong>Seis pasos del proceso de cumplimiento de pedidos.</strong></li>
-		<li>Pros de ventajas y categorías con mipaquete.com</li>
+		<li>Pros de ventajas y categorías con <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a></li>
 	</ol>
 
 	<p><strong>Definición de cumplimiento de pedidos:</strong> Es el proceso de recibir, empacar y enviar pedidos en línea a los consumidores finales en casa.</p>
@@ -54,7 +54,7 @@ export const data = {
 
 		<dt>Envío</dt>
 		<dd>Hay varias formas de enviar un paquete, pero la mayoría de los clientes buscan la forma más rápida y económica. Diferentes transportistas brindan varias opciones, idealmente comparadas para encontrar las mejores tarifas o el mejor nivel de servicio, en una función conocida como búsqueda y comparativo de tarifas. Nuestra plataforma ofrece esta posibilidad, así que es un paso que te ahorras. Una vez que se envía un pedido, la información de seguimiento va al cliente para proporcionar información sobre el estado de entrega. <br />
-		También te puede interesar: <a href='https://mipaquete.com/protege-tus-envios/' target='_blank' rel='noopener noreferrer'>Protege tus envíos con un empaque adecuado de la mercancía.</a> <br />
+		También te puede interesar: <a href='/blog/envios/protege-tus-envios' target='_blank' rel='noopener noreferrer'>Protege tus envíos con un empaque adecuado de la mercancía.</a> <br />
 		Cualquier empresa dentro de las siguientes categorías pueden contratar el servicio de almacenamiento:<br />
 		Moda ropa y textiles, tecnología y electrodomésticos, belleza y cuidado personal, juguetería, papelería, arte y cultura, artículos deportivos, alimentos no perecederos, artículos para vehículos, artículos para mascotas, artículos del hogar, accesorios y bisutería. <br />
 		Nos encargamos del cumplimiento en la gestión de inventario, el procesamiento de pedidos, la inspección, la gestión y el envío. Esta es una buena opción para las empresas que desean ahorrar tiempo al no manejar estas operaciones internamente. Actualmente, tenemos servicios en las ciudades de Bogotá, Medellín, Cali y Barranquilla.
@@ -65,8 +65,8 @@ export const data = {
 	<ul>
 		<li><strong>Libera tiempo: </strong>cuando no estás empacando cajas y corriendo a la oficina de correos, tienes más tiempo para concentrarte en otros aspectos de tu negocio.</li>
 		<li><strong>Entrega rápida:</strong> tenemos almacenes ubicados estratégicamente en todo el país para garantizar una entrega rápida y tarifas de envío más bajas. </li>
-		<li><strong>Flexibilidad:</strong> el uso de un socio como mipaquete.com garantiza el cumplimiento y facilita el manejo de los picos en las ventas de manera rentable. </li>
+		<li><strong>Flexibilidad:</strong> el uso de un socio como <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> garantiza el cumplimiento y facilita el manejo de los picos en las ventas de manera rentable. </li>
 	</ul>
-	<p>Con el servicio de almacenamiento de mipaquete.com respaldas y escalas tu comercio con un control detallado sobre cada pedido de tus clientes, ¡Si deseas más información, asesórate aquí con  nuestro personal experto! <a href='https://bit.ly/32O3mkc' target='_blank' rel='noopener noreferrer'>https://bit.ly/32O3mkc</a></p>
+	<p>Con el servicio de almacenamiento de <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> respaldas y escalas tu comercio con un control detallado sobre cada pedido de tus clientes, ¡Si deseas más información, asesórate aquí con  nuestro personal experto! <a href='https://bit.ly/32O3mkc' target='_blank' rel='noopener noreferrer'>https://bit.ly/32O3mkc</a></p>
 	`,
 };

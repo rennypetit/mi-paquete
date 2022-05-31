@@ -27,12 +27,12 @@ export const data = {
 		<li><strong>Innovación:</strong>  Smart Locker</li>
 	</ol>
 	<p>Son casilleros innovadores que cuentan con una nueva red tecnológica que permite la entrega y retiro de paquetes de forma segura e innovadora.</p>
-	<p>– También te puede interesar: <a href='https://mipaquete.com/comparar-envios-transportadora/' target='_blank' rel='noopener noreferrer'>Compara y elige la transportadora ideal para tus envíos</a></p>
+	<p>– También te puede interesar: <a href='/blog/envios/comparar-envios-transportadora' target='_blank' rel='noopener noreferrer'>Compara y elige la transportadora ideal para tus envíos</a></p>
 
 	<p>También tienes la opción de retirar un paquete o entregar una encomienda, los grandes ecommerce están implementando smart locker como estrategia de omnicanalidad; Obteniendo así una nueva experiencia de compra, diferente, sin filas, con tecnología.</p>
 
 	<p><strong>Buy Online pick up  in locker, </strong><a href='https://casillerosinteligentes.com/' target='_blank' rel='noopener noreferrer'> Compra en línea recoge en un casillero.</a> <br />¿Existe algo más fácil? Bien, exactamente esa es la razón de ser de Casilleros Inteligentes Colombia. Si tu idea es subir al siguiente nivel esta es la oportunidad de fabricar el tuyo a tu medida.</p>
 
-	<p>Envía y recibe tus paquetes. ¡Sin esperas, sin colas! Recuerda que en mipaquete.com somos la mejor opción para la logística y cotización de tus envíos a nivel nacional. Cotiza tu envío <a href='https://app.mipaquete.com/cotizacion' target='_blank' rel='noopener noreferrer'>aquí.</a></p>
+	<p>Envía y recibe tus paquetes. ¡Sin esperas, sin colas! Recuerda que en <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> somos la mejor opción para la logística y cotización de tus envíos a nivel nacional. Cotiza tu envío <a href='https://app.mipaquete.com/cotizacion' target='_blank' rel='noopener noreferrer'>aquí.</a></p>
 	`,
 };

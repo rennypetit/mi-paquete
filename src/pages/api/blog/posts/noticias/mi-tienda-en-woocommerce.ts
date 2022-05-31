@@ -21,7 +21,7 @@ export const data = {
 		
 		<li><strong>Fácil de usar</strong> No es necesario que tengas conocimientos en códigos, programación o ingeniería para que crees tu tienda online. La configuración es fácil de realizar y en poco tiempo tendrás tu plataforma lista para vender más.</li>
 		
-		<li><strong> Puedes crear tiendas escalables.</strong> En esta plataforma tienes la posibilidad de configurar el sitio para que ofertes desde un solo producto hasta varias líneas o categorías. <br /> También te interesa: <a href=https://mipaquete.com/integra-mipaquete-shopify/'' target='_blank' rel='noopener noreferrer'>Cómo conectar tu tienda virtual Shopify con las transportadoras de Colombia</a></li>
+		<li><strong> Puedes crear tiendas escalables.</strong> En esta plataforma tienes la posibilidad de configurar el sitio para que ofertes desde un solo producto hasta varias líneas o categorías. <br /> También te interesa: <a href='/conecta-tu-tiendavirtual/tienda-en-shopify' target='_blank' rel='noopener noreferrer'>Cómo conectar tu tienda virtual Shopify con las transportadoras de Colombia</a></li>
 
 		<li><strong>Más visualizaciones.</strong> Al ser creado por WordPress, este plugin es muy utilizado, quizás más que los demás de su categoría, por tanto ofrece una ventaja comercial que puede resultar útil para tu negocio.</li>
 
@@ -33,7 +33,7 @@ Además, WooCommerce es un software de códigos abiertos, lo cual es una utilida
 
 	<li><strong>Fácil de integrar con los métodos de pago.</strong> WooCommerce brinda opciones de pago a través de los distintos medios disponibles.</li>
 	</ol>
-	<p>Te puede interesar: <a href='https://mipaquete.com/pautas-para-abrir-mi-tienda-online/' target='_blank' rel='noopener noreferrer'>Pautas para identificar cuándo debes abrir tu tienda virtual si hoy vendes por redes sociales</a></p>
+	<p>Te puede interesar: <a href='/blog/consejos-para-emprendedores/pautas-para-abrir-mi-tienda-online' target='_blank' rel='noopener noreferrer'>Pautas para identificar cuándo debes abrir tu tienda virtual si hoy vendes por redes sociales</a></p>
 
 	<p><strong>¿Necesitas ayuda? ¡Pregúntanos!</strong></p>
 

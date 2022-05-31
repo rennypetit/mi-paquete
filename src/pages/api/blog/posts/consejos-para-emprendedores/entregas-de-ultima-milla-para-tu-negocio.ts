@@ -13,7 +13,7 @@ export const data = {
 		<p>Las expectativas de los compradores en línea sobre los tiempos de entrega han cambiado para siempre. El punto de referencia actualmente son empresas como Amazon, Mercado Libre  o Fedex, con su servicio de entrega al día siguiente, pero eso no es suficiente y los consumidores ahora buscan la entrega el mismo día. Dado que la pandemia ha aumentado drásticamente la demanda de comercio electrónico por parte de los clientes, una empresa de transporte confiable es crucial para que las pymes mantengan la eficiencia comercial y hagan que las entregas sean lo más convenientes posible.</p>
 
 	<div class="postBannerImage"><img src="/images/blog/entregas-de-ultima-milla-para-tu-negocio.png" alt="entregas-de-ultima-milla-para-tu-negocio"/></div>
-	<p>También te puede interesar: <a href='https://mipaquete.com/envios-que-generan-confianza/' target='_blank' rel='noopener noreferrer'>Refuerza la confianza de tus clientes con una logística eficiente de envíos </a></p>
+	<p>También te puede interesar: <a href='/blog/envios/envios-que-generan-confianza' target='_blank' rel='noopener noreferrer'>Refuerza la confianza de tus clientes con una logística eficiente de envíos </a></p>
 
 	<p>Algunos datos curiosos sobre la logística de última milla:</p>
 	<ul>

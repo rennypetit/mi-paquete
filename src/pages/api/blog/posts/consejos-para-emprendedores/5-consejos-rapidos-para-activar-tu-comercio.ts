@@ -23,7 +23,7 @@ export const data = {
 			<p>Las ventas adicionales y las promociones cruzadas son buenas prácticas de ventas en cualquier época del año, pero pueden ser especialmente útiles para generar efectivo cuando se está pasando por una mala racha. Es mucho más fácil vender un producto adicional a un cliente existente que atraer a un cliente completamente nuevo.</p>
 			<p>Sirve principalmente para incrementar el ticket promedio de la empresa, ya que estimula al cliente a comprar un producto mejor y más caro. El objetivo es impulsar las compras del consumidor, este tipo de estrategias siempre será beneficioso para ambas partes: hará que la empresa gane más y mejorará la experiencia del cliente con el producto o servicio.</p>
 			<p>Los expertos en negocios también sugieren agrupar tus productos o servicios para aumentar las ventas. La probabilidad de que un cliente compre múltiples servicios aumenta si puede hacerlo en una sola compra, en lugar de múltiples compras. Por ejemplo, si puedes ofrecer un paquete que incluya de todo, es más probable que logres la venta que si intentas venderlos por separado.</p>
-			<p>También te puede interesar: <a href='https://mipaquete.com/como-hacer-inventarios/' target='_blank' rel='noopener noreferrer'>https://mipaquete.com/como-hacer-inventarios</a></p>
+			<p>También te puede interesar: <a href='/blog/consejos-para-emprendedores/como-hacer-inventarios'>https://mipaquete.com/como-hacer-inventarios</a></p>
 		</li>
 
 		<li>

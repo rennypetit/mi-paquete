@@ -23,7 +23,7 @@ export const data = {
 		El otro canal lo puedes mantener activo como un complemento de tu gestión, permitiéndole al cliente que elija en el que más cómodo se sienta para hacer su compra. Se vale iniciar la conversación en uno y cerrar la transacción en otro. <br />
 		Además, la información que has recogido previamente sobre tu usuario y comprador hará que en la tienda virtual puedas compilar temas como preguntas frecuentes por precio, color, tallas u otros aspectos de tu relación con los clientes. <br />
 		La plataforma de Mipaquete.com te brinda un soporte clave para esta decisión al entregarte un reporte histórico de tus envíos, con lo cual podrás detectar cuál es el comportamiento de tus ventas y si es el momento de dar este paso.</li>
-		<li>Te puede interesar: <a href='https://mipaquete.com/ventas-y-envios-basados-en-datos/' target='_blank' rel='noopener noreferrer'>El análisis de datos, una estrategia para tomar mejores decisiones en tu tienda online</a></li>
+		<li>Te puede interesar: <a href='/blog/noticias/ventas-y-envios-basados-en-datos/' target='_blank' rel='noopener noreferrer'>El análisis de datos, una estrategia para tomar mejores decisiones en tu tienda online</a></li>
 
 		<li><strong>La tienda virtual no vende sola: </strong> si te decides por esta estrategia debes crear acciones de promoción y difusión para motivar a tus clientes actuales y potenciales a que visiten el sitio, tal como lo harías si abrieras un local físico en un centro comercial. Las redes sociales siguen siendo un complemento ideal, al igual que apoyarte en Google, el email marketing, entre otras herramientas.</li>
 
@@ -33,7 +33,7 @@ export const data = {
 
 		<li><strong>Facilita tu logística de envíos:</strong> un recurso con el que cuentas al abrir tu tienda virtual es la integración a plataformas de envíos online como mipaquete.com, con lo cual los clientes pueden calcular, en el mismo instante en que efectúan su compra, cuánto les cuesta el despacho de su pedido. Esta es una ventaja que los compradores te agradecerán, ya que le da a la transacción mayor confianza y transparencia en el valor definitivo de su adquisición.</li>
 
-		<p>Te puede interesar: <a href='https://mipaquete.com/automatiza-tus-envios/' target='_blank' rel='noopener noreferrer'>Conoce las ventajas de integrar tu tienda online con una plataforma de envíos</a></p>
+		<p>Te puede interesar: <a href='/blog/envios/automatiza-tus-envios' target='_blank' rel='noopener noreferrer'>Conoce las ventajas de integrar tu tienda online con una plataforma de envíos</a></p>
 
 		<li><strong> ¿Cuándo no tomar esta decisión?</strong> Tal como te lo planteamos al inicio, es posible que el volumen de tus ventas te indique que este paso no es necesario, o quizás la categoría de tu producto o servicio no lo amerite ya que es algo muy personalizado y por tanto el contacto con el cliente deba ser más dirigido y no con autogestión como ocurre en una atención en línea.</li>
 		
@@ -56,7 +56,7 @@ export const data = {
 
 	<p>Si tomas la decisión de abrir una tienda virtual en Shopify o Woocommerce, tenemos la app y el plugin respectivamente para facilitar la integración con nuestra plataforma.</p>
 
-	<p>Te puede interesar: <a href='https://mipaquete.com/integra-mipaquete-shopify/' target='_blank' rel='noopener noreferrer'>¿Todavía haciendo envíos manuales? Conecta tu tienda virtual en Shopify con mipaquete.com y facilita tu logística</a></p>
+	<p>Te puede interesar: <a href='/conecta-tu-tiendavirtual/tienda-en-shopify' target='_blank' rel='noopener noreferrer'>¿Todavía haciendo envíos manuales? Conecta tu tienda virtual en Shopify con mipaquete.com y facilita tu logística</a></p>
 
 	<p>Conoce sobre Cubiko <a href='https://www.cubiko.co/' target='_blank' rel='noopener noreferrer'>aquí</a></p>
 

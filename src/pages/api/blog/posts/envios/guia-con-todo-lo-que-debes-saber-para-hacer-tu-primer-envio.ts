@@ -77,7 +77,7 @@ export const data = {
 
 	<p><strong>¿Cómo es la trazabilidad para los destinatarios?</strong></p>
 	<p>Al momento de la recolección le notificamos a tu cliente a su WhatsApp toda la información del envío para su seguimiento, lo mejor de todo es que es una notificación gratuita, automática y no genera costos adicionales.📱</p>
-	<p>Conoce más en: <a href='https://mipaquete.com/logistica-notificacion-whatsapp/' target='_blank' rel='noopener noreferrer'>https://mipaquete.com/logistica-notificacion-whatsapp/</a></p>
+	<p>Conoce más en: <a href='/centro-de-ayuda/primeros-pasos#whatsapp' target='_blank' rel='noopener noreferrer'>https://mipaquete.com/centro-de-ayuda/primeros-pasos</a></p>
 
 	<p>MOSTRAR COMO DESTACADO</p>
 	<p>Los siguientes datos pueden darte confianza en nuestro servicio:</p>
@@ -173,7 +173,6 @@ export const data = {
 	<p><strong>¿Cómo funcionan nuestros recaudos?</strong></p>
 	<p>El porcentaje del recaudo varía según la transportadora, entre el <strong>4</strong> y el <strong>4.3%</strong> o tarifa mínima entre <strong>$4.900</strong> y <strong>$5.700,</strong> estos ya se encuentran incluidos en la cotización de nuestra plataforma; este es el costo final del servicio, es decir, la tarifa que te indica el sistema ya tiene incluido flete y porcentaje de recaudo, no necesitas pagar un valor adicional.</p>
 
-	<p>Sí tienes dudas sobre temas de recaudos, facturación, pagos o transferencias de recaudos de envíos tipo pago contra entrega. Debes consultar la información a través de nuestro Centro de recaudos ingresando al siguiente link: <a href=' https://mipaquete.com/solucionesusuario/consulta_recaudos/' target='_blank' rel='noopener noreferrer'> https://mipaquete.com/solucionesusuario/consulta_recaudos/</a> se te dará una respuesta en menos de 24hr.</p>
 	
 	<p><strong>¿Te llegó alguna factura? No te preocupes, te explicamos qué es:</strong></p>
 	<p>Si te llegó una factura a nombre de Mi Paquete, es una factura que generamos de manera mensual los primeros 10 días del mes en curso con los envíos realizados el mes anterior. Ten presente que estos envíos ya están pagos, sea que ya los hayas cancelado con el saldo de tu billetera o se descuenten del recaudo. Dentro de la misma factura puedes observar el campo <strong>debe</strong> *0 para tu tranquilidad😊</p>
@@ -202,6 +201,6 @@ export const data = {
 
 	<p>Cotiza tu próximo envío <a href='https://app.mipaquete.com/cotizacion' target='_blank' rel='noopener noreferrer'>aquí</a></p>
 	
-	<p>Recuerda que cuando te registras en nuestra plataforma aceptas nuestras políticas, privacidad de datos, términos y condiciones, las cuales  puedes consultar en el siguiente link: <a href=' https://mipaquete.com/politicas-privacidad-de-datos-terminos-y-condiciones/' target='_blank' rel='noopener noreferrer'> https://mipaquete.com/politicas-privacidad-de-datos-terminos-y-condiciones/</a></p>
+	<p>Recuerda que cuando te registras en nuestra plataforma aceptas nuestras políticas, privacidad de datos, términos y condiciones, las cuales  puedes consultar en el siguiente link: <a href='/politicas-privacidad-de-datos-terminos-y-condiciones' target='_blank' rel='noopener noreferrer'> https://mipaquete.com/politicas-privacidad-de-datos-terminos-y-condiciones/</a></p>
 	`,
 };

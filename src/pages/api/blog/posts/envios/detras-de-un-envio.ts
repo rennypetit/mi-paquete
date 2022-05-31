@@ -18,7 +18,7 @@ export const data = {
 
 	<p>Primero se completan los requerimientos del producto, con el fin de tener claro el estado del paquete al momento de la logística del envío</p>
 
-	<p><a href='https://mipaquete.com/mejorar-tiempo-entregas/' target='_blank' rel='noopener noreferrer'>También te puede interesar : Claves para optimizar los tiempos al hacer los envíos de tu tienda online</a></p>
+	<p><a href='/blog/envios/mejorar-tiempo-entregas' target='_blank' rel='noopener noreferrer'>También te puede interesar : Claves para optimizar los tiempos al hacer los envíos de tu tienda online</a></p>
 
 	<p>Una vez estén claros estos parámetros se procede con la etapa de alistamiento del paquete Luego el paquete entra a la fase de Zonificación para establecer si es urbano o local, para poder confirmar la ruta y transporte ideal <br /> Cuando el paquete está listo se procede a asignar un mensajero y completar requerimientos como el código de barras del envío o guía mediante un software llamado Correo Xpress 5.0 creado por Tempo Express <br />Concluido el recorrido de cada mensajero, ellos regresan a la empresa para mostrar la labor de campo y las novedades del recorrido </p>
 
@@ -28,14 +28,13 @@ export const data = {
 
 	<p>También te puede interesar : La fórmula para centralizar en un mismo sitio el envío de sus paquetes con las principales transportadoras</p>
 
-	<p>Tempo Express y mipaquete.com siempre se preocupan por el cuidado de sus clientes, por esta razón cuentan con todos los protocolos de bioseguridad tales como: puntos de desinfección en bodegas, uso de tapabocas, maletines especializados para evitar la exposición o contaminación de los productos y así garantizar confianza y seguridad con cada cliente.</p>
+	<p>Tempo Express y <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> siempre se preocupan por el cuidado de sus clientes, por esta razón cuentan con todos los protocolos de bioseguridad tales como: puntos de desinfección en bodegas, uso de tapabocas, maletines especializados para evitar la exposición o contaminación de los productos y así garantizar confianza y seguridad con cada cliente.</p>
 
-	<p> ¿Cómo mipaquete.com ayuda al seguimiento de Tempo Express en cada envío?</p>
-	<p>Los usuarios pueden seleccionar dentro de la plataforma de mipaquete.com a Tempo Express como la transportadora para enviar sus productos y allí consultar estados, guías, además permite que los destinatarios reciban notificaciones sobre sus pedidos y así estar informados en todo momento.</p>
+	<p> ¿Cómo <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> ayuda al seguimiento de Tempo Express en cada envío?</p>
+	<p>Los usuarios pueden seleccionar dentro de la plataforma de <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> a Tempo Express como la transportadora para enviar sus productos y allí consultar estados, guías, además permite que los destinatarios reciban notificaciones sobre sus pedidos y así estar informados en todo momento.</p>
 	<p>Esto se traduce en confianza ya que permite consultar la plataforma 24/7 para conocer el estado de envíos desde un computador o teléfono celular.</p>
 
 	<p>Cotiza tu envío por Tempo Express<a href='https://app.mipaquete.com/cotizacion' target='_blank' rel='noopener noreferrer'> aquí</a></p>
-	<p>Crea tu cuenta en mipaquete.com<a href='https://app.mipaquete.com/registro' target='_blank' rel='noopener noreferrer'> aquí</a></p>
-
+	<p>Crea tu cuenta en <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a><a href='https://app.mipaquete.com/registro' target='_blank' rel='noopener noreferrer'> aquí</a></p>
 	`,
 };

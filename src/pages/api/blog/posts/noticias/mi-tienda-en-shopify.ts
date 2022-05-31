@@ -12,7 +12,7 @@ export const data = {
 
 	<p>Esta es una de las plataformas más recomendadas para hacer el montaje de tu comercio electrónico. Te contamos cómo puedes sacarle provecho para beneficio de tu negocio.</p>
 
-	<p>Con los recursos tecnológicos que tenemos disponibles en la actualidad, no tienes excusa: es momento de que crees tu tienda online. Si estás en esta tarea, en mipaquete.com queremos brindarte información de valor para que sepas cómo hacerlo y que tu negocio incremente sus ventas y alcance una mayor cantidad de clientes. Uno de los medios más sencillos de hacerlo es a través de Shopify.</p>
+	<p>Con los recursos tecnológicos que tenemos disponibles en la actualidad, no tienes excusa: es momento de que crees tu tienda online. Si estás en esta tarea, en <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> queremos brindarte información de valor para que sepas cómo hacerlo y que tu negocio incremente sus ventas y alcance una mayor cantidad de clientes. Uno de los medios más sencillos de hacerlo es a través de Shopify.</p>
 
 	<p>Esta es una de las plataformas de creación de tiendas virtuales más populares por la simplicidad y la agilidad en su uso, que permite tener tu sitio en poco tiempo y listo para que vendas más por internet, tras el pago de una suscripción que te da acceso a todos sus recursos.</p>
 
@@ -38,17 +38,17 @@ export const data = {
 
 		<li><strong> Enlazar campañas para el cierre de las compras.</strong>En las tiendas online es usual que algunos clientes elijan productos o servicios pero no terminan de completar su pedido. Con Shopify se pueden generar mensajes recordatorios por correo electrónico para que el usuario regrese al sitio y termine la compra.</li>
 
-		<a href='https://mipaquete.com/mi-tienda-en-woocommerce/' target='_blank' rel='noopener noreferrer'>También te puede interesar ¿Por qué abrir mi tienda online en Woocommerce</a>
+		<a href='/conecta-tu-tiendavirtual/tienda-en-woocommerce' target='_blank' rel='noopener noreferrer'>También te puede interesar ¿Por qué abrir mi tienda online en Woocommerce</a>
 	</ol>
 
 	<p><strong>¿Necesitas acompañamiento? Mipaquete.com te ayuda</strong></p>
-	<p>En mipaquete.com queremos acompañarte para que crees tu tienda online y aumentes tus ventas en internet. Contamos con el equipo y las herramientas idóneas para que este proceso sea fácil, ágil y cómodo para ti y tu negocio.</p>
+	<p>En <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> queremos acompañarte para que crees tu tienda online y aumentes tus ventas en internet. Contamos con el equipo y las herramientas idóneas para que este proceso sea fácil, ágil y cómodo para ti y tu negocio.</p>
 
 	<p>Tenemos disponible una aplicación gratuita en Shopify, que la puedes descargar e integrar a tu plataforma para automatizar la logística de tus envíos, incluso con la posibilidad de configurar el método de pago: contra entrega o en línea.</p>
 
 	<p>Este proceso es muy rápido. Así no tendrás de qué preocuparte cuando realices una venta y necesites despachar tu pedido con destino a tu cliente, pues este autogestionará su solicitud.</p>
 
-	<p>Para descargar la aplicación y saber cómo la puedes integrar a tu tienda online, haz clic <a href='https://mipaquete.com/shopify/' target='_blank' rel='noopener noreferrer'>aquí.</a></p>
+	<p>Para descargar la aplicación y saber cómo la puedes integrar a tu tienda online, haz clic <a href='/conecta-tu-tiendavirtual/tienda-en-shopify' target='_blank' rel='noopener noreferrer'>aquí.</a></p>
 
 	<p>Tenemos manuales, videos y guías que te brindarán la mejor información.</p>
 	<p>Además, si deseas tener un espacio con uno de nuestros asesores y acceder a una asesoría más personalizada, puedes solicitar una cita dando clic <a href='https://bit.ly/38mPYCx' target='_blank' rel='noopener noreferrer'>aquí</a></p>

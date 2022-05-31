@@ -23,7 +23,7 @@ export const data = {
 
 	<p>Este tipo de programas ofrece acceso a créditos en tienda, descuentos, premios o cualquier otro tipo de beneficio que logre afirmar su compromiso con la marca.</p>
 
-	<p><a href='https://mipaquete.com/buenas-practicas-para-emprender/' target='_blank' rel='noopener noreferrer'>También te puede interesar:Pautas para identificar cuándo debes abrir tu tienda virtual si hoy vendes por redes sociales</a></p>
+	<p><a href='/blog/consejos-para-emprendedores/buenas-practicas-para-emprender' target='_blank' rel='noopener noreferrer'>También te puede interesar:Pautas para identificar cuándo debes abrir tu tienda virtual si hoy vendes por redes sociales</a></p>
 
 	<p><strong>Crea tu programa de fidelización en 5 pasos</strong></p>
 
@@ -47,11 +47,11 @@ export const data = {
 	<p>¡Recompensamos tu fidelidad! Acumula puntos por cada envío efectivo que realices y redímelos por increíbles productos o servicios, o si prefieres también los puedes usar para pagar nuevos envíos con una recarga de saldo.</p>
 
 	<div class="postBannerImage"><img src="/images/blog/guia-programa-de-fidelizacion-4.png" alt="guia-programa-de-fidelizacion-4" /></div>
-	<p><a href='https://mipaquete.com/plataformas-ecommerce/' target='_blank' rel='noopener noreferrer'>También te puede interesar: Las 3 plataformas de ecommerce ideales para emprendedores</a></p>
+	<p><a href='/blog/consejos-para-emprendedores/plataformas-ecommerce' target='_blank' rel='noopener noreferrer'>También te puede interesar: Las 3 plataformas de ecommerce ideales para emprendedores</a></p>
 
 	<p>Además de nuestro programa Puntos mipaquete en el cual puedes acceder a beneficios adicionales de acuerdo a tu nivel, también podrás crear tu tienda virtual con nuestras plataformas aliadas e integrar tu tienda con nuestros plugins para facilitar tu logística de envíos.</p>
 
-	<p>¡Por esta y muchas más razones, mipaquete.com es para ti!</p>
+	<p>¡Por esta y muchas más razones, <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> es para ti!</p>
 	<p>Regístrate <a href='https://app.mipaquete.com/registro' target='_blank' rel='noopener noreferrer'>aquí</a>  o descubre Puntos mipaquete <a href='https://app.mipaquete.com/acumula-puntos' target='_blank' rel='noopener noreferrer'>aquí</a> </p>
 	`,
 };

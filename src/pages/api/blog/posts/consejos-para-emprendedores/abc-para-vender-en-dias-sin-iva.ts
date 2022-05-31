@@ -68,7 +68,7 @@ export const data = {
 		<li>Verificación de insumos para el empaque de los envíos.</li>
 		<li>Preparar el equipo de trabajo para cualquier eventualidad logística.
 			<div class="postBannerImage"><img src="/images/blog/abc-para-vender-en-dias-sin-iva-3.jpg" alt="abc-para-vender-en-dias-sin-iva-3" /></div>
-			<a href='https://mipaquete.com/5-recomendaciones-para-enviar-un-paquete-de-tu-tienda-online/' target='_blank' rel='noopener noreferrer'>También te puede interesar: 5 Recomendaciones para enviar un paquete</a>
+			<a href='/blog/envios/5-recomendaciones-para-enviar-un-paquete-de-tu-tienda-online'>También te puede interesar: 5 Recomendaciones para enviar un paquete</a>
 		</li>
 		<li><strong>Estrategia de ventas en canales digitales: </strong>Este es el momento de poner en marcha la estrategia de ventas y comunicación de tus promociones en todos tus canales digitales, bien sea redes sociales, WhatsApp y página web, entre otros. 	<div class="postBannerImage"><img src="/images/blog/abc-para-vender-en-dias-sin-iva-4.jpg" alt="abc-para-vender-en-dias-sin-iva-4" /></div>
 		<ul>
@@ -76,13 +76,13 @@ export const data = {
 			<li>Envía por correo electrónico tus promociones, las cuales puedes activar cada semana y el mismo día sin IVA para generar tráfico a tu página web e incentivar las ventas.</li>
 			<li>Puedes realizar  publicidad en redes sociales o en Google para aumentar el alcance de tus clientes potenciales y generar tráfico a tu página web.</li>
 			<li>Crea un guión comercial para persuadir tus ventas al momento de interactuar con tus clientes.</li>
-			<a href='https://mipaquete.com/automatiza-tus-envios/' target='_blank' rel='noopener noreferrer'>También te puede interesar: Conoce las ventajas de integrar tu tienda online con una plataforma de envíos</a>
+			<a href='/blog/envios/automatiza-tus-envios' target='_blank' rel='noopener noreferrer'>También te puede interesar: Conoce las ventajas de integrar tu tienda online con una plataforma de envíos</a>
 		</ul>
 		</li>
 	</ul>
 
 	<p>¿Lo mejor del día sin IVA?</p>
-	<p>Contar con un aliado como mipaquete.com que automatiza gratis y rápido los envíos de tu tienda, te conecta con las principales transportadoras del país para que compares precios, velocidad y servicio, además de darte la posibilidad de pagar contraentrega tus productos y sin trámites ni papeleos.</p>
+	<p>Contar con un aliado como <a href='https://mipaquete.com' target='_blank' rel='noopener noreferrer'> <mark>mipaquete.com</mark></a> que automatiza gratis y rápido los envíos de tu tienda, te conecta con las principales transportadoras del país para que compares precios, velocidad y servicio, además de darte la posibilidad de pagar contraentrega tus productos y sin trámites ni papeleos.</p>
 	<p>¿Quieres hacer tus envíos con nosotros? Regístrate y empieza <a href='https://app.mipaquete.com/registro' target='_blank' rel='noopener noreferrer'>aquí</a></p>
 
 	<p>Si quieres contactarnos por Whatsapp, te asesoramos aquí <a href='https://api.whatsapp.com/send?phone=3216330447&text=Hola:%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20para%20mis%20env%C3%ADos%20del%20d%C3%ADa%20sin%20IVA' target='_blank' rel='noopener noreferrer'>aquí</a></p>

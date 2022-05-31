@@ -13,7 +13,7 @@ export const data = {
 	<p>Esta última es la plataforma para crear tiendas online con potentes herramientas de comercio electrónico y administrar tu negocio en un solo luga</p>
 	<div class="postBannerImage"><img src="/images/blog/tienda-komercia-2.png" alt="tienda-komercia-2" /></div>
 	<p>Lo mejor de todo es que estamos de lanzamiento con la versión 2.0 de esta gran integración entre Komercia y mi paquete.com, y por ese motivo te mencionaremos las ventajas de crear tu tienda online en esta plataforma.</p>
-	<p><a href='https://mipaquete.com/buenas-practicas-para-emprender/' target='_blank' rel='noopener noreferrer'>También te puede interesar: Pautas para identificar cuándo debes abrir tu tienda virtual si hoy vendes por redes sociales</a></p>
+	<p><a href='/blog/consejos-para-emprendedores/buenas-practicas-para-emprender' target='_blank' rel='noopener noreferrer'>También te puede interesar: Pautas para identificar cuándo debes abrir tu tienda virtual si hoy vendes por redes sociales</a></p>
 
 	<ol>
 		<li><strong>Ventas en autopiloto:</strong> Administra todas las herramientas digitales como : WhatsApp, Google maps, mipaquete.com, PayU, entre otras en un solo lugar con información sincronizada.</li>
@@ -24,7 +24,7 @@ export const data = {
 		<li><strong>Integración mipaquete.com </strong> Gestiona la logística de tus envíos con nuestra plataforma gratuita integrada con Komercia en su versión 2.0 en la cual encontrarás más opciones de envíos y métodos de pago que se adapten a tus necesidades de tus clientes.</li>
 	</ol>
 	<p>No olvides que con mipaquete.com puedes realizar el seguimiento de envíos mediante notificaciones de WhatsApp en tiempo real para todos tus clientes. Conoce más <a href='https://youtu.be/12UK3yeQM9E' target='_blank' rel='noopener noreferrer'>aquí</a></p>
-	<p><a href='https://mipaquete.com/ventajas-envios-pago-contra-entrega/' target='_blank' rel='noopener noreferrer'>También te puede interesar: Los beneficios de realizar envíos con pago contra entrega en una tienda online</a></p>
+	<p><a href='/blog/noticias/ventajas-envios-pago-contra-entrega' target='_blank' rel='noopener noreferrer'>También te puede interesar: Los beneficios de realizar envíos con pago contra entrega en una tienda online</a></p>
 	<p><strong>¿Necesitas acompañamiento? mipaquete.com te ayuda</strong></p>
 
 	<p>Queremos acompañarte en esta nueva etapa: crear tu tienda online con Komercia y comenzar a disfrutar de grandes beneficios.</p>
