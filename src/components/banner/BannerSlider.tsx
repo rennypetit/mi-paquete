@@ -6,7 +6,6 @@ import { PropsSlider } from './types';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 export default function BannerSlider({ items }: PropsSlider) {
-	console.log(items);
 	// configuration slider banner
 	const settings = {
 		autoplay: true,
