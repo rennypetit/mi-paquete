@@ -1,4 +1,3 @@
-import Slider from 'react-slick';
 import Banner from './index';
 // types
 import { PropsSlider } from './types';
@@ -14,11 +13,5 @@ export default function BannerSlider({ items }: PropsSlider) {
 		slidesToScroll: 1,
 		slidesToShow: 1,
 	};
-	return (
-		<Slider {...settings} className='dots-grey'>
-			{items.map((item, index) => (
-				<Banner data={item} key={index} />
-			))}
-		</Slider>
-	);
+	return <Banner data={items[0]} />;
 }
