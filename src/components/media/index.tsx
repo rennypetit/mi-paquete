@@ -4,9 +4,6 @@ import Slider from 'react-slick';
 import WidthContext from '@contexts/width';
 
 import media from '@data/componentMedia';
-// styles
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import styles from './Media.module.scss';
 export default function Media() {
 	// configuration slider banner

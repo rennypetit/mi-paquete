@@ -3,8 +3,6 @@ import Slider from 'react-slick';
 // only data of components
 import ServiceItems from './ServiceItems';
 // styles
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import styles from './Service.module.scss';
 export default function Services({ items }) {
 	// configuration slider banner

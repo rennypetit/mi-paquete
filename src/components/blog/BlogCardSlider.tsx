@@ -1,8 +1,5 @@
 import Slider from 'react-slick';
 import BlogCard from './BlogCard';
-// styles
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 export default function BlogCardSlider({ items }) {
 	// configuration slider BlogCard
 	const settings = {

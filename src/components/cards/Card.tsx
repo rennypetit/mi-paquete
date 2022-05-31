@@ -2,9 +2,6 @@ import Cards from './Cards';
 import Slider from 'react-slick';
 import { useContext } from 'react';
 import WidthContext from '@contexts/width';
-// styles
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import styles from './Card.module.scss';
 export default function Card({ data }) {
 	const { widthViewport } = useContext(WidthContext);

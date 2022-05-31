@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import Slider from 'react-slick';
 
-// styles
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import styles from './CardBenefit.module.scss';
 const Card = ({ items }) => {
 	// configuration slider banner

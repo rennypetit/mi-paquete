@@ -3,9 +3,6 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 import Button from '@components/button';
 
-// styles
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import styles from './Slider.module.scss';
 const StorageSlider = ({ data }) => {
 	const [slider1, setSlider1] = useState(data);

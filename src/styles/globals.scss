@@ -1,4 +1,9 @@
 @import 'variables';
+@font-face {
+	data-href:"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css";
+	font-family: 'slick';
+	font-display: swap;
+}
 html,
 body {
 	color: $color_primary;
@@ -7,7 +12,7 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 	padding: 0;
-	font-display: swap
+	font-display: swap;
 }
 strong {
 	font-family: $font_primary_bold;
