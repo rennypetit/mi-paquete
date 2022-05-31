@@ -22,6 +22,7 @@ function Question({ items }) {
 										alt='icon question'
 										width={35}
 										height={35}
+										layout='fixed'
 									/>
 									<p className={styles.testimonialsTitle}>
 										Preguntas frecuentes
@@ -34,6 +35,7 @@ function Question({ items }) {
 										width={18}
 										height={23}
 										className='arrow-img'
+										layout='fixed'
 									/>
 								</div>
 							</div>
@@ -57,6 +59,7 @@ function Question({ items }) {
 																	width={18}
 																	height={23}
 																	className='arrow-img'
+																	layout='fixed'
 																/>
 															</div>
 														</div>

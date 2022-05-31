@@ -12,6 +12,7 @@ const Contact = () => {
 						quality={100}
 						width={285}
 						height={285}
+						layout='fixed'
 					/>
 				</div>
 				<div className={styles.content}>
@@ -61,6 +62,7 @@ const Contact = () => {
 												alt='icon instagram'
 												width={26}
 												height={26}
+												layout='fixed'
 											/>
 										</a>
 									</li>
@@ -75,6 +77,7 @@ const Contact = () => {
 												alt='icon linkedin'
 												width={26}
 												height={26}
+												layout='fixed'
 											/>
 										</a>
 									</li>
@@ -89,6 +92,7 @@ const Contact = () => {
 												alt='icon facebook'
 												width={26}
 												height={26}
+												layout='fixed'
 											/>
 										</a>
 									</li>
@@ -103,6 +107,7 @@ const Contact = () => {
 												alt='icon youtube'
 												width={26}
 												height={26}
+												layout='fixed'
 											/>
 										</a>
 									</li>

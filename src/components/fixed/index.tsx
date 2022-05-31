@@ -14,6 +14,7 @@ const Fixed = ({
 							alt='icon help'
 							width={60}
 							height={60}
+							layout='fixed'
 						/>
 					</a>
 				</Link>
@@ -35,6 +36,7 @@ const Fixed = ({
 						alt='icon whatsapp'
 						width={60}
 						height={60}
+						layout='fixed'
 					/>
 				</a>
 				<div className={styles.whatsappContext}>
@@ -48,6 +50,7 @@ const Fixed = ({
 							alt='icon whatsapp'
 							width={254}
 							height={58}
+							layout='fixed'
 						/>
 						<div
 							className={styles.containerTextWhatsapp}

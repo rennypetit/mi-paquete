@@ -14,6 +14,7 @@ const Modal = ({ handleCloseModal, newsletter = false }) => {
 								quality={100}
 								width={107}
 								height={170}
+								layout='fixed'
 							/>
 						</div>
 					</div>

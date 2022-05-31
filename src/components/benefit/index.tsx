@@ -20,6 +20,7 @@ export const Benefit = ({ data }) => {
 									quality={100}
 									width={84}
 									height={84}
+									layout='fixed'
 								/>
 							</div>
 							<p className={styles.cardTitle}>{item.title}</p>

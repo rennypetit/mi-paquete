@@ -12,6 +12,7 @@ export default function Amounts({ register, errors }) {
 						aria-hidden='true'
 						height={50}
 						width={50}
+						layout='fixed'
 					/>
 					<p>CANTIDADES</p>
 				</div>
@@ -56,6 +57,7 @@ export default function Amounts({ register, errors }) {
 								alt='icon question'
 								height={20}
 								width={20}
+								layout='fixed'
 								className={styles.helpInputHover}
 							/>
 						</div>
@@ -68,6 +70,7 @@ export default function Amounts({ register, errors }) {
 										alt='icon question'
 										height={20}
 										width={20}
+										layout='fixed'
 									/>
 								</div>
 							</div>

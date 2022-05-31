@@ -15,6 +15,7 @@ export default function BannerWorks({ data }) {
 						width={1024}
 						quality={100}
 						height={768}
+						layout='fixed'
 					/>
 				) : (
 					<Image
@@ -23,6 +24,7 @@ export default function BannerWorks({ data }) {
 						quality={100}
 						width={896}
 						height={496}
+						layout='fixed'
 					/>
 				)}
 			</div>

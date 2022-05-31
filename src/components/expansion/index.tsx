@@ -13,6 +13,7 @@ const Expansion = ({ data }) => {
 							alt='icon'
 							width={100}
 							height={100}
+							layout='fixed'
 						/>
 					</div>
 					<div className={styles.iconPersonMobile}>
@@ -21,6 +22,7 @@ const Expansion = ({ data }) => {
 							alt='icon search'
 							height={146}
 							width={146}
+							layout='fixed'
 						/>
 					</div>
 					<div className={styles.info}>
@@ -31,6 +33,7 @@ const Expansion = ({ data }) => {
 									alt='icon search'
 									height={146}
 									width={146}
+									layout='fixed'
 								/>
 							</div>
 							<div className={styles.infoDescription}>
@@ -56,6 +59,7 @@ const Expansion = ({ data }) => {
 							quality={100}
 							width={100}
 							height={100}
+							layout='fixed'
 						/>
 					</div>
 				</div>

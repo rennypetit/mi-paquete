@@ -15,6 +15,7 @@ export default function Ally() {
 								quality={100}
 								width={225}
 								height={100}
+								layout='responsive'
 							/>
 						</div>
 					</div>

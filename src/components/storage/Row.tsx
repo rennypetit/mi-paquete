@@ -23,6 +23,7 @@ const Row = ({ data }) => {
 								quality={100}
 								height={48}
 								width={48}
+								layout='fixed'
 							/>
 						</div>
 						<p className={styles.itemTitle}>{item.title}</p>

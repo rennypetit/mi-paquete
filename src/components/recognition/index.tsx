@@ -23,6 +23,7 @@ const Recognition = ({ data }) => {
 									quality={100}
 									width={413}
 									height={284}
+									layout='fixed'
 								/>
 							</div>
 						</div>
@@ -44,6 +45,7 @@ const Recognition = ({ data }) => {
 									title={item.title}
 									width={146}
 									height={68}
+									layout='fixed'
 								/>
 							</div>
 						))}

@@ -11,6 +11,7 @@ export default function Cards({ data }) {
 					width={1024}
 					quality={100}
 					height={768}
+					layout='fixed'
 				/>
 			</div>
 			<div

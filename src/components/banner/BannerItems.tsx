@@ -40,6 +40,7 @@ const BannerItems = ({ data }: PropsItems) => {
 						quality={100}
 						width={500}
 						height={425}
+						layout='fixed'
 					/>
 				</div>
 			</div>

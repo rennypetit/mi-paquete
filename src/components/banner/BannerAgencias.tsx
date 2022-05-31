@@ -20,6 +20,7 @@ export default function BannerAgencias({ data }: Props) {
 						quality={100}
 						width={1024}
 						height={768}
+						layout='fixed'
 					/>
 				) : (
 					''

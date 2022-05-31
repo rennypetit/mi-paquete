@@ -27,30 +27,35 @@ const BannerExito = ({ data }) => {
 								alt='star'
 								width={29}
 								height={28}
+								layout='fixed'
 							/>
 							<Image
 								src='/images/casos-de-exito/star.svg'
 								alt='star'
 								width={29}
 								height={28}
+								layout='fixed'
 							/>
 							<Image
 								src='/images/casos-de-exito/star.svg'
 								alt='star'
 								width={29}
 								height={28}
+								layout='fixed'
 							/>
 							<Image
 								src='/images/casos-de-exito/star.svg'
 								alt='star'
 								width={29}
 								height={28}
+								layout='fixed'
 							/>
 							<Image
 								src='/images/casos-de-exito/star.svg'
 								alt='star'
 								width={29}
 								height={28}
+								layout='fixed'
 							/>
 						</div>
 					</div>

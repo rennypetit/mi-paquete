@@ -18,6 +18,7 @@ const BannerSubmit = ({ data }: Props) => {
 						quality={100}
 						width={117}
 						height={40}
+						layout='fixed'
 					/>
 					<hr className={styles.rowLine} />
 				</div>

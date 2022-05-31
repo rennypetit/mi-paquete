@@ -44,6 +44,7 @@ const Card = ({ items }) => {
 									quality={100}
 									width={25}
 									height={25}
+									layout='fixed'
 								/>
 							</div>
 							<p className={styles.title}>

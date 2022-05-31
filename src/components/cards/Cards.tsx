@@ -18,6 +18,7 @@ export default function Cards({ data }) {
 					quality={100}
 					width={290}
 					height={180}
+					layout='fixed'
 				/>
 			</div>
 			<div className={styles.content}>

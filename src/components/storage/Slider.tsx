@@ -52,6 +52,7 @@ const StorageSlider = ({ data }) => {
 								quality={100}
 								width={512}
 								height={378}
+								layout='fixed'
 							/>
 						</div>
 					))}
@@ -73,6 +74,7 @@ const StorageSlider = ({ data }) => {
 								quality={100}
 								width={155}
 								height={109}
+								layout='fixed'
 							/>
 						</div>
 					))}

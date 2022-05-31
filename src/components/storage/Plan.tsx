@@ -14,6 +14,7 @@ const Plan = ({ items }) => {
 							quality={100}
 							width={82}
 							height={82}
+							layout='fixed'
 						/>
 					</div>
 					<p className={styles.description}>{item.description}</p>

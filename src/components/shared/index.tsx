@@ -11,6 +11,7 @@ const Shared = () => {
 					width={27}
 					height={27}
 					alt={'icon-share'}
+					layout='fixed'
 				/>
 				<p>Compártelo en tus redes sociales</p>
 			</div>
@@ -25,6 +26,7 @@ const Shared = () => {
 						width={27}
 						height={27}
 						alt={'icon-share'}
+						layout='fixed'
 					/>
 				</a>
 				<a
@@ -36,6 +38,7 @@ const Shared = () => {
 						src={'/images/icons/facebook-blue.svg'}
 						width={27}
 						height={27}
+						layout='fixed'
 						alt={'icon-share'}
 					/>
 				</a>

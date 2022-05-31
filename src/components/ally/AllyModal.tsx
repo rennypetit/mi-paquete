@@ -46,6 +46,7 @@ export default function AllyModal() {
 									width={225}
 									height={100}
 									quality={100}
+									layout='responsive'
 								/>
 							</div>
 							<div className={styles.url}>

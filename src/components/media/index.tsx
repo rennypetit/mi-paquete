@@ -39,6 +39,7 @@ export default function Media() {
 												quality={100}
 												width={192}
 												height={50}
+												layout='fixed'
 											/>
 										</div>
 										<h4 className={styles.itemTitle}>{item.title}</h4>
@@ -55,6 +56,7 @@ export default function Media() {
 							quality={100}
 							width={281}
 							height={379}
+							layout='fixed'
 						/>
 					</div>
 				</div>
@@ -68,6 +70,7 @@ export default function Media() {
 							useMap='#media'
 							width={1024}
 							height={700}
+							layout='fixed'
 						/>
 					</div>
 					<map name='media'>

@@ -46,6 +46,7 @@ const CardState = ({ data }) => {
 										alt={item.alt}
 										width={76}
 										height={76}
+										layout='fixed'
 									/>
 								</div>
 							)}
@@ -55,7 +56,13 @@ const CardState = ({ data }) => {
 				</div>
 				<div className={styles.card}>
 					<div className={styles.cardImage}>
-						<Image src={card.image} alt={card.alt} width={588} height={429} />
+						<Image
+							src={card.image}
+							alt={card.alt}
+							width={588}
+							height={429}
+							layout='fixed'
+						/>
 					</div>
 					<div className={styles.cardContent}>
 						<h3 className={styles.cardTitle}>{card.title}</h3>

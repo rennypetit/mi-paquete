@@ -22,6 +22,7 @@ const Modal = ({ dataModal, handleCloseModal, refModal }) => {
 						quality={100}
 						width={29}
 						height={29}
+						layout='fixed'
 						id={`exit-${dataModal?.id}`}
 						onClick={(e) => handleCloseModal(e)}
 					/>
@@ -37,6 +38,7 @@ const Modal = ({ dataModal, handleCloseModal, refModal }) => {
 								quality={100}
 								height={100}
 								width={100}
+								layout='fixed'
 							/>
 						</div>
 					)}

@@ -26,6 +26,7 @@ const Automation = ({ data }) => {
 									quality={100}
 									width={30}
 									height={30}
+									layout='fixed'
 								/>
 								<span className={styles.titleItem}>{item.title}</span>
 							</div>
@@ -35,7 +36,13 @@ const Automation = ({ data }) => {
 				</div>
 				<div className={styles.image}>
 					quality={100}
-					<Image src={data.image} alt={data.title} width={616} height={441} />
+					<Image
+						src={data.image}
+						alt={data.title}
+						width={616}
+						height={441}
+						layout='fixed'
+					/>
 				</div>
 				<div className={styles.itemDesktopRight}>
 					{itemDesktopOrange.map((item, index) => (
@@ -47,6 +54,7 @@ const Automation = ({ data }) => {
 									quality={100}
 									width={30}
 									height={30}
+									layout='fixed'
 								/>
 								<span className={styles.titleItem}>{item.title}</span>
 							</div>
@@ -64,6 +72,7 @@ const Automation = ({ data }) => {
 									quality={100}
 									width={30}
 									height={30}
+									layout='fixed'
 								/>
 								<span className={styles.titleItem}>{item.title}</span>
 							</div>

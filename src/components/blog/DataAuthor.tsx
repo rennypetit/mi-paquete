@@ -11,6 +11,7 @@ const DataAuthor = () => {
 					quality={100}
 					width={80}
 					height={80}
+					layout='fixed'
 				/>
 			</div>
 			<div className={styles.data}>

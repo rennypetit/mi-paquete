@@ -38,6 +38,7 @@ const BannerSubmit = ({ handleSearch, data }: PropsBackground) => {
 							quality={100}
 							width={1024}
 							height={768}
+							layout='fixed'
 						/>
 					)}
 				</>
@@ -50,6 +51,7 @@ const BannerSubmit = ({ handleSearch, data }: PropsBackground) => {
 							quality={100}
 							width={1920}
 							height={1080}
+							layout='fixed'
 						/>
 					)}
 				</>
@@ -74,6 +76,7 @@ const BannerSubmit = ({ handleSearch, data }: PropsBackground) => {
 								alt='icon search'
 								height={13}
 								width={13}
+								layout='fixed'
 							/>
 						</button>
 					</div>

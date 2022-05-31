@@ -11,6 +11,7 @@ export default function Dimensions({ register, errors, watch }) {
 						alt='icon dimensions'
 						height={50}
 						width={50}
+						layout='fixed'
 					/>
 					<p>DIMENSIONES</p>
 				</div>
@@ -26,6 +27,7 @@ export default function Dimensions({ register, errors, watch }) {
 							alt='icon box high'
 							height={20}
 							width={20}
+							layout='fixed'
 						/>
 					</div>
 
@@ -60,6 +62,7 @@ export default function Dimensions({ register, errors, watch }) {
 							alt='icon box wide'
 							height={20}
 							width={20}
+							layout='fixed'
 						/>
 					</div>
 					<div className={styles.group}>
@@ -97,6 +100,7 @@ export default function Dimensions({ register, errors, watch }) {
 							alt='icon box long'
 							height={20}
 							width={20}
+							layout='fixed'
 						/>
 					</div>
 					<div className={styles.group}>
@@ -130,6 +134,7 @@ export default function Dimensions({ register, errors, watch }) {
 							alt='icon weight'
 							height={20}
 							width={20}
+							layout='fixed'
 						/>
 					</div>
 					<div className={styles.group}>

@@ -103,6 +103,7 @@ export default function Track() {
 								alt='icon search'
 								height={13}
 								width={13}
+								layout='fixed'
 							/>
 						</div>
 					</button>

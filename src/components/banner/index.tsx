@@ -48,6 +48,7 @@ const Banner = ({ data }: Props) => {
 						quality={100}
 						width={'320'}
 						height={'400'}
+						layout='fixed'
 					/>
 				)}
 			</div>

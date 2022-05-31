@@ -27,6 +27,7 @@ function TYC({ item }) {
 										width={18}
 										height={23}
 										className='arrow-img'
+										layout='fixed'
 									/>
 								</div>
 							</div>

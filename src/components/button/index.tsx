@@ -18,6 +18,7 @@ export default function Blue({ data }) {
 										alt={data.alt}
 										width={17}
 										height={19}
+										layout='fixed'
 									/>
 								</div>
 							)}
@@ -43,6 +44,7 @@ export default function Blue({ data }) {
 										alt={data.alt}
 										width={17}
 										height={19}
+										layout='fixed'
 									/>
 								</div>
 							)}
@@ -63,6 +65,7 @@ export default function Blue({ data }) {
 										alt={data.alt}
 										width={17}
 										height={19}
+										layout='fixed'
 									/>
 								</div>
 							)}

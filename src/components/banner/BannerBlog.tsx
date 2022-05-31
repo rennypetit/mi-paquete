@@ -80,6 +80,7 @@ const BannerBlog = () => {
 									quality={100}
 									height={16}
 									width={16}
+									layout='fixed'
 								/>
 							</div>
 						</button>

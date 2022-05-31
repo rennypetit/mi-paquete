@@ -13,6 +13,7 @@ const Modal = ({ data, handleCloseModal }) => {
 							width={29}
 							height={29}
 							onClick={handleCloseModal}
+							layout='fixed'
 						/>
 						Volver
 					</button>
@@ -58,6 +59,7 @@ const Modal = ({ data, handleCloseModal }) => {
 									quality={100}
 									width={225}
 									height={90}
+									layout='fixed'
 								/>
 							</div>
 						</div>
@@ -82,6 +84,7 @@ const Modal = ({ data, handleCloseModal }) => {
 												alt='check'
 												width={25}
 												height={25}
+												layout='fixed'
 											/>
 										</div>
 										{data.tracking.length === index + 1 ? (

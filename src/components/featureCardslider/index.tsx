@@ -35,6 +35,7 @@ export default function FeatureCardSlider({ items }) {
 							quality={100}
 							width={84}
 							height={84}
+							layout='fixed'
 						/>
 						<p className={styles.title}>{item.title}</p>
 						<p className={styles.description}>{item.description}</p>

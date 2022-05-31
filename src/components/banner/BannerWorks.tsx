@@ -19,6 +19,7 @@ export default function BannerWorks({ data }: PropsBackground) {
 						quality={100}
 						width={1024}
 						height={768}
+						layout='fixed'
 					/>
 				) : (
 					<Image
@@ -27,6 +28,7 @@ export default function BannerWorks({ data }: PropsBackground) {
 						quality={100}
 						width={1920}
 						height={1080}
+						layout='fixed'
 					/>
 				)}
 			</div>

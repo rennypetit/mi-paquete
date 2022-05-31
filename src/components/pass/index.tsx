@@ -13,6 +13,7 @@ const Pass = () => {
 					quality={100}
 					width={305}
 					height={706}
+					layout='fixed'
 				/>
 			) : (
 				<Image
@@ -21,6 +22,7 @@ const Pass = () => {
 					quality={100}
 					width={604}
 					height={619}
+					layout='fixed'
 				/>
 			)}
 		</section>

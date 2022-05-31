@@ -141,6 +141,7 @@ const Form = ({ data, background, pageAgencias = false }) => {
 												alt='Bandera'
 												width={24}
 												height={23}
+												layout='fixed'
 											/>
 											<p>+57</p>
 										</div>

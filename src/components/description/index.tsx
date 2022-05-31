@@ -10,6 +10,7 @@ const Description = ({ data }) => {
 					quality={100}
 					width={370}
 					height={408}
+					layout='fixed'
 				/>
 			</div>
 			<div className={styles.descriptionMobile}>
@@ -29,6 +30,7 @@ const Description = ({ data }) => {
 								quality={100}
 								width={84}
 								height={84}
+								layout='fixed'
 							/>
 							<p>{item.description}</p>
 						</li>

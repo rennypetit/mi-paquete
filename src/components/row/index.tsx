@@ -21,6 +21,7 @@ function Row({ data }) {
 								quality={100}
 								width={207}
 								height={252}
+								layout='fixed'
 							/>
 						</div>
 					)}
@@ -46,6 +47,7 @@ function Row({ data }) {
 											quality={100}
 											width={20}
 											height={20}
+											layout='fixed'
 										/>
 									</div>
 									<a

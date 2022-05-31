@@ -23,6 +23,7 @@ function AllQuestions({ items }) {
 										alt='icon question'
 										width={35}
 										height={35}
+										layout='fixed'
 									/>
 									<h2>Preguntas frecuentes</h2>
 								</div>
@@ -33,6 +34,7 @@ function AllQuestions({ items }) {
 										width={18}
 										height={23}
 										className='arrow-img'
+										layout='fixed'
 									/>
 								</div>
 							</div>
@@ -59,6 +61,7 @@ function AllQuestions({ items }) {
 																			width={18}
 																			height={23}
 																			className='arrow-img'
+																			layout='fixed'
 																		/>
 																	</div>
 																</div>

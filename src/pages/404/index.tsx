@@ -26,6 +26,7 @@ const Page404 = () => {
 						quality={100}
 						width={362}
 						height={399}
+						layout='fixed'
 					/>
 					<hr />
 				</div>

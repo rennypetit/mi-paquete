@@ -15,6 +15,7 @@ const FeaturedPost = ({ data }) => {
 							height={420}
 							quality={100}
 							alt={'imagen-destacada'}
+							layout='fixed'
 						/>
 						<div className={styles.card__content}>
 							<h4>{data.title}</h4>

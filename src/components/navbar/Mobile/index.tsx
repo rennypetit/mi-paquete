@@ -31,6 +31,7 @@ export default function Navbar() {
 								quality={100}
 								width={142}
 								height={86}
+								layout='fixed'
 							/>
 						</a>
 					</Link>
@@ -44,6 +45,7 @@ export default function Navbar() {
 								alt='icon menu'
 								width={20}
 								height={20}
+								layout='fixed'
 							/>
 						</button>
 					</div>
@@ -59,6 +61,7 @@ export default function Navbar() {
 									alt='icon close'
 									width={20}
 									height={20}
+									layout='fixed'
 								/>
 							</button>
 						</div>

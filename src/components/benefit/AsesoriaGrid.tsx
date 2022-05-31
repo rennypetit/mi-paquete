@@ -18,6 +18,7 @@ export const BenefitAsesoria = ({ data }) => {
 									quality={100}
 									width={84}
 									height={84}
+									layout='fixed'
 								/>
 							</div>
 							<h3 className={styles.cardTitle}>{item.title}</h3>
@@ -34,6 +35,7 @@ export const BenefitAsesoria = ({ data }) => {
 						quality={100}
 						width={183}
 						height={183}
+						layout='fixed'
 					/>
 				</div>
 				<div

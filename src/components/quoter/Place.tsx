@@ -24,6 +24,7 @@ export default function Place({ selectOrigin, selectDestiny }) {
 						alt='icon place'
 						height={50}
 						width={50}
+						layout='fixed'
 					/>
 					<p>LUGAR</p>
 				</div>

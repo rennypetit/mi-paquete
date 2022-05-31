@@ -33,6 +33,7 @@ const Testimonial = ({ data, haveLink = true }) => {
 					quality={100}
 					width={146}
 					height={109}
+					layout='fixed'
 				/>
 				<div
 					className={styles.title}
@@ -63,6 +64,7 @@ const Testimonial = ({ data, haveLink = true }) => {
 											quality={100}
 											width={92}
 											height={92}
+											layout='fixed'
 										/>
 									</div>
 									<div className={styles.cardPersonDescription}>

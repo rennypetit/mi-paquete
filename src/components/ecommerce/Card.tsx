@@ -19,6 +19,7 @@ const Card = ({ items }) => {
 										quality={100}
 										width={200}
 										height={118}
+										layout='fixed'
 									/>
 								</div>
 								<h2 className={styles.description}>{item.description}</h2>

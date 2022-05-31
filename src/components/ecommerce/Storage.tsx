@@ -54,6 +54,7 @@ const Storage = ({ data }) => {
 										quality={100}
 										width={95}
 										height={95}
+										layout='fixed'
 									/>
 								</div>
 								<p className={styles.itemTitle}>{item.title}</p>

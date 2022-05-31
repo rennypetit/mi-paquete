@@ -14,6 +14,7 @@ export default function Footer() {
 							alt='logo footer'
 							width={118}
 							height={56}
+							layout='fixed'
 						/>
 						<div className={styles.separator}></div>
 						<Image
@@ -21,6 +22,7 @@ export default function Footer() {
 							alt='logo camara de comercio'
 							width={108}
 							height={40}
+							layout='fixed'
 						/>
 					</div>
 					{/* end column 1 */}
@@ -95,6 +97,7 @@ export default function Footer() {
 											alt='icon help'
 											width={30}
 											height={30}
+											layout='fixed'
 										/>
 										centro de ayuda
 									</a>
@@ -121,6 +124,7 @@ export default function Footer() {
 											alt='icon instagram'
 											width={19}
 											height={19}
+											layout='fixed'
 										/>
 									</a>
 								</li>
@@ -135,6 +139,7 @@ export default function Footer() {
 											alt='icon linkedin'
 											width={19}
 											height={19}
+											layout='fixed'
 										/>
 									</a>
 								</li>
@@ -149,6 +154,7 @@ export default function Footer() {
 											alt='icon facebook'
 											width={19}
 											height={19}
+											layout='fixed'
 										/>
 									</a>
 								</li>
@@ -163,6 +169,7 @@ export default function Footer() {
 											alt='icon youtube'
 											width={19}
 											height={19}
+											layout='fixed'
 										/>
 									</a>
 								</li>

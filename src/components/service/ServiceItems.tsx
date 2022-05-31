@@ -9,7 +9,14 @@ export default function ServiceItems({
 		<div className={styles.container}>
 			<div className={styles.card}>
 				<div className={styles.image}>
-					<Image src={image} alt={alt} quality={100} width={95} height={95} />
+					<Image
+						src={image}
+						alt={alt}
+						quality={100}
+						width={95}
+						height={95}
+						layout='fixed'
+					/>
 				</div>
 				<h4 className={styles.title}>{title}</h4>
 				<p className={styles.description}>{description}</p>
@@ -23,6 +30,7 @@ export default function ServiceItems({
 									quality={100}
 									height={17}
 									width={17}
+									layout='fixed'
 								/>
 							</div>
 						</a>

@@ -19,6 +19,7 @@ export default function Navbar() {
 								quality={100}
 								width={142}
 								height={86}
+								layout='responsive'
 							/>
 						</a>
 					</Link>

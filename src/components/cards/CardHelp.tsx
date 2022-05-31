@@ -18,6 +18,7 @@ const CardHelp = ({ items }) => {
 										quality={100}
 										width={118}
 										height={118}
+										layout='fixed'
 									/>
 									<p className={styles.title}>{item.title}</p>
 								</a>
@@ -35,6 +36,7 @@ const CardHelp = ({ items }) => {
 									quality={100}
 									width={118}
 									height={118}
+									layout='fixed'
 								/>
 								<p className={styles.title}>{item.title}</p>
 							</a>

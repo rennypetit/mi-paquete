@@ -70,6 +70,7 @@ const CommercialSubmit = ({ data }) => {
 									alt='icon search'
 									height={16}
 									width={16}
+									layout='fixed'
 								/>
 							</div>
 						</button>

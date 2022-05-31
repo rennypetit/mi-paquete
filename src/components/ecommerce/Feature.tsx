@@ -51,6 +51,7 @@ export default function Feature({ items }) {
 										quality={100}
 										height={50}
 										width={50}
+										layout='fixed'
 									/>
 									<div className={styles.itemContent}>
 										<span className={styles.itemContentTitle}>

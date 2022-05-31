@@ -97,6 +97,7 @@ export default function Newsletter({ background }) {
 									alt='icon search'
 									height={16}
 									width={16}
+									layout='fixed'
 								/>
 							</div>
 						</button>
