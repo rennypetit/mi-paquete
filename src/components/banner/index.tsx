@@ -11,6 +11,7 @@ const Banner = ({ data }: Props) => {
 			className={`${styles.container} ${
 				styles[data.orientation]
 			} principal-banner`}
+			tabIndex='-1'
 		>
 			<div
 				className={styles.title}

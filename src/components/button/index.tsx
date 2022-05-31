@@ -8,7 +8,7 @@ export default function Blue({ data }) {
 			{/* link react */}
 			{Symbol(data.type).toString() === `Symbol(${TypeButton.link})` ? (
 				<Link href={data.url}>
-					<a className={styles.container}>
+					<a className={styles.container} tabIndex='-1'>
 						<div className={`button ${styles[data.color]} ${styles.button}`}>
 							{data.icon && (
 								<div className={`${styles.icon} button-icon`} id='button-icon'>
@@ -34,6 +34,7 @@ export default function Blue({ data }) {
 						target='_blank'
 						rel='noopener noreferrer'
 						className={styles.container}
+						tabIndex='-1'
 					>
 						<div className={`button ${styles[data.color]} ${styles.button}`}>
 							{data.icon && (
@@ -55,7 +56,7 @@ export default function Blue({ data }) {
 			) : (
 				<>
 					{/* a */}
-					<a href={data.url} className={styles.container}>
+					<a href={data.url} className={styles.container} tabIndex='-1'>
 						<div className={`button ${styles[data.color]} ${styles.button}`}>
 							{data.icon && (
 								<div className={`${styles.icon} button-icon`} id='button-icon'>

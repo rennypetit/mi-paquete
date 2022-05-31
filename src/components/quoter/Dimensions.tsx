@@ -68,7 +68,7 @@ export default function Dimensions({ register, errors, watch }) {
 					<div className={styles.group}>
 						<input
 							type='number'
-							id='alto'
+							id='width'
 							placeholder='34'
 							min={1}
 							max={200}
