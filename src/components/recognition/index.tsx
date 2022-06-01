@@ -43,9 +43,9 @@ const Recognition = ({ data }) => {
 									alt={item.alt}
 									quality={100}
 									title={item.title}
-									width={146}
-									height={68}
-									layout='fixed'
+									width={292}
+									height={136}
+									layout='responsive'
 								/>
 							</div>
 						))}

@@ -8,13 +8,7 @@ const Commercial = ({ data }) => {
 	return (
 		<section className={styles.container}>
 			{widthViewport < 1024 ? (
-				<Image
-					src={data.image}
-					alt={data.alt}
-					layout='fill'
-					quality={100}
-					srcSet={`${data.image} 1x, /images/commercials/envios-tradicionales-background-2x.png 2x`}
-				/>
+				<Image src={data.image} alt={data.alt} layout='fill' quality={100} />
 			) : (
 				<Image
 					src={data.imageDesktop}
