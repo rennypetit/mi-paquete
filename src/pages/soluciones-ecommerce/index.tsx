@@ -36,7 +36,7 @@ const SolucionesEcommerce: NextPage = () => {
 								<div className={styles.features}>
 									<Feature items={features} />
 								</div>
-								<h3 className={`containerTitle ${styles.title}`}>
+								<h3 className={`container containerTitle ${styles.title}`}>
 									Transportadoras aliadas con las que podrás{' '}
 									<span>enviar mercancía</span>
 								</h3>

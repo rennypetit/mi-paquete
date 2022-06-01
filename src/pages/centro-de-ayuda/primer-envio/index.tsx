@@ -28,7 +28,7 @@ const primerEnvio: NextPage = () => {
 					<Banner data={banner} />
 				</main>
 				<div className='container page-primer-envio'>
-					<div className={styles.margin}>
+					<div className={`${styles.margin} features`}>
 						<Feature items={features} icon={true} />
 					</div>
 					<h2 className='containerTitle'>
@@ -40,7 +40,9 @@ const primerEnvio: NextPage = () => {
 						y costo del servicio.
 					</p>
 				</div>
-				<div className={`${styles.containerAllies} container-background`}>
+				<div
+					className={`${styles.containerAllies} container-background container`}
+				>
 					<Ally title={false} />
 					{/* section  */}
 					<div className={styles.Features}>
@@ -94,7 +96,9 @@ const primerEnvio: NextPage = () => {
 							></iframe>
 						</div>
 					</div>
-					<div className={`${styles.margin} ${styles.featureTwo}`}>
+					<div
+						className={`${styles.margin} ${styles.featureTwo} featuresTwoPrimerEnvio`}
+					>
 						<Feature items={featuresTwo} icon={true} />
 					</div>
 					<h4 className='containerTitle'>

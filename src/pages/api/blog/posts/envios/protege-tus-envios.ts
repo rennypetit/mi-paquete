@@ -1,7 +1,8 @@
 export const data = {
 	metaTags: {
-		title: '',
-		description: '',
+		title: 'Protege tus envíos con el empaque adecuado | Blog Mi Paquete',
+		description:
+			'Un empaque ideal debe contar con amortiguación, aislamiento y diferentes tamaños según la medida del producto y el transporte en el que se llevará',
 	},
 	title: 'PROTEGE TUS ENVÍOS CON UN EMPAQUE ADECUADO DE LA MERCANCÍA',
 	content: `

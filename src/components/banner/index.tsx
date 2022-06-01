@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Button from '@components/button';
 
 // types
@@ -38,15 +37,19 @@ const Banner = ({ data }: Props) => {
 			</div>
 
 			<div className={styles.image}>
+				{data.background && (
+					<div
+						className={`${styles.background} ${styles[data.background]}`}
+					></div>
+				)}
 				{data.image && (
-					<LazyLoadImage
+					<Image
 						src={data.image}
 						alt={data.alt}
 						quality={100}
 						width={'320'}
 						height={'400'}
-						layout='fixed'
-						blurDataURL={data.image}
+						layout=''
 					/>
 				)}
 			</div>

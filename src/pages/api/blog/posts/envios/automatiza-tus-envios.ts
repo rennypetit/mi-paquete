@@ -1,7 +1,8 @@
 export const data = {
 	metaTags: {
-		title: '',
-		description: '',
+		title: '¿Por qué vincular tu ecommerce con una plataforma de envíos?',
+		description:
+			'Contar con una plataforma para gestionar tu logística de envíos es una gran herramienta para emprendedores ya que despacharás más rápido tus productos',
 	},
 	title:
 		'CONOCE LAS VENTAJAS DE INTEGRAR TU TIENDA ONLINE CON UNA PLATAFORMA DE ENVÍOS',

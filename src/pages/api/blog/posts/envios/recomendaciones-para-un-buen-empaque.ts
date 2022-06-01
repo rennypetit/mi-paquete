@@ -1,7 +1,8 @@
 export const data = {
 	metaTags: {
-		title: '',
-		description: '',
+		title: '¿Cómo enviar los paquetes de tu ecommerce? | Blog Mi Paquete',
+		description:
+			'Para realizar un buen envío es necesario elegir el empaque según el tipo de producto que se enviará y rotular el paquete con todos los datos de envío',
 	},
 	title: 'CÓMO ENVIAR UN PAQUETE',
 	content: `

@@ -37,7 +37,7 @@ const CasosDeExito: NextPage = () => {
 				<div className={`container ${styles.commercial}`}>
 					<Commercial data={commercial} />
 				</div>
-				<Newsletter background={'secondary'} />
+				<Newsletter background={'primary'} />
 				<Fixed />
 			</Layout>
 		</>

@@ -1,7 +1,8 @@
 export const data = {
 	metaTags: {
-		title: '',
-		description: '',
+		title: 'Ventajas de usar plataformas de envíos | Blog Mi Paquete',
+		description:
+			'Uno de los factores para una buena gestión comercial es contar con la planeación adecuada en cuanto a logística de envíos y tiempos de entrega.',
 	},
 	title: '¿CUÁLES SON LAS VENTAJAS DE USAR LAS PLATAFORMAS DE ENVÍOS ONLINE?',
 	content: `

@@ -1,7 +1,8 @@
 export const data = {
 	metaTags: {
-		title: '',
-		description: '',
+		title: 'Optimiza los tiempos de envío de tu tienda | Blog Mi Paquete',
+		description:
+			'El tiempo es muy importante para un ecommerce en crecimiento, por eso te enseñamos a mejorar la gestión de entregas de tus productos con Mi Paquete ',
 	},
 	title:
 		'CLAVES PARA OPTIMIZAR LOS TIEMPOS AL HACER LOS ENVÍOS DE TU TIENDA ONLINE',

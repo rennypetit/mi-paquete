@@ -1,7 +1,8 @@
 export const data = {
 	metaTags: {
-		title: '',
-		description: '',
+		title: 'Ventajas de los envíos contra entrega | Blog Mi Paquete',
+		description:
+			'Los envíos con pago contra entrega son una gran opción para emprendedores ya que aumenta la confianza en clientes y permite ofrecer más medios de pago',
 	},
 	title:
 		'LOS BENEFICIOS DE REALIZAR ENVÍOS CON PAGO CONTRA ENTREGA EN UNA TIENDA ONLINE',

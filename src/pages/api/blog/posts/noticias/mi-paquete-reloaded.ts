@@ -1,7 +1,8 @@
 export const data = {
 	metaTags: {
-		title: '',
-		description: '',
+		title: 'Conoce nuestras nuevas funcionalidades | Noticias Mi Paquete',
+		description:
+			'Ahora en Mi Paquete contamos con una nueva plataforma en donde los usuarios podrán interactuar de una forma más sencilla al realizar sus envíos',
 	},
 	title:
 		'MÁS FUNCIONALIDADES Y MEJOR EXPERIENCIA PARA EL USUARIO, LO NUEVO DE MIPAQUETE.COM',

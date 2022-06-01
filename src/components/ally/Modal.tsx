@@ -37,8 +37,7 @@ const Modal = ({ dataModal, handleCloseModal, refModal }) => {
 								alt={dataModal.alt}
 								quality={100}
 								height={100}
-								width={100}
-								layout='fixed'
+								width={225}
 							/>
 						</div>
 					)}

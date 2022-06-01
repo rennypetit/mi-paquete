@@ -50,7 +50,7 @@ export const Banner = ({ data }: PropsBackground) => {
 						quality={100}
 						width={1024}
 						height={768}
-						layout='fixed'
+						layout=''
 					/>
 				) : (
 					<Image
@@ -59,7 +59,7 @@ export const Banner = ({ data }: PropsBackground) => {
 						quality={100}
 						width={1920}
 						height={1080}
-						layout='fixed'
+						layout=''
 					/>
 				)}
 			</div>

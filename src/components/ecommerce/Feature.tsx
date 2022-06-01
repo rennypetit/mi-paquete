@@ -52,6 +52,7 @@ export default function Feature({ items }) {
 										height={50}
 										width={50}
 										layout='fixed'
+										objectFit='contain'
 									/>
 									<div className={styles.itemContent}>
 										<span className={styles.itemContentTitle}>

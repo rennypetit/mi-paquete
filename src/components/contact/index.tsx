@@ -10,8 +10,8 @@ const Contact = () => {
 						src='/images/contact.png'
 						alt='contact'
 						quality={100}
-						width={285}
-						height={285}
+						width={255}
+						height={255}
 						layout='fixed'
 					/>
 				</div>

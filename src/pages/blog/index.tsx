@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { NextPage } from 'next';
+import { metaTags } from '@data/blog';
 import Head from '@components/Head';
 import Layout from 'layout';
 import Fixed from '@components/fixed';
@@ -9,7 +10,6 @@ import GridCards from '@components/blog/GridCards';
 import styles from './Blog.module.scss';
 import NavCategories from '@components/blog/NavCategories';
 import posts from '@data/componentPostsBlog';
-import { metaTags } from '@data/blog';
 
 const Blog: NextPage = () => {
 	const [dataBlog, setDataBlog] = useState(posts);

@@ -46,7 +46,7 @@ export default function Feature({
 								alt={items.alt}
 								height={items.height}
 								width={items.width}
-								layout='fixed'
+								layout=''
 							/>
 						</div>
 					)}

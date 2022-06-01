@@ -35,13 +35,13 @@ const Automation = ({ data }) => {
 					))}
 				</div>
 				<div className={styles.image}>
-					quality={100}
 					<Image
 						src={data.image}
 						alt={data.title}
 						width={616}
 						height={441}
-						layout='fixed'
+						quality={100}
+						layout='responsive'
 					/>
 				</div>
 				<div className={styles.itemDesktopRight}>

@@ -1,7 +1,8 @@
 export const data = {
 	metaTags: {
-		title: '',
-		description: '',
+		title: '¿Cómo elegir la transportadora ideal? | Caso de éxito',
+		description:
+			'Elegir una transportadora de envíos puede ser dificil por las tarifas y tiempos de envío, te contamos cómo Outlet color usó Mi Paquete a su favor',
 	},
 	title:
 		'CONOCE LAS VENTAJAS DE INTEGRAR TU TIENDA ONLINE CON UNA PLATAFORMA DE ENVÍOS',

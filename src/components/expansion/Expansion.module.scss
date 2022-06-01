@@ -13,7 +13,7 @@
 }
 .content {
   @include center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
 }
 .info {
@@ -89,6 +89,9 @@
   }
 }
 @media (min-width: 1024px) {
+  .content {
+    padding-bottom: 60px;
+  }
   .iconPersonDesktop {
     display: block;
     width: 50%;

@@ -31,6 +31,7 @@ const Description = ({ data }) => {
 								width={84}
 								height={84}
 								layout='fixed'
+								objectFit='contain'
 							/>
 							<p>{item.description}</p>
 						</li>

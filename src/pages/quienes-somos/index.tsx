@@ -15,7 +15,9 @@ import {
 	recognitions,
 	metaTags,
 } from '@data/quienes-somos';
-
+// styles
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import styles from './aboutUs.module.scss';
 const aboutUs: NextPage = () => {
 	return (
