@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 const MyHead = ({ data }) => {
 	const router = useRouter();
 	const canonical = `${process.env.NEXT_PUBLIC_HOST}${router.pathname}`;
@@ -48,12 +49,12 @@ const MyHead = ({ data }) => {
 					type='image/x-icon'
 				/>
 				<link rel='icon' href={`/images/favicon.ico`} type='image/x-icon' />
-				<script
+				<Script
 					async
 					src='https://www.googletagmanager.com/gtag/js?id=UA-198816249-1'
-				></script>
+				/>
 
-				<script
+				<Script
 					type='text/javascript'
 					defer
 					dangerouslySetInnerHTML={{
@@ -61,7 +62,7 @@ const MyHead = ({ data }) => {
 							window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-198816249-1');`,
 					}}
 				/>
-				<script
+				<Script
 					type='text/javascript'
 					defer
 					dangerouslySetInnerHTML={{
@@ -70,7 +71,7 @@ const MyHead = ({ data }) => {
 					}}
 				/>
 
-				<script
+				<Script
 					type='text/javascript'
 					defer
 					dangerouslySetInnerHTML={{
