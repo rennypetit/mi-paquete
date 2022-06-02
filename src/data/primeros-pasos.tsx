@@ -138,6 +138,7 @@ export const commercialTwo = {
 	button: {
 		color: 'buttonBlue',
 		title: 'SOLICITA ACOMPAÑAMIENTO',
-		url: '#whatsapp',
+		url: 'https://walink.co/b8da4c',
+		type: TypeButton.blank,
 	},
 };

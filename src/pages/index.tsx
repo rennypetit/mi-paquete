@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 import Head from '@components/Head';
 import Layout from 'layout';
+import Fixed from '@components/fixed';
 
 // only data of components
 import {
@@ -33,7 +34,6 @@ const DynamicMedia = dynamic(() => import('@components/media'));
 const DynamicRecognition = dynamic(() => import('@components/recognition'));
 const DynamicTestimonial = dynamic(() => import('@components/testimonial'));
 const DynamicNewsletter = dynamic(() => import('@components/newsletter'));
-const DynamicFixed = dynamic(() => import('@components/fixed'));
 
 const Home: NextPage = () => {
 	return (
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
 					<DynamicTestimonial data={testimonials} />
 				</div>
 				<DynamicNewsletter background={'primary'} />
-				<DynamicFixed textWhatsapp={textWhatsapp} />
+				<Fixed textWhatsapp={textWhatsapp} />
 			</Layout>
 		</>
 	);

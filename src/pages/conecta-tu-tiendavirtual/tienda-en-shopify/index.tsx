@@ -81,7 +81,7 @@ const shopify: NextPage = () => {
 				<div className={'containerVideos'}>
 					<div className='container'>
 						<h5 className='containerTitle'>
-							¿Cómo instalar Carrier Service <span>en tu Shopify?</span>
+							¿Cómo instalar nuestra app de envíos <span>en tu Shopify?</span>
 						</h5>
 						<SliderVideos items={videos} />
 					</div>
