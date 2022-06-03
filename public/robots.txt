@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /
-Sitemap:https://mi-paquete.vercel.app/sitemap.xml
+Sitemap:https://mipaquete.com/sitemap.xml
