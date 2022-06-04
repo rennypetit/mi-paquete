@@ -15,8 +15,7 @@ const MyHead = ({ data }) => {
 					content='width=device-width,initial-scale=1,maximum-scale=5'
 					name='viewport'
 				/>
-				{/* <meta name='robots' content='index' /> */}
-				<meta name='robots' content='noindex' />
+				<meta name='robots' content='index' />
 
 				{/* navegador */}
 				<meta name='title' content={data?.title} />
