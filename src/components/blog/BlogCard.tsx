@@ -13,6 +13,8 @@ export default function BlogCard({ data, blog = false }) {
 						<Image
 							src={data.image}
 							alt={data.alt}
+							blurDataURL={data.image}
+							placeholder='blur'
 							width={270}
 							height={150}
 							quality={100}

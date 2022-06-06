@@ -9,6 +9,8 @@ export default function Amounts({ register, errors }) {
 					<Image
 						src='/images/icons/amounts.svg'
 						alt='icon amounts'
+						blurDataURL='/images/icons/amounts.svg'
+						placeholder='blur'
 						aria-hidden='true'
 						height={50}
 						width={50}

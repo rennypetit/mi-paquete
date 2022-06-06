@@ -13,6 +13,8 @@ const Commercial = ({ data }) => {
 				<Image
 					src={data.imageDesktop}
 					alt={data.alt}
+					blurDataURL={data.imageDesktop}
+					placeholder='blur'
 					quality={100}
 					layout='fill'
 				/>

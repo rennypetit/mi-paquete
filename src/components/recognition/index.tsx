@@ -20,6 +20,8 @@ const Recognition = ({ data }) => {
 								<Image
 									src={data.image}
 									alt={data.alt}
+									blurDataURL={data.image}
+									placeholder='blur'
 									quality={100}
 									width={413}
 									height={284}
@@ -41,6 +43,8 @@ const Recognition = ({ data }) => {
 								<Image
 									src={item.image}
 									alt={item.alt}
+									blurDataURL={data.image}
+									placeholder='blur'
 									quality={100}
 									title={item.title}
 									width={292}

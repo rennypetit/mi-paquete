@@ -41,6 +41,8 @@ export default function Newsletter({ background }) {
 				<Image
 					src={`/images/footer/background-${background}.png`}
 					alt='background newsletter'
+					blurDataURL={`/images/footer/background-${background}.png`}
+					placeholder='blur'
 					quality={100}
 					layout='fill'
 				/>
@@ -48,6 +50,8 @@ export default function Newsletter({ background }) {
 				<Image
 					src={`/images/footer/background-${background}.png`}
 					alt='background newsletter'
+					blurDataURL={`/images/footer/background-${background}.png`}
+					placeholder='blur'
 					quality={100}
 					layout='fill'
 				/>
@@ -95,6 +99,8 @@ export default function Newsletter({ background }) {
 								<Image
 									src='/images/icons/search-dark.svg'
 									alt='icon search'
+									blurDataURL='/images/icons/search-dark.svg'
+									placeholder='blur'
 									height={16}
 									width={16}
 									layout='fixed'

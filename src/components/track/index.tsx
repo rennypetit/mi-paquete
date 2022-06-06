@@ -50,6 +50,8 @@ export default function Track() {
 					<Image
 						src='/images/track-background-mobile.png'
 						alt='background mobile'
+						blurDataURL='/images/track-background-mobile.png'
+						placeholder='blur'
 						layout='responsive'
 						quality={100}
 						width={600}
@@ -59,6 +61,8 @@ export default function Track() {
 					<Image
 						src='/images/track-background.png'
 						alt='background desktop'
+						blurDataURL='/images/track-background.png'
+						placeholder='blur'
 						layout='responsive'
 						quality={100}
 						width={1041}
@@ -104,7 +108,6 @@ export default function Track() {
 								height={13}
 								width={13}
 								layout='fixed'
-								s
 							/>
 						</div>
 					</button>

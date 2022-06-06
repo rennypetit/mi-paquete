@@ -22,6 +22,8 @@ export default function Place({ selectOrigin, selectDestiny }) {
 					<Image
 						src='/images/icons/place.svg'
 						alt='icon place'
+						blurDataURL='/images/icons/place.svg'
+						placeholder='blur'
 						height={50}
 						width={50}
 						layout='fixed'

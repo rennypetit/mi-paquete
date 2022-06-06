@@ -11,6 +11,8 @@ export default function Ally() {
 							<Image
 								src={item.image}
 								alt={item.alt}
+								blurDataURL={item.image}
+								placeholder='blur'
 								title={item.title}
 								quality={100}
 								width={225}

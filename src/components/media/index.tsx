@@ -33,6 +33,8 @@ export default function Media() {
 											<Image
 												src={item.image}
 												alt={item.alt}
+												blurDataURL={item.image}
+												placeholder='blur'
 												quality={100}
 												width={192}
 												height={50}
@@ -50,6 +52,8 @@ export default function Media() {
 						<Image
 							src={media.image}
 							alt={media.alt}
+							blurDataURL={media.image}
+							placeholder='blur'
 							quality={100}
 							width={281}
 							height={379}
@@ -63,6 +67,8 @@ export default function Media() {
 						<Image
 							src={media.imageDesktop}
 							alt={media.altDesktop}
+							blurDataURL={media.imageDesktop}
+							placeholder='blur'
 							quality={100}
 							useMap='#media'
 							width={1024}

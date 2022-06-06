@@ -61,6 +61,8 @@ const Testimonial = ({ data, haveLink = true }) => {
 										<Image
 											src={item.person.image}
 											alt={item.person.alt}
+											blurDataURL={item.person.image}
+											placeholder='blur'
 											quality={100}
 											width={92}
 											height={92}

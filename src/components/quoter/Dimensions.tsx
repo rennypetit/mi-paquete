@@ -9,6 +9,8 @@ export default function Dimensions({ register, errors, watch }) {
 					<Image
 						src='/images/icons/dimensions.svg'
 						alt='icon dimensions'
+						blurDataURL='/images/icons/dimensions.svg'
+						placeholder='blur'
 						height={50}
 						width={50}
 						layout='fixed'

@@ -76,7 +76,7 @@ export const services = [
 		title: 'ENVÍOS PAGO CONTRA ENTREGA',
 		description:
 			'Tus clientes podrán pagar el envío cuando reciban su producto en casa.',
-		url: '/envios-pago-contraentrega',
+		url: '/soluciones-ecommerce/envios-pago-contraentrega',
 	},
 	{
 		image: '/images/services/envios-tradicionales.svg',
@@ -84,7 +84,7 @@ export const services = [
 		title: 'ENVÍOS TRADICIONALES',
 		description:
 			'Realiza entregas nacionales y urbanas para el mismo día eligiendo la transportadora de su preferencia.',
-		url: '/envios-tradicionales',
+		url: '/soluciones-ecommerce/envios-tradicionales',
 	},
 	{
 		image: '/images/services/almacenamiento.svg',
@@ -92,7 +92,7 @@ export const services = [
 		title: 'ALMACENAMIENTO',
 		description:
 			'Nos encargamos del almacenamiento, alistamiento y despacho de tus productos.',
-		url: '/almacenamiento',
+		url: '/soluciones-ecommerce/almacenamiento',
 	},
 	{
 		image: '/images/services/ecommerce.svg',

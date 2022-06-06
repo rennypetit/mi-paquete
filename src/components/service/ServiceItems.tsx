@@ -12,6 +12,8 @@ export default function ServiceItems({
 					<Image
 						src={image}
 						alt={alt}
+						blurDataURL={image}
+						placeholder='blur'
 						quality={100}
 						width={95}
 						height={95}
@@ -27,6 +29,8 @@ export default function ServiceItems({
 								<Image
 									src='/images/icons/search.svg'
 									alt='icon search'
+									blurDataURL='/images/icons/search.svg'
+									placeholder='blur'
 									quality={100}
 									height={17}
 									width={17}

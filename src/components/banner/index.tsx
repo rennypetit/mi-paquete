@@ -46,6 +46,8 @@ const Banner = ({ data }: Props) => {
 					<Image
 						src={data.image}
 						alt={data.alt}
+						blurDataURL={data.image}
+						placeholder='blur'
 						quality={100}
 						width={'320'}
 						height={'400'}

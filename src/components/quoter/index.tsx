@@ -24,11 +24,6 @@ export default function Quoter() {
 			return alert('Debe llenar la ciudad de origen');
 		if (!selectDestiny.current?.props?.value?.value)
 			return alert('Debe llenar la ciudad de destino');
-		if (
-			selectOrigin.current?.props?.value?.value ===
-			selectDestiny.current?.props?.value?.value
-		)
-			return alert('El origin y destino deben ser distintos.');
 		data.origin = selectOrigin.current.props.value.value;
 		data.destiny = selectDestiny.current.props.value.value;
 
