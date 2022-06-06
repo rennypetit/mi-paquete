@@ -29,7 +29,7 @@ export const items = [
 		subItems: [
 			{
 				title: 'Integraciones',
-				url: '/',
+				url: '/conecta-tu-tiendavirtual',
 			},
 			{
 				title: 'Shopify',

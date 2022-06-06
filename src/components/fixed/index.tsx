@@ -31,13 +31,7 @@ const Fixed = ({
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					<Image
-						src='/images/icons/whatsapp.svg'
-						alt='icon whatsapp'
-						width={60}
-						height={60}
-						layout=''
-					/>
+					<img src='/images/icons/whatsapp.svg' alt='icon whatsapp' />
 				</a>
 				<div className={styles.whatsappContext}>
 					<a
@@ -45,12 +39,11 @@ const Fixed = ({
 						target='_blank'
 						rel='noopener noreferrer'
 					>
-						<Image
+						<img
 							src='/images/message-whatsapp.svg'
 							alt='icon whatsapp'
-							width={254}
-							height={58}
-							layout=''
+							width={60}
+							height={60}
 						/>
 						<div
 							className={styles.containerTextWhatsapp}
